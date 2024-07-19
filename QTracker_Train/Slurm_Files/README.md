@@ -1,0 +1,1 @@
+This folder will contain the outputs of the jobs on Rivanna, if using the jobscripts in the Training_Jobscripts folder.

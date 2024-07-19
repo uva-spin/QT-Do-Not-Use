@@ -1,0 +1,1 @@
+This folder houses the numpy files holding training data used for kinematics, vertex reconstruction, and target-dump filter training.
