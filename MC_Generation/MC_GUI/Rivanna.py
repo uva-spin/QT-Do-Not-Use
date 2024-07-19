@@ -1,6 +1,6 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QLabel, QLineEdit, QMessageBox
-import subprocess
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QLabel, QLineEdit, QMessageBox, QTextEdit
+import paramiko
 
 class SSHClient(QWidget):
     def __init__(self):
@@ -11,9 +11,12 @@ class SSHClient(QWidget):
         self.setWindowTitle('SSH Client')
         
         self.layout = QVBoxLayout()
-        
+
+        self.host = 'login.hpc.virginia.edu'
+        self.instructions = 'To generate MC events, please input your UVA Computing ID and associated password, and then press "Run Script"! \t\t Please also make sure that you are connected to the UVA Anywhere VPN in order to access Rivanna\'s HPC.'
+
         self.host_label = QLabel('Host:')
-        self.host_input = QLineEdit()
+        self.host_input = QLineEdit(self.host)
         self.layout.addWidget(self.host_label)
         self.layout.addWidget(self.host_input)
         
@@ -27,6 +30,13 @@ class SSHClient(QWidget):
         self.password_input.setEchoMode(QLineEdit.Password)
         self.layout.addWidget(self.password_label)
         self.layout.addWidget(self.password_input)
+
+        self.command_label = QLabel('Instructions:')
+        self.command_input = QTextEdit(self.instructions)
+        self.command_input.setReadOnly(True)
+        self.command_input.setStyleSheet("QTextEdit {background-color: #f0f0f0; font-family: Courier; font-size: 14px;}")
+        self.layout.addWidget(self.command_label)
+        self.layout.addWidget(self.command_input)
         
         self.button = QPushButton('Run Script')
         self.button.setStyleSheet('QPushButton {background-color: red; color: white;}')
@@ -40,18 +50,19 @@ class SSHClient(QWidget):
         username = self.username_input.text()
         password = self.password_input.text()
         
-        command = '/path/to/your/script.sh'  # Place your command here
-        
-        sshpass_command = [
-            'sshpass', '-p', password, 'ssh', 
-            f'{username}@{host}', command
-        ]
+        command = './jobscript.sh'  # We need to put our command here once we've figured out how to connect
         
         try:
-            result = subprocess.run(sshpass_command, capture_output=True, text=True)
+            ssh = paramiko.SSHClient()
+            ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+            ssh.connect(host, username=username, password=password)
             
-            output = result.stdout
-            error = result.stderr
+            stdin, stdout, stderr = ssh.exec_command(command)
+            
+            output = stdout.read().decode()
+            error = stderr.read().decode()
+            
+            ssh.close()
             
             if output:
                 QMessageBox.information(self, 'Output', output)
@@ -68,4 +79,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
