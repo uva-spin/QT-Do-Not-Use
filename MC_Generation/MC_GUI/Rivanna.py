@@ -71,13 +71,13 @@ class DropdownWindow(QDialog):
 
         self.channel_label = QLabel('Target Channel:')
         self.channel_dropdown = QComboBox()
-        self.channel_dropdown.addItems(['DY', 'JPsi', 'Pion', 'MultiMuon'])  # Add your options here
+        self.channel_dropdown.addItems(['DY', 'JPsi', 'Pion', 'MultiMuon'])  
         self.layout.addWidget(self.channel_label)
         self.layout.addWidget(self.channel_dropdown)
 
         self.vertex_label = QLabel('Target Vertex:')
         self.vertex_dropdown = QComboBox()
-        self.vertex_dropdown.addItems(['All', 'Cylinder', 'Dump', 'Target', 'TargetDumpGap', 'Manual'])  # Add your options here
+        self.vertex_dropdown.addItems(['All', 'Cylinder', 'Dump', 'Target', 'TargetDumpGap', 'Manual'])  
         self.layout.addWidget(self.vertex_label)
         self.layout.addWidget(self.vertex_dropdown)
 
@@ -99,8 +99,8 @@ class DropdownWindow(QDialog):
         self.setLayout(self.layout)
     
     def run_script(self):
-        channel = self.channel_dropdown.currentText()  # Get the selected option
-        vertex = self.vertex_dropdown.currentText()  # Get the selected option
+        channel = self.channel_dropdown.currentText()  
+        vertex = self.vertex_dropdown.currentText() 
 
         try:
             num_events = int(self.num_events_input.text())  # Get the number of events
@@ -115,7 +115,6 @@ class DropdownWindow(QDialog):
         username = self.username
         password = self.password
 
-        # Command can be customized as needed
         command = f'''cd /project/ptgroup/work/MC_Generation/{channel}_{vertex}_script; 
         source /project/ptgroup/spinquest/this-e1039.sh; 
         ./jobscript.sh {channel}_{vertex}_{total_events} {num_events} {num_jobs}'''
