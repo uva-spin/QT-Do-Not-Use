@@ -102,17 +102,23 @@ class DropdownWindow(QDialog):
         channel = self.channel_dropdown.currentText()  # Get the selected option
         vertex = self.vertex_dropdown.currentText()  # Get the selected option
 
-        num_events = self.num_events_input.text()  # Get the number of events
-        num_jobs = self.num_jobs_input.text()  # Get the number of jobs
+        try:
+            num_events = int(self.num_events_input.text())  # Get the number of events
+            num_jobs = int(self.num_jobs_input.text())  # Get the number of jobs
+        except ValueError:
+            QMessageBox.critical(self, 'Error', 'Number of Events and Number of Jobs must be integers.')
+            return
+
+        total_events = num_events * num_jobs
         
         host = 'login.hpc.virginia.edu'
         username = self.username
         password = self.password
 
         # Command can be customized as needed
-        # command = f'cd /project/ptgroup/work/MC_Generation/{channel}_{vertex}_script; source /project/ptgroup/spinquest/this-e1039.sh; ./jobscript.sh {channel}_{vertex}_{total_events} {num_events} {num_jobs}'  # Use the selected option in the command
-        command = f'cd /project/ptgroup/work/MC_Generation/{channel}_{vertex}_script; ls'
-        # command  = f'./jobscript.sh'
+        command = f'''cd /project/ptgroup/work/MC_Generation/{channel}_{vertex}_script; 
+        source /project/ptgroup/spinquest/this-e1039.sh; 
+        ./jobscript.sh {channel}_{vertex}_{total_events} {num_events} {num_jobs}'''
         
         try:
             ssh = paramiko.SSHClient()
