@@ -312,7 +312,7 @@ def clean(events):
 
 
 #This function is used to inject NIM3 partial tracks and random hits into the hit matrix.
-@njit()
+@njit(parallel=True) ### Trying this with parallel = True - Devin
 def hit_matrix(detectorid,elementid,drifttime,hits,drift,station): #Convert into hit matrices
     for j in range (len(detectorid)):
         rand = random.random()
@@ -351,7 +351,7 @@ def build_background(n_events):
     hits = np.zeros((n_events,54,201))
     drift = np.zeros((n_events,54,201))
     for n in range (n_events): #Create NIM3 events
-        g=random.choice([1,2,3,4,5,6])#Creates realistic occupancies for E906 FPGA-1 events.
+        g=random.choice([1,2,3,4,5,6])#Creates realistic occupancies for E906 FPGA-1 events. 
         for m in range(g):
             i=random.randrange(len(detectorid_nim3))
             hits[n],drift[n]=hit_matrix(detectorid_nim3[i],elementid_nim3[i],driftdistance_nim3[i],hits[n],drift[n],1)
@@ -417,6 +417,7 @@ def evaluate_finder(testin, testdrift, predictions):
     return reco_in
 
 # Drift chamber mismatch calculation
+@njit(parallel=True)
 def calc_mismatches(track):
     results = []
     for pos_slice, neg_slice in [(slice(0, 6), slice(34, 40)), (slice(6, 12), slice(40, 46)), (slice(12, 18), slice(46, 52))]:
