@@ -140,47 +140,49 @@ max_ele = [200, 200, 168, 168, 200, 200, 128, 128,  112,  112, 128, 128, 134, 13
         72,  72,  72]
 
 def generate_e906():
+    # Load MC Data 
+    print("Loading MC Data...")
+    targettree = uproot.open(root_file + ':QA_ana')
 
-    #Load MC Data
-    targettree = uproot.open(root_file+':QA_ana')
-    detectorid=targettree["detectorID"].arrays(library="np")["detectorID"]
-    elementid=targettree["elementID"].arrays(library="np")["elementID"]
-    driftdistance=targettree["driftDistance"].arrays(library="np")["driftDistance"]
-    pid=targettree['pid'].arrays(library="np")['pid']
-    px=targettree["gpx"].arrays(library="np")['gpx']
-    py=targettree["gpy"].arrays(library="np")['gpy']
-    pz=targettree["gpz"].arrays(library="np")['gpz']
-    vx=targettree["gvx"].arrays(library="np")['gvx']
-    vy=targettree["gvy"].arrays(library="np")['gvy']
-    vz=targettree["gvz"].arrays(library="np")['gvz']
-    nhits=targettree['nhits'].array(library='np')
+    # List of kinematic variables
+    kinematic = ['gpx', 'gpy', 'gpz', 'gvx', 'gvy', 'gvz']
+
+    # Extract data arrays from the ROOT file
+    detectorid = targettree["detectorID"].arrays(library="np")["detectorID"]
+    elementid = targettree["elementID"].arrays(library="np")["elementID"]
+    driftdistance = targettree["driftDistance"].arrays(library="np")["driftDistance"]
+    pid = targettree['pid'].arrays(library="np")['pid']
+    nhits = targettree['nhits'].array(library='np')
+
+    # Extract kinematic arrays
+    kinematic_arrays = {kin: targettree[kin].arrays(library="np")[kin] for kin in kinematic}
+
     n_events = len(pid)
-    
-    #Initialize hit matrix, drift matrix, and kinematics storage arrays.
-    hits = np.zeros((n_events,54,201))
-    drift = np.zeros((n_events,54,201))
-    kinematics = np.zeros((n_events,9))
-    #Place tracks on the hit matrix.
-    for n in range (n_events):
-        hits[n],drift[n]=hit_matrix_mc(detectorid[n],elementid[n],driftdistance[n],hits[n],drift[n])
-        if(pid[n][0]>0):
-            kinematics[n][0]=px[n][0]
-            kinematics[n][1]=py[n][0]
-            kinematics[n][2]=pz[n][0]
-            kinematics[n][3]=px[n][1]
-            kinematics[n][4]=py[n][1]
-            kinematics[n][5]=pz[n][1]
-        if(pid[n][0]<0):
-            kinematics[n][0]=px[n][1]
-            kinematics[n][1]=py[n][1]
-            kinematics[n][2]=pz[n][1]
-            kinematics[n][3]=px[n][0]
-            kinematics[n][4]=py[n][0]
-            kinematics[n][5]=pz[n][0]
-        kinematics[n][6]=vx[n][0]
-        kinematics[n][7]=vy[n][0]
-        kinematics[n][8]=vz[n][0]
-    del detectorid, elementid,driftdistance
+
+    # Initialize hit matrix, drift matrix, and kinematics storage arrays
+    hits = np.zeros((n_events, 54, 201))
+    drift = np.zeros((n_events, 54, 201))
+    kinematics = np.zeros((n_events, 9))
+
+    print("Placing tracks on the hit matrix...")
+    for n in range(n_events):
+        hits[n], drift[n] = hit_matrix_mc(detectorid[n], elementid[n], driftdistance[n], hits[n], drift[n])
+
+        if pid[n][0] > 0:
+            for i, kin in enumerate(['gpx', 'gpy', 'gpz']):
+                kinematics[n][i] = kinematic_arrays[kin][n][0]
+                kinematics[n][i + 3] = kinematic_arrays[kin][n][1]
+        else:
+            for i, kin in enumerate(['gpx', 'gpy', 'gpz']):
+                kinematics[n][i] = kinematic_arrays[kin][n][1]
+                kinematics[n][i + 3] = kinematic_arrays[kin][n][0]
+
+        for i, kin in enumerate(['gvx', 'gvy', 'gvz']):
+            kinematics[n][i + 6] = kinematic_arrays[kin][n][0]
+
+    print("Finished processing events")
+    del detectorid, elementid, driftdistance
+
 
 
     #Import NIM3 events and put them on the hit matrices.
@@ -218,5 +220,5 @@ file_name = os.path.splitext(root_file)[0]
 
 # Save the outputs to a NumPy file
 np.savez_compressed(file_name+"_events.npz", hits=hits, drift=drift, truth=truth)
-print('File saved at '+file_name+"_events.npz"
+print('File saved at '+file_name+"_events.npz")
 
