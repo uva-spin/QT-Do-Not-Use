@@ -11,7 +11,7 @@ def read_root_file(root_file):
 
         
     variables = [
-        'n_tracks', 'pid', 'gvx', 'gvy', 'gvz', 'gpx', 'gpy', 'gpz', 'gpt', 'geta', 'gphi',
+        'n_tracks','elementID', 'pid', 'gvx', 'gvy', 'gvz', 'gpx', 'gpy', 'gpz', 'gpt', 'geta', 'gphi',
         'sq_px_st1', 'sq_py_st1', 'sq_pz_st1', 'sq_px_st2', 'sq_py_st2', 'sq_pz_st2',
         'sq_px_st3', 'sq_py_st3', 'sq_pz_st3', 'nhits_track', 'H1B_ele', 'H1T_ele',
         'H1L_ele', 'H1R_ele', 'H2L_ele', 'H2R_ele', 'H2B_ele', 'H2T_ele', 'H3B_ele',
@@ -40,7 +40,7 @@ def read_root_file(root_file):
 
     
 
-    events = 100 #len(pid)
+    
     detectors_order= [D0U_ele, D0Up_ele,D0X_ele,D0Xp_ele,D0V_ele,D0Vp_ele,
                         D2U_ele,D2Up_ele,D2X_ele,D2Xp_ele,D2V_ele,D2Vp_ele,
                         D3pU_ele,D3pUp_ele,D3pX_ele,D3pXp_ele,D3pV_ele,D3pVp_ele,
@@ -59,66 +59,94 @@ def read_root_file(root_file):
 
         
     print("Making hitmatrix")
+    events = 100 #len(pid)
     hitmatrix = np.zeros((events,49,201))
     #Truth_values = np.zeros((events,2,49,2))
     Truth_values = np.zeros((events,196))
     print(f"Doing {events} events.")
+
+    good_events = []
+    bad_events = []
     for event in range(events):
-        number_of_tracks = n_tracks.size
-        print(f"There are {number_of_tracks} tracks")
+        print(pid[event])
+        nhit_p = 0
+        nhit_m = 0
+        for track in range(len(pid[event])):
+            particleID = pid[event][track]
+            print(f"The pid is {particleID}.")
+            for i, detector in enumerate(detectors_order, start=1):
+                hit = detector[event][track]
+                if((hit < 1000) & (particleID > 0)):
+                    nhit_p +=1
+                if((hit < 1000) & (particleID < 0)):
+                    nhit_m +=1
+
+        print(f"Total hits in mup= {nhit_p} and mum has {nhit_m}.")
+        if((nhit_m == nhit_p) & ((nhit_p+nhit_m) == 68)):
+            print("this is a good event!")
+            good_events = np.append(good_events,event)
+        else:
+            print("Bad event!")
+            bad_events = np.append(bad_events,event)
+
+        print(f"There are {len(good_events)} good events and {len(bad_events)} bad events!")
+
+    for event in good_events:
+        event = event.astype(int)
+        number_of_tracks = n_tracks[event].size
+        print(f"There are {number_of_tracks} tracks in event: {event}")
         phit = 1
         mhit = 49
         if(n_tracks[event] == 2):
             for track in range(n_tracks[event]):
                 nhits = nhits_track[event][track]
                 print(f"there are {nhits} hits")
-                if( (nhits >= 34) & (nhits <= 48)):
-                    if(pid[event][track] > 0):
-                        print("Doing the positive track")
-                        for i, detector in enumerate(detectors_order, start=1):
-                            hit = detector[event][track].astype(int)
-                            if(i <= 23):
-                                if((hit > 0) & (hit < 1000)):
-                                    drift_distance = drift_order[i-1][event][track].astype(float)
-                                    hitmatrix[event][i][hit] = drift_distance
-                                    Truth_values[event][phit] = hit
-                                    Truth_values[event][phit+1] = drift_distance
-                                    
-                            else:
-                                if((hit > 0) & (hit < 1000)):
-                                    hitmatrix[event][i][hit] = 1
-                                    Truth_values[event][phit] = hit
-                                    Truth_values[event][phit+1] = 1
-                            phit += 2
-                    if(pid[event][track] < 0):
-                        print("Doing the negative track")
-                        for i, detector in enumerate(detectors_order, start=1):
-                            hit = detector[event][track]
+                if(pid[event][track] > 0):
+                    print("Doing the positive track")
+                    for i, detector in enumerate(detectors_order, start=1):
+                        hit = detector[event][track].astype(int)
+                        if(i <= 23):
+                            if((hit > 0) & (hit < 1000)):
+                                drift_distance = drift_order[i-1][event][track].astype(float)
+                                hitmatrix[event][i][hit] = drift_distance
+                                Truth_values[event][phit] = hit
+                                Truth_values[event][phit+1] = drift_distance
+                                
+                        else:
+                            if((hit > 0) & (hit < 1000)):
+                                hitmatrix[event][i][hit] = 1
+                                Truth_values[event][phit] = hit
+                                Truth_values[event][phit+1] = 1
+                        phit += 2
+                if(pid[event][track] < 0):
+                    print("Doing the negative track")
+                    for i, detector in enumerate(detectors_order, start=1):
+                        hit = detector[event][track]
 
-                            if(i <= 23):
-                                if((hit > 0) & (hit < 1000)):
-                                    drift_distance = drift_order[i-1][event][track].astype(float)
-                                    hitmatrix[event][i][hit] = drift_distance
-                                    Truth_values[event][mhit] = hit
-                                    Truth_values[event][mhit+1] = drift_distance
-                            else:
-                                if((hit > 0) & (hit < 1000)):
-                                    hitmatrix[event][i][hit] = 1
-                                    Truth_values[event][mhit] = hit
-                                    Truth_values[event][mhit+1] = 1
-                            mhit += 2
+                        if(i <= 23):
+                            if((hit > 0) & (hit < 1000)):
+                                drift_distance = drift_order[i-1][event][track].astype(float)
+                                hitmatrix[event][i][hit] = drift_distance
+                                Truth_values[event][mhit] = hit
+                                Truth_values[event][mhit+1] = drift_distance
+                        else:
+                            if((hit > 0) & (hit < 1000)):
+                                hitmatrix[event][i][hit] = 1
+                                Truth_values[event][mhit] = hit
+                                Truth_values[event][mhit+1] = 1
+                        mhit += 2
 
-                else:
-                    print(f"Event:{event} was not kept due to having {nhits_track[event][track]} hits.")
+
 
                         
 
-                
+            
     print("HitMatrix Done")
     return hitmatrix, Truth_values
 
 #Function
 # root_file = "rootfiles/DY_Target_500k_080524/merged_trackQA_v2.root"
 # hitmatrix, Truth_values = read_root_file(root_file)
+
 
 
