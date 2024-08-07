@@ -112,20 +112,16 @@ def read_root_file(root_file):
 
     hitmatrix = np.zeros((len(good_events),49,201))
     #Truth_values = np.zeros((events,2,49,2))
-    Truth_values = np.zeros((len(good_events),196))
-    
+    Truth_values_elemID = np.zeros((len(good_events),98))
+    Truth_values_drift  = np.zeros((len(good_events),98))
 
     ####################################################
     #hit matrix loop 
     ####################################################
     ith_event = 0
     for event in good_events:
-        event = good_events[0]
         event = event.astype(int)
-        number_of_tracks = n_tracks[event].size
         #print(f"There are {number_of_tracks} tracks in event: {event}")
-        # phit = 0
-        # mhit = 48
         index = 0
         
         
@@ -142,16 +138,16 @@ def read_root_file(root_file):
                     if(i <= 23):
                         if(hit < 1000):
                             drift_distance = drift_order[i][event][track].astype(float)
-                            hitmatrix[ith_event][i][hit] = drift_distance
-                            Truth_values[ith_event][index] = hit
-                            Truth_values[ith_event][index+1] = drift_distance
+                            hitmatrix[ith_event][i][hit] = 1 #drift_distance
+                            Truth_values_elemID[ith_event][index] = hit
+                            Truth_values_drift[ith_event][index] = drift_distance
                             
                     else:
                         if(hit < 1000):
                             hitmatrix[ith_event][i][hit] = 1
-                            Truth_values[ith_event][index] = hit
-                            Truth_values[ith_event][index+1] = 1.0
-                    index += 2
+                            Truth_values_elemID[ith_event][index] = hit
+                            #Truth_values_drift[ith_event][index] = 1
+                    index += 1
 
 
                 if(particleID < 0):
@@ -161,15 +157,15 @@ def read_root_file(root_file):
                     if(i <= 23):
                         if(hit < 1000):
                             drift_distance = drift_order[i][event][track].astype(float)
-                            hitmatrix[ith_event][i][hit] = drift_distance
-                            Truth_values[ith_event][index] = hit
-                            Truth_values[ith_event][index+1] = drift_distance
+                            hitmatrix[ith_event][i][hit] = 1 #drift_distance
+                            Truth_values_elemID[ith_event][index] = hit
+                            Truth_values_drift[ith_event][index] = drift_distance
                     else:
                         if(hit < 1000):
                             hitmatrix[ith_event][i][hit] = 1
-                            Truth_values[ith_event][index] = hit
-                            Truth_values[ith_event][index+1] = 1.0
-                    index += 2
+                            Truth_values_elemID[ith_event][index] = hit
+                            #Truth_values_drift[ith_event][index] = 1
+                    index += 1
 
         ith_event += 1
 
@@ -184,15 +180,16 @@ def read_root_file(root_file):
 
             
     print("HitMatrix Done")
-    return hitmatrix, Truth_values, good_events
+    return hitmatrix, Truth_values_elemID,Truth_values_drift, good_events
 
 # #Function
 # root_file = "rootfiles/DY_Target_500k_080524/merged_trackQA_v2.root"
-# hitmatrix, Truth_values, good_events = read_root_file(root_file)
-# print(Truth_values[0].astype(int))
-# test = np.reshape(Truth_values,(len(good_events),49,4)).astype(int)
+# hitmatrix, Truth_values_elemID,Truth_value_drift, good_events = read_root_file(root_file)
+
+# print(Truth_values_elemID[0])
+# test = np.reshape(Truth_values_elemID,(len(good_events),49,2)).astype(int)
 # print(test[0])
-# # print(test[:,:,:2])
+# print(test[0][:,0])
 # # print(test[0][0][:,0])
 # # print(test[0][1][:,0])
 # # print(len(np.where(test[0][1][:,0] != 0)[0]))
