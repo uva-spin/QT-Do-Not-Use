@@ -181,14 +181,14 @@ class Data_Processing:
                     det_index += 1
                 hit_index += 1
             event_index += 1
-        return Truth_elementID_mup, Truth_elementID_mum, Truth_values_drift_mup, Truth_values_drift_mum
+        return Truth_elementID_mup, Truth_elementID_mum, Truth_values_drift_mup, Truth_values_drift_mum, hit_matrix
 
 
 #Reads in root file
 root_file = "/Users/jay/Documents/Research/machine_learning/rootfiles/DY_Target_27M_083124/merged_trackQA_v2.root"
 data_processor = Data_Processing(root_file)
 #Set number of events
-num_events = 3#data_processor.get_num_events()
+num_events = data_processor.get_num_events()
 
 ideal_events = []
 #Create an array of ideal events
@@ -202,27 +202,28 @@ print(ideal_events)
 
 
 #Make hitmatrix
-Truth_elementID_mup, Truth_elementID_mum, Truth_values_drift_mup, Truth_values_drift_mum = data_processor.make_Hitmatrix(ideal_events)
+Truth_elementID_mup, Truth_elementID_mum, Truth_values_drift_mup, Truth_values_drift_mum, hit_matrix = data_processor.make_Hitmatrix(ideal_events)
 
+np.savez('Hit_Info.npz', Truth_elementID_mup, Truth_elementID_mum, Truth_values_drift_mup, Truth_values_drift_mum,hit_matrix,ideal_events)
 
-print("Testing")
+# print("Testing")
 
-event = int(ideal_events[0])
-print(event)
+# event = int(ideal_events[0])
+# print(event)
 
-elementID =  data_processor.get_branch_info('elementID',event)
-detectorID = data_processor.get_branch_info('detectorID',event)
+# elementID =  data_processor.get_branch_info('elementID',event)
+# detectorID = data_processor.get_branch_info('detectorID',event)
 
-Truth_event = np.where(ideal_events == event)[0][0]
+# Truth_event = np.where(ideal_events == event)[0][0]
 
-detID = np.arange(1,63)
-plt.scatter(detID,Truth_elementID_mup[Truth_event],marker='o',color='r')
-plt.scatter(detID,Truth_elementID_mum[Truth_event],marker='d',color='g')
-plt.scatter(detectorID,elementID,marker='+',color='k')
+# detID = np.arange(1,63)
+# plt.scatter(detID,Truth_elementID_mup[Truth_event],marker='o',color='r')
+# plt.scatter(detID,Truth_elementID_mum[Truth_event],marker='d',color='g')
+# plt.scatter(detectorID,elementID,marker='+',color='k')
 
-plt.xlim(0,64)
-plt.ylim(0,201)
-plt.title("Truth Event")
-plt.xlabel("DetectorID")
-plt.ylabel("ElementID")
-plt.show()
+# plt.xlim(0,64)
+# plt.ylim(0,201)
+# plt.title("Truth Event")
+# plt.xlabel("DetectorID")
+# plt.ylabel("ElementID")
+# plt.show()
