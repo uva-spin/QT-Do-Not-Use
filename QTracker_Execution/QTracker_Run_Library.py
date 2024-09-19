@@ -117,7 +117,8 @@ def save_output():
     if file_extension == '.npz':
         metadata = truth
     output = []
-    if event_prob_output: output.append(event_classification_probabilies)
+    if event_prob_output: 
+        output.append(event_classification_probabilies)
         output.append(all_predictions)
     if target_prob_output:
         output.append(target_dump_prob[:,1])

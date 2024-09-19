@@ -1,0 +1,13 @@
+keras==3.5.0
+matplotlib==3.9.2
+numba==0.60.0
+numpy==2.1.1
+paramiko==3.5.0
+PyQt5==5.15.11
+PyQt5_sip==12.15.0
+ROOT==0.0.1
+scikit_learn==1.5.2
+tensorflow==2.17.0
+tensorflow_intel==2.17.0
+uproot==5.3.12
+watchdog==5.0.2
