@@ -5,12 +5,13 @@ import matplotlib.pyplot as plt
 from dataProcess import Data_Processing
 
 with np.load('Hit_Info.npz') as data:
-	Truth_elementID_mup = data['arr_0']
-	Truth_elementID_mum = data['arr_1']
-	Truth_values_drift_mup = data['arr_2']
-	Truth_values_drift_mum = data['arr_3']
-	hit_matrix = data['arr_4']
-	ideal_events = data['arr_5']
+	print(data.files)
+	Truth_elementID_mup = data['Truth_elementID_mup']
+	Truth_elementID_mum = data['Truth_elementID_mum']
+	Truth_values_drift_mup = data['Truth_values_drift_mup']
+	Truth_values_drift_mum = data['Truth_values_drift_mum']
+	hit_matrix = data['hit_matrix']
+	ideal_events = data['ideal_events']
 	
 	
 root_file = "/Users/jay/Documents/Research/machine_learning/rootfiles/DY_Target_27M_083124/merged_trackQA_v2.root"
@@ -18,7 +19,7 @@ data_processor = Data_Processing(root_file)
 
 
 
-event = int(ideal_events[20])
+event = int(ideal_events[200])
 print(f"event is: {event}")
 
 elementID =  data_processor.get_branch_info('elementID',event)
