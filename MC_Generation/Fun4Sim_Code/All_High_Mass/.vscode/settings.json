@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "disp_geom.C": "cpp",
+        "filter.C": "cpp",
+        "Fun4Sim.C": "cpp"
+    }
+}
