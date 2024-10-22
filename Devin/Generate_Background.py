@@ -46,12 +46,10 @@ for _ in range(cluster_intensity):
 # Step 4: Extract row and column indices of all the hits
 row_indices, col_indices = np.nonzero(matrix)
 
-plt.figure(figsize=(10, 5))
+plt.figure()
 plt.scatter(col_indices, row_indices, c='black', marker='_')
 plt.gca().invert_yaxis()  
 plt.title(f'Background Hit Matrix')
 plt.xlabel('Element ID')
 plt.ylabel('Detector ID')
-plt.legend()
-# plt.show()
 plt.savefig("Background_Noise_Example.jpeg")
