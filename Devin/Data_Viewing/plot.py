@@ -18,7 +18,7 @@ class FileWatcher(FileSystemEventHandler):
 
     def on_created(self, event):
         if event.is_directory:
-            if event.src_path.startswith('../Big_Data/sraw/run_005994'):
+            if event.src_path.startswith(r'J:\Users\Devin\Desktop\Spin Physics Work\Q-Tracker\Big_Data\sraw\run_005994'):
                 self.new_directory_callback(event.src_path)
         elif event.src_path.endswith('.root'):
             self.callback(event.src_path)
@@ -326,7 +326,7 @@ class MainWindow(QMainWindow):
             self.file_name_label.setText("No file to read")
 
     def check_for_new_directory(self):
-        parent_dir = "../Big_Data/sraw/run_005994"
+        parent_dir = r"J:\Users\Devin\Desktop\Spin Physics Work\Q-Tracker\Big_Data\sraw\run_005994"
         # parent_dir = "./sraw/"
         directories = [d for d in os.listdir(parent_dir) if os.path.isdir(os.path.join(parent_dir, d)) and d.startswith("run_")]
         if directories:
@@ -345,7 +345,7 @@ class MainWindow(QMainWindow):
 
 if __name__ == "__main__":
     #initial_directory = "/data4/e1039_data/online/sraw/"
-    initial_directory = "../Big_Data/sraw/run_005994"
+    initial_directory = r"J:\Users\Devin\Desktop\Spin Physics Work\Q-Tracker\Big_Data\sraw\run_005994"
     app = QApplication(sys.argv)
     mainWin = MainWindow(initial_directory)
     mainWin.show()

@@ -21,10 +21,10 @@ class FileWatcher(FileSystemEventHandler):
     def on_created(self, event):
         if event.is_directory:
             if event.src_path.startswith(r'J:\Users\Devin\Desktop\Spin Physics Work\Q-Tracker\Big_Data\sraw\run_'):
-            #if event.src_path.startswith('/data4/e1039_data/online/sraw/run_'):
                 self.new_directory_callback(event.src_path)
         elif event.src_path.endswith('.root'):
             self.callback(event.src_path)
+
 
 class DetectorPlot(FigureCanvas):
     def __init__(self, parent=None):
@@ -34,19 +34,17 @@ class DetectorPlot(FigureCanvas):
         self.setParent(parent)
         self.file_paths = []
         self.current_file_index = 0
+        self.accumulate_real_time = True  # Toggle for real-time mode
 
     def create_plot(self):
         print(f"Creating cumulative plot for file: {self.file_paths[self.current_file_index]}")
         self.ax.clear()
 
-        # Set the maximum detector ID and element ID ranges
         max_detector_id = 61   # x-axis range (Detector ID)
         max_element_id = 201   # y-axis range (Element ID)
         
-        # Initialize an empty occupancy array for the specified range
         cumulative_occupancy = np.zeros((max_detector_id + 1, max_element_id + 1))
 
-        # Read and accumulate the event data from the ROOT file
         if self.file_paths:
             file_path = self.file_paths[self.current_file_index]
             total_events = self.get_total_events(file_path)
@@ -54,29 +52,41 @@ class DetectorPlot(FigureCanvas):
             for event_number in range(total_events):
                 detectorid, elementid = self.read_event(file_path, event_number)
 
-                # Accumulate hits into the cumulative occupancy matrix
-                occupancy, _, _ = np.histogram2d(detectorid, elementid, bins=(np.arange(0, max_detector_id+2), np.arange(0, max_element_id+2)))
+                # Accumulate hits
+                occupancy, _, _ = np.histogram2d(detectorid, elementid, bins=(np.arange(0, max_detector_id + 2), np.arange(0, max_element_id + 2)))
                 cumulative_occupancy += occupancy
 
-        # Define a colormap from dark to light yellow
-        cmap = LinearSegmentedColormap.from_list('yellow_colormap', ['#000000', '#FFFF00'], N=256)
+                # If in real-time mode, update the plot event by event
+                if self.accumulate_real_time:
+                    self.update_plot(cumulative_occupancy, event_number)
 
-        # Plot the cumulative occupancy matrix
+            if not self.accumulate_real_time:
+                # Final plot if not using real-time
+                self.update_plot(cumulative_occupancy)
+
+    def update_plot(self, cumulative_occupancy, event_number=None):
+        cmap = LinearSegmentedColormap.from_list('yellow_colormap', ['#000000', '#FFFF00'], N=256)
+        self.ax.clear()  # Make sure to clear the axes before plotting
         cax = self.ax.imshow(cumulative_occupancy.T, origin='lower', cmap=cmap, interpolation='nearest', aspect='auto')
 
-        # Add a single colorbar for the entire plot
-        plt.colorbar(cax, ax=self.ax, label='Occupancy (Total Number of Hits)')
+        # Use self.figure.colorbar instead of plt.colorbar to avoid the warning
+        self.figure.colorbar(cax, ax=self.ax, label='Occupancy (Total Number of Hits)')
 
-        # Set axis labels and title with specified ranges
         self.ax.set_xlabel('Detector ID')
         self.ax.set_ylabel('Element ID')
-        self.ax.set_title(f'Cumulative Hit Occupancy for All Events')
-        
-        # Set the x-axis and y-axis limits
-        self.ax.set_xlim([0, max_detector_id])
-        self.ax.set_ylim([0, max_element_id])
+
+        if event_number is not None:
+            self.ax.set_title(f'Hit Occupancy for Event {event_number}')
+        else:
+            self.ax.set_title(f'Cumulative Hit Occupancy for All Events')
+
+        self.ax.set_xlim([0, 61])
+        self.ax.set_ylim([0, 201])
 
         self.draw()
+
+        if self.accumulate_real_time:
+            plt.pause(0.1)
 
     def read_event(self, file_path, event_number):
         with uproot.open(file_path + ":save") as file:
@@ -85,7 +95,6 @@ class DetectorPlot(FigureCanvas):
         return detectorid, elementid
 
     def get_total_events(self, file_path):
-        # Get the total number of events in the file
         with uproot.open(file_path + ":save") as file:
             total_events = len(file["fAllHits.detectorID"].array(library="np"))
         return total_events
@@ -95,7 +104,7 @@ class DetectorPlot(FigureCanvas):
             file_path = self.file_paths[self.current_file_index]
             with uproot.open(file_path + ":save") as file:
                 total_events = len(file["fAllHits.detectorID"].array(library="np"))
-            
+
             while self.event_number < total_events:
                 detectorid, elementid = self.read_event(file_path, self.event_number)
                 if len(detectorid) == 0 or len(elementid) == 0:
@@ -112,12 +121,13 @@ class DetectorPlot(FigureCanvas):
     def update_files(self, file_paths):
         sorted_files = sorted(file_paths, key=os.path.getctime, reverse=True)
         if len(sorted_files) > 1:
-            self.file_paths = [sorted_files[1]]  # Take the second most recent file
+            self.file_paths = [sorted_files[1]]
         else:
-            self.file_paths = sorted_files  # Fall back to the most recent file if there is only one
+            self.file_paths = sorted_files
         self.current_file_index = 0
         self.event_number = 0
         self.create_plot()
+
 
 class MainWindow(QMainWindow):
     def __init__(self, directory):
@@ -130,36 +140,39 @@ class MainWindow(QMainWindow):
         
         main_layout = QVBoxLayout(self.main_widget)
 
-        # Horizontal layout for the status indicator and file name
+        # Status and control layouts
         status_layout = QHBoxLayout()
         self.status_label = QLabel(self)
         self.file_name_label = QLabel(self)
         self.update_status_label(False)
         status_layout.addWidget(self.status_label)
         status_layout.addWidget(self.file_name_label)
-        status_layout.addStretch(1)  # Add stretch to push the labels to the left
+        status_layout.addStretch(1)
         main_layout.addLayout(status_layout)
 
-        # Add control buttons
         control_layout = QHBoxLayout()
         self.stop_button = QPushButton("Stop")
         self.pause_button = QPushButton("Pause")
         self.restart_button = QPushButton("Restart")
+        self.real_time_button = QPushButton("Real-Time Accumulation: OFF")
         control_layout.addWidget(self.stop_button)
         control_layout.addWidget(self.pause_button)
         control_layout.addWidget(self.restart_button)
+        control_layout.addWidget(self.real_time_button)
         main_layout.addLayout(control_layout)
 
+        # Plot widget
         self.plot = DetectorPlot(self.main_widget)
         self.plot.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         main_layout.addWidget(self.plot)
 
-        # Set initial size of the window (width, height)
-        self.setGeometry(100, 100, 1600, 800)  # Adjust the width and height as needed
+        # Set window size
+        self.setGeometry(100, 100, 1600, 800)
 
+        # Timer and observer for filesystem updates
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.update_display)
-        self.timer.start(1000)  # Update every 1000 milliseconds (1 second)
+        self.timer.start(1000)
 
         self.observer = Observer()
         self.directory = directory
@@ -169,10 +182,11 @@ class MainWindow(QMainWindow):
 
         self.check_initial_files()
 
-        # Connect buttons to their respective functions
+        # Connect buttons to actions
         self.stop_button.clicked.connect(self.stop_display)
         self.pause_button.clicked.connect(self.pause_display)
         self.restart_button.clicked.connect(self.restart_display)
+        self.real_time_button.clicked.connect(self.toggle_real_time)
 
     def closeEvent(self, event):
         self.observer.stop()
@@ -206,9 +220,6 @@ class MainWindow(QMainWindow):
         self.plot.update_event()
         self.update_file_name_label()
 
-        # Check for a new run directory
-        self.check_for_new_directory()
-
     def stop_display(self):
         self.timer.stop()
 
@@ -241,14 +252,12 @@ class MainWindow(QMainWindow):
         else:
             self.file_name_label.setText("No file to read")
 
-    def check_for_new_directory(self):
-        parent_dir = r"J:\Users\Devin\Desktop\Spin Physics Work\Q-Tracker\Big_Data\sraw\run_005994"
-        directories = [d for d in os.listdir(parent_dir) if os.path.isdir(os.path.join(parent_dir, d)) and d.startswith("run_")]
-        if directories:
-            latest_directory = max(directories, key=lambda d: int(d.split("_")[1]))
-            new_directory_path = os.path.join(parent_dir, latest_directory)
-            if new_directory_path != self.directory:
-                self.switch_directory(new_directory_path)
+    def toggle_real_time(self):
+        self.plot.accumulate_real_time = not self.plot.accumulate_real_time
+        if self.plot.accumulate_real_time:
+            self.real_time_button.setText("Real-Time Accumulation: ON")
+        else:
+            self.real_time_button.setText("Real-Time Accumulation: OFF")
 
     def switch_directory(self, new_directory):
         print(f"Switching to new directory: {new_directory}")
@@ -257,6 +266,7 @@ class MainWindow(QMainWindow):
         event_handler = FileWatcher(self.on_new_file, self.on_new_directory)
         self.observer.schedule(event_handler, self.directory, recursive=False)
         self.check_initial_files()
+
 
 if __name__ == "__main__":
     initial_directory = r"J:\Users\Devin\Desktop\Spin Physics Work\Q-Tracker\Big_Data\sraw\run_005994"
