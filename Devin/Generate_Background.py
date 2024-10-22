@@ -48,7 +48,7 @@ row_indices, col_indices = np.nonzero(matrix)
 
 plt.figure(figsize=(10, 5))
 plt.scatter(col_indices, row_indices, c='black', marker='_')
-plt.gca().invert_yaxis()  
+# plt.gca().invert_yaxis()  
 plt.title(f'Background Hit Matrix')
 plt.xlabel('Element ID')
 plt.ylabel('Detector ID')
