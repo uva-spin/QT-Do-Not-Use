@@ -326,7 +326,7 @@ class MainWindow(QMainWindow):
             self.file_name_label.setText("No file to read")
 
     def check_for_new_directory(self):
-        parent_dir = r"J:\Users\Devin\Desktop\Spin Physics Work\Q-Tracker\Big_Data\sraw\run_005994"
+        parent_dir = r"/home/ptgroup/Documents/Devin/Big_Data/QTracker_Data/run_005994-20241230T213148Z-001/run_005994"
         # parent_dir = "./sraw/"
         directories = [d for d in os.listdir(parent_dir) if os.path.isdir(os.path.join(parent_dir, d)) and d.startswith("run_")]
         if directories:
@@ -345,7 +345,7 @@ class MainWindow(QMainWindow):
 
 if __name__ == "__main__":
     #initial_directory = "/data4/e1039_data/online/sraw/"
-    initial_directory = r"J:\Users\Devin\Desktop\Spin Physics Work\Q-Tracker\Big_Data\sraw\run_005994"
+    initial_directory = r"/home/ptgroup/Documents/Devin/Big_Data/QTracker_Data/run_005994-20241230T213148Z-001/run_005994"
     app = QApplication(sys.argv)
     mainWin = MainWindow(initial_directory)
     mainWin.show()
