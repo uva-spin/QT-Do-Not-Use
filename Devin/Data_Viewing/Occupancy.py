@@ -164,100 +164,96 @@ class DetectorPlot:
             occupancy[(det_id, elem_id)] += 1
         return occupancy
     
-    def create_plot(self,save_directory):
-        """Create a final aggregated plot with occupancy indicated by opacity, save group data, and generate individual plots."""
-        if len(self.aggregated_detectorid) == 0 or len(self.aggregated_elementid) == 0:
-            print("[DEBUG] No hits found in the aggregated data. Skipping plot generation.")
-            return
+    def create_plot(self, save_directory):
+      """Create a final aggregated plot with occupancy indicated by opacity, save group data, and generate individual plots."""
+      if len(self.aggregated_detectorid) == 0 or len(self.aggregated_elementid) == 0:
+          print("[DEBUG] No hits found in the aggregated data. Skipping plot generation.")
+          return
 
-        # Transfer aggregated data back to CPU for matplotlib
-        detectorid = np.array(self.aggregated_detectorid.get())  # Convert to numpy arrays for numba compatibility
-        elementid = np.array(self.aggregated_elementid.get())
+      # Transfer aggregated data back to CPU for matplotlib
+      detectorid = np.array(self.aggregated_detectorid.get())  # Convert to numpy arrays for numba compatibility
+      elementid = np.array(self.aggregated_elementid.get())
 
-        # Accumulate hits using Numba
-        occupancy = self.accumulate_hits(detectorid, elementid)
+      # Accumulate hits using Numba
+      occupancy = self.accumulate_hits(detectorid, elementid)
 
-        # Normalize occupancy values for opacity (0 to 1)
-        max_hits = max(occupancy.values())
-        normalized_opacity = {key: value / max_hits for key, value in occupancy.items()}
+      # # Save hit information as JSON
+      # output_data = []
+      # for (det_id, elem_id), hit_count in occupancy.items():
+      #     output_data.append({
+      #         "detector_id": int(det_id),
+      #         "element_id": int(elem_id),
+      #         "hit_count": int(hit_count)
+      #     })
+      # json_file_path = os.path.join(save_directory, "hits_data.json")
+      # with open(json_file_path, "w") as json_file:
+      #     json.dump(output_data, json_file, indent=4)
+      # print(f"[INFO] Saved hit information to {json_file_path}")
 
-        fig, ax = plt.subplots(figsize=(12, 8))
-        y_max = max([det['elements'] for group in self.detector_groups for det in group['detectors']])
-        x_labels = []
-        x_ticks = []
-        x_offset = 0
-        print("Plotting")
+      # Normalize occupancy values for opacity (0 to 1)
+      max_hits = max(occupancy.values())
+      normalized_opacity = {key: value / max_hits for key, value in occupancy.items()}
 
-        # Wrapping the outer loop with tqdm for progress bar
-        for group in tqdm.tqdm(self.detector_groups, desc="Processing detector groups", unit="group"):
-            x_positions = range(x_offset, x_offset + len(group['detectors']))
-            group_data = []  # Collect data to save for this group
+      fig, ax = plt.subplots(figsize=(12, 8))
+      y_max = max([det['elements'] for group in self.detector_groups for det in group['detectors']])
+      x_labels = []
+      x_ticks = []
+      x_offset = 0
+      print("Plotting")
 
-            # Create a plot for the group
-            group_fig, group_ax = plt.subplots(figsize=(12, 8))
+      # Wrapping the outer loop with tqdm for progress bar
+      for group in tqdm.tqdm(self.detector_groups, desc="Processing detector groups", unit="group"):
+          x_positions = range(x_offset, x_offset + len(group['detectors']))
+          group_data = []  # Collect data to save for this group
 
-            for idx, x in enumerate(x_positions):
-                detector = group['detectors'][idx]
-                y_positions = range(detector['elements'])
+          # Create a plot for the group
+          group_fig, group_ax = plt.subplots(figsize=(12, 6))
+          for x, detector in zip(x_positions, group['detectors']):
+              detector_hits = []
+              for elem_id in range(detector['elements']):
+                  hit_count = occupancy.get((detector['id'], elem_id), 0)
+                  opacity = normalized_opacity.get((detector['id'], elem_id), 0)
+                  group_data.append({"detector": detector['name'], "element": elem_id, "hits": hit_count})
+                  if hit_count > 0:
+                      ax.scatter(x, elem_id, color="red", alpha=opacity)
+                      detector_hits.append({"element": elem_id, "hits": hit_count})
+              x_labels.append(detector['name'])
+              x_ticks.append(x)
 
-                for y in y_positions:
-                    scaled_y = y * y_max / detector['elements']
-                    height = y_max / detector['elements']
+          # Save individual group data
+          group_save_path = os.path.join(save_directory, "output_data", f"{group['label']}_data.json")
+          with open(group_save_path, "w") as group_file:
+              json.dump(group_data, group_file, indent=4)
 
-                    hit_opacity = normalized_opacity.get((detector['id'], y + 1), 0)  # Default opacity is 0
-                    facecolor = (1, 0, 0, hit_opacity)  # RGBA: Yellow with variable alpha based on opacity
+          # Customize the group plot
+          group_ax.set_title(group['label'])
+          group_ax.set_xlabel("Detector")
+          group_ax.set_ylabel("Element")
+          group_ax.set_xticks(x_ticks)
+          group_ax.set_xticklabels(x_labels, rotation=90)
+          group_ax.set_ylim(0, y_max)
+          plt.tight_layout()
+          group_plot_path = os.path.join(group_save_path, f"{group['label']}_plot.png")
+          group_fig.savefig(group_plot_path)
+          plt.close(group_fig)
 
-                    # Add the rectangle to the overall plot
-                    ax.add_patch(plt.Rectangle((x, scaled_y), 1, height, edgecolor='black', facecolor=facecolor))
+          # Update x offset for the next group
+          x_offset += len(group['detectors'])
 
-                    # Add the rectangle to the group-specific plot
-                    group_ax.add_patch(plt.Rectangle((idx, scaled_y), 1, height, edgecolor='black', facecolor=facecolor))
+      # Customize the overall plot
+      ax.set_title("Detector Occupancy")
+      ax.set_xlabel("Detector")
+      ax.set_ylabel("Element")
+      ax.set_xticks(x_ticks)
+      ax.set_xticklabels(x_labels, rotation=90)
+      ax.set_ylim(0, y_max)
+      plt.tight_layout()
 
-                    # Collect data for this detector and element
-                    group_data.append({
-                        'detector_id': detector['id'],
-                        'detector_name': detector['name'],
-                        'element_id': y + 1,
-                        'opacity': hit_opacity
-                    })
-
-                x_labels.append(detector['name'])
-                x_ticks.append(x + 0.5)
-
-            ax.text(x_offset + len(group['detectors']) / 2, y_max + 15, group['label'], ha='center', va='center')
-            x_offset += len(group['detectors']) + 2
-
-            # Save the group data to a file (e.g., JSON or CSV)
-            group_filename = f"{group['label']}_data.json"  # Change the extension for different formats
-            group_file_path = os.path.join(save_directory,"output_data", group['label'], group_filename)
-
-            # Ensure the output directory exists
-            os.makedirs(os.path.dirname(group_file_path), exist_ok=True)
-
-            # Save the data in JSON format
-            with open(group_file_path, 'w') as json_file:
-                json.dump(group_data, json_file, indent=4)
-
-            # Finalize and save the group-specific plot
-            group_ax.set_xlim(0, len(group['detectors']))
-            group_ax.set_ylim(0, y_max + 20)
-            group_ax.set_xticks(range(len(group['detectors'])))
-            group_ax.set_xticklabels([det['name'] for det in group['detectors']], rotation=90)
-            group_ax.set_ylabel('Element ID')
-            plt.tight_layout()
-            group_plot_path = os.path.join(save_directory,"output_data", group['label'], f"{group['label']}_plot.png")
-            group_fig.savefig(group_plot_path)
-            plt.close(group_fig)
-
-        # Finalize and save the overall plot
-        ax.set_xlim(0, x_offset)
-        ax.set_ylim(0, y_max + 20)
-        ax.set_xticks(x_ticks)
-        ax.set_xticklabels(x_labels, rotation=90)
-        ax.set_ylabel('Element ID')
-        plt.tight_layout()
-        plt.savefig(os.path.join(save_directory,"final_detector_plot_gpu_opacity.png"))
-        plt.close(fig)
+      # Save the overall plot
+      overall_plot_path = os.path.join(save_directory, "overall_occupancy_plot.png")
+      fig.savefig(overall_plot_path)
+      plt.close(fig)
+      print(f"[INFO] Saved overall plot to {overall_plot_path}")
 
 if __name__ == "__main__":
     run_directory = r"/home/devin/Documents/Big_Data/run_005994"
