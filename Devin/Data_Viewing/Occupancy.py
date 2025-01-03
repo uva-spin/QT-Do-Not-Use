@@ -232,6 +232,11 @@ class DetectorPlot:
           group_ax.set_xticks(x_ticks)
           group_ax.set_xticklabels(x_labels, rotation=90)
           group_ax.set_ylim(0, y_max)
+          # Add hotbar for hit count
+          sm = plt.cm.ScalarMappable(cmap='Reds', norm=plt.Normalize(vmin=0, vmax=max_hits))
+          sm.set_array([])
+          cbar = fig.colorbar(sm, ax=group_ax, orientation='vertical', pad=0.02)
+          cbar.set_label("Hit Count", rotation=90)
           plt.tight_layout()
           group_plot_path = os.path.join(group_save_path, f"{group['label']}_plot.png")
           group_fig.savefig(group_plot_path)
@@ -247,6 +252,10 @@ class DetectorPlot:
       ax.set_xticks(x_ticks)
       ax.set_xticklabels(x_labels, rotation=90)
       ax.set_ylim(0, y_max)
+      sm = plt.cm.ScalarMappable(cmap='Reds', norm=plt.Normalize(vmin=0, vmax=max_hits))
+      sm.set_array([])
+      cbar = fig.colorbar(sm, ax=ax, orientation='vertical', pad=0.02)
+      cbar.set_label("Hit Count", rotation=90)
       plt.tight_layout()
 
       # Save the overall plot
