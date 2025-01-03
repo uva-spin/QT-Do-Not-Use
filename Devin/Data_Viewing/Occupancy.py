@@ -1,87 +1,17 @@
 import os
 import numpy as np
+import cupy as cp
+import tqdm
 import uproot
+import json
 import matplotlib.pyplot as plt
-from matplotlib.colors import LinearSegmentedColormap
 
-def process_station_occupancy(root_dir, detector_groups):
-    station_data = {}
-    valid_detector_ids = {det['id'] for group in detector_groups for det in group['detectors']}
-    
-    for group in detector_groups:
-        station_data[group['label']] = {det['id']: np.zeros(det['elements']) for det in group['detectors']}
-
-    for filename in os.listdir(root_dir):
-        if not filename.endswith(".root"):
-            continue
-            
-        file_path = os.path.join(root_dir, filename)
-        print(f"Processing {filename}")
-        
-        try:
-            with uproot.open(file_path + ":save") as file:
-                detector_ids = np.concatenate(file["fAllHits.detectorID"].array(library="np"))
-                element_ids = np.concatenate(file["fAllHits.elementID"].array(library="np"))
-                
-                # Check for invalid detector IDs
-                invalid_ids = set(np.unique(detector_ids)) - valid_detector_ids
-                if invalid_ids:
-                    print(f"Warning: Found invalid detector IDs: {invalid_ids}")
-                    
-                for group in detector_groups:
-                    for detector in group['detectors']:
-                        mask = (detector_ids == detector['id'])
-                        if np.any(mask):
-                            valid_elements = element_ids[mask]
-                            valid_elements = valid_elements[valid_elements < detector['elements']]
-                            if len(valid_elements) > 0:
-                                hist, _ = np.histogram(
-                                    valid_elements,
-                                    bins=detector['elements'],
-                                    range=(0, detector['elements'])
-                                )
-                                station_data[group['label']][detector['id']] += hist
-                            
-        except Exception as e:
-            print(f"Error processing {filename}: {str(e)}")
-            continue
-    
-    return station_data
-
-def plot_station_heatmaps(station_data, detector_groups, output_dir):
-    for group in detector_groups:
-        # Create data matrix with proper padding
-        max_elements = max(det['elements'] for det in group['detectors'])
-        data_matrix = np.zeros((len(group['detectors']), max_elements))
-        
-        for idx, detector in enumerate(group['detectors']):
-            data = station_data[group['label']][detector['id']]
-            data_matrix[idx, :len(data)] = data
-
-        fig, ax = plt.subplots(figsize=(12, 8))
-        cmap = LinearSegmentedColormap.from_list('yellow_colormap', ['#000000', '#FFFF00'], N=256)
-        
-        im = ax.imshow(data_matrix.T, aspect='auto', origin='lower', 
-                      interpolation='nearest', cmap=cmap)
-        
-        plt.colorbar(im, label='Hit Counts')
-        
-        ax.set_xlabel('Detector')
-        ax.set_ylabel('Element ID')
-        ax.set_title(f'{group["label"]} Occupancy')
-        
-        ax.set_xticks(range(len(group['detectors'])))
-        ax.set_xticklabels([det['name'] for det in group['detectors']], 
-                          rotation=45, ha='right')
-        
-        plt.tight_layout()
-        output_file = os.path.join(output_dir, 
-                                 f'occupancy_{group["label"].replace(" ", "_").replace("+", "p").replace("-", "m")}.png')
-        plt.savefig(output_file, dpi=300, bbox_inches='tight')
-        plt.close()
-
-if __name__ == "__main__":
-    detector_groups = [
+class DetectorPlot:
+    def __init__(self):
+        self.file_paths = []
+        self.current_file_index = 0
+        self.event_number = 0
+        self.detector_groups = [
     {'label': 'Station 1', 'detectors': [
         {'name': 'D0V', 'elements': 201, 'id': 5},
         {'name': 'D0Vp', 'elements': 201, 'id': 6},
@@ -166,12 +96,173 @@ if __name__ == "__main__":
         {'name': 'P2Y1', 'elements': 72, 'id': 53},
         {'name': 'P2Y2', 'elements': 72, 'id': 54}
     ]}
-    ]  
+    ]
     
-    # root_dir = r"/home/ptgroup/Documents/Devin/Big_Data/QTracker_Data/run_005994-20241230T213148Z-001/run_005994"
-    root_dir = r"C:\Program Files\Work\QTracker\Root_Files"
-    # output_dir = r"/home/ptgroup/Documents/Devin/QTracker/Devin/Data_Viewing/Occupancy_Plots"
-    output_dir = r"C:\Program Files\Work\QTracker\Q-Tracker\Devin\Data_Viewing\Occupancy_Plots"
+    def read_event(self, file_path, event_number):
+        """Read a specific event from the given ROOT file."""
+        with uproot.open(file_path + ":save") as file:
+            detectorid = cp.array(file["fAllHits.detectorID"].array(library="np")[event_number])
+            elementid = cp.array(file["fAllHits.elementID"].array(library="np")[event_number])
+        return detectorid, elementid
     
-    station_data = process_station_occupancy(root_dir, detector_groups)
-    plot_station_heatmaps(station_data, detector_groups, output_dir)
+    def process_files(self, run_directory,save_directory,max_files=None):
+        """Process all events across the first `max_files` ROOT files in the given directory."""
+        self.aggregated_detectorid = cp.array([], dtype=int)
+        self.aggregated_elementid = cp.array([], dtype=int)
+
+        # Gather all ROOT files in the directory
+        for root, _, files in os.walk(run_directory):
+            for file in files:
+                if file.endswith(".root"):
+                    self.file_paths.append(os.path.join(root, file))
+
+        if not self.file_paths:
+            print("[DEBUG] No ROOT files found in the specified directory.")
+            return
+
+        # Limit to the first `max_files` files if specified
+        if max_files is not None:
+            self.file_paths = self.file_paths[:max_files]
+
+        # Calculate total events for the progress bar
+        total_events = 0
+        for file_path in self.file_paths:
+            with uproot.open(file_path + ":save") as file:
+                total_events += len(file["fAllHits.detectorID"].array(library="np"))
+
+        # Process events with a progress bar
+        with tqdm.tqdm(total=total_events, desc="Processing Events", unit="event") as pbar:
+            for file_path in self.file_paths:
+                with uproot.open(file_path + ":save") as file:
+                    num_events = len(file["fAllHits.detectorID"].array(library="np"))
+                    for event_number in range(num_events):
+                        detectorid, elementid = self.read_event(file_path, event_number)
+                        self.aggregated_detectorid = cp.concatenate((self.aggregated_detectorid, detectorid))
+                        self.aggregated_elementid = cp.concatenate((self.aggregated_elementid, elementid))
+                        pbar.update(1)
+
+        # Debug message if no hits are found
+        if len(self.aggregated_detectorid) == 0 or len(self.aggregated_elementid) == 0:
+            print("[DEBUG] No hits found across all events in the ROOT files.")
+            print("[DEBUG] Check if the ROOT files contain valid detector and element data.")
+        else:
+            print(f"[DEBUG] Aggregated {len(self.aggregated_detectorid)} detector hits and {len(self.aggregated_elementid)} element hits.")
+
+        self.create_plot(save_directory)
+
+    def accumulate_hits(self,detectorid, elementid):
+        """
+        Accumulate hits based on detectorid and elementid using Numba for speed.
+        Returns a dictionary of (detectorID, elementID) pairs and their corresponding hit counts.
+        """
+        occupancy = {}
+        for i in range(len(detectorid)):
+            det_id = detectorid[i]
+            elem_id = elementid[i]
+            if (det_id, elem_id) not in occupancy:
+                occupancy[(det_id, elem_id)] = 0
+            occupancy[(det_id, elem_id)] += 1
+        return occupancy
+    
+    def create_plot(self,save_directory):
+        """Create a final aggregated plot with occupancy indicated by opacity, save group data, and generate individual plots."""
+        if len(self.aggregated_detectorid) == 0 or len(self.aggregated_elementid) == 0:
+            print("[DEBUG] No hits found in the aggregated data. Skipping plot generation.")
+            return
+
+        # Transfer aggregated data back to CPU for matplotlib
+        detectorid = np.array(self.aggregated_detectorid.get())  # Convert to numpy arrays for numba compatibility
+        elementid = np.array(self.aggregated_elementid.get())
+
+        # Accumulate hits using Numba
+        occupancy = self.accumulate_hits(detectorid, elementid)
+
+        # Normalize occupancy values for opacity (0 to 1)
+        max_hits = max(occupancy.values())
+        normalized_opacity = {key: value / max_hits for key, value in occupancy.items()}
+
+        fig, ax = plt.subplots(figsize=(12, 8))
+        y_max = max([det['elements'] for group in self.detector_groups for det in group['detectors']])
+        x_labels = []
+        x_ticks = []
+        x_offset = 0
+        print("Plotting")
+
+        # Wrapping the outer loop with tqdm for progress bar
+        for group in tqdm.tqdm(self.detector_groups, desc="Processing detector groups", unit="group"):
+            x_positions = range(x_offset, x_offset + len(group['detectors']))
+            group_data = []  # Collect data to save for this group
+
+            # Create a plot for the group
+            group_fig, group_ax = plt.subplots(figsize=(12, 8))
+
+            for idx, x in enumerate(x_positions):
+                detector = group['detectors'][idx]
+                y_positions = range(detector['elements'])
+
+                for y in y_positions:
+                    scaled_y = y * y_max / detector['elements']
+                    height = y_max / detector['elements']
+
+                    hit_opacity = normalized_opacity.get((detector['id'], y + 1), 0)  # Default opacity is 0
+                    facecolor = (1, 0, 0, hit_opacity)  # RGBA: Yellow with variable alpha based on opacity
+
+                    # Add the rectangle to the overall plot
+                    ax.add_patch(plt.Rectangle((x, scaled_y), 1, height, edgecolor='black', facecolor=facecolor))
+
+                    # Add the rectangle to the group-specific plot
+                    group_ax.add_patch(plt.Rectangle((idx, scaled_y), 1, height, edgecolor='black', facecolor=facecolor))
+
+                    # Collect data for this detector and element
+                    group_data.append({
+                        'detector_id': detector['id'],
+                        'detector_name': detector['name'],
+                        'element_id': y + 1,
+                        'opacity': hit_opacity
+                    })
+
+                x_labels.append(detector['name'])
+                x_ticks.append(x + 0.5)
+
+            ax.text(x_offset + len(group['detectors']) / 2, y_max + 15, group['label'], ha='center', va='center')
+            x_offset += len(group['detectors']) + 2
+
+            # Save the group data to a file (e.g., JSON or CSV)
+            group_filename = f"{group['label']}_data.json"  # Change the extension for different formats
+            group_file_path = os.path.join(save_directory,"output_data", group['label'], group_filename)
+
+            # Ensure the output directory exists
+            os.makedirs(os.path.dirname(group_file_path), exist_ok=True)
+
+            # Save the data in JSON format
+            with open(group_file_path, 'w') as json_file:
+                json.dump(group_data, json_file, indent=4)
+
+            # Finalize and save the group-specific plot
+            group_ax.set_xlim(0, len(group['detectors']))
+            group_ax.set_ylim(0, y_max + 20)
+            group_ax.set_xticks(range(len(group['detectors'])))
+            group_ax.set_xticklabels([det['name'] for det in group['detectors']], rotation=90)
+            group_ax.set_ylabel('Element ID')
+            plt.tight_layout()
+            group_plot_path = os.path.join(save_directory,"output_data", group['label'], f"{group['label']}_plot.png")
+            group_fig.savefig(group_plot_path)
+            plt.close(group_fig)
+
+        # Finalize and save the overall plot
+        ax.set_xlim(0, x_offset)
+        ax.set_ylim(0, y_max + 20)
+        ax.set_xticks(x_ticks)
+        ax.set_xticklabels(x_labels, rotation=90)
+        ax.set_ylabel('Element ID')
+        plt.tight_layout()
+        plt.savefig(os.path.join(save_directory,"final_detector_plot_gpu_opacity.png"))
+        plt.close(fig)
+
+if __name__ == "__main__":
+    run_directory = r"/home/devin/Documents/Big_Data/run_005994"
+    save_directory = r"/home/devin/Documents/Big_Data/QTracker_Station_Occupancies"
+    max_files = 1  # For Debugging
+    detector_plot = DetectorPlot()
+    detector_plot.process_files(run_directory,save_directory, max_files=max_files)
+    print("Plot saved as 'final_detector_plot.png' at: {save_directory}")

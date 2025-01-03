@@ -39,11 +39,9 @@ class DetectorPlot(FigureCanvas):
         print(f"Creating cumulative plot for file: {self.file_paths[self.current_file_index]}")
         self.ax.clear()
 
-        # Set the maximum detector ID and element ID ranges
         max_detector_id = 61   # x-axis range (Detector ID)
         max_element_id = 201   # y-axis range (Element ID)
         
-        # Initialize an empty occupancy array for the specified range
         cumulative_occupancy = np.zeros((max_detector_id + 1, max_element_id + 1))
 
         # Read and accumulate the event data from the ROOT file
@@ -67,12 +65,10 @@ class DetectorPlot(FigureCanvas):
         # Add a single colorbar for the entire plot
         plt.colorbar(cax, ax=self.ax, label='Occupancy (Total Number of Hits)')
 
-        # Set axis labels and title with specified ranges
         self.ax.set_xlabel('Detector ID')
         self.ax.set_ylabel('Element ID')
         self.ax.set_title(f'Cumulative Hit Occupancy for All Events')
         
-        # Set the x-axis and y-axis limits
         self.ax.set_xlim([0, max_detector_id])
         self.ax.set_ylim([0, max_element_id])
 
