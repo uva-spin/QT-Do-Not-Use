@@ -18,7 +18,7 @@ class FileWatcher(FileSystemEventHandler):
 
     def on_created(self, event):
         if event.is_directory:
-            if event.src_path.startswith(r'J:\Users\Devin\Desktop\Spin Physics Work\Q-Tracker\Big_Data\sraw\run_005994'):
+            if event.src_path.startswith(r'/home/devin/Documents/Big_Data/run_005994'):
                 self.new_directory_callback(event.src_path)
         elif event.src_path.endswith('.root'):
             self.callback(event.src_path)
@@ -132,48 +132,54 @@ class DetectorPlot(FigureCanvas):
             ]}
         ]
 
-        y_max = max([det['elements'] for group in detector_groups for det in group['detectors']])  # Maximum number of elements for scaling
+        # Define a combined 201x62 hit array (201 rows for elements, 62 columns for detectors)
+        combined_hits = np.zeros((201, 62), dtype=int)
 
-        x_labels = []
-        x_ticks = []
-        x_offset = 0
+        # Map detector IDs to columns in the hit array
+        detector_to_column = {}
+        column_index = 0
 
-        # Plot each group with spacing between them
         for group in detector_groups:
-            x_positions = range(x_offset, x_offset + len(group['detectors']))
-            for idx, x in enumerate(x_positions):
-                detector = group['detectors'][idx]
-                y_positions = range(detector['elements'])
+            for detector in group['detectors']:
+                detector_to_column[detector['id']] = column_index
+                column_index += 1
 
-                for y in y_positions:
-                    # Scale y to match the maximum elements
-                    scaled_y = y * y_max / detector['elements']
-                    height = y_max / detector['elements']
+        # Populate the hit array
+        for det_id, elem_id in zip(detectorid, elementid):
+            if det_id in detector_to_column and 1 <= elem_id <= 201:
+                col = detector_to_column[det_id]
+                row = elem_id - 1  # Convert to 0-based index
+                combined_hits[row, col] = 1
 
-                    # Check if the element is a hit
-                    is_hit = any((detectorid == detector['id']) & (elementid == (y + 1)))
-                    color = 'yellow' if is_hit else 'darkblue'
+        # Plot the combined hit array as a heatmap
+        self.ax.imshow(
+            combined_hits,
+            aspect="auto",
+            cmap="YlGnBu",
+            interpolation="nearest",
+            origin="lower"
+        )
 
-                    self.ax.add_patch(plt.Rectangle((x, scaled_y), 1, height, edgecolor='black', facecolor=color))
+        # Label the plot
+        self.ax.set_title("Combined Detector Hits")
+        self.ax.set_xlabel("Detectors")
+        self.ax.set_ylabel("Element ID")
+        self.ax.set_xticks(range(62))
+        # self.ax.set_xticklabels(
+        #     [detector['name'] for group in detector_groups for detector in group['detectors']],
+        #     rotation=90,
+        #     fontsize=8
+        # )
+        self.ax.set_yticks(range(0, 201, 20))
+        self.ax.set_yticklabels(range(1, 202, 20))
 
-                # Add x-axis labels
-                x_labels.append(detector['name'])
-                x_ticks.append(x + 0.5)
+        # Final adjustments to the layout
+        self.ax.tick_params(axis="x", which="both", length=0)
+        # self.ax.tight_layout()
 
-            # Label the group
-            self.ax.text(x_offset + len(group['detectors']) / 2, y_max + 15, group['label'], ha='center', va='center')
-
-            # Add spacing between groups
-            x_offset += len(group['detectors']) + 2
-
-        # Set the limits and labels
-        self.ax.set_xlim(0, x_offset)
-        self.ax.set_ylim(0, y_max + 20)
-        self.ax.set_xticks(x_ticks)
-        self.ax.set_xticklabels(x_labels, rotation=90)
-        self.ax.set_xlabel('')
-        self.ax.set_ylabel('Element ID')
+        # Show the updated plot
         self.draw()
+
 
     def read_event(self, file_path, event_number):
         with uproot.open(file_path + ":save") as file:
@@ -326,7 +332,7 @@ class MainWindow(QMainWindow):
             self.file_name_label.setText("No file to read")
 
     def check_for_new_directory(self):
-        parent_dir = r"/home/ptgroup/Documents/Devin/Big_Data/QTracker_Data/run_005994-20241230T213148Z-001/run_005994"
+        parent_dir = r"/home/devin/Documents/Big_Data/run_005994"
         # parent_dir = "./sraw/"
         directories = [d for d in os.listdir(parent_dir) if os.path.isdir(os.path.join(parent_dir, d)) and d.startswith("run_")]
         if directories:
@@ -344,8 +350,8 @@ class MainWindow(QMainWindow):
         self.check_initial_files()
 
 if __name__ == "__main__":
-    #initial_directory = "/data4/e1039_data/online/sraw/"
-    initial_directory = r"/home/ptgroup/Documents/Devin/Big_Data/QTracker_Data/run_005994-20241230T213148Z-001/run_005994"
+    initial_directory = r"/home/devin/Documents/Big_Data/run_005994"
+    # initial_directory = r"/home/ptgroup/Documents/Devin/Big_Data/QTracker_Data/run_005994-20241230T213148Z-001/run_005994"
     app = QApplication(sys.argv)
     mainWin = MainWindow(initial_directory)
     mainWin.show()

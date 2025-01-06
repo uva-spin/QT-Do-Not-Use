@@ -269,7 +269,8 @@ class MainWindow(QMainWindow):
 
 
 if __name__ == "__main__":
-    initial_directory = r"/home/ptgroup/Documents/Devin/Big_Data/QTracker_Data/run_005994-20241230T213148Z-001/run_005994"
+    # initial_directory = r"/home/ptgroup/Documents/Devin/Big_Data/QTracker_Data/run_005994-20241230T213148Z-001/run_005994"
+    initial_directory = r"/home/devin/Documents/Big_Data/run_005994"
     app = QApplication(sys.argv)
     mainWin = MainWindow(initial_directory)
     mainWin.show()
