@@ -2,7 +2,8 @@ import numpy as np
 import uproot
 import matplotlib.pyplot as plt
 from time import time
-from Generate_Background import Background
+from tqdm import tqdm
+# from Generate_Background import Background
 
 class Data_Processing:
     ''''
@@ -155,8 +156,32 @@ class Data_Processing:
         Truth_elementID_mum = np.zeros((num_events,62),dtype=np.uint8)
         Truth_values_drift_mup  = np.zeros((num_events,62))
         Truth_values_drift_mum  = np.zeros((num_events,62))
+
+        # num_events = len(ideal_events)
+        # hit_matrix_mup = np.zeros((62, 201), dtype=np.int32)
+        # hit_matrix_mum = np.zeros((62, 201), dtype=np.int32)
+
+        # for i, event in enumerate(ideal_events):
+        #     event = int(event)
+        #     pid = self.data['pid'][event]
+        #     n_track = self.data['n_tracks'][event]
+
+        #     for j, detector in enumerate(detectors_order):
+        #         if detector != 'NaN':
+        #             hit_info = self.data[detector][event]
+        #             drift_varible = drift_order[j] if j < len(drift_order) else None
+
+        #             for track in range(n_track):
+        #                 hit = hit_info[track]
+        #                 if hit < 201:  # Remove high-voltage hits
+        #                     if pid[track] > 0:  # Positive muon
+        #                         hit_matrix_mup[j, hit] += 1
+        #                     else:  # Negative muon
+        #                         hit_matrix_mum[j, hit] += 1
+
+        # return hit_matrix_mup, hit_matrix_mum
         
-        #event_index = 0
+        event_index = 0
         for i, event in enumerate(ideal_events):
             #loops over every event in ideal event list. Event index, keeps track for the Truth Arrays.
             event = int(event)
@@ -220,6 +245,72 @@ class Data_Processing:
         return Truth_elementID_mup, Truth_elementID_mum, Truth_values_drift_mup, Truth_values_drift_mum, hit_matrix
 
 
+# if __name__ == "__main__":
+#     # Load your root file and initialize the Data_Processing object
+#     start = time()
+#     # Reads in root file
+#     root_file = "/home/devin/Documents/Big_Data/Dimuon_Mock/Dimuon_target_100K.root"
+#     dp = Data_Processing(root_file)
+
+#     # Set number of events
+#     num_events = dp.get_num_events()
+
+#     # Create an array of ideal events
+#     ideal_events = np.zeros(num_events)
+#     for event in range(num_events):
+#         good_event = dp.find_ideal_events(event)
+#         if good_event:
+#             ideal_events[event] = event
+#     ideal_events = ideal_events[ideal_events != 0]
+
+#     # Define how many events to sum up
+#     n = 50000  # Change this to the number of events you want to process
+#     selected_events = ideal_events[:n]
+
+#     # Generate hit matrices
+#     hit_matrix_mup, hit_matrix_mum = dp.make_Hitmatrix(selected_events)
+
+#     # Choose plotting mode
+#     plot_mode = "hits"  # Options: "hits" or "heatmap"
+
+#     # Create a figure and axis
+#     fig, ax = plt.subplots(figsize=(16, 8))
+
+#     if plot_mode == "heatmap":
+#         # Heatmap mode
+#         ax.imshow(hit_matrix_mup.T, cmap='Reds', interpolation='none', origin='upper')
+#         ax.imshow(hit_matrix_mum.T, cmap='Blues', interpolation='none', alpha=0.7, origin='upper')
+#     elif plot_mode == "hits":
+#         # Hits mode: Plot individual points
+#         mup_y, mup_x = np.where(hit_matrix_mup.T > 0)
+#         mum_y, mum_x = np.where(hit_matrix_mum.T > 0)
+#         ax.scatter(mup_x, mup_y, color='blue', label='Muon Plus', marker='_')
+#         ax.scatter(mum_x, mum_y, color='red', label='Muon Minus', marker = '_')
+
+#     # Set axis labels
+#     ax.set_xlabel("Detector ID")
+#     ax.set_ylabel("Element ID")
+
+#     # Flip the y-axis
+#     ax.invert_yaxis()
+
+#     # Adjust aspect ratio for better visibility
+#     ax.set_aspect(0.1)
+
+#     # Add a grid for clarity
+#     ax.grid(color='gray', linestyle='--', linewidth=0.5, alpha=0.5)
+
+#     # Add a legend for hits mode
+#     if plot_mode == "hits":
+#         ax.legend(loc='upper right')
+
+#     # Show the plot
+#     plt.title("Overlay of Tracks")
+#     plt.show()
+
+
+
+
 # Example
 start = time()
 #Reads in root file
@@ -253,31 +344,33 @@ stop = time()
 print(stop-start)
 
 
-event = int(ideal_events[19])
-print(f"event is: {event}")
-
-elementID =  data_processor.get_branch_info('elementID',event)
-detectorID = data_processor.get_branch_info('detectorID',event)
-
-index = np.where((detectorID >= 19) & (detectorID <= 24))
-print(detectorID[index])
-print(elementID[index])
-
-Truth_event = np.where(ideal_events == event)
-print(f"event is: {ideal_events[Truth_event]}")
-backID, background = Background()
-
+# Initialize the plot for combining all scatter plots
+plt.figure(figsize=(10, 6))
 detID = np.arange(1,63)
-plt.scatter(detID,Truth_elementID_mup[Truth_event],marker='_',color='r')
-plt.scatter(detID,Truth_elementID_mum[Truth_event],marker='_',color='g')
-plt.scatter(backID,background,marker='_',color='black')
+n = 1000
+# Loop over all the events with a progress bar using tqdm
+for event in tqdm(ideal_events[:n], desc="Processing Events"):
+    event = int(event)
 
-# plt.scatter(detectorID,elementID,marker='+',color='k')
+    # Get the Truth event index for the current event
+    Truth_event = np.where(ideal_events == event)
 
-plt.xlim(0,64)
-plt.ylim(0,201)
-plt.title("Truth Event")
+
+    # Scatter plots for Mup and Mum, overlaying them onto the same figure
+    plt.scatter(detID, Truth_elementID_mup[Truth_event], marker='_', color='r', alpha=0.5)
+    plt.scatter(detID, Truth_elementID_mum[Truth_event], marker='_', color='g', alpha=0.5)
+
+# Add labels, title, and formatting
+plt.xlim(0, 64)
+plt.ylim(0, 201)
+plt.title("Combined Truth Events")
 plt.xlabel("DetectorID")
 plt.ylabel("ElementID")
-plt.savefig(r"/home/devin/Documents/Big_Data/Dimuon_Mock/Event.jpeg")
+plt.legend(['Mup', 'Mum'])
+
+# Save and show the combined plot
+plt.savefig(r"/home/devin/Documents/Big_Data/Dimuon_Mock/Combined_Truth_Events.jpeg")
 plt.show()
+
+stop = time()
+print(f"Processing time: {stop - start} seconds")
