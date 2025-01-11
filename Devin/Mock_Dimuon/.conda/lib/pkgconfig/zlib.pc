@@ -1,0 +1,13 @@
+prefix=/home/devin/Documents/QTracker/Devin/Mock_Dimuon/.conda
+exec_prefix=/home/devin/Documents/QTracker/Devin/Mock_Dimuon/.conda
+libdir=/home/devin/Documents/QTracker/Devin/Mock_Dimuon/.conda/lib
+sharedlibdir=/home/devin/Documents/QTracker/Devin/Mock_Dimuon/.conda/lib
+includedir=/home/devin/Documents/QTracker/Devin/Mock_Dimuon/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
