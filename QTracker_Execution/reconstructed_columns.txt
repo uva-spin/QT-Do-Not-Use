@@ -1,0 +1,23 @@
+Explanation of Columns:
+
+Event Filter Probabilites: Columns 0:6
+Muon Z-Vertex: Columns 2:3
+All Vertex Kinematic Predictions: Columns 4:10
+All Vertex Vertex Predictions: Columns 10:13
+Z Vertex Kinematic Predictions: Columns 13:19
+Z Vertex Vertex Predictions: Columns 19:22
+Target Vertex Kinematic Predictions: Columns 22:28
+Dump Vertex Kinematic Predictions: Columns 28:34
+Target Probability: Column 34
+Muon Track Quality: Colums 35:47
+Dimuon Track Quality: Colums 47:59
+Run ID: Column 59
+Event ID: Column 60
+Spill ID: Column 61
+Trigger Bits: Column 62
+Target Positions: Column 63
+Turn ID: Column 64
+RFID: Column 65
+Cherenkov Information: Columns 66:98
+Number of Trigger Roads: Column 98
+Detector Occupancies after cuts: Columns 99:153

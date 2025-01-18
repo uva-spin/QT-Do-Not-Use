@@ -23,7 +23,7 @@ model = tf.keras.Sequential([
 ])
 
 # Save the model
-model.save('Networks/event_filter')
+model.save('Networks/event_filter.keras')
 
 
 #Track Finder Networks
@@ -58,18 +58,18 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(34, activation='linear')
     ])
 #Save the individual muon track finders.
-model.save('Networks/Track_Finder_Pos')
-model.save('Networks/Track_Finder_Neg')
+model.save('Networks/Track_Finder_Pos.keras')
+model.save('Networks/Track_Finder_Neg.keras')
 
 #Change the output layer to shape 68 to make it work for dimuon track finding.
 model.pop()  # Remove the final layer
 model.add(tf.keras.layers.Dense(68, activation='linear')) 
 
 #Save the dimuon track finders.
-model.save('Networks/Track_Finder_All')
-model.save('Networks/Track_Finder_Z')
-model.save('Networks/Track_Finder_Target')
-model.save('Networks/Track_Finder_Dump')
+model.save('Networks/Track_Finder_All.keras')
+model.save('Networks/Track_Finder_Z.keras')
+model.save('Networks/Track_Finder_Target.keras')
+model.save('Networks/Track_Finder_Dump.keras')
 
 # Define Kinematic Reconstruction Networks
 model = tf.keras.Sequential([
@@ -84,10 +84,10 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(6)])
 
 #Save a copy each for all vertices, z vertices, and for target vertices.
-model.save('Networks/Reconstruction_All')
-model.save('Networks/Reconstruction_Z')
-model.save('Networks/Reconstruction_Target')
-model.save('Networks/Reconstruction_Dump')
+model.save('Networks/Reconstruction_All.keras')
+model.save('Networks/Reconstruction_Z.keras')
+model.save('Networks/Reconstruction_Target.keras')
+model.save('Networks/Reconstruction_Dump.keras')
 
 #Define the single muon vertex finding networks.
 model = tf.keras.Sequential([
@@ -102,8 +102,8 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(1)])
 
 #Save the individual muon vertex finders.
-model.save('Networks/Vertexing_Pos')
-model.save('Networks/Vertexing_Neg')
+model.save('Networks/Vertexing_Pos.keras')
+model.save('Networks/Vertexing_Neg.keras')
 
 #Define the dimuon vertex finding networks.
 model = tf.keras.Sequential([
@@ -118,8 +118,8 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(3)])
 
 #Save a copy each for all vertices and for Z vertices.
-model.save('Networks/Vertexing_All')
-model.save('Networks/Vertexing_Z')
+model.save('Networks/Vertexing_All.keras')
+model.save('Networks/Vertexing_Z.keras')
 
 
 # Define the target-dump filter network.
@@ -137,4 +137,4 @@ model = tf.keras.Sequential([
 ])
 
 #Save the model for training.
-model.save('Networks/target_dump_filter')
+model.save('Networks/target_dump_filter.keras')

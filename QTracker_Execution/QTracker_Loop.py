@@ -2,10 +2,11 @@
 # This script is used to reconstruct large amount of data on Rivanna via Slurm job submission.
 
 #####Parent path Directory#####
-root_directory = '/project/ptgroup/seaquest/data/digit/02/'
+root_directory = '/home/ptgroup/Documents/Devin/QTracker/QTracker_Train/Root_Files'
+file_extension = '.root'
 
 #####Import Functions to Run QTracker#####
-from QTracker_Run_Library import *
+from QTracker_Run_Library_Test import *
 
 #####Reconstruction Options#####
 dimuon_prob_threshold = 0.75 #Minimum dimuon probability to reconstruct.
@@ -40,6 +41,9 @@ from numba import njit, prange
 import tensorflow as tf
 
 root_files = [file for file in os.listdir(root_directory) if file.endswith('.root')]
+
+print(root_files)
     
 for i, root_file in enumerate(root_files):
-    process_file(root_file, root_directory, i, max_ele, dimuon_prob_threshold, means, stds, kin_means, kin_stds)
+    # process_file(root_file, root_directory, i, max_ele, dimuon_prob_threshold, means, stds, kin_means, kin_stds)
+    process_file(os.path.join(root_directory,root_file), file_extension, max_ele, dimuon_prob_threshold)

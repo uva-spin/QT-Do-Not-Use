@@ -4,8 +4,9 @@ import uproot
 import numba
 from numba import njit, prange
 import tensorflow as tf
+from Metadata_Config import *
 
-network_path = '/scratch/acc5dn/QTracker_Run_Refactor/Networks/'
+network_path = 'Networks'
 
 def save_explanation():
     explanation = []
