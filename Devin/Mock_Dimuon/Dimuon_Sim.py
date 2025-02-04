@@ -1,6 +1,7 @@
 import numpy as np
 import uproot
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 from time import time
 from tqdm import tqdm
 from typing import List, Tuple, Optional
@@ -119,83 +120,36 @@ class DataProcessing:
             return False
         return (hits_per_station == st3p_count) or (hits_per_station == st3m_count)
 
-    # def make_hit_matrix(self, ideal_events: List[int]) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
-    #     """
-    #     Creates a hit matrix and truth arrays for ideal events.
-
-    #     Args:
-    #         ideal_events (List[int]): A list of ideal event indices.
-
-    #     Returns:
-    #         Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
-    #             - Truth_elementID_mup: Truth labels for positive muons.
-    #             - Truth_elementID_mum: Truth labels for negative muons.
-    #             - Truth_values_drift_mup: Drift values for positive muons.
-    #             - Truth_values_drift_mum: Drift values for negative muons.
-    #             - hit_matrix: The hit matrix.
-    #     """
-    #     print("Creating the hit matrix...")
-
-    #     num_events = len(ideal_events)
-    #     hit_matrix = np.zeros((num_events, 62, 201), dtype=bool)
-    #     truth_elementID_mup = np.zeros((num_events, 62), dtype=np.uint8)
-    #     truth_elementID_mum = np.zeros((num_events, 62), dtype=np.uint8)
-    #     truth_values_drift_mup = np.zeros((num_events, 62))
-    #     truth_values_drift_mum = np.zeros((num_events, 62))
-
-    #     for i, event in enumerate(ideal_events):
-    #         event = int(event)
-    #         pid = self.data['pid'][event]
-    #         n_track = self.data['n_tracks'][event]
-
-    #         for j, detector in enumerate(self.detectors_order):
-    #             if detector == 'NaN':
-    #                 continue
-
-    #             hit_info = self.data[detector][event]
-    #             drift_variable = self.drift_order[j] if j < len(self.drift_order) else None
-
-    #             for track in range(n_track):
-    #                 hit = hit_info[track]
-    #                 if hit >= 201:  # Skip high-voltage hits
-    #                     continue
-
-    #                 if pid[track] > 0:  # Positive muon
-    #                     truth_elementID_mup[i, j] = hit
-    #                     hit_matrix[i, j, hit] = True
-    #                     if drift_variable:
-    #                         truth_values_drift_mup[i, j] = self.data[drift_variable][event][track]
-    #                 else:  # Negative muon
-    #                     truth_elementID_mum[i, j] = hit
-    #                     hit_matrix[i, j, hit] = True
-    #                     if drift_variable:
-    #                         truth_values_drift_mum[i, j] = self.data[drift_variable][event][track]
-
-    #     return truth_elementID_mup, truth_elementID_mum, truth_values_drift_mup, truth_values_drift_mum, hit_matrix
     
     def make_hit_matrix(
         self,
         ideal_events: List[int],
-        quality_metric_cutoff: float = 0.65,
-        cutoff_std: float = 0.12
-    ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+        quality_metric: float = 0.5  # Quality metric (value between 0 and 1)
+    ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
         """
-        Creates a hit matrix with strict right-side truncation for background simulation.
-
+        Creates separate hit matrices for muon-plus and muon-minus with strict right-side truncation for background simulation.
         Args:
             ideal_events: Valid event indices for processing
-            quality_metric_cutoff: Maximum allowed completion percentage (0-1)
-            cutoff_std: Spread of termination points below cutoff (recommended: 0.1-0.2)
-
+            quality_metric: A value between 0 and 1 representing the fraction of detectors to include (cutoff point)
         Returns:
-            Tuple containing truth labels and truncated hit matrix
+            Tuple containing separate hit matrices for muon-plus and muon-minus,
+            along with their respective truth labels and drift values.
         """
         num_events = len(ideal_events)
-        hit_matrix = np.zeros((num_events, 62, 201), dtype=bool)
+        
+        # Separate hit matrices for mu+ and mu-
+        hit_matrix_mup = np.zeros((num_events, 62, 201), dtype=bool)
+        hit_matrix_mum = np.zeros((num_events, 62, 201), dtype=bool)
+        
+        # Truth arrays for element ID and drift values
         truth_elementID_mup = np.zeros((num_events, 62), dtype=np.uint8)
         truth_elementID_mum = np.zeros((num_events, 62), dtype=np.uint8)
         truth_values_drift_mup = np.zeros((num_events, 62))
         truth_values_drift_mum = np.zeros((num_events, 62))
+
+        # Calculate the cutoff detector index based on the quality metric
+        total_detectors = len(self.detectors_order[self.detectors_order != 'NaN'])  # Total valid detectors
+        cutoff_detector = int(quality_metric * total_detectors)  # Cutoff detector index
 
         for i, event_idx in enumerate(ideal_events):
             event = int(event_idx)
@@ -203,29 +157,28 @@ class DataProcessing:
             n_track = self.data['n_tracks'][event]
 
             for track in range(n_track):
-                # Generate cutoff with normal distribution BELOW the quality metric
-                base_cutoff = quality_metric_cutoff * (1 - np.abs(np.random.normal(scale=cutoff_std)))
-                track_cutoff = np.clip(base_cutoff, 0.05, quality_metric_cutoff)
-                cutoff_channel = int(track_cutoff * 200)
-
                 for j, detector in enumerate(self.detectors_order):
                     if detector == 'NaN':
+                        continue
+
+                    # Skip detectors beyond the cutoff index
+                    if j >= cutoff_detector:
                         continue
 
                     hit_info = self.data[detector][event]
                     drift_variable = self.drift_order[j] if j < len(self.drift_order) else None
                     hit = hit_info[track]
 
-                    # Apply strict spatial cutoff
-                    if hit <= cutoff_channel and hit >= 0:
+                    # Only include hits within the valid range
+                    if 0 <= hit < 201:  # Ensure hit is within the valid range
                         if pid[track] > 0:  # Positive muon
                             truth_elementID_mup[i, j] = hit
-                            hit_matrix[i, j, hit] = True
+                            hit_matrix_mup[i, j, hit] = True
                             if drift_variable:
                                 truth_values_drift_mup[i, j] = self.data[drift_variable][event][track]
                         else:  # Negative muon
                             truth_elementID_mum[i, j] = hit
-                            hit_matrix[i, j, hit] = True
+                            hit_matrix_mum[i, j, hit] = True
                             if drift_variable:
                                 truth_values_drift_mum[i, j] = self.data[drift_variable][event][track]
 
@@ -234,9 +187,9 @@ class DataProcessing:
             truth_elementID_mum,
             truth_values_drift_mup,
             truth_values_drift_mum,
-            hit_matrix
-        )  
-
+            hit_matrix_mup,
+            hit_matrix_mum
+        )
 
 def load_and_filter_events(root_file: str, max_events: int = 50000) -> np.ndarray:
     """
@@ -267,86 +220,129 @@ def plot_hits(ax, hit_matrix, color: str, label: str):
 
     Args:
         ax: Matplotlib axis object.
-        hit_matrix: 2D array of hit data.
+        hit_matrix (np.ndarray): 2D array of hit data.
         color (str): Color for the hits.
         label (str): Label for the legend.
     """
-    y, x = np.where(hit_matrix.T > 0)
-    ax.scatter(x, y, color=color, label=label, marker='_', s=100)
+    y, x = np.where(hit_matrix.T > 0)  # Transpose for correct orientation
+    ax.scatter(x, y, color=color, label=label, marker='_', s=100, alpha=0.8)
 
-def plot_heatmap(ax, hit_matrix, cmap: str, alpha: float = 1.0):
+def plot_heatmap(ax, hit_matrix, cmap: str, alpha: float = 0.7):
     """
     Plots a heatmap on the given axis.
 
     Args:
         ax: Matplotlib axis object.
-        hit_matrix: 2D array of hit data.
+        hit_matrix (np.ndarray): 2D array of hit data.
         cmap (str): Colormap for the heatmap.
         alpha (float): Transparency level.
     """
     ax.imshow(hit_matrix.T, cmap=cmap, interpolation='none', origin='upper', alpha=alpha)
 
-def visualize_tracks(hit_matrix_mup, hit_matrix_mum, plot_mode: str = "hits"):
+def plot_heatmap(ax, hit_matrix, cmap: str, alpha: float = 0.7):
+    """
+    Plots a heatmap on the given axis.
+    Args:
+        ax: Matplotlib axis object.
+        hit_matrix (np.ndarray): 2D array of hit data.
+        cmap (str): Colormap for the heatmap.
+        alpha (float): Transparency level.
+    """
+    ax.imshow(hit_matrix.T, cmap=cmap, interpolation='none', origin='upper', alpha=alpha)
+
+def visualize_tracks(hit_matrix_mup, hit_matrix_mum, plot_mode: str = "heatmap"):
     """
     Visualizes the hit matrices for muon plus and muon minus tracks.
-
     Args:
-        hit_matrix_mup: Hit matrix for muon plus tracks.
-        hit_matrix_mum: Hit matrix for muon minus tracks.
+        hit_matrix_mup (np.ndarray): 3D hit matrix for muon plus (num_events, 62, 201).
+        hit_matrix_mum (np.ndarray): 3D hit matrix for muon minus (num_events, 62, 201).
         plot_mode (str): Visualization mode ("hits" or "heatmap").
     """
     fig, ax = plt.subplots(figsize=(16, 8))
+    
+    # Sum over events to get 2D hit matrices
+    hit_matrix_mup_2d = np.sum(hit_matrix_mup, axis=0)  # Shape (62, 201)
+    hit_matrix_mum_2d = np.sum(hit_matrix_mum, axis=0)  # Shape (62, 201)
 
     if plot_mode == "heatmap":
         # Heatmap mode
-        plot_heatmap(ax, hit_matrix_mup, cmap='Reds', alpha=0.7)
-        plot_heatmap(ax, hit_matrix_mum, cmap='Blues', alpha=0.7)
+        plot_heatmap(ax, hit_matrix_mup_2d, cmap='Reds', alpha=0.6)
+        plot_heatmap(ax, hit_matrix_mum_2d, cmap='Blues', alpha=0.6)
+
+        # Create proxy artists for the legend
+        legend_elements = [
+            Patch(facecolor=plt.cm.Reds(100), label='Muon Plus', alpha=0.6),
+            Patch(facecolor=plt.cm.Blues(100), label='Muon Minus', alpha=0.6)
+        ]
+        ax.legend(handles=legend_elements, loc='upper right', fontsize=12, title="Track Type")
+
     elif plot_mode == "hits":
         # Hits mode: Plot individual points
-        plot_hits(ax, hit_matrix_mup, color='blue', label='Muon Plus')
-        plot_hits(ax, hit_matrix_mum, color='red', label='Muon Minus')
+        plot_hits(ax, hit_matrix_mup_2d, color='blue', label='Muon Plus')
+        plot_hits(ax, hit_matrix_mum_2d, color='red', label='Muon Minus')
+
+        # Add legend for hits mode
+        ax.legend(loc='upper right', fontsize=12)
 
     # Customize plot
     ax.set_xlabel("Detector ID", fontsize=12)
     ax.set_ylabel("Element ID", fontsize=12)
     ax.set_title("Overlay of Muon Tracks", fontsize=14)
-    ax.invert_yaxis()  # Flip the y-axis
-    ax.set_aspect(0.1)  # Adjust aspect ratio
+    ax.invert_yaxis()  # Flip y-axis for visualization consistency
+    ax.set_aspect(0.1)  # Maintain aspect ratio
     ax.grid(color='gray', linestyle='--', linewidth=0.5, alpha=0.5)  # Add grid
 
-    if plot_mode == "hits":
-        ax.legend(loc='upper right', fontsize=12)  # Add legend for hits mode
-
     plt.tight_layout()
+    plt.savefig("Dimuon_Sim.jpeg")  # Save before showing to avoid blank image
     plt.show()
-    plt.savefig("Dimuon_Sim.jpeg")
-
+    
+    
 if __name__ == "__main__":
     # Configuration
     root_file = "Dimuon_target_100K.root"
     max_events = 50000  # Number of events to process
-    plot_mode = "hits"  # Options: "hits" or "heatmap"
+    plot_mode = "heatmap"  # Options: "hits" or "heatmap"
+    
+    dp = DataProcessing(root_file)
 
-    # Load and filter events
-    start_time = time()
-    try:
-        selected_events = load_and_filter_events(root_file, max_events)
-    except ValueError as e:
-        print(e)
+    # Get total number of events in the file
+    num_events = dp.get_num_events()
+
+    # # Create an array of ideal events
+    # ideal_events = np.zeros(num_events)
+    # for event in range(num_events):
+    #     if dp.find_ideal_events(event):
+    #         ideal_events[event] = event
+
+    # # Filter out zeros (non-ideal events)
+    # ideal_events = ideal_events[ideal_events != 0]
+    
+    ideal_events = [event for event in range(dp.get_num_events()) if dp.find_ideal_events(event)]
+
+    # Select up to `max_events` ideal events
+    selected_events = ideal_events[:max_events]
+    print(f"There are {len(selected_events)} selected ideal events.")
+
+    # If no ideal events are found, exit early
+    if len(selected_events) == 0:
+        print("No ideal events found. Exiting.")
         exit()
 
-    # Generate hit matrices and truth arrays
-    dp = DataProcessing(root_file)
+    # Start timer
+    start_time = time()
+
+    # Generate hit matrices using only selected ideal events
     (
-        truth_elementID_mup,  # Truth labels for positive muons
-        truth_elementID_mum,  # Truth labels for negative muons
-        truth_values_drift_mup,  # Drift values for positive muons
-        truth_values_drift_mum,  # Drift values for negative muons
-        hit_matrix  # Combined hit matrix
+        truth_elementID_mup,  
+        truth_elementID_mum,  
+        truth_values_drift_mup,  
+        truth_values_drift_mum,  
+        hit_matrix_mup,  
+        hit_matrix_mum   
     ) = dp.make_hit_matrix(selected_events)
 
-    # Visualize results (using only the hit matrix for plotting)
-    visualize_tracks(hit_matrix, hit_matrix, plot_mode)  # Pass hit_matrix twice for visualization
+    # Visualize results using the provided hit matrices
+    visualize_tracks(hit_matrix_mup, hit_matrix_mum, plot_mode)
 
     # Print execution time
     print(f"Execution time: {time() - start_time:.2f} seconds")
