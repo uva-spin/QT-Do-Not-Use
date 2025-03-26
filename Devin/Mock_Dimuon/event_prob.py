@@ -19,13 +19,11 @@ def inject_tracks(file1, file2, output_file, num_tracks, prob_mean, prob_width):
     f1 = ROOT.TFile.Open(file1, "READ")
     f2 = ROOT.TFile.Open(file2, "READ")
 
-    # List available keys in both files to check the actual names of the trees
-    print(f"Keys in file1: {f1.GetListOfKeys()}")
-    print(f"Keys in file2: {f2.GetListOfKeys()}")
+    # print(f"Keys in file1: {f1.GetListOfKeys()}")
+    # print(f"Keys in file2: {f2.GetListOfKeys()}")
 
-    # Access the trees by their correct names
-    tree1 = f1.Get("QA_ana;3")  # Replace "tree" with the actual name if different
-    tree2 = f2.Get("QA_ana;3")  # Replace "tree" with the actual name if different
+    tree1 = f1.Get("QA_ana;3")  
+    tree2 = f2.Get("QA_ana;3")  
 
     # Check the type of tree1 and print a debug message
     if not isinstance(tree1, ROOT.TTree):

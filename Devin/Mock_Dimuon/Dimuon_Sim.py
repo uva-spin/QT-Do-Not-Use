@@ -1,6 +1,7 @@
 import numpy as np
 import uproot
 import matplotlib.pyplot as plt
+import seaborn as sns
 from matplotlib.patches import Patch
 from time import time
 from tqdm import tqdm
@@ -191,116 +192,124 @@ class DataProcessing:
             hit_matrix_mum
         )
 
-def load_and_filter_events(root_file: str, max_events: int = 50000) -> np.ndarray:
-    """
-    Loads the ROOT file, filters ideal events, and returns selected event indices.
+    def load_and_filter_events(self,root_file: str, max_events: int = 50000) -> np.ndarray:
+        """
+        Loads the ROOT file, filters ideal events, and returns selected event indices.
 
-    Args:
-        root_file (str): Path to the ROOT file.
-        max_events (int): Maximum number of events to process.
+        Args:
+            root_file (str): Path to the ROOT file.
+            max_events (int): Maximum number of events to process.
 
-    Returns:
-        np.ndarray: Array of selected ideal event indices.
-    """
-    print("Loading ROOT file and filtering ideal events...")
-    dp = DataProcessing(root_file)
-    num_events = dp.get_num_events()
+        Returns:
+            np.ndarray: Array of selected ideal event indices.
+        """
+        print("Loading ROOT file and filtering ideal events...")
+        dp = DataProcessing(root_file)
+        num_events = dp.get_num_events()
 
-    # Filter ideal events
-    ideal_events = [event for event in range(num_events) if dp.find_ideal_events(event)]
-    if not ideal_events:
-        raise ValueError("No ideal events found in the dataset.")
+        # Filter ideal events
+        ideal_events = [event for event in range(num_events) if dp.find_ideal_events(event)]
+        if not ideal_events:
+            raise ValueError("No ideal events found in the dataset.")
 
-    # Limit to max_events
-    return np.array(ideal_events[:max_events])
+        # Limit to max_events
+        return np.array(ideal_events[:max_events])
 
-def plot_hits(ax, hit_matrix, color: str, label: str):
-    """
-    Plots individual hits on the given axis.
+    def plot_hits(self,ax, hit_matrix, color: str, label: str):
+        """
+        Plots individual hits
 
-    Args:
-        ax: Matplotlib axis object.
-        hit_matrix (np.ndarray): 2D array of hit data.
-        color (str): Color for the hits.
-        label (str): Label for the legend.
-    """
-    y, x = np.where(hit_matrix.T > 0)  # Transpose for correct orientation
-    ax.scatter(x, y, color=color, label=label, marker='_', s=100, alpha=0.8)
+        Args:
+            ax: Matplotlib axis object.
+            hit_matrix (np.ndarray): 2D array of hit data.
+            color (str): Color for the hits.
+            label (str): Label for the legend.
+        """
+        y, x = np.where(hit_matrix.T > 0)  # Transpose for correct orientation
+        sns.scatterplot(x=x, y=y, color=color, label=label, marker='_', s=100, alpha=0.8, ax=ax)
 
-def plot_heatmap(ax, hit_matrix, cmap: str, alpha: float = 0.7):
-    """
-    Plots a heatmap on the given axis.
+    def plot_heatmap(self,ax, hit_matrix, cmap: str, alpha: float = 0.7):
+        """
+        Plots a heatmap of hit matrix
 
-    Args:
-        ax: Matplotlib axis object.
-        hit_matrix (np.ndarray): 2D array of hit data.
-        cmap (str): Colormap for the heatmap.
-        alpha (float): Transparency level.
-    """
-    ax.imshow(hit_matrix.T, cmap=cmap, interpolation='none', origin='upper', alpha=alpha)
+        Args:
+            ax: Matplotlib axis object.
+            hit_matrix (np.ndarray): 2D array of hit data.
+            cmap (str): Colormap for the heatmap.
+            alpha (float): Transparency level.
+        """
+        sns.heatmap(hit_matrix.T, cmap=cmap, ax=ax, alpha=alpha, cbar=False)
 
-def plot_heatmap(ax, hit_matrix, cmap: str, alpha: float = 0.7):
-    """
-    Plots a heatmap on the given axis.
-    Args:
-        ax: Matplotlib axis object.
-        hit_matrix (np.ndarray): 2D array of hit data.
-        cmap (str): Colormap for the heatmap.
-        alpha (float): Transparency level.
-    """
-    ax.imshow(hit_matrix.T, cmap=cmap, interpolation='none', origin='upper', alpha=alpha)
+    def visualize_tracks(self,hit_matrix_mup, hit_matrix_mum, plot_mode: str = "heatmap"):
+        """
+        Visualizes the hit matrices for muon plus and muon minus tracks using Seaborn styling.
+        Args:
+            hit_matrix_mup (np.ndarray): 3D hit matrix for muon plus (num_events, 62, 201).
+            hit_matrix_mum (np.ndarray): 3D hit matrix for muon minus (num_events, 62, 201).
+            plot_mode (str): Visualization mode ("hits" or "heatmap").
+        """
+        sns.set_style("ticks")
+        sns.set_theme(style="darkgrid", palette="deep")
+        sns.set_context("notebook", font_scale=1.2)
+        
+        fig, ax = plt.subplots(figsize=(16, 8))
+        
+        # Sum over events to get 2D hit matrices
+        hit_matrix_mup_2d = np.sum(hit_matrix_mup, axis=0)  # Shape (62, 201)
+        hit_matrix_mum_2d = np.sum(hit_matrix_mum, axis=0)  # Shape (62, 201)
 
-def visualize_tracks(hit_matrix_mup, hit_matrix_mum, plot_mode: str = "heatmap"):
-    """
-    Visualizes the hit matrices for muon plus and muon minus tracks.
-    Args:
-        hit_matrix_mup (np.ndarray): 3D hit matrix for muon plus (num_events, 62, 201).
-        hit_matrix_mum (np.ndarray): 3D hit matrix for muon minus (num_events, 62, 201).
-        plot_mode (str): Visualization mode ("hits" or "heatmap").
-    """
-    fig, ax = plt.subplots(figsize=(16, 8))
-    
-    # Sum over events to get 2D hit matrices
-    hit_matrix_mup_2d = np.sum(hit_matrix_mup, axis=0)  # Shape (62, 201)
-    hit_matrix_mum_2d = np.sum(hit_matrix_mum, axis=0)  # Shape (62, 201)
+        if plot_mode == "heatmap":
+            # Heatmap mode
+            self.plot_heatmap(ax, hit_matrix_mup_2d, cmap='Reds', alpha=0.9)
+            self.plot_heatmap(ax, hit_matrix_mum_2d, cmap='Blues', alpha=0.9)
 
-    if plot_mode == "heatmap":
-        # Heatmap mode
-        plot_heatmap(ax, hit_matrix_mup_2d, cmap='Reds', alpha=0.6)
-        plot_heatmap(ax, hit_matrix_mum_2d, cmap='Blues', alpha=0.6)
+            # Create proxy artists for the legend 
+            legend_elements = [
+                Patch(facecolor=sns.color_palette("Reds")[-1], label='Muon Plus', alpha=0.9),
+                Patch(facecolor=sns.color_palette("Blues")[-1], label='Muon Minus', alpha=0.9)
+            ]
+            ax.legend(handles=legend_elements, loc='upper right', fontsize=12, title="Track Type", 
+                    title_fontsize=14, frameon=True, fancybox=True, shadow=True)
 
-        # Create proxy artists for the legend
-        legend_elements = [
-            Patch(facecolor=plt.cm.Reds(100), label='Muon Plus', alpha=0.6),
-            Patch(facecolor=plt.cm.Blues(100), label='Muon Minus', alpha=0.6)
-        ]
-        ax.legend(handles=legend_elements, loc='upper right', fontsize=12, title="Track Type")
+        elif plot_mode == "hits":
+            # Hits mode: Plot individual points 
+            self.plot_hits(ax, hit_matrix_mup_2d, color=sns.color_palette("Reds")[-1], label='Muon Plus')
+            self.plot_hits(ax, hit_matrix_mum_2d, color=sns.color_palette("Blues")[-1], label='Muon Minus')
+                    
+            ax.invert_yaxis()  
 
-    elif plot_mode == "hits":
-        # Hits mode: Plot individual points
-        plot_hits(ax, hit_matrix_mup_2d, color='blue', label='Muon Plus')
-        plot_hits(ax, hit_matrix_mum_2d, color='red', label='Muon Minus')
 
-        # Add legend for hits mode
-        ax.legend(loc='upper right', fontsize=12)
+            ax.legend(loc='upper right', fontsize=12, frameon=True, fancybox=True, shadow=True)
 
-    # Customize plot
-    ax.set_xlabel("Detector ID", fontsize=12)
-    ax.set_ylabel("Element ID", fontsize=12)
-    ax.set_title("Overlay of Muon Tracks", fontsize=14)
-    ax.invert_yaxis()  # Flip y-axis for visualization consistency
-    ax.set_aspect(0.1)  # Maintain aspect ratio
-    ax.grid(color='gray', linestyle='--', linewidth=0.5, alpha=0.5)  # Add grid
-
-    plt.tight_layout()
-    plt.savefig("Dimuon_Sim.jpeg")  # Save before showing to avoid blank image
-    plt.show()
+        ax.set_xlabel("Detector ID", fontsize=14, fontweight='bold', labelpad=10)
+        ax.set_ylabel("Element ID", fontsize=14, fontweight='bold', labelpad=10)
+        ax.set_title("Overlay of Muon Tracks", fontsize=16, fontweight='bold', pad=20)
+        
+        # Set tick positions and labels
+        ax.set_xticks(np.arange(0, 62, 2))  
+        ax.set_xticklabels(np.arange(0, 62, 2)) 
+        ax.set_yticks(np.arange(0, 201, 20)) 
+        ax.set_yticklabels(np.arange(0, 201, 20)) 
+        
+        plt.xticks(rotation=45, ha='right') 
+        # plt.yticks(rotation=45, ha='right')
+        
+        ax.invert_yaxis()  
+        ax.set_aspect(0.1) 
+        
+        # Add grid with Seaborn styling
+        # ax.grid(True, color='gray', linestyle='--', linewidth=0.5, alpha=0.3)
+        
+        # Adjust layout and save
+        plt.tight_layout()
+        plt.savefig("Dimuon_Sim.jpeg", dpi=300, bbox_inches='tight')  # Higher DPI for better quality
+        plt.show()
     
     
 if __name__ == "__main__":
     # Configuration
-    root_file = "Dimuon_target_100K.root"
-    max_events = 50000  # Number of events to process
+    root_file = "Devin/Mock_Dimuon/Data_Files/Dimuon_target_100K.root"
+    max_events = 60000  # Number of events to process
     plot_mode = "heatmap"  # Options: "hits" or "heatmap"
     
     dp = DataProcessing(root_file)
@@ -339,10 +348,10 @@ if __name__ == "__main__":
         truth_values_drift_mum,  
         hit_matrix_mup,  
         hit_matrix_mum   
-    ) = dp.make_hit_matrix(selected_events)
+    ) = dp.make_hit_matrix(selected_events, quality_metric=1.0)
 
     # Visualize results using the provided hit matrices
-    visualize_tracks(hit_matrix_mup, hit_matrix_mum, plot_mode)
+    dp.visualize_tracks(hit_matrix_mup, hit_matrix_mum, plot_mode)
 
     # Print execution time
     print(f"Execution time: {time() - start_time:.2f} seconds")
