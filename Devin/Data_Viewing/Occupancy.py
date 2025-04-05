@@ -5,6 +5,8 @@ import tqdm
 import uproot
 import json
 import matplotlib.pyplot as plt
+from matplotlib.colors import Normalize
+from matplotlib.patches import Rectangle
 
 class DetectorPlot:
     def __init__(self):
@@ -105,7 +107,7 @@ class DetectorPlot:
             elementid = cp.array(file["fAllHits.elementID"].array(library="np")[event_number])
         return detectorid, elementid
     
-    def process_files(self, run_directory,save_directory,max_files=None):
+    def process_files(self, run_directory, save_directory, max_files=None):
         """Process all events across the first `max_files` ROOT files in the given directory."""
         self.aggregated_detectorid = cp.array([], dtype=int)
         self.aggregated_elementid = cp.array([], dtype=int)
@@ -148,11 +150,11 @@ class DetectorPlot:
         else:
             print(f"[DEBUG] Aggregated {len(self.aggregated_detectorid)} detector hits and {len(self.aggregated_elementid)} element hits.")
 
-        self.create_plot(save_directory)
+        self.create_plots(save_directory)
 
-    def accumulate_hits(self,detectorid, elementid):
+    def accumulate_hits(self, detectorid, elementid):
         """
-        Accumulate hits based on detectorid and elementid using Numba for speed.
+        Accumulate hits based on detectorid and elementid.
         Returns a dictionary of (detectorID, elementID) pairs and their corresponding hit counts.
         """
         occupancy = {}
@@ -164,110 +166,195 @@ class DetectorPlot:
             occupancy[(det_id, elem_id)] += 1
         return occupancy
     
-    def create_plot(self, save_directory):
-      """Create a final aggregated plot with occupancy indicated by opacity, save group data, and generate individual plots."""
-      if len(self.aggregated_detectorid) == 0 or len(self.aggregated_elementid) == 0:
-          print("[DEBUG] No hits found in the aggregated data. Skipping plot generation.")
-          return
+    def create_plots(self, save_directory):
+        """Create multiple versions of plots with detector occupancy."""
+        if len(self.aggregated_detectorid) == 0 or len(self.aggregated_elementid) == 0:
+            print("[DEBUG] No hits found in the aggregated data. Skipping plot generation.")
+            return
 
-      # Transfer aggregated data back to CPU for matplotlib
-      detectorid = np.array(self.aggregated_detectorid.get())  # Convert to numpy arrays for numba compatibility
-      elementid = np.array(self.aggregated_elementid.get())
+        # Make sure output directories exist
+        os.makedirs(save_directory, exist_ok=True)
+        output_data_dir = os.path.join(save_directory, "output_data")
+        os.makedirs(output_data_dir, exist_ok=True)
 
-      # Accumulate hits using Numba
-      occupancy = self.accumulate_hits(detectorid, elementid)
+        # Transfer aggregated data back to CPU for matplotlib
+        detectorid = np.array(self.aggregated_detectorid.get())
+        elementid = np.array(self.aggregated_elementid.get())
 
-      # # Save hit information as JSON
-      # output_data = []
-      # for (det_id, elem_id), hit_count in occupancy.items():
-      #     output_data.append({
-      #         "detector_id": int(det_id),
-      #         "element_id": int(elem_id),
-      #         "hit_count": int(hit_count)
-      #     })
-      # json_file_path = os.path.join(save_directory, "hits_data.json")
-      # with open(json_file_path, "w") as json_file:
-      #     json.dump(output_data, json_file, indent=4)
-      # print(f"[INFO] Saved hit information to {json_file_path}")
+        # Accumulate hits
+        occupancy = self.accumulate_hits(detectorid, elementid)
 
-      # Normalize occupancy values for opacity (0 to 1)
-      max_hits = max(occupancy.values())
-      normalized_opacity = {key: value / max_hits for key, value in occupancy.items()}
+        # Find max hits for normalization
+        max_hits = max(occupancy.values()) if occupancy else 1
+        norm = Normalize(vmin=0, vmax=max_hits)
 
-      fig, ax = plt.subplots(figsize=(12, 8))
-      y_max = max([det['elements'] for group in self.detector_groups for det in group['detectors']])
-      x_labels = []
-      x_ticks = []
-      x_offset = 0
-      print("Plotting")
+        # Calculate total layout information
+        y_max = max([det['elements'] for group in self.detector_groups for det in group['detectors']])
+        
+        # Prepare data for all plots
+        x_labels = []
+        x_ticks = []
+        x_offset = 0
+        all_box_data = []  # Will store all box data for the plots
+        separators = []    # Will store positions for separator lines
+        
+        # First pass: collect all data
+        print("Collecting data for plots...")
+        for group_idx, group in enumerate(self.detector_groups):
+            group_data = []  # Data for this group's JSON file
+            
+            for det_idx, detector in enumerate(group['detectors']):
+                x_pos = x_offset + det_idx
+                
+                for elem_id in range(detector['elements']):
+                    hit_count = occupancy.get((detector['id'], elem_id), 0)
+                    
+                    if hit_count > 0:
+                        # Store box data: x position, y position, hit count
+                        all_box_data.append((x_pos, elem_id, hit_count))
+                    
+                    # Add to group data for JSON export
+                    group_data.append({
+                        "detector": detector['name'], 
+                        "element": elem_id, 
+                        "hits": hit_count
+                    })
+                
+                x_labels.append(detector['name'])
+                x_ticks.append(x_pos)
+            
+            # Save individual group data
+            group_save_path = os.path.join(output_data_dir, f"{group['label'].replace(' ', '_')}_data.json")
+            with open(group_save_path, "w") as group_file:
+                json.dump(group_data, group_file, indent=4)
+                
+            # Add a separator position after this group
+            if group_idx < len(self.detector_groups) - 1:
+                separators.append(x_offset + len(group['detectors']) - 0.5)
+            
+            # Update x offset for the next group
+            x_offset += len(group['detectors'])
+        
+        # Create and save individual group plots
+        self._create_group_plots(all_box_data, x_labels, x_ticks, y_max, norm, max_hits, separators, output_data_dir)
+        
+        # Create and save overall plots (with and without separators)
+        self._create_overall_plots(all_box_data, x_labels, x_ticks, y_max, norm, max_hits, separators, save_directory)
+        
+        print(f"[INFO] All plots saved in directory: {save_directory}")
 
-      # Wrapping the outer loop with tqdm for progress bar
-      for group in tqdm.tqdm(self.detector_groups, desc="Processing detector groups", unit="group"):
-          x_positions = range(x_offset, x_offset + len(group['detectors']))
-          group_data = []  # Collect data to save for this group
+    def _create_group_plots(self, all_box_data, x_labels, x_ticks, y_max, norm, max_hits, separators, output_dir):
+        """Create individual plots for each detector group."""
+        print("Creating group plots...")
+        
+        # Keep track of which detectors belong to which group
+        group_start_idx = 0
+        
+        for group_idx, group in enumerate(self.detector_groups):
+            # Create figure for this group
+            group_fig, group_ax = plt.subplots(figsize=(12, 8))
+            
+            # Get range of x positions for this group
+            group_end_idx = group_start_idx + len(group['detectors'])
+            group_x_ticks = x_ticks[group_start_idx:group_end_idx]
+            group_x_labels = x_labels[group_start_idx:group_end_idx]
+            
+            # Filter box data for this group
+            group_box_data = [(x, y, count) for x, y, count in all_box_data 
+                             if group_start_idx <= x < group_end_idx]
+            
+            # Plot boxes for this group
+            self._plot_boxes(group_ax, group_box_data, norm)
+            
+            # Customize the group plot
+            group_ax.set_title(f"{group['label']} Detector Occupancy", fontsize=14, pad=10)
+            group_ax.set_xlabel("Detector", fontsize=12)
+            group_ax.set_ylabel("Element", fontsize=12)
+            group_ax.set_xticks([x - group_start_idx for x in group_x_ticks])  # Shift x ticks to start from 0
+            group_ax.set_xticklabels(group_x_labels, rotation=90)
+            group_ax.set_ylim(0, y_max)
+            
+            # Add colorbar
+            sm = plt.cm.ScalarMappable(cmap='Reds', norm=norm)
+            sm.set_array([])
+            cbar = group_fig.colorbar(sm, ax=group_ax, pad=0.02)
+            cbar.set_label("Hit Count", rotation=90, labelpad=15, fontsize=12)
+            
+            plt.tight_layout()
+            
+            # Save group plot
+            group_plot_path = os.path.join(output_dir, f"{group['label'].replace(' ', '_')}_plot.png")
+            group_fig.savefig(group_plot_path, dpi=150, bbox_inches='tight')
+            plt.close(group_fig)
+            print(f"[INFO] Saved group plot to {group_plot_path}")
+            
+            # Update for next group
+            group_start_idx = group_end_idx
 
-          # Create a plot for the group
-          group_fig, group_ax = plt.subplots(figsize=(12, 6))
-          for x, detector in zip(x_positions, group['detectors']):
-              detector_hits = []
-              for elem_id in range(detector['elements']):
-                  hit_count = occupancy.get((detector['id'], elem_id), 0)
-                  opacity = normalized_opacity.get((detector['id'], elem_id), 0)
-                  group_data.append({"detector": detector['name'], "element": elem_id, "hits": hit_count})
-                  if hit_count > 0:
-                      ax.scatter(x, elem_id, color="red", alpha=opacity)
-                      detector_hits.append({"element": elem_id, "hits": hit_count})
-              x_labels.append(detector['name'])
-              x_ticks.append(x)
+    def _create_overall_plots(self, all_box_data, x_labels, x_ticks, y_max, norm, max_hits, separators, save_dir):
+        """Create overall plots with and without separators."""
+        print("Creating overall plots...")
+        
+        # Version 1: With separators between detector groups
+        fig_sep, ax_sep = plt.subplots(figsize=(16, 10))
+        self._plot_boxes(ax_sep, all_box_data, norm)
+        
+        # Add separator lines
+        for sep_pos in separators:
+            ax_sep.axvline(x=sep_pos, color='gray', linestyle='-', linewidth=0.8, alpha=0.7)
+        
+        self._customize_overall_plot(fig_sep, ax_sep, "Overall Detector Occupancy (With Group Separators)", 
+                                   x_labels, x_ticks, y_max, norm)
+        overall_plot_path_sep = os.path.join(save_dir, "overall_occupancy_with_separators.png")
+        fig_sep.savefig(overall_plot_path_sep, dpi=150, bbox_inches='tight')
+        plt.close(fig_sep)
+        print(f"[INFO] Saved overall plot with separators to {overall_plot_path_sep}")
+        
+        # Version 2: Without separators
+        fig_no_sep, ax_no_sep = plt.subplots(figsize=(16, 10))
+        self._plot_boxes(ax_no_sep, all_box_data, norm)
+        self._customize_overall_plot(fig_no_sep, ax_no_sep, "Overall Detector Occupancy (Without Separators)", 
+                                   x_labels, x_ticks, y_max, norm)
+        overall_plot_path_no_sep = os.path.join(save_dir, "overall_occupancy_no_separators.png")
+        fig_no_sep.savefig(overall_plot_path_no_sep, dpi=150, bbox_inches='tight')
+        plt.close(fig_no_sep)
+        print(f"[INFO] Saved overall plot without separators to {overall_plot_path_no_sep}")
 
-          # Save individual group data
-          group_save_path = os.path.join(save_directory, "output_data", f"{group['label']}_data.json")
-          with open(group_save_path, "w") as group_file:
-              json.dump(group_data, group_file, indent=4)
+    def _plot_boxes(self, ax, box_data, norm):
+        """Plot boxes representing hits on the given axis."""
+        for x, y, count in box_data:
+            # Calculate color based on hit count
+            color_intensity = norm(count)
+            color = plt.cm.Reds(color_intensity)
+            
+            # Draw rectangle with no edge
+            rect = Rectangle((x - 0.5, y - 0.5), 1, 1, 
+                           facecolor=color, 
+                           edgecolor='none',
+                           alpha=0.9)
+            ax.add_patch(rect)
 
-          # Customize the group plot
-          group_ax.set_title(group['label'])
-          group_ax.set_xlabel("Detector")
-          group_ax.set_ylabel("Element")
-          group_ax.set_xticks(x_ticks)
-          group_ax.set_xticklabels(x_labels, rotation=90)
-          group_ax.set_ylim(0, y_max)
-          # Add hotbar for hit count
-          sm = plt.cm.ScalarMappable(cmap='Reds', norm=plt.Normalize(vmin=0, vmax=max_hits))
-          sm.set_array([])
-          cbar = fig.colorbar(sm, ax=group_ax, orientation='vertical', pad=0.02)
-          cbar.set_label("Hit Count", rotation=90)
-          plt.tight_layout()
-          group_plot_path = os.path.join(group_save_path, f"{group['label']}_plot.png")
-          group_fig.savefig(group_plot_path)
-          plt.close(group_fig)
-
-          # Update x offset for the next group
-          x_offset += len(group['detectors'])
-
-      # Customize the overall plot
-      ax.set_title("Detector Occupancy")
-      ax.set_xlabel("Detector")
-      ax.set_ylabel("Element")
-      ax.set_xticks(x_ticks)
-      ax.set_xticklabels(x_labels, rotation=90)
-      ax.set_ylim(0, y_max)
-      sm = plt.cm.ScalarMappable(cmap='Reds', norm=plt.Normalize(vmin=0, vmax=max_hits))
-      sm.set_array([])
-      cbar = fig.colorbar(sm, ax=ax, orientation='vertical', pad=0.02)
-      cbar.set_label("Hit Count", rotation=90)
-      plt.tight_layout()
-
-      # Save the overall plot
-      overall_plot_path = os.path.join(save_directory, "overall_occupancy_plot.png")
-      fig.savefig(overall_plot_path)
-      plt.close(fig)
-      print(f"[INFO] Saved overall plot to {overall_plot_path}")
+    def _customize_overall_plot(self, fig, ax, title, x_labels, x_ticks, y_max, norm):
+        """Apply customizations to an overall plot."""
+        ax.set_title(title, fontsize=16, pad=15)
+        ax.set_xlabel("Detector", fontsize=14)
+        ax.set_ylabel("Element", fontsize=14)
+        ax.set_xlim(-0.5, len(x_ticks) - 0.5)
+        ax.set_xticks(x_ticks)
+        ax.set_xticklabels(x_labels, rotation=90)
+        ax.set_ylim(0, y_max)
+        
+        # Add colorbar
+        sm = plt.cm.ScalarMappable(cmap='Reds', norm=norm)
+        sm.set_array([])
+        cbar = fig.colorbar(sm, ax=ax, pad=0.02)
+        cbar.set_label("Hit Count", rotation=90, labelpad=15, fontsize=14)
+        
+        plt.tight_layout()
 
 if __name__ == "__main__":
     run_directory = r"/home/devin/Documents/Big_Data/run_005994"
     save_directory = r"/home/devin/Documents/Big_Data/QTracker_Station_Occupancies"
     max_files = 1  # For Debugging
     detector_plot = DetectorPlot()
-    detector_plot.process_files(run_directory,save_directory, max_files=max_files)
-    print("Plot saved as 'final_detector_plot.png' at: {save_directory}")
+    detector_plot.process_files(run_directory, save_directory, max_files=max_files)

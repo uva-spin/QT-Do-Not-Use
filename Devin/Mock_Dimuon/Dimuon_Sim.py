@@ -1,3 +1,20 @@
+"""
+This code is used to simulate a dimuon event in the target.
+It reads in a ROOT file, filters ideal events, and organizes data into
+a hit matrix and ground truth labels. The goal is to preprocess the data for use in a DNN. In this case,
+we are implementing "cuts" to the hit matrix to create background that we can use for training. The background
+is created from implementing what's called a 'quality metric' which is a value between 0 and 1 that represents the fraction
+of the detectors to the total number of detectors. We then use this quality metric to create a cutoff index, and only include
+detectors up to this index in the hit matrix. This creates a background that we can use for training.
+
+Currently, the quality metric is still under development for a more sophisticated background simulation. Right now, we should focus on just randomizing 
+the quality metric to create a background that we can use for training. Making sure that our DNN architectures are able to handle the background is the next step.
+
+Further addition to the background is made in Generate_Background.py, which adds slightly more sophisticated background simulation.
+
+Keep in mind that a MAJORITY of the noise we see in data events is due to partial muon tracks (ones that don't go through the entire detector, up to some cut-off).
+"""
+
 import numpy as np
 import uproot
 import matplotlib.pyplot as plt
@@ -263,7 +280,6 @@ class DataProcessing:
             self.plot_heatmap(ax, hit_matrix_mup_2d, cmap='Reds', alpha=0.9)
             self.plot_heatmap(ax, hit_matrix_mum_2d, cmap='Blues', alpha=0.9)
 
-            # Create proxy artists for the legend 
             legend_elements = [
                 Patch(facecolor=sns.color_palette("Reds")[-1], label='Muon Plus', alpha=0.9),
                 Patch(facecolor=sns.color_palette("Blues")[-1], label='Muon Minus', alpha=0.9)
@@ -285,24 +301,19 @@ class DataProcessing:
         ax.set_ylabel("Element ID", fontsize=14, fontweight='bold', labelpad=10)
         ax.set_title("Overlay of Muon Tracks", fontsize=16, fontweight='bold', pad=20)
         
-        # Set tick positions and labels
         ax.set_xticks(np.arange(0, 62, 2))  
         ax.set_xticklabels(np.arange(0, 62, 2)) 
         ax.set_yticks(np.arange(0, 201, 20)) 
         ax.set_yticklabels(np.arange(0, 201, 20)) 
         
         plt.xticks(rotation=45, ha='right') 
-        # plt.yticks(rotation=45, ha='right')
         
         ax.invert_yaxis()  
         ax.set_aspect(0.1) 
         
-        # Add grid with Seaborn styling
-        # ax.grid(True, color='gray', linestyle='--', linewidth=0.5, alpha=0.3)
         
-        # Adjust layout and save
         plt.tight_layout()
-        plt.savefig("Dimuon_Sim.jpeg", dpi=300, bbox_inches='tight')  # Higher DPI for better quality
+        plt.savefig("Dimuon_Sim.jpeg", dpi=300, bbox_inches='tight')
         plt.show()
     
     
@@ -317,6 +328,8 @@ if __name__ == "__main__":
     # Get total number of events in the file
     num_events = dp.get_num_events()
 
+    ### Let's skip this for now
+    ### We'll just use all events for now
     # # Create an array of ideal events
     # ideal_events = np.zeros(num_events)
     # for event in range(num_events):
@@ -328,19 +341,25 @@ if __name__ == "__main__":
     
     ideal_events = [event for event in range(dp.get_num_events()) if dp.find_ideal_events(event)]
 
-    # Select up to `max_events` ideal events
     selected_events = ideal_events[:max_events]
     print(f"There are {len(selected_events)} selected ideal events.")
 
-    # If no ideal events are found, exit early
     if len(selected_events) == 0:
         print("No ideal events found. Exiting.")
         exit()
 
-    # Start timer
     start_time = time()
-
-    # Generate hit matrices using only selected ideal events
+    
+    
+    ### Let's just use a random quality metric for now. We're using an exponential distribution for sampling it
+    
+    ## Let's define a beta scale for the exponential distribution from the quantil function of the exponential distribution (the inverse of the CDF)
+    ### Max value of the exponential distribution is 0.7, but we can't restrict upper bound to 0.7 so keep trying till we get something lower than 0.7
+    beta = 1.0
+    while beta > 0.7:
+        # Generate a random number from the exponential distribution
+        # We do it in a while loop to make sure it's less than 0.7
+        beta = np.quantile(np.random.exponential(scale=1.0), 0.95)
     (
         truth_elementID_mup,  
         truth_elementID_mum,  
@@ -348,12 +367,11 @@ if __name__ == "__main__":
         truth_values_drift_mum,  
         hit_matrix_mup,  
         hit_matrix_mum   
-    ) = dp.make_hit_matrix(selected_events, quality_metric=1.0)
+    ) = dp.make_hit_matrix(selected_events, quality_metric=beta)
 
     # Visualize results using the provided hit matrices
     dp.visualize_tracks(hit_matrix_mup, hit_matrix_mum, plot_mode)
 
-    # Print execution time
     print(f"Execution time: {time() - start_time:.2f} seconds")
 
 
