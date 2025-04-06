@@ -166,14 +166,13 @@ for root_file_name in root_files:
         print("Failed to open file")
         sys.exit(1)  # Use sys.exit instead of exit
 
-    # Access the TTree
     tree = input_root_file.Get("QA_ana")
 
     # Check if the tree was found
     if not tree:
         print("Failed to find the TTree")
         input_root_file.Close()
-        sys.exit(1)  # Use sys.exit instead of exit
+        sys.exit(1)  
 
     # Create an output ROOT file to save the filtered data
     output_file_path = "Resampled/"+root_file_name
