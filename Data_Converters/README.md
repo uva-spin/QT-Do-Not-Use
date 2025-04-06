@@ -4,7 +4,7 @@ This directory contains converters for converting older data formats that previo
 
 ### Example Usage 
 
-```
+```bash
 # Basic usage
 python TrackQAconvert.py input_trackQA.root output_file.root
 
@@ -18,7 +18,7 @@ python TrackQAconvert.py --help
 ### Additional Usage
 
 If you want to call either of the classes which convert the data in a script of your own, you can do  
-```
+```bash
 from TrackQAconvert import TrackQAConverter
 
 converter = TrackQAConverter("input.root", "output.root")
