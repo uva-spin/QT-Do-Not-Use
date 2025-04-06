@@ -122,24 +122,21 @@ class DetectorPlot:
             print("[DEBUG] No ROOT files found in the specified directory.")
             return
 
-        # Limit to the first `max_files` files if specified
         if max_files is not None:
             self.file_paths = self.file_paths[:max_files]
 
-        # Calculate total events for the progress bar
         total_events = 0
         for file_path in self.file_paths:
             with uproot.open(file_path + ":save") as file:
                 total_events += len(file["fAllHits.detectorID"].array(library="np"))
 
-        # Process events with a progress bar
         with tqdm.tqdm(total=total_events, desc="Processing Events", unit="event") as pbar:
             for file_path in self.file_paths:
                 with uproot.open(file_path + ":save") as file:
                     num_events = len(file["fAllHits.detectorID"].array(library="np"))
                     for event_number in range(num_events):
                         detectorid, elementid = self.read_event(file_path, event_number)
-                        self.aggregated_detectorid = cp.concatenate((self.aggregated_detectorid, detectorid))
+                        self.aggregated_detectorid = cp.concatenate((self.aggregated_detectorid, detectorid)) # Concatenate the detectorid and elementid arrays
                         self.aggregated_elementid = cp.concatenate((self.aggregated_elementid, elementid))
                         pbar.update(1)
 
@@ -172,26 +169,22 @@ class DetectorPlot:
             print("[DEBUG] No hits found in the aggregated data. Skipping plot generation.")
             return
 
-        # Make sure output directories exist
         os.makedirs(save_directory, exist_ok=True)
         output_data_dir = os.path.join(save_directory, "output_data")
         os.makedirs(output_data_dir, exist_ok=True)
 
-        # Transfer aggregated data back to CPU for matplotlib
-        detectorid = np.array(self.aggregated_detectorid.get())
+        detectorid = np.array(self.aggregated_detectorid.get()) # Convert the cupy array to a numpy array
         elementid = np.array(self.aggregated_elementid.get())
 
         # Accumulate hits
         occupancy = self.accumulate_hits(detectorid, elementid)
 
-        # Find max hits for normalization
         max_hits = max(occupancy.values()) if occupancy else 1
         norm = Normalize(vmin=0, vmax=max_hits)
 
         # Calculate total layout information
         y_max = max([det['elements'] for group in self.detector_groups for det in group['detectors']])
         
-        # Prepare data for all plots
         x_labels = []
         x_ticks = []
         x_offset = 0
@@ -251,22 +244,19 @@ class DetectorPlot:
         group_start_idx = 0
         
         for group_idx, group in enumerate(self.detector_groups):
-            # Create figure for this group
             group_fig, group_ax = plt.subplots(figsize=(12, 8))
             
             # Get range of x positions for this group
-            group_end_idx = group_start_idx + len(group['detectors'])
-            group_x_ticks = x_ticks[group_start_idx:group_end_idx]
-            group_x_labels = x_labels[group_start_idx:group_end_idx]
+            group_end_idx = group_start_idx + len(group['detectors'])  # start index + number of detectors in group
+            group_x_ticks = x_ticks[group_start_idx:group_end_idx]  # get the x ticks for this group
+            group_x_labels = x_labels[group_start_idx:group_end_idx]  # get the x labels for this group
             
-            # Filter box data for this group
-            group_box_data = [(x, y, count) for x, y, count in all_box_data 
-                             if group_start_idx <= x < group_end_idx]
+            group_box_data = [(x - group_start_idx, y, count) for x, y, count in all_box_data 
+                            if group_start_idx <= x < group_end_idx]  # filter box data for this group
             
-            # Plot boxes for this group
             self._plot_boxes(group_ax, group_box_data, norm)
             
-            # Customize the group plot
+            
             group_ax.set_title(f"{group['label']} Detector Occupancy", fontsize=14, pad=10)
             group_ax.set_xlabel("Detector", fontsize=12)
             group_ax.set_ylabel("Element", fontsize=12)
@@ -274,16 +264,17 @@ class DetectorPlot:
             group_ax.set_xticklabels(group_x_labels, rotation=90)
             group_ax.set_ylim(0, y_max)
             
-            # Add colorbar
+            
+            # Colorbar
             sm = plt.cm.ScalarMappable(cmap='Reds', norm=norm)
             sm.set_array([])
             cbar = group_fig.colorbar(sm, ax=group_ax, pad=0.02)
             cbar.set_label("Hit Count", rotation=90, labelpad=15, fontsize=12)
             
             plt.tight_layout()
-            
-            # Save group plot
-            group_plot_path = os.path.join(output_dir, f"{group['label'].replace(' ', '_')}_plot.png")
+
+            os.makedirs(os.path.join(output_dir, group['label']), exist_ok=True)
+            group_plot_path = os.path.join(output_dir, group['label'], f"{group['label'].replace(' ', '_')}_plot.png")
             group_fig.savefig(group_plot_path, dpi=150, bbox_inches='tight')
             plt.close(group_fig)
             print(f"[INFO] Saved group plot to {group_plot_path}")
@@ -295,7 +286,7 @@ class DetectorPlot:
         """Create overall plots with and without separators."""
         print("Creating overall plots...")
         
-        # Version 1: With separators between detector groups
+        # With separators between detector groups
         fig_sep, ax_sep = plt.subplots(figsize=(16, 10))
         self._plot_boxes(ax_sep, all_box_data, norm)
         
@@ -310,7 +301,7 @@ class DetectorPlot:
         plt.close(fig_sep)
         print(f"[INFO] Saved overall plot with separators to {overall_plot_path_sep}")
         
-        # Version 2: Without separators
+        # Without separators
         fig_no_sep, ax_no_sep = plt.subplots(figsize=(16, 10))
         self._plot_boxes(ax_no_sep, all_box_data, norm)
         self._customize_overall_plot(fig_no_sep, ax_no_sep, "Overall Detector Occupancy (Without Separators)", 
@@ -323,6 +314,7 @@ class DetectorPlot:
     def _plot_boxes(self, ax, box_data, norm):
         """Plot boxes representing hits on the given axis."""
         for x, y, count in box_data:
+            
             # Calculate color based on hit count
             color_intensity = norm(count)
             color = plt.cm.Reds(color_intensity)
@@ -344,7 +336,6 @@ class DetectorPlot:
         ax.set_xticklabels(x_labels, rotation=90)
         ax.set_ylim(0, y_max)
         
-        # Add colorbar
         sm = plt.cm.ScalarMappable(cmap='Reds', norm=norm)
         sm.set_array([])
         cbar = fig.colorbar(sm, ax=ax, pad=0.02)
