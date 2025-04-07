@@ -142,7 +142,7 @@ def inject_tracks(file1, file2, output_file, num_tracks, prob_mean, prob_width):
                                                  getattr(tree2, 'tdcTimes', []),
                                                  getattr(tree2, 'hitsInTime', [])):
                 # Determine whether to keep the hit based on detector ID and probability
-                keep_hit = np.random.random() < probability * (1 - det / 100)
+                keep_hit = np.random.random() < probability * (1 - det / 100)  ### Decreases for further away detectors
                 if keep_hit:
                     elementIDs.push_back(elem)
                     detectorIDs.push_back(det)

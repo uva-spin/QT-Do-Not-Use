@@ -42,6 +42,93 @@ class DataProcessing:
         self.rootfile = rootfile
         print("Reading the ROOT file...")
         self.TTree = uproot.open(self.rootfile + ":QA_ana")
+        
+        self.detector_groups = [
+        {'label': 'Station 1', 'detectors': [
+            {'name': 'D0V', 'elements': 201, 'id': 5},
+            {'name': 'D0Vp', 'elements': 201, 'id': 6},
+            {'name': 'D0Xp', 'elements': 160, 'id': 4},
+            {'name': 'D0X', 'elements': 160, 'id': 3},
+            {'name': 'D0U', 'elements': 201, 'id': 1},
+            {'name': 'D0Up', 'elements': 201, 'id': 2}
+        ]},
+        {'label': 'Hodo', 'detectors': [
+            {'name': 'H1L', 'elements': 20, 'id': 33},
+            {'name': 'H1R', 'elements': 20, 'id': 34},
+            {'name': 'H1B', 'elements': 23, 'id': 31},
+            {'name': 'H1T', 'elements': 23, 'id': 32}
+        ]},
+        {'label': 'DP-1', 'detectors': [
+            {'name': 'DP1TL', 'elements': 80, 'id': 55},
+            {'name': 'DP1TR', 'elements': 80, 'id': 56},
+            {'name': 'DP1BL', 'elements': 80, 'id': 57},
+            {'name': 'DP1BR', 'elements': 80, 'id': 58}
+        ]},
+        {'label': 'Station 2', 'detectors': [
+            {'name': 'D2V', 'elements': 128, 'id': 13},
+            {'name': 'D2Vp', 'elements': 128, 'id': 14},
+            {'name': 'D2Xp', 'elements': 112, 'id': 15},
+            {'name': 'D2X', 'elements': 112, 'id': 16},
+            {'name': 'D2U', 'elements': 128, 'id': 17},
+            {'name': 'D2Up', 'elements': 128, 'id': 18}
+        ]},
+        {'label': 'Hodo', 'detectors': [
+            {'name': 'H2R', 'elements': 19, 'id': 36},
+            {'name': 'H2L', 'elements': 19, 'id': 35},
+            {'name': 'H2T', 'elements': 16, 'id': 38},
+            {'name': 'H2B', 'elements': 16, 'id': 37}
+        ]},
+        {'label': 'DP-2', 'detectors': [
+            {'name': 'DP2TL', 'elements': 48, 'id': 59},
+            {'name': 'DP2TR', 'elements': 48, 'id': 60},
+            {'name': 'DP2BL', 'elements': 48, 'id': 61},
+            {'name': 'DP2BR', 'elements': 48, 'id': 62}
+        ]},
+        {'label': 'Station 3+', 'detectors': [
+            {'name': 'D3pVp', 'elements': 134, 'id': 19},
+            {'name': 'D3pV', 'elements': 134, 'id': 20},
+            {'name': 'D3pXp', 'elements': 116, 'id': 21},
+            {'name': 'D3pX', 'elements': 116, 'id': 22},
+            {'name': 'D3pUp', 'elements': 134, 'id': 23},
+            {'name': 'D3pU', 'elements': 134, 'id': 24}
+        ]},
+        {'label': 'Station 3-', 'detectors': [
+            {'name': 'D3mVp', 'elements': 134, 'id': 25},
+            {'name': 'D3mV', 'elements': 134, 'id': 26},
+            {'name': 'D3mXp', 'elements': 116, 'id': 27},
+            {'name': 'D3mX', 'elements': 116, 'id': 28},
+            {'name': 'D3mUp', 'elements': 134, 'id': 29},
+            {'name': 'D3mU', 'elements': 134, 'id': 30}
+        ]},
+        {'label': 'Hodo', 'detectors': [
+            {'name': 'H3T', 'elements': 16, 'id': 40},
+            {'name': 'H3B', 'elements': 16, 'id': 39}
+        ]},
+        {'label': 'Prop', 'detectors': [
+            {'name': 'P1Y1', 'elements': 72, 'id': 47},
+            {'name': 'P1Y2', 'elements': 72, 'id': 48}
+        ]},
+        {'label': 'Hodo', 'detectors': [
+            {'name': 'H4Y1R', 'elements': 16, 'id': 42},
+            {'name': 'H4Y1L', 'elements': 16, 'id': 41}
+        ]},
+        {'label': 'Prop', 'detectors': [
+            {'name': 'P1X1', 'elements': 72, 'id': 49},
+            {'name': 'P1X2', 'elements': 72, 'id': 50}
+        ]},
+        {'label': 'Hodo', 'detectors': [
+            {'name': 'H4Y2R', 'elements': 16, 'id': 44},
+            {'name': 'H4Y2L', 'elements': 16, 'id': 43},
+            {'name': 'H4T', 'elements': 16, 'id': 46},
+            {'name': 'H4B', 'elements': 16, 'id': 45}
+        ]},
+        {'label': 'Prop', 'detectors': [
+            {'name': 'P2X1', 'elements': 72, 'id': 51},
+            {'name': 'P2X2', 'elements': 72, 'id': 52},
+            {'name': 'P2Y1', 'elements': 72, 'id': 53},
+            {'name': 'P2Y2', 'elements': 72, 'id': 54}
+        ]}
+        ]
 
         # Define detector and drift chamber order
         self.detectors_order = np.array([
@@ -232,9 +319,9 @@ class DataProcessing:
         # Limit to max_events
         return np.array(ideal_events[:max_events])
 
-    def plot_hits(self,ax, hit_matrix, color: str, label: str):
+    def plot_hits(self, ax, hit_matrix, color: str, label: str):
         """
-        Plots individual hits
+        Plots individual hits using matplotlib
 
         Args:
             ax: Matplotlib axis object.
@@ -243,11 +330,11 @@ class DataProcessing:
             label (str): Label for the legend.
         """
         y, x = np.where(hit_matrix.T > 0)  # Transpose for correct orientation
-        sns.scatterplot(x=x, y=y, color=color, label=label, marker='_', s=100, alpha=0.8, ax=ax)
+        ax.scatter(x, y, color=color, label=label, marker='_', s=100, alpha=0.8)
 
-    def plot_heatmap(self,ax, hit_matrix, cmap: str, alpha: float = 0.7):
+    def plot_heatmap(self, ax, hit_matrix, cmap: str, alpha: float = 0.7):
         """
-        Plots a heatmap of hit matrix
+        Plots a heatmap of hit matrix using matplotlib
 
         Args:
             ax: Matplotlib axis object.
@@ -255,21 +342,21 @@ class DataProcessing:
             cmap (str): Colormap for the heatmap.
             alpha (float): Transparency level.
         """
-        sns.heatmap(hit_matrix.T, cmap=cmap, ax=ax, alpha=alpha, cbar=False)
+        # Transpose the matrix for correct orientation
+        heatmap = ax.imshow(hit_matrix.T, cmap=plt.cm.get_cmap(cmap), 
+                            alpha=alpha, aspect='auto', origin='upper')
+        return heatmap
 
-    def visualize_tracks(self,hit_matrix_mup, hit_matrix_mum, plot_mode: str = "heatmap"):
+    def visualize_tracks(self, hit_matrix_mup, hit_matrix_mum, plot_mode: str = "heatmap"):
         """
-        Visualizes the hit matrices for muon plus and muon minus tracks using Seaborn styling.
+        Visualizes the hit matrices for muon plus and muon minus tracks using matplotlib.
+        
         Args:
             hit_matrix_mup (np.ndarray): 3D hit matrix for muon plus (num_events, 62, 201).
             hit_matrix_mum (np.ndarray): 3D hit matrix for muon minus (num_events, 62, 201).
             plot_mode (str): Visualization mode ("hits" or "heatmap").
         """
-        sns.set_style("ticks")
-        sns.set_theme(style="darkgrid", palette="deep")
-        sns.set_context("notebook", font_scale=1.2)
-        
-        fig, ax = plt.subplots(figsize=(16, 8))
+        fig, ax = plt.subplots(figsize=(16, 10))
         
         # Sum over events to get 2D hit matrices
         hit_matrix_mup_2d = np.sum(hit_matrix_mup, axis=0)  # Shape (62, 201)
@@ -277,42 +364,70 @@ class DataProcessing:
 
         if plot_mode == "heatmap":
             # Heatmap mode
-            self.plot_heatmap(ax, hit_matrix_mup_2d, cmap='Reds', alpha=0.9)
-            self.plot_heatmap(ax, hit_matrix_mum_2d, cmap='Blues', alpha=0.9)
+            mup_heatmap = self.plot_heatmap(ax, hit_matrix_mup_2d, cmap='Reds', alpha=0.9)
+            mum_heatmap = self.plot_heatmap(ax, hit_matrix_mum_2d, cmap='Blues', alpha=0.4)
 
             legend_elements = [
-                Patch(facecolor=sns.color_palette("Reds")[-1], label='Muon Plus', alpha=0.9),
-                Patch(facecolor=sns.color_palette("Blues")[-1], label='Muon Minus', alpha=0.9)
+                plt.Line2D([0], [0], marker='s', color='w', 
+                        markerfacecolor='red', markersize=15, alpha=0.9, 
+                        label='Muon Plus'),
+                plt.Line2D([0], [0], marker='s', color='w', 
+                        markerfacecolor='blue', markersize=15, alpha=0.9, 
+                        label='Muon Minus')
             ]
-            ax.legend(handles=legend_elements, loc='upper right', fontsize=12, title="Track Type", 
-                    title_fontsize=14, frameon=True, fancybox=True, shadow=True)
+            ax.legend(handles=legend_elements, loc='upper right', fontsize=12, 
+                    title="Track Type", title_fontsize=14, frameon=True, 
+                    fancybox=True, shadow=True)
 
         elif plot_mode == "hits":
-            # Hits mode: Plot individual points 
-            self.plot_hits(ax, hit_matrix_mup_2d, color=sns.color_palette("Reds")[-1], label='Muon Plus')
-            self.plot_hits(ax, hit_matrix_mum_2d, color=sns.color_palette("Blues")[-1], label='Muon Minus')
-                    
-            ax.invert_yaxis()  
-
-
+            # Hits mode: Plot individual points
+            self.plot_hits(ax, hit_matrix_mup_2d, color='red', label='Muon Plus')
+            self.plot_hits(ax, hit_matrix_mum_2d, color='blue', label='Muon Minus')
             ax.legend(loc='upper right', fontsize=12, frameon=True, fancybox=True, shadow=True)
 
-        ax.set_xlabel("Detector ID", fontsize=14, fontweight='bold', labelpad=10)
-        ax.set_ylabel("Element ID", fontsize=14, fontweight='bold', labelpad=10)
-        ax.set_title("Overlay of Muon Tracks", fontsize=16, fontweight='bold', pad=20)
-        
-        ax.set_xticks(np.arange(0, 62, 2))  
-        ax.set_xticklabels(np.arange(0, 62, 2)) 
-        ax.set_yticks(np.arange(0, 201, 20)) 
-        ax.set_yticklabels(np.arange(0, 201, 20)) 
-        
-        plt.xticks(rotation=45, ha='right') 
-        
-        ax.invert_yaxis()  
-        ax.set_aspect(0.1) 
-        
-        
+        # Create a list of all detector names by flattening the detector_groups structure
+        all_detectors = []
+        for group in self.detector_groups:
+            for detector in group['detectors']:
+                all_detectors.append(detector)
+
+        # Set x-ticks based on the order of detectors in all_detectors
+        tick_positions = np.arange(len(all_detectors))  # Positions based on the order
+        tick_labels = [detector['name'] for detector in all_detectors]  # Labels based on detector names
+
+        # Calculate group separators for visual clarity
+        separators = []
+        current_position = 0
+        for group_idx, group in enumerate(self.detector_groups):
+            current_position += len(group['detectors'])
+            if group_idx < len(self.detector_groups) - 1:
+                separators.append(current_position - 0.5)
+
+        # Draw separator lines if in heatmap mode
+        if plot_mode == "heatmap":
+            for sep_pos in separators:
+                ax.axvline(x=sep_pos, color='gray', linestyle='-', linewidth=0.8, alpha=0.7)
+
+        # Style the plot to match the detector occupancy plots
+        ax.set_title("Overlay of Muon Tracks", fontsize=16, pad=15)
+        ax.set_xlabel("Detector", fontsize=14)
+        ax.set_ylabel("Element", fontsize=14)
+
+        # Set axis limits to match the data dimensions
+        ax.set_xlim(-0.5, len(tick_positions) - 0.5)
+        ax.set_ylim(0, 201)  # Assuming maximum element ID is around 200
+
+        # Set x-ticks with vertical labels
+        ax.set_xticks(tick_positions)
+        ax.set_xticklabels(tick_labels, rotation=90)
+
+        # Add y-ticks at appropriate intervals
+        ax.set_yticks(np.arange(0, 201, 20))
+
+        # Apply tight layout for better spacing
         plt.tight_layout()
+
+        # Save the figure with high resolution
         plt.savefig("Dimuon_Sim.jpeg", dpi=300, bbox_inches='tight')
         plt.show()
     
@@ -320,8 +435,8 @@ class DataProcessing:
 if __name__ == "__main__":
     # Configuration
     root_file = "Devin/Mock_Dimuon/Data_Files/Dimuon_target_100K.root"
-    max_events = 60000  # Number of events to process
-    plot_mode = "heatmap"  # Options: "hits" or "heatmap"
+    max_events = 1  # Number of events to process
+    plot_mode = "hits"  # Options: "hits" or "heatmap"
     
     dp = DataProcessing(root_file)
 
@@ -356,10 +471,13 @@ if __name__ == "__main__":
     ## Let's define a beta scale for the exponential distribution from the quantil function of the exponential distribution (the inverse of the CDF)
     ### Max value of the exponential distribution is 0.7, but we can't restrict upper bound to 0.7 so keep trying till we get something lower than 0.7
     beta = 1.0
-    while beta > 0.7:
-        # Generate a random number from the exponential distribution
-        # We do it in a while loop to make sure it's less than 0.7
-        beta = np.quantile(np.random.exponential(scale=1.0), 0.95)
+    # while beta > 0.7:
+    #     # Generate a random number from the exponential distribution
+    #     # We do it in a while loop to make sure it's less than 0.7
+    #     beta = np.quantile(np.random.exponential(scale=1.0), 0.95)
+        
+    print(f"Using quality metric beta = {beta:.2f}")
+
     (
         truth_elementID_mup,  
         truth_elementID_mum,  
