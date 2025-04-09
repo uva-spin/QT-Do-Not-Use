@@ -2,13 +2,7 @@
 This code is used to simulate a dimuon event in the target.
 It reads in a ROOT file, filters ideal events, and organizes data into
 a hit matrix and ground truth labels. The goal is to preprocess the data for use in a DNN. In this case,
-we are implementing "cuts" to the hit matrix to create background that we can use for training. The background
-is created from implementing what's called a 'quality metric' which is a value between 0 and 1 that represents the fraction
-of the detectors to the total number of detectors. We then use this quality metric to create a cutoff index, and only include
-detectors up to this index in the hit matrix. This creates a background that we can use for training.
-
-Currently, the quality metric is still under development for a more sophisticated background simulation. Right now, we should focus on just randomizing 
-the quality metric to create a background that we can use for training. Making sure that our DNN architectures are able to handle the background is the next step.
+we are implementing "cuts" to the hit matrix to create background that we can use for training.
 
 Further addition to the background is made in Generate_Background.py, which adds slightly more sophisticated background simulation.
 
@@ -154,11 +148,9 @@ class DataProcessing:
 
         self.useful_info = np.array(['n_tracks', 'elementID', 'detectorID', 'pid'])
 
-        # Remove 'NaN' from arrays to only load valid branch names
         self.detectors = self.detectors_order[self.detectors_order != 'NaN']
         self.drifts = self.drift_order[self.drift_order != 'NaN']
 
-        # Load branches as a dictionary of numpy arrays
         self.data = self.load_branches()
         self.num_events = len(self.data['n_tracks'])
 
@@ -229,13 +221,11 @@ class DataProcessing:
     def make_hit_matrix(
         self,
         ideal_events: List[int],
-        quality_metric: float = 0.5  # Quality metric (value between 0 and 1)
     ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
         """
         Creates separate hit matrices for muon-plus and muon-minus with strict right-side truncation for background simulation.
         Args:
             ideal_events: Valid event indices for processing
-            quality_metric: A value between 0 and 1 representing the fraction of detectors to include (cutoff point)
         Returns:
             Tuple containing separate hit matrices for muon-plus and muon-minus,
             along with their respective truth labels and drift values.
@@ -243,19 +233,18 @@ class DataProcessing:
         num_events = len(ideal_events)
         
         # Separate hit matrices for mu+ and mu-
+        # We're just creating empty hit matrices for now to populate later
         hit_matrix_mup = np.zeros((num_events, 62, 201), dtype=bool)
         hit_matrix_mum = np.zeros((num_events, 62, 201), dtype=bool)
         
         # Truth arrays for element ID and drift values
+        # We're just creating empty truth arrays for now to populate later
         truth_elementID_mup = np.zeros((num_events, 62), dtype=np.uint8)
         truth_elementID_mum = np.zeros((num_events, 62), dtype=np.uint8)
         truth_values_drift_mup = np.zeros((num_events, 62))
         truth_values_drift_mum = np.zeros((num_events, 62))
 
-        # Calculate the cutoff detector index based on the quality metric
-        total_detectors = len(self.detectors_order[self.detectors_order != 'NaN'])  # Total valid detectors
-        cutoff_detector = int(quality_metric * total_detectors)  # Cutoff detector index
-
+        # Here, we're constructing the hit matrices from the event files
         for i, event_idx in enumerate(ideal_events):
             event = int(event_idx)
             pid = self.data['pid'][event]
@@ -264,10 +253,6 @@ class DataProcessing:
             for track in range(n_track):
                 for j, detector in enumerate(self.detectors_order):
                     if detector == 'NaN':
-                        continue
-
-                    # Skip detectors beyond the cutoff index
-                    if j >= cutoff_detector:
                         continue
 
                     hit_info = self.data[detector][event]
@@ -292,8 +277,9 @@ class DataProcessing:
             truth_elementID_mum,
             truth_values_drift_mup,
             truth_values_drift_mum,
-            hit_matrix_mup,
-            hit_matrix_mum
+            hit_matrix_mup, ### This is the hit matrix for muon plus
+            hit_matrix_mum ### This is the hit matrix for muon minus
+            ### These two matrices are our main interest right now
         )
 
     def load_and_filter_events(self,root_file: str, max_events: int = 50000) -> np.ndarray:
@@ -311,12 +297,10 @@ class DataProcessing:
         dp = DataProcessing(root_file)
         num_events = dp.get_num_events()
 
-        # Filter ideal events
         ideal_events = [event for event in range(num_events) if dp.find_ideal_events(event)]
         if not ideal_events:
             raise ValueError("No ideal events found in the dataset.")
 
-        # Limit to max_events
         return np.array(ideal_events[:max_events])
 
     def plot_hits(self, ax, hit_matrix, color: str, label: str):
@@ -329,7 +313,7 @@ class DataProcessing:
             color (str): Color for the hits.
             label (str): Label for the legend.
         """
-        y, x = np.where(hit_matrix.T > 0)  # Transpose for correct orientation
+        y, x = np.where(hit_matrix.T > 0)  
         ax.scatter(x, y, color=color, label=label, marker='_', s=100, alpha=0.8)
 
     def plot_heatmap(self, ax, hit_matrix, cmap: str, alpha: float = 0.7):
@@ -342,7 +326,6 @@ class DataProcessing:
             cmap (str): Colormap for the heatmap.
             alpha (float): Transparency level.
         """
-        # Transpose the matrix for correct orientation
         heatmap = ax.imshow(hit_matrix.T, cmap=plt.cm.get_cmap(cmap), 
                             alpha=alpha, aspect='auto', origin='upper')
         return heatmap
@@ -385,17 +368,14 @@ class DataProcessing:
             self.plot_hits(ax, hit_matrix_mum_2d, color='blue', label='Muon Minus')
             ax.legend(loc='upper right', fontsize=12, frameon=True, fancybox=True, shadow=True)
 
-        # Create a list of all detector names by flattening the detector_groups structure
         all_detectors = []
         for group in self.detector_groups:
             for detector in group['detectors']:
                 all_detectors.append(detector)
 
-        # Set x-ticks based on the order of detectors in all_detectors
         tick_positions = np.arange(len(all_detectors))  # Positions based on the order
         tick_labels = [detector['name'] for detector in all_detectors]  # Labels based on detector names
 
-        # Calculate group separators for visual clarity
         separators = []
         current_position = 0
         for group_idx, group in enumerate(self.detector_groups):
@@ -408,27 +388,21 @@ class DataProcessing:
             for sep_pos in separators:
                 ax.axvline(x=sep_pos, color='gray', linestyle='-', linewidth=0.8, alpha=0.7)
 
-        # Style the plot to match the detector occupancy plots
         ax.set_title("Overlay of Muon Tracks", fontsize=16, pad=15)
         ax.set_xlabel("Detector", fontsize=14)
         ax.set_ylabel("Element", fontsize=14)
 
-        # Set axis limits to match the data dimensions
         ax.set_xlim(-0.5, len(tick_positions) - 0.5)
-        ax.set_ylim(0, 201)  # Assuming maximum element ID is around 200
+        ax.set_ylim(0, 202)  
 
-        # Set x-ticks with vertical labels
         ax.set_xticks(tick_positions)
         ax.set_xticklabels(tick_labels, rotation=90)
 
-        # Add y-ticks at appropriate intervals
-        ax.set_yticks(np.arange(0, 201, 20))
+        ax.set_yticks(np.arange(0, 202, 20))
 
-        # Apply tight layout for better spacing
         plt.tight_layout()
 
-        # Save the figure with high resolution
-        plt.savefig("Dimuon_Sim.jpeg", dpi=300, bbox_inches='tight')
+        plt.savefig("Dimuon_Sim.jpeg", dpi=600, bbox_inches='tight')
         plt.show()
     
     
@@ -444,7 +418,7 @@ if __name__ == "__main__":
     num_events = dp.get_num_events()
 
     ### Let's skip this for now
-    ### We'll just use all events for now
+
     # # Create an array of ideal events
     # ideal_events = np.zeros(num_events)
     # for event in range(num_events):
@@ -465,18 +439,7 @@ if __name__ == "__main__":
 
     start_time = time()
     
-    
-    ### Let's just use a random quality metric for now. We're using an exponential distribution for sampling it
-    
-    ## Let's define a beta scale for the exponential distribution from the quantil function of the exponential distribution (the inverse of the CDF)
-    ### Max value of the exponential distribution is 0.7, but we can't restrict upper bound to 0.7 so keep trying till we get something lower than 0.7
-    beta = 1.0
-    # while beta > 0.7:
-    #     # Generate a random number from the exponential distribution
-    #     # We do it in a while loop to make sure it's less than 0.7
-    #     beta = np.quantile(np.random.exponential(scale=1.0), 0.95)
-        
-    print(f"Using quality metric beta = {beta:.2f}")
+
 
     (
         truth_elementID_mup,  
@@ -485,76 +448,8 @@ if __name__ == "__main__":
         truth_values_drift_mum,  
         hit_matrix_mup,  
         hit_matrix_mum   
-    ) = dp.make_hit_matrix(selected_events, quality_metric=beta)
+    ) = dp.make_hit_matrix(selected_events)
 
-    # Visualize results using the provided hit matrices
     dp.visualize_tracks(hit_matrix_mup, hit_matrix_mum, plot_mode)
 
     print(f"Execution time: {time() - start_time:.2f} seconds")
-
-
-
-
-# # Example
-# start = time()
-# #Reads in root file
-# root_file = "/home/devin/Documents/Big_Data/Dimuon_Mock/Dimuon_target_100K.root"
-# data_processor = DataProcessing(root_file)
-
-# #Set number of events
-# num_events = data_processor.get_num_events()
-
-# ideal_events = np.zeros(num_events)
-# # Create an array of ideal events
-# for event in range(num_events):
-#     good_event = data_processor.find_ideal_events(event)
-#     if good_event:
-#         ideal_events[event] = event
-# ideal_events = ideal_events[ideal_events != 0]
-
-# print(f"There are this many ideal events: {len(ideal_events)}")
-
-
-
-# #Make hitmatrix
-# Truth_elementID_mup, Truth_elementID_mum, Truth_values_drift_mup, Truth_values_drift_mum, hit_matrix = data_processor.make_Hitmatrix(ideal_events)
-
-# np.savez('/home/devin/Documents/Big_Data/Dimuon_Mock/Hit_Info.npz', Truth_elementID_mup, Truth_elementID_mum, Truth_values_drift_mup, Truth_values_drift_mum,hit_matrix,ideal_events)
-
-# #print(ideal_events)
-
-
-# stop = time()
-# print(stop-start)
-
-
-# # Initialize the plot for combining all scatter plots
-# plt.figure(figsize=(10, 6))
-# detID = np.arange(1,63)
-# n = 1000
-# # Loop over all the events with a progress bar using tqdm
-# for event in tqdm(ideal_events[:n], desc="Processing Events"):
-#     event = int(event)
-
-#     # Get the Truth event index for the current event
-#     Truth_event = np.where(ideal_events == event)
-
-
-#     # Scatter plots for Mup and Mum, overlaying them onto the same figure
-#     plt.scatter(detID, Truth_elementID_mup[Truth_event], marker='_', color='r', alpha=0.5)
-#     plt.scatter(detID, Truth_elementID_mum[Truth_event], marker='_', color='g', alpha=0.5)
-
-# # Add labels, title, and formatting
-# plt.xlim(0, 64)
-# plt.ylim(0, 201)
-# plt.title("Combined Truth Events")
-# plt.xlabel("DetectorID")
-# plt.ylabel("ElementID")
-# plt.legend(['Mup', 'Mum'])
-
-# # Save and show the combined plot
-# plt.savefig(r"/home/devin/Documents/Big_Data/Dimuon_Mock/Combined_Truth_Events.jpeg")
-# plt.show()
-
-# stop = time()
-# print(f"Processing time: {stop - start} seconds")

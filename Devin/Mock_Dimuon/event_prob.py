@@ -45,44 +45,19 @@ def inject_tracks(file1, file2, output_file, num_tracks, prob_mean, prob_width):
     output_tree = ROOT.TTree("tree", "Tree with injected tracks and additional data")
     output_tree.SetAutoFlush(0)
 
-    # Prepare variables and branches
-    runID = ROOT.Int_t(0)
-    spillID = ROOT.Int_t(0)
-    eventID = ROOT.Int_t(0)
-    fpgaTriggers = np.zeros(5, dtype=int)
-    nimTriggers = np.zeros(5, dtype=int)
-    rfIntensities = np.full(33, 10000, dtype=int)
-
     elementIDs = ROOT.std.vector("int")()
     detectorIDs = ROOT.std.vector("int")()
     driftDistances = ROOT.std.vector("double")()
     tdcTimes = ROOT.std.vector("double")()
     hitsInTime = ROOT.std.vector("bool")()
 
-    triggerElementIDs = ROOT.std.vector("int")()
-    triggerDetectorIDs = ROOT.std.vector("int")()
-    triggerDriftDistances = ROOT.std.vector("double")()
-    triggerTdcTimes = ROOT.std.vector("double")()
-    triggerHitsInTime = ROOT.std.vector("bool")()
-
-    output_tree.Branch("runID", runID, "runID/I")
-    output_tree.Branch("spillID", spillID, "spillID/I")
+    
     output_tree.Branch("eventID", eventID, "eventID/I")
-    output_tree.Branch("fpgaTriggers", fpgaTriggers, "fpgaTriggers[5]/I")
-    output_tree.Branch("nimTriggers", nimTriggers, "nimTriggers[5]/I")
-    output_tree.Branch("rfIntensities", rfIntensities, "rfIntensities[33]/I")
-
     output_tree.Branch("elementID", elementIDs)
     output_tree.Branch("detectorID", detectorIDs)
-    output_tree.Branch("driftDistances", driftDistances)
-    output_tree.Branch("tdcTimes", tdcTimes)
-    output_tree.Branch("hitsInTime", hitsInTime)
+    output_tree.Branch("driftDistance", driftDistances)
+    output_tree.Branch("tdcTime", tdcTimes)
 
-    output_tree.Branch("triggerElementIDs", triggerElementIDs)
-    output_tree.Branch("triggerDetectorIDs", triggerDetectorIDs)
-    output_tree.Branch("triggerDriftDistances", triggerDriftDistances)
-    output_tree.Branch("triggerTdcTimes", triggerTdcTimes)
-    output_tree.Branch("triggerHitsInTime", triggerHitsInTime)
 
     # Loop over events in tree1 and inject tracks from tree2
     num_events_tree2 = tree2.GetEntries()
@@ -99,19 +74,8 @@ def inject_tracks(file1, file2, output_file, num_tracks, prob_mean, prob_width):
         tdcTimes.clear()
         hitsInTime.clear()
 
-        triggerElementIDs.clear()
-        triggerDetectorIDs.clear()
-        triggerDriftDistances.clear()
-        triggerTdcTimes.clear()
-        triggerHitsInTime.clear()
-
         # Populate event-specific metadata
-        runID = getattr(entry1, 'runID', 0)  # Use default value if attribute is missing
-        spillID = getattr(entry1, 'spillID', 0)
         eventID = getattr(entry1, 'eventID', 0)
-        fpgaTriggers[:] = getattr(entry1, 'fpgaTriggers', np.zeros(5, dtype=int))
-        nimTriggers[:] = getattr(entry1, 'nimTriggers', np.zeros(5, dtype=int))
-        rfIntensities[:] = getattr(entry1, 'rfIntensities', np.full(33, 10000, dtype=int))
 
         # Add hits from tree1
         for elem in getattr(entry1, 'elementID', []):
