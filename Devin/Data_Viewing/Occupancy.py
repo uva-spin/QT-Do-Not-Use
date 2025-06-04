@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 from matplotlib.patches import Rectangle
 import argparse
+import pandas as pd
 
 class DetectorPlot:
     def __init__(self):
@@ -166,34 +167,127 @@ class DetectorPlot:
         self.create_plots(save_directory)
 
     def save_accumulated_hits(self, save_directory):
-        """Save accumulated hits data for all files and total hits."""
+        """Save accumulated hits data for all files and total hits in a readable format."""
         os.makedirs(save_directory, exist_ok=True)
-        
-        # Convert file hits data to JSON-serializable format
-        serializable_file_hits = {}
-        for filename, hits in self.file_hits_data.items():
-            serializable_file_hits[filename] = {
-                f"{det_id}_{elem_id}": count 
-                for (det_id, elem_id), count in hits.items()
-            }
+        output_data_dir = os.path.join(save_directory, "output_data")
+        os.makedirs(output_data_dir, exist_ok=True)
         
         # Save per-file hits data
-        file_hits_path = os.path.join(save_directory, "file_hits_data.json")
-        with open(file_hits_path, 'w') as f:
-            json.dump(serializable_file_hits, f, indent=4)
+        for filename, hits in self.file_hits_data.items():
+            # Create DataFrame for this file
+            data_rows = []
+            for (det_id, elem_id), count in hits.items():
+                # Find detector name and group
+                detector_info = None
+                group_name = None
+                for group in self.detector_groups:
+                    for det in group['detectors']:
+                        if det['id'] == det_id:
+                            detector_info = det
+                            group_name = group['label']
+                            break
+                    if detector_info:
+                        break
+                
+                if detector_info:
+                    data_rows.append({
+                        'Group': group_name,
+                        'Detector_Name': detector_info['name'],
+                        'Detector_ID': det_id,
+                        'Element_ID': elem_id,
+                        'Hits': count
+                    })
+            
+            # Create DataFrame and save to CSV
+            df = pd.DataFrame(data_rows)
+            csv_filename = os.path.splitext(filename)[0] + '_hits.csv'
+            csv_path = os.path.join(output_data_dir, csv_filename)
+            df.to_csv(csv_path, index=False)
+            print(f"[INFO] Saved file hits data to {csv_path}")
         
         # Save total accumulated hits
         total_hits = self.accumulate_hits(self.aggregated_detectorid, self.aggregated_elementid)
-        serializable_total_hits = {
-            f"{det_id}_{elem_id}": count 
-            for (det_id, elem_id), count in total_hits.items()
-        }
         
-        total_hits_path = os.path.join(save_directory, "total_hits_data.json")
-        with open(total_hits_path, 'w') as f:
-            json.dump(serializable_total_hits, f, indent=4)
+        # Create DataFrame for total hits
+        total_data_rows = []
+        for (det_id, elem_id), count in total_hits.items():
+            # Find detector name and group
+            detector_info = None
+            group_name = None
+            for group in self.detector_groups:
+                for det in group['detectors']:
+                    if det['id'] == det_id:
+                        detector_info = det
+                        group_name = group['label']
+                        break
+                if detector_info:
+                    break
+            
+            if detector_info:
+                total_data_rows.append({
+                    'Group': group_name,
+                    'Detector_Name': detector_info['name'],
+                    'Detector_ID': det_id,
+                    'Element_ID': elem_id,
+                    'Hits': count
+                })
         
-        print(f"[INFO] Saved accumulated hits data to {save_directory}")
+        # Create DataFrame and save to CSV
+        total_df = pd.DataFrame(total_data_rows)
+        
+        # Sort the data to ensure consistent orientation
+        total_df = total_df.sort_values(['Detector_ID', 'Element_ID'])
+        
+        # Save the data
+        total_csv_path = os.path.join(save_directory, "total_hits_data.csv")
+        total_df.to_csv(total_csv_path, index=False)
+        print(f"[INFO] Saved total hits data to {total_csv_path}")
+        
+        # Also save a summary by detector
+        summary_rows = []
+        for group in self.detector_groups:
+            for det in group['detectors']:
+                det_hits = sum(count for (d_id, _), count in total_hits.items() if d_id == det['id'])
+                summary_rows.append({
+                    'Group': group['label'],
+                    'Detector_Name': det['name'],
+                    'Detector_ID': det['id'],
+                    'Total_Hits': det_hits,
+                    'Elements': det['elements']
+                })
+        
+        # Save summary to CSV
+        summary_df = pd.DataFrame(summary_rows)
+        # Sort summary by detector ID for consistency
+        summary_df = summary_df.sort_values('Detector_ID')
+        summary_csv_path = os.path.join(save_directory, "detector_summary.csv")
+        summary_df.to_csv(summary_csv_path, index=False)
+        print(f"[INFO] Saved detector summary to {summary_csv_path}")
+
+        # Save the data in JSON format for process_hits_data.py
+        # Create a 2D array representation of the hits
+        max_detector = max(det_id for det_id, _ in total_hits.keys())
+        max_element = max(elem_id for _, elem_id in total_hits.keys())
+        
+        # Initialize the array with zeros
+        hits_array = np.zeros((max_detector + 1, max_element + 1), dtype=int)
+        
+        # Fill the array with hit counts
+        for (det_id, elem_id), count in total_hits.items():
+            hits_array[det_id, elem_id] = count
+        
+        # Convert to list and ensure all values are Python native types
+        hits_list = [[int(x) for x in row] for row in hits_array.tolist()]
+        
+        # Save to JSON
+        json_path = os.path.join(save_directory, "total_hits_data.json")
+        with open(json_path, 'w') as f:
+            json.dump({
+                'hits_array': hits_list,
+                'max_detector': int(max_detector),
+                'max_element': int(max_element)
+            }, f)
+        print(f"[INFO] Saved total hits data to {json_path}")
 
     def load_accumulated_hits(self, file_path):
         """Load accumulated hits data from JSON file."""

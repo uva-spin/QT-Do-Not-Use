@@ -7,77 +7,77 @@
     {
         "detector": "H4Y2R",
         "element": 1,
-        "hits": 216
+        "hits": 214
     },
     {
         "detector": "H4Y2R",
         "element": 2,
-        "hits": 207
+        "hits": 250
     },
     {
         "detector": "H4Y2R",
         "element": 3,
-        "hits": 292
+        "hits": 307
     },
     {
         "detector": "H4Y2R",
         "element": 4,
-        "hits": 530
+        "hits": 460
     },
     {
         "detector": "H4Y2R",
         "element": 5,
-        "hits": 819
+        "hits": 748
     },
     {
         "detector": "H4Y2R",
         "element": 6,
-        "hits": 814
+        "hits": 785
     },
     {
         "detector": "H4Y2R",
         "element": 7,
-        "hits": 2079
+        "hits": 2022
     },
     {
         "detector": "H4Y2R",
         "element": 8,
-        "hits": 3846
+        "hits": 3561
     },
     {
         "detector": "H4Y2R",
         "element": 9,
-        "hits": 3636
+        "hits": 3303
     },
     {
         "detector": "H4Y2R",
         "element": 10,
-        "hits": 2025
+        "hits": 1951
     },
     {
         "detector": "H4Y2R",
         "element": 11,
-        "hits": 1134
+        "hits": 1089
     },
     {
         "detector": "H4Y2R",
         "element": 12,
-        "hits": 651
+        "hits": 636
     },
     {
         "detector": "H4Y2R",
         "element": 13,
-        "hits": 511
+        "hits": 460
     },
     {
         "detector": "H4Y2R",
         "element": 14,
-        "hits": 335
+        "hits": 363
     },
     {
         "detector": "H4Y2R",
         "element": 15,
-        "hits": 376
+        "hits": 293
     },
     {
         "detector": "H4Y2L",
@@ -87,236 +87,236 @@
     {
         "detector": "H4Y2L",
         "element": 1,
-        "hits": 110
+        "hits": 137
     },
     {
         "detector": "H4Y2L",
         "element": 2,
-        "hits": 89
+        "hits": 84
     },
     {
         "detector": "H4Y2L",
         "element": 3,
-        "hits": 248
+        "hits": 302
     },
     {
         "detector": "H4Y2L",
         "element": 4,
-        "hits": 306
+        "hits": 289
     },
     {
         "detector": "H4Y2L",
         "element": 5,
-        "hits": 538
+        "hits": 512
     },
     {
         "detector": "H4Y2L",
         "element": 6,
-        "hits": 676
-    },
-    {
-        "detector": "H4Y2L",
-        "element": 7,
-        "hits": 1325
-    },
-    {
-        "detector": "H4Y2L",
-        "element": 8,
-        "hits": 2515
-    },
-    {
-        "detector": "H4Y2L",
-        "element": 9,
-        "hits": 2697
-    },
-    {
-        "detector": "H4Y2L",
-        "element": 10,
-        "hits": 1602
-    },
-    {
-        "detector": "H4Y2L",
-        "element": 11,
-        "hits": 914
-    },
-    {
-        "detector": "H4Y2L",
-        "element": 12,
-        "hits": 515
-    },
-    {
-        "detector": "H4Y2L",
-        "element": 13,
-        "hits": 423
-    },
-    {
-        "detector": "H4Y2L",
-        "element": 14,
-        "hits": 291
-    },
-    {
-        "detector": "H4Y2L",
-        "element": 15,
-        "hits": 308
-    },
-    {
-        "detector": "H4T",
-        "element": 0,
-        "hits": 0
-    },
-    {
-        "detector": "H4T",
-        "element": 1,
-        "hits": 3473
-    },
-    {
-        "detector": "H4T",
-        "element": 2,
-        "hits": 3051
-    },
-    {
-        "detector": "H4T",
-        "element": 3,
-        "hits": 1827
-    },
-    {
-        "detector": "H4T",
-        "element": 4,
-        "hits": 1187
-    },
-    {
-        "detector": "H4T",
-        "element": 5,
-        "hits": 682
-    },
-    {
-        "detector": "H4T",
-        "element": 6,
-        "hits": 539
-    },
-    {
-        "detector": "H4T",
-        "element": 7,
-        "hits": 312
-    },
-    {
-        "detector": "H4T",
-        "element": 8,
-        "hits": 244
-    },
-    {
-        "detector": "H4T",
-        "element": 9,
-        "hits": 373
-    },
-    {
-        "detector": "H4T",
-        "element": 10,
-        "hits": 397
-    },
-    {
-        "detector": "H4T",
-        "element": 11,
-        "hits": 681
-    },
-    {
-        "detector": "H4T",
-        "element": 12,
-        "hits": 907
-    },
-    {
-        "detector": "H4T",
-        "element": 13,
-        "hits": 1706
-    },
-    {
-        "detector": "H4T",
-        "element": 14,
-        "hits": 2915
-    },
-    {
-        "detector": "H4T",
-        "element": 15,
-        "hits": 4294
-    },
-    {
-        "detector": "H4B",
-        "element": 0,
-        "hits": 0
-    },
-    {
-        "detector": "H4B",
-        "element": 1,
-        "hits": 3875
-    },
-    {
-        "detector": "H4B",
-        "element": 2,
-        "hits": 2236
-    },
-    {
-        "detector": "H4B",
-        "element": 3,
-        "hits": 2169
-    },
-    {
-        "detector": "H4B",
-        "element": 4,
-        "hits": 1383
-    },
-    {
-        "detector": "H4B",
-        "element": 5,
-        "hits": 649
-    },
-    {
-        "detector": "H4B",
-        "element": 6,
-        "hits": 451
-    },
-    {
-        "detector": "H4B",
-        "element": 7,
-        "hits": 424
-    },
-    {
-        "detector": "H4B",
-        "element": 8,
         "hits": 613
     },
     {
+        "detector": "H4Y2L",
+        "element": 7,
+        "hits": 1243
+    },
+    {
+        "detector": "H4Y2L",
+        "element": 8,
+        "hits": 2425
+    },
+    {
+        "detector": "H4Y2L",
+        "element": 9,
+        "hits": 2497
+    },
+    {
+        "detector": "H4Y2L",
+        "element": 10,
+        "hits": 1446
+    },
+    {
+        "detector": "H4Y2L",
+        "element": 11,
+        "hits": 774
+    },
+    {
+        "detector": "H4Y2L",
+        "element": 12,
+        "hits": 499
+    },
+    {
+        "detector": "H4Y2L",
+        "element": 13,
+        "hits": 407
+    },
+    {
+        "detector": "H4Y2L",
+        "element": 14,
+        "hits": 260
+    },
+    {
+        "detector": "H4Y2L",
+        "element": 15,
+        "hits": 239
+    },
+    {
+        "detector": "H4T",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "H4T",
+        "element": 1,
+        "hits": 3451
+    },
+    {
+        "detector": "H4T",
+        "element": 2,
+        "hits": 2999
+    },
+    {
+        "detector": "H4T",
+        "element": 3,
+        "hits": 1812
+    },
+    {
+        "detector": "H4T",
+        "element": 4,
+        "hits": 1154
+    },
+    {
+        "detector": "H4T",
+        "element": 5,
+        "hits": 697
+    },
+    {
+        "detector": "H4T",
+        "element": 6,
+        "hits": 502
+    },
+    {
+        "detector": "H4T",
+        "element": 7,
+        "hits": 275
+    },
+    {
+        "detector": "H4T",
+        "element": 8,
+        "hits": 272
+    },
+    {
+        "detector": "H4T",
+        "element": 9,
+        "hits": 272
+    },
+    {
+        "detector": "H4T",
+        "element": 10,
+        "hits": 389
+    },
+    {
+        "detector": "H4T",
+        "element": 11,
+        "hits": 657
+    },
+    {
+        "detector": "H4T",
+        "element": 12,
+        "hits": 728
+    },
+    {
+        "detector": "H4T",
+        "element": 13,
+        "hits": 1600
+    },
+    {
+        "detector": "H4T",
+        "element": 14,
+        "hits": 2730
+    },
+    {
+        "detector": "H4T",
+        "element": 15,
+        "hits": 4085
+    },
+    {
+        "detector": "H4B",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "H4B",
+        "element": 1,
+        "hits": 3822
+    },
+    {
+        "detector": "H4B",
+        "element": 2,
+        "hits": 2245
+    },
+    {
+        "detector": "H4B",
+        "element": 3,
+        "hits": 1982
+    },
+    {
+        "detector": "H4B",
+        "element": 4,
+        "hits": 1374
+    },
+    {
+        "detector": "H4B",
+        "element": 5,
+        "hits": 609
+    },
+    {
+        "detector": "H4B",
+        "element": 6,
+        "hits": 441
+    },
+    {
+        "detector": "H4B",
+        "element": 7,
+        "hits": 390
+    },
+    {
+        "detector": "H4B",
+        "element": 8,
+        "hits": 508
+    },
+    {
         "detector": "H4B",
         "element": 9,
-        "hits": 385
+        "hits": 334
     },
     {
         "detector": "H4B",
         "element": 10,
-        "hits": 521
+        "hits": 442
     },
     {
         "detector": "H4B",
         "element": 11,
-        "hits": 331
+        "hits": 310
     },
     {
         "detector": "H4B",
         "element": 12,
-        "hits": 1010
+        "hits": 865
     },
     {
         "detector": "H4B",
         "element": 13,
-        "hits": 1486
+        "hits": 1467
     },
     {
         "detector": "H4B",
         "element": 14,
-        "hits": 2816
+        "hits": 2740
     },
     {
         "detector": "H4B",
         "element": 15,
-        "hits": 4477
+        "hits": 4230
     }
 ]

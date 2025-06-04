@@ -7,242 +7,242 @@
     {
         "detector": "P2X1",
         "element": 1,
-        "hits": 171
+        "hits": 159
     },
     {
         "detector": "P2X1",
         "element": 2,
-        "hits": 1580
+        "hits": 1489
     },
     {
         "detector": "P2X1",
         "element": 3,
-        "hits": 1229
+        "hits": 1148
     },
     {
         "detector": "P2X1",
         "element": 4,
-        "hits": 821
+        "hits": 810
     },
     {
         "detector": "P2X1",
         "element": 5,
-        "hits": 915
+        "hits": 940
     },
     {
         "detector": "P2X1",
         "element": 6,
-        "hits": 1296
+        "hits": 1319
     },
     {
         "detector": "P2X1",
         "element": 7,
-        "hits": 1290
+        "hits": 1369
     },
     {
         "detector": "P2X1",
         "element": 8,
-        "hits": 801
+        "hits": 792
     },
     {
         "detector": "P2X1",
         "element": 9,
-        "hits": 645
+        "hits": 632
     },
     {
         "detector": "P2X1",
         "element": 10,
-        "hits": 470
+        "hits": 516
     },
     {
         "detector": "P2X1",
         "element": 11,
-        "hits": 484
+        "hits": 466
     },
     {
         "detector": "P2X1",
         "element": 12,
-        "hits": 507
+        "hits": 441
     },
     {
         "detector": "P2X1",
         "element": 13,
-        "hits": 470
+        "hits": 471
     },
     {
         "detector": "P2X1",
         "element": 14,
-        "hits": 357
+        "hits": 386
     },
     {
         "detector": "P2X1",
         "element": 15,
-        "hits": 363
+        "hits": 366
     },
     {
         "detector": "P2X1",
         "element": 16,
-        "hits": 322
-    },
-    {
-        "detector": "P2X1",
-        "element": 17,
-        "hits": 262
-    },
-    {
-        "detector": "P2X1",
-        "element": 18,
-        "hits": 258
-    },
-    {
-        "detector": "P2X1",
-        "element": 19,
-        "hits": 293
-    },
-    {
-        "detector": "P2X1",
-        "element": 20,
-        "hits": 304
-    },
-    {
-        "detector": "P2X1",
-        "element": 21,
-        "hits": 251
-    },
-    {
-        "detector": "P2X1",
-        "element": 22,
-        "hits": 213
-    },
-    {
-        "detector": "P2X1",
-        "element": 23,
-        "hits": 171
-    },
-    {
-        "detector": "P2X1",
-        "element": 24,
-        "hits": 182
-    },
-    {
-        "detector": "P2X1",
-        "element": 25,
-        "hits": 194
-    },
-    {
-        "detector": "P2X1",
-        "element": 26,
-        "hits": 160
-    },
-    {
-        "detector": "P2X1",
-        "element": 27,
-        "hits": 170
-    },
-    {
-        "detector": "P2X1",
-        "element": 28,
-        "hits": 134
-    },
-    {
-        "detector": "P2X1",
-        "element": 29,
-        "hits": 124
-    },
-    {
-        "detector": "P2X1",
-        "element": 30,
-        "hits": 139
-    },
-    {
-        "detector": "P2X1",
-        "element": 31,
-        "hits": 120
-    },
-    {
-        "detector": "P2X1",
-        "element": 32,
-        "hits": 119
-    },
-    {
-        "detector": "P2X1",
-        "element": 33,
-        "hits": 0
-    },
-    {
-        "detector": "P2X1",
-        "element": 34,
-        "hits": 0
-    },
-    {
-        "detector": "P2X1",
-        "element": 35,
-        "hits": 0
-    },
-    {
-        "detector": "P2X1",
-        "element": 36,
-        "hits": 0
-    },
-    {
-        "detector": "P2X1",
-        "element": 37,
-        "hits": 0
-    },
-    {
-        "detector": "P2X1",
-        "element": 38,
-        "hits": 0
-    },
-    {
-        "detector": "P2X1",
-        "element": 39,
-        "hits": 0
-    },
-    {
-        "detector": "P2X1",
-        "element": 40,
-        "hits": 0
-    },
-    {
-        "detector": "P2X1",
-        "element": 41,
         "hits": 307
     },
     {
         "detector": "P2X1",
+        "element": 17,
+        "hits": 277
+    },
+    {
+        "detector": "P2X1",
+        "element": 18,
+        "hits": 250
+    },
+    {
+        "detector": "P2X1",
+        "element": 19,
+        "hits": 269
+    },
+    {
+        "detector": "P2X1",
+        "element": 20,
+        "hits": 271
+    },
+    {
+        "detector": "P2X1",
+        "element": 21,
+        "hits": 234
+    },
+    {
+        "detector": "P2X1",
+        "element": 22,
+        "hits": 211
+    },
+    {
+        "detector": "P2X1",
+        "element": 23,
+        "hits": 181
+    },
+    {
+        "detector": "P2X1",
+        "element": 24,
+        "hits": 164
+    },
+    {
+        "detector": "P2X1",
+        "element": 25,
+        "hits": 175
+    },
+    {
+        "detector": "P2X1",
+        "element": 26,
+        "hits": 154
+    },
+    {
+        "detector": "P2X1",
+        "element": 27,
+        "hits": 136
+    },
+    {
+        "detector": "P2X1",
+        "element": 28,
+        "hits": 129
+    },
+    {
+        "detector": "P2X1",
+        "element": 29,
+        "hits": 140
+    },
+    {
+        "detector": "P2X1",
+        "element": 30,
+        "hits": 141
+    },
+    {
+        "detector": "P2X1",
+        "element": 31,
+        "hits": 131
+    },
+    {
+        "detector": "P2X1",
+        "element": 32,
+        "hits": 130
+    },
+    {
+        "detector": "P2X1",
+        "element": 33,
+        "hits": 0
+    },
+    {
+        "detector": "P2X1",
+        "element": 34,
+        "hits": 0
+    },
+    {
+        "detector": "P2X1",
+        "element": 35,
+        "hits": 0
+    },
+    {
+        "detector": "P2X1",
+        "element": 36,
+        "hits": 0
+    },
+    {
+        "detector": "P2X1",
+        "element": 37,
+        "hits": 0
+    },
+    {
+        "detector": "P2X1",
+        "element": 38,
+        "hits": 0
+    },
+    {
+        "detector": "P2X1",
+        "element": 39,
+        "hits": 0
+    },
+    {
+        "detector": "P2X1",
+        "element": 40,
+        "hits": 0
+    },
+    {
+        "detector": "P2X1",
+        "element": 41,
+        "hits": 238
+    },
+    {
+        "detector": "P2X1",
         "element": 42,
-        "hits": 257
+        "hits": 229
     },
     {
         "detector": "P2X1",
         "element": 43,
-        "hits": 84
+        "hits": 78
     },
     {
         "detector": "P2X1",
         "element": 44,
-        "hits": 335
+        "hits": 258
     },
     {
         "detector": "P2X1",
         "element": 45,
-        "hits": 314
+        "hits": 350
     },
     {
         "detector": "P2X1",
         "element": 46,
-        "hits": 248
+        "hits": 236
     },
     {
         "detector": "P2X1",
         "element": 47,
-        "hits": 167
+        "hits": 159
     },
     {
         "detector": "P2X1",
         "element": 48,
-        "hits": 331
+        "hits": 315
     },
     {
         "detector": "P2X1",
@@ -257,107 +257,107 @@
     {
         "detector": "P2X1",
         "element": 51,
-        "hits": 1
+        "hits": 2
     },
     {
         "detector": "P2X1",
         "element": 52,
-        "hits": 18
+        "hits": 7
     },
     {
         "detector": "P2X1",
         "element": 53,
-        "hits": 30
+        "hits": 17
     },
     {
         "detector": "P2X1",
         "element": 54,
-        "hits": 29
+        "hits": 34
     },
     {
         "detector": "P2X1",
         "element": 55,
-        "hits": 32
+        "hits": 38
     },
     {
         "detector": "P2X1",
         "element": 56,
-        "hits": 20
+        "hits": 36
     },
     {
         "detector": "P2X1",
         "element": 57,
-        "hits": 19
-    },
-    {
-        "detector": "P2X1",
-        "element": 58,
-        "hits": 25
-    },
-    {
-        "detector": "P2X1",
-        "element": 59,
-        "hits": 10
-    },
-    {
-        "detector": "P2X1",
-        "element": 60,
         "hits": 9
     },
     {
         "detector": "P2X1",
-        "element": 61,
-        "hits": 13
-    },
-    {
-        "detector": "P2X1",
-        "element": 62,
-        "hits": 29
-    },
-    {
-        "detector": "P2X1",
-        "element": 63,
-        "hits": 20
-    },
-    {
-        "detector": "P2X1",
-        "element": 64,
-        "hits": 13
-    },
-    {
-        "detector": "P2X1",
-        "element": 65,
+        "element": 58,
         "hits": 21
     },
     {
         "detector": "P2X1",
+        "element": 59,
+        "hits": 14
+    },
+    {
+        "detector": "P2X1",
+        "element": 60,
+        "hits": 10
+    },
+    {
+        "detector": "P2X1",
+        "element": 61,
+        "hits": 9
+    },
+    {
+        "detector": "P2X1",
+        "element": 62,
+        "hits": 14
+    },
+    {
+        "detector": "P2X1",
+        "element": 63,
+        "hits": 18
+    },
+    {
+        "detector": "P2X1",
+        "element": 64,
+        "hits": 19
+    },
+    {
+        "detector": "P2X1",
+        "element": 65,
+        "hits": 10
+    },
+    {
+        "detector": "P2X1",
         "element": 66,
-        "hits": 23
+        "hits": 13
     },
     {
         "detector": "P2X1",
         "element": 67,
-        "hits": 14
+        "hits": 12
     },
     {
         "detector": "P2X1",
         "element": 68,
-        "hits": 14
+        "hits": 7
     },
     {
         "detector": "P2X1",
         "element": 69,
-        "hits": 8
+        "hits": 9
     },
     {
         "detector": "P2X1",
         "element": 70,
-        "hits": 4
+        "hits": 7
     },
     {
         "detector": "P2X1",
         "element": 71,
-        "hits": 5
+        "hits": 3
     },
     {
         "detector": "P2X2",
@@ -367,17 +367,17 @@
     {
         "detector": "P2X2",
         "element": 1,
-        "hits": 1468
+        "hits": 1362
     },
     {
         "detector": "P2X2",
         "element": 2,
-        "hits": 1636
+        "hits": 1631
     },
     {
         "detector": "P2X2",
         "element": 3,
-        "hits": 1689
+        "hits": 1537
     },
     {
         "detector": "P2X2",
@@ -387,222 +387,222 @@
     {
         "detector": "P2X2",
         "element": 5,
-        "hits": 1522
+        "hits": 1458
     },
     {
         "detector": "P2X2",
         "element": 6,
-        "hits": 1505
+        "hits": 1379
     },
     {
         "detector": "P2X2",
         "element": 7,
-        "hits": 1337
+        "hits": 1328
     },
     {
         "detector": "P2X2",
         "element": 8,
-        "hits": 938
+        "hits": 829
     },
     {
         "detector": "P2X2",
         "element": 9,
-        "hits": 629
+        "hits": 677
     },
     {
         "detector": "P2X2",
         "element": 10,
-        "hits": 517
+        "hits": 502
     },
     {
         "detector": "P2X2",
         "element": 11,
-        "hits": 489
+        "hits": 418
     },
     {
         "detector": "P2X2",
         "element": 12,
-        "hits": 343
+        "hits": 334
     },
     {
         "detector": "P2X2",
         "element": 13,
-        "hits": 401
+        "hits": 422
     },
     {
         "detector": "P2X2",
         "element": 14,
-        "hits": 346
+        "hits": 336
     },
     {
         "detector": "P2X2",
         "element": 15,
-        "hits": 286
+        "hits": 261
     },
     {
         "detector": "P2X2",
         "element": 16,
-        "hits": 142
+        "hits": 144
     },
     {
         "detector": "P2X2",
         "element": 17,
-        "hits": 227
+        "hits": 186
     },
     {
         "detector": "P2X2",
         "element": 18,
-        "hits": 201
+        "hits": 154
     },
     {
         "detector": "P2X2",
         "element": 19,
-        "hits": 184
+        "hits": 162
     },
     {
         "detector": "P2X2",
         "element": 20,
-        "hits": 154
-    },
-    {
-        "detector": "P2X2",
-        "element": 21,
-        "hits": 128
-    },
-    {
-        "detector": "P2X2",
-        "element": 22,
-        "hits": 112
-    },
-    {
-        "detector": "P2X2",
-        "element": 23,
-        "hits": 124
-    },
-    {
-        "detector": "P2X2",
-        "element": 24,
-        "hits": 154
-    },
-    {
-        "detector": "P2X2",
-        "element": 25,
-        "hits": 0
-    },
-    {
-        "detector": "P2X2",
-        "element": 26,
-        "hits": 142
-    },
-    {
-        "detector": "P2X2",
-        "element": 27,
-        "hits": 165
-    },
-    {
-        "detector": "P2X2",
-        "element": 28,
-        "hits": 134
-    },
-    {
-        "detector": "P2X2",
-        "element": 29,
-        "hits": 148
-    },
-    {
-        "detector": "P2X2",
-        "element": 30,
-        "hits": 135
-    },
-    {
-        "detector": "P2X2",
-        "element": 31,
-        "hits": 146
-    },
-    {
-        "detector": "P2X2",
-        "element": 32,
-        "hits": 117
-    },
-    {
-        "detector": "P2X2",
-        "element": 33,
-        "hits": 0
-    },
-    {
-        "detector": "P2X2",
-        "element": 34,
-        "hits": 0
-    },
-    {
-        "detector": "P2X2",
-        "element": 35,
-        "hits": 0
-    },
-    {
-        "detector": "P2X2",
-        "element": 36,
-        "hits": 0
-    },
-    {
-        "detector": "P2X2",
-        "element": 37,
-        "hits": 0
-    },
-    {
-        "detector": "P2X2",
-        "element": 38,
-        "hits": 0
-    },
-    {
-        "detector": "P2X2",
-        "element": 39,
-        "hits": 0
-    },
-    {
-        "detector": "P2X2",
-        "element": 40,
-        "hits": 0
-    },
-    {
-        "detector": "P2X2",
-        "element": 41,
         "hits": 118
     },
     {
         "detector": "P2X2",
+        "element": 21,
+        "hits": 130
+    },
+    {
+        "detector": "P2X2",
+        "element": 22,
+        "hits": 101
+    },
+    {
+        "detector": "P2X2",
+        "element": 23,
+        "hits": 102
+    },
+    {
+        "detector": "P2X2",
+        "element": 24,
+        "hits": 132
+    },
+    {
+        "detector": "P2X2",
+        "element": 25,
+        "hits": 0
+    },
+    {
+        "detector": "P2X2",
+        "element": 26,
+        "hits": 154
+    },
+    {
+        "detector": "P2X2",
+        "element": 27,
+        "hits": 137
+    },
+    {
+        "detector": "P2X2",
+        "element": 28,
+        "hits": 135
+    },
+    {
+        "detector": "P2X2",
+        "element": 29,
+        "hits": 164
+    },
+    {
+        "detector": "P2X2",
+        "element": 30,
+        "hits": 115
+    },
+    {
+        "detector": "P2X2",
+        "element": 31,
+        "hits": 135
+    },
+    {
+        "detector": "P2X2",
+        "element": 32,
+        "hits": 129
+    },
+    {
+        "detector": "P2X2",
+        "element": 33,
+        "hits": 0
+    },
+    {
+        "detector": "P2X2",
+        "element": 34,
+        "hits": 0
+    },
+    {
+        "detector": "P2X2",
+        "element": 35,
+        "hits": 0
+    },
+    {
+        "detector": "P2X2",
+        "element": 36,
+        "hits": 0
+    },
+    {
+        "detector": "P2X2",
+        "element": 37,
+        "hits": 0
+    },
+    {
+        "detector": "P2X2",
+        "element": 38,
+        "hits": 0
+    },
+    {
+        "detector": "P2X2",
+        "element": 39,
+        "hits": 0
+    },
+    {
+        "detector": "P2X2",
+        "element": 40,
+        "hits": 0
+    },
+    {
+        "detector": "P2X2",
+        "element": 41,
+        "hits": 138
+    },
+    {
+        "detector": "P2X2",
         "element": 42,
-        "hits": 277
+        "hits": 226
     },
     {
         "detector": "P2X2",
         "element": 43,
-        "hits": 260
+        "hits": 273
     },
     {
         "detector": "P2X2",
         "element": 44,
-        "hits": 265
+        "hits": 288
     },
     {
         "detector": "P2X2",
         "element": 45,
-        "hits": 299
+        "hits": 274
     },
     {
         "detector": "P2X2",
         "element": 46,
-        "hits": 313
+        "hits": 320
     },
     {
         "detector": "P2X2",
         "element": 47,
-        "hits": 282
+        "hits": 330
     },
     {
         "detector": "P2X2",
         "element": 48,
-        "hits": 356
+        "hits": 349
     },
     {
         "detector": "P2X2",
@@ -632,332 +632,332 @@
     {
         "detector": "P2X2",
         "element": 54,
-        "hits": 7
+        "hits": 5
     },
     {
         "detector": "P2X2",
         "element": 55,
-        "hits": 103
+        "hits": 125
     },
     {
         "detector": "P2X2",
         "element": 56,
-        "hits": 409
+        "hits": 380
     },
     {
         "detector": "P2X2",
         "element": 57,
-        "hits": 16
-    },
-    {
-        "detector": "P2X2",
-        "element": 58,
-        "hits": 25
-    },
-    {
-        "detector": "P2X2",
-        "element": 59,
-        "hits": 14
-    },
-    {
-        "detector": "P2X2",
-        "element": 60,
-        "hits": 18
-    },
-    {
-        "detector": "P2X2",
-        "element": 61,
-        "hits": 43
-    },
-    {
-        "detector": "P2X2",
-        "element": 62,
-        "hits": 54
-    },
-    {
-        "detector": "P2X2",
-        "element": 63,
-        "hits": 45
-    },
-    {
-        "detector": "P2X2",
-        "element": 64,
-        "hits": 43
-    },
-    {
-        "detector": "P2X2",
-        "element": 65,
-        "hits": 19
-    },
-    {
-        "detector": "P2X2",
-        "element": 66,
-        "hits": 19
-    },
-    {
-        "detector": "P2X2",
-        "element": 67,
-        "hits": 27
-    },
-    {
-        "detector": "P2X2",
-        "element": 68,
         "hits": 22
     },
     {
         "detector": "P2X2",
+        "element": 58,
+        "hits": 24
+    },
+    {
+        "detector": "P2X2",
+        "element": 59,
+        "hits": 18
+    },
+    {
+        "detector": "P2X2",
+        "element": 60,
+        "hits": 21
+    },
+    {
+        "detector": "P2X2",
+        "element": 61,
+        "hits": 45
+    },
+    {
+        "detector": "P2X2",
+        "element": 62,
+        "hits": 38
+    },
+    {
+        "detector": "P2X2",
+        "element": 63,
+        "hits": 40
+    },
+    {
+        "detector": "P2X2",
+        "element": 64,
+        "hits": 38
+    },
+    {
+        "detector": "P2X2",
+        "element": 65,
+        "hits": 16
+    },
+    {
+        "detector": "P2X2",
+        "element": 66,
+        "hits": 21
+    },
+    {
+        "detector": "P2X2",
+        "element": 67,
+        "hits": 29
+    },
+    {
+        "detector": "P2X2",
+        "element": 68,
+        "hits": 24
+    },
+    {
+        "detector": "P2X2",
         "element": 69,
-        "hits": 27
+        "hits": 19
     },
     {
         "detector": "P2X2",
         "element": 70,
-        "hits": 20
+        "hits": 34
     },
     {
         "detector": "P2X2",
         "element": 71,
-        "hits": 27
-    },
-    {
-        "detector": "P2Y1",
-        "element": 0,
-        "hits": 0
-    },
-    {
-        "detector": "P2Y1",
-        "element": 1,
-        "hits": 169
-    },
-    {
-        "detector": "P2Y1",
-        "element": 2,
-        "hits": 242
-    },
-    {
-        "detector": "P2Y1",
-        "element": 3,
-        "hits": 247
-    },
-    {
-        "detector": "P2Y1",
-        "element": 4,
-        "hits": 297
-    },
-    {
-        "detector": "P2Y1",
-        "element": 5,
-        "hits": 305
-    },
-    {
-        "detector": "P2Y1",
-        "element": 6,
-        "hits": 334
-    },
-    {
-        "detector": "P2Y1",
-        "element": 7,
-        "hits": 322
-    },
-    {
-        "detector": "P2Y1",
-        "element": 8,
-        "hits": 356
-    },
-    {
-        "detector": "P2Y1",
-        "element": 9,
-        "hits": 213
-    },
-    {
-        "detector": "P2Y1",
-        "element": 10,
-        "hits": 268
-    },
-    {
-        "detector": "P2Y1",
-        "element": 11,
-        "hits": 325
-    },
-    {
-        "detector": "P2Y1",
-        "element": 12,
-        "hits": 332
-    },
-    {
-        "detector": "P2Y1",
-        "element": 13,
-        "hits": 375
-    },
-    {
-        "detector": "P2Y1",
-        "element": 14,
-        "hits": 425
-    },
-    {
-        "detector": "P2Y1",
-        "element": 15,
-        "hits": 407
-    },
-    {
-        "detector": "P2Y1",
-        "element": 16,
-        "hits": 432
-    },
-    {
-        "detector": "P2Y1",
-        "element": 17,
-        "hits": 407
-    },
-    {
-        "detector": "P2Y1",
-        "element": 18,
-        "hits": 446
-    },
-    {
-        "detector": "P2Y1",
-        "element": 19,
-        "hits": 474
-    },
-    {
-        "detector": "P2Y1",
-        "element": 20,
-        "hits": 0
-    },
-    {
-        "detector": "P2Y1",
-        "element": 21,
-        "hits": 607
-    },
-    {
-        "detector": "P2Y1",
-        "element": 22,
-        "hits": 622
-    },
-    {
-        "detector": "P2Y1",
-        "element": 23,
-        "hits": 0
-    },
-    {
-        "detector": "P2Y1",
-        "element": 24,
-        "hits": 706
-    },
-    {
-        "detector": "P2Y1",
-        "element": 25,
-        "hits": 0
-    },
-    {
-        "detector": "P2Y1",
-        "element": 26,
-        "hits": 0
-    },
-    {
-        "detector": "P2Y1",
-        "element": 27,
-        "hits": 1033
-    },
-    {
-        "detector": "P2Y1",
-        "element": 28,
-        "hits": 1430
-    },
-    {
-        "detector": "P2Y1",
-        "element": 29,
-        "hits": 1604
-    },
-    {
-        "detector": "P2Y1",
-        "element": 30,
-        "hits": 1782
-    },
-    {
-        "detector": "P2Y1",
-        "element": 31,
-        "hits": 0
-    },
-    {
-        "detector": "P2Y1",
-        "element": 32,
-        "hits": 2366
-    },
-    {
-        "detector": "P2Y1",
-        "element": 33,
-        "hits": 1460
-    },
-    {
-        "detector": "P2Y1",
-        "element": 34,
-        "hits": 1570
-    },
-    {
-        "detector": "P2Y1",
-        "element": 35,
-        "hits": 1727
-    },
-    {
-        "detector": "P2Y1",
-        "element": 36,
-        "hits": 1767
-    },
-    {
-        "detector": "P2Y1",
-        "element": 37,
-        "hits": 1772
-    },
-    {
-        "detector": "P2Y1",
-        "element": 38,
-        "hits": 1707
-    },
-    {
-        "detector": "P2Y1",
-        "element": 39,
-        "hits": 1641
-    },
-    {
-        "detector": "P2Y1",
-        "element": 40,
-        "hits": 1372
-    },
-    {
-        "detector": "P2Y1",
-        "element": 41,
-        "hits": 1052
-    },
-    {
-        "detector": "P2Y1",
-        "element": 42,
-        "hits": 901
-    },
-    {
-        "detector": "P2Y1",
-        "element": 43,
-        "hits": 624
-    },
-    {
-        "detector": "P2Y1",
-        "element": 44,
-        "hits": 345
-    },
-    {
-        "detector": "P2Y1",
-        "element": 45,
-        "hits": 147
-    },
-    {
-        "detector": "P2Y1",
-        "element": 46,
         "hits": 40
     },
     {
         "detector": "P2Y1",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "P2Y1",
+        "element": 1,
+        "hits": 182
+    },
+    {
+        "detector": "P2Y1",
+        "element": 2,
+        "hits": 240
+    },
+    {
+        "detector": "P2Y1",
+        "element": 3,
+        "hits": 249
+    },
+    {
+        "detector": "P2Y1",
+        "element": 4,
+        "hits": 284
+    },
+    {
+        "detector": "P2Y1",
+        "element": 5,
+        "hits": 307
+    },
+    {
+        "detector": "P2Y1",
+        "element": 6,
+        "hits": 303
+    },
+    {
+        "detector": "P2Y1",
+        "element": 7,
+        "hits": 312
+    },
+    {
+        "detector": "P2Y1",
+        "element": 8,
+        "hits": 337
+    },
+    {
+        "detector": "P2Y1",
+        "element": 9,
+        "hits": 250
+    },
+    {
+        "detector": "P2Y1",
+        "element": 10,
+        "hits": 274
+    },
+    {
+        "detector": "P2Y1",
+        "element": 11,
+        "hits": 321
+    },
+    {
+        "detector": "P2Y1",
+        "element": 12,
+        "hits": 301
+    },
+    {
+        "detector": "P2Y1",
+        "element": 13,
+        "hits": 353
+    },
+    {
+        "detector": "P2Y1",
+        "element": 14,
+        "hits": 385
+    },
+    {
+        "detector": "P2Y1",
+        "element": 15,
+        "hits": 368
+    },
+    {
+        "detector": "P2Y1",
+        "element": 16,
+        "hits": 388
+    },
+    {
+        "detector": "P2Y1",
+        "element": 17,
+        "hits": 382
+    },
+    {
+        "detector": "P2Y1",
+        "element": 18,
+        "hits": 414
+    },
+    {
+        "detector": "P2Y1",
+        "element": 19,
+        "hits": 427
+    },
+    {
+        "detector": "P2Y1",
+        "element": 20,
+        "hits": 0
+    },
+    {
+        "detector": "P2Y1",
+        "element": 21,
+        "hits": 555
+    },
+    {
+        "detector": "P2Y1",
+        "element": 22,
+        "hits": 596
+    },
+    {
+        "detector": "P2Y1",
+        "element": 23,
+        "hits": 0
+    },
+    {
+        "detector": "P2Y1",
+        "element": 24,
+        "hits": 753
+    },
+    {
+        "detector": "P2Y1",
+        "element": 25,
+        "hits": 0
+    },
+    {
+        "detector": "P2Y1",
+        "element": 26,
+        "hits": 0
+    },
+    {
+        "detector": "P2Y1",
+        "element": 27,
+        "hits": 939
+    },
+    {
+        "detector": "P2Y1",
+        "element": 28,
+        "hits": 1322
+    },
+    {
+        "detector": "P2Y1",
+        "element": 29,
+        "hits": 1562
+    },
+    {
+        "detector": "P2Y1",
+        "element": 30,
+        "hits": 1700
+    },
+    {
+        "detector": "P2Y1",
+        "element": 31,
+        "hits": 0
+    },
+    {
+        "detector": "P2Y1",
+        "element": 32,
+        "hits": 2253
+    },
+    {
+        "detector": "P2Y1",
+        "element": 33,
+        "hits": 1432
+    },
+    {
+        "detector": "P2Y1",
+        "element": 34,
+        "hits": 1515
+    },
+    {
+        "detector": "P2Y1",
+        "element": 35,
+        "hits": 1600
+    },
+    {
+        "detector": "P2Y1",
+        "element": 36,
+        "hits": 1643
+    },
+    {
+        "detector": "P2Y1",
+        "element": 37,
+        "hits": 1743
+    },
+    {
+        "detector": "P2Y1",
+        "element": 38,
+        "hits": 1611
+    },
+    {
+        "detector": "P2Y1",
+        "element": 39,
+        "hits": 1602
+    },
+    {
+        "detector": "P2Y1",
+        "element": 40,
+        "hits": 1308
+    },
+    {
+        "detector": "P2Y1",
+        "element": 41,
+        "hits": 994
+    },
+    {
+        "detector": "P2Y1",
+        "element": 42,
+        "hits": 895
+    },
+    {
+        "detector": "P2Y1",
+        "element": 43,
+        "hits": 603
+    },
+    {
+        "detector": "P2Y1",
+        "element": 44,
+        "hits": 372
+    },
+    {
+        "detector": "P2Y1",
+        "element": 45,
+        "hits": 115
+    },
+    {
+        "detector": "P2Y1",
+        "element": 46,
+        "hits": 29
+    },
+    {
+        "detector": "P2Y1",
         "element": 47,
-        "hits": 3
+        "hits": 4
     },
     {
         "detector": "P2Y1",
@@ -967,77 +967,77 @@
     {
         "detector": "P2Y1",
         "element": 49,
-        "hits": 910
+        "hits": 791
     },
     {
         "detector": "P2Y1",
         "element": 50,
-        "hits": 1072
+        "hits": 1078
     },
     {
         "detector": "P2Y1",
         "element": 51,
-        "hits": 809
+        "hits": 811
     },
     {
         "detector": "P2Y1",
         "element": 52,
-        "hits": 741
+        "hits": 725
     },
     {
         "detector": "P2Y1",
         "element": 53,
-        "hits": 2174
+        "hits": 2069
     },
     {
         "detector": "P2Y1",
         "element": 54,
-        "hits": 666
+        "hits": 658
     },
     {
         "detector": "P2Y1",
         "element": 55,
-        "hits": 13
+        "hits": 8
     },
     {
         "detector": "P2Y1",
         "element": 56,
-        "hits": 701
+        "hits": 587
     },
     {
         "detector": "P2Y1",
         "element": 57,
-        "hits": 198
+        "hits": 177
     },
     {
         "detector": "P2Y1",
         "element": 58,
-        "hits": 459
+        "hits": 421
     },
     {
         "detector": "P2Y1",
         "element": 59,
-        "hits": 99
+        "hits": 87
     },
     {
         "detector": "P2Y1",
         "element": 60,
-        "hits": 264
+        "hits": 226
     },
     {
         "detector": "P2Y1",
         "element": 61,
-        "hits": 158
+        "hits": 189
     },
     {
         "detector": "P2Y1",
         "element": 62,
-        "hits": 114
+        "hits": 112
     },
     {
         "detector": "P2Y1",
         "element": 63,
-        "hits": 114
+        "hits": 109
     },
     {
         "detector": "P2Y1",
@@ -1047,7 +1047,7 @@
     {
         "detector": "P2Y1",
         "element": 65,
-        "hits": 2
+        "hits": 0
     },
     {
         "detector": "P2Y1",
@@ -1077,7 +1077,7 @@
     {
         "detector": "P2Y1",
         "element": 71,
-        "hits": 0
+        "hits": 1
     },
     {
         "detector": "P2Y2",
@@ -1087,356 +1087,356 @@
     {
         "detector": "P2Y2",
         "element": 1,
-        "hits": 254
+        "hits": 248
     },
     {
         "detector": "P2Y2",
         "element": 2,
-        "hits": 259
+        "hits": 257
     },
     {
         "detector": "P2Y2",
         "element": 3,
-        "hits": 361
+        "hits": 334
     },
     {
         "detector": "P2Y2",
         "element": 4,
-        "hits": 268
+        "hits": 246
     },
     {
         "detector": "P2Y2",
         "element": 5,
-        "hits": 315
+        "hits": 283
     },
     {
         "detector": "P2Y2",
         "element": 6,
-        "hits": 349
-    },
-    {
-        "detector": "P2Y2",
-        "element": 7,
         "hits": 336
     },
     {
         "detector": "P2Y2",
+        "element": 7,
+        "hits": 302
+    },
+    {
+        "detector": "P2Y2",
         "element": 8,
-        "hits": 385
+        "hits": 364
     },
     {
         "detector": "P2Y2",
         "element": 9,
-        "hits": 221
+        "hits": 239
     },
     {
         "detector": "P2Y2",
         "element": 10,
-        "hits": 280
+        "hits": 250
     },
     {
         "detector": "P2Y2",
         "element": 11,
-        "hits": 312
+        "hits": 310
     },
     {
         "detector": "P2Y2",
         "element": 12,
-        "hits": 288
+        "hits": 271
     },
     {
         "detector": "P2Y2",
         "element": 13,
-        "hits": 277
+        "hits": 283
     },
     {
         "detector": "P2Y2",
         "element": 14,
-        "hits": 299
+        "hits": 296
     },
     {
         "detector": "P2Y2",
         "element": 15,
-        "hits": 363
+        "hits": 344
     },
     {
         "detector": "P2Y2",
         "element": 16,
-        "hits": 360
+        "hits": 341
     },
     {
         "detector": "P2Y2",
         "element": 17,
-        "hits": 432
-    },
-    {
-        "detector": "P2Y2",
-        "element": 18,
-        "hits": 351
-    },
-    {
-        "detector": "P2Y2",
-        "element": 19,
-        "hits": 416
-    },
-    {
-        "detector": "P2Y2",
-        "element": 20,
         "hits": 448
     },
     {
         "detector": "P2Y2",
-        "element": 21,
+        "element": 18,
+        "hits": 324
+    },
+    {
+        "detector": "P2Y2",
+        "element": 19,
+        "hits": 391
+    },
+    {
+        "detector": "P2Y2",
+        "element": 20,
         "hits": 458
     },
     {
         "detector": "P2Y2",
+        "element": 21,
+        "hits": 486
+    },
+    {
+        "detector": "P2Y2",
         "element": 22,
-        "hits": 519
+        "hits": 475
     },
     {
         "detector": "P2Y2",
         "element": 23,
-        "hits": 485
+        "hits": 512
     },
     {
         "detector": "P2Y2",
         "element": 24,
-        "hits": 466
+        "hits": 467
     },
     {
         "detector": "P2Y2",
         "element": 25,
-        "hits": 1200
+        "hits": 1145
     },
     {
         "detector": "P2Y2",
         "element": 26,
-        "hits": 1154
+        "hits": 1139
     },
     {
         "detector": "P2Y2",
         "element": 27,
-        "hits": 1218
+        "hits": 1135
     },
     {
         "detector": "P2Y2",
         "element": 28,
-        "hits": 1312
+        "hits": 1213
     },
     {
         "detector": "P2Y2",
         "element": 29,
-        "hits": 1553
+        "hits": 1385
     },
     {
         "detector": "P2Y2",
         "element": 30,
-        "hits": 1481
+        "hits": 1387
     },
     {
         "detector": "P2Y2",
         "element": 31,
-        "hits": 1963
+        "hits": 1843
     },
     {
         "detector": "P2Y2",
         "element": 32,
-        "hits": 1783
+        "hits": 1657
     },
     {
         "detector": "P2Y2",
         "element": 33,
-        "hits": 1435
+        "hits": 1321
     },
     {
         "detector": "P2Y2",
         "element": 34,
-        "hits": 1511
+        "hits": 1359
     },
     {
         "detector": "P2Y2",
         "element": 35,
-        "hits": 1518
+        "hits": 1376
     },
     {
         "detector": "P2Y2",
         "element": 36,
-        "hits": 1528
+        "hits": 1381
     },
     {
         "detector": "P2Y2",
         "element": 37,
-        "hits": 1410
+        "hits": 1327
     },
     {
         "detector": "P2Y2",
         "element": 38,
-        "hits": 1526
+        "hits": 1389
     },
     {
         "detector": "P2Y2",
         "element": 39,
-        "hits": 1373
+        "hits": 1256
     },
     {
         "detector": "P2Y2",
         "element": 40,
-        "hits": 1371
+        "hits": 1234
     },
     {
         "detector": "P2Y2",
         "element": 41,
-        "hits": 1057
-    },
-    {
-        "detector": "P2Y2",
-        "element": 42,
         "hits": 1001
     },
     {
         "detector": "P2Y2",
+        "element": 42,
+        "hits": 1024
+    },
+    {
+        "detector": "P2Y2",
         "element": 43,
-        "hits": 789
+        "hits": 736
     },
     {
         "detector": "P2Y2",
         "element": 44,
-        "hits": 675
+        "hits": 699
     },
     {
         "detector": "P2Y2",
         "element": 45,
-        "hits": 557
+        "hits": 534
     },
     {
         "detector": "P2Y2",
         "element": 46,
-        "hits": 522
+        "hits": 473
     },
     {
         "detector": "P2Y2",
         "element": 47,
-        "hits": 371
+        "hits": 403
     },
     {
         "detector": "P2Y2",
         "element": 48,
-        "hits": 346
+        "hits": 372
     },
     {
         "detector": "P2Y2",
         "element": 49,
-        "hits": 949
+        "hits": 918
     },
     {
         "detector": "P2Y2",
         "element": 50,
-        "hits": 857
+        "hits": 786
     },
     {
         "detector": "P2Y2",
         "element": 51,
-        "hits": 820
+        "hits": 798
     },
     {
         "detector": "P2Y2",
         "element": 52,
-        "hits": 793
+        "hits": 744
     },
     {
         "detector": "P2Y2",
         "element": 53,
-        "hits": 758
+        "hits": 755
     },
     {
         "detector": "P2Y2",
         "element": 54,
-        "hits": 648
-    },
-    {
-        "detector": "P2Y2",
-        "element": 55,
-        "hits": 762
-    },
-    {
-        "detector": "P2Y2",
-        "element": 56,
         "hits": 622
     },
     {
         "detector": "P2Y2",
+        "element": 55,
+        "hits": 668
+    },
+    {
+        "detector": "P2Y2",
+        "element": 56,
+        "hits": 578
+    },
+    {
+        "detector": "P2Y2",
         "element": 57,
-        "hits": 516
+        "hits": 485
     },
     {
         "detector": "P2Y2",
         "element": 58,
-        "hits": 576
+        "hits": 571
     },
     {
         "detector": "P2Y2",
         "element": 59,
-        "hits": 603
+        "hits": 631
     },
     {
         "detector": "P2Y2",
         "element": 60,
-        "hits": 601
+        "hits": 529
     },
     {
         "detector": "P2Y2",
         "element": 61,
-        "hits": 544
+        "hits": 569
     },
     {
         "detector": "P2Y2",
         "element": 62,
-        "hits": 546
+        "hits": 493
     },
     {
         "detector": "P2Y2",
         "element": 63,
-        "hits": 67
+        "hits": 68
     },
     {
         "detector": "P2Y2",
         "element": 64,
-        "hits": 308
+        "hits": 311
     },
     {
         "detector": "P2Y2",
         "element": 65,
-        "hits": 26
+        "hits": 21
     },
     {
         "detector": "P2Y2",
         "element": 66,
-        "hits": 1
+        "hits": 0
     },
     {
         "detector": "P2Y2",
         "element": 67,
-        "hits": 7
+        "hits": 8
     },
     {
         "detector": "P2Y2",
         "element": 68,
-        "hits": 65
+        "hits": 61
     },
     {
         "detector": "P2Y2",
         "element": 69,
-        "hits": 166
+        "hits": 150
     },
     {
         "detector": "P2Y2",
         "element": 70,
-        "hits": 225
+        "hits": 192
     },
     {
         "detector": "P2Y2",
         "element": 71,
-        "hits": 295
+        "hits": 281
     }
 ]

@@ -7,187 +7,187 @@
     {
         "detector": "DP2TL",
         "element": 1,
-        "hits": 393
+        "hits": 371
     },
     {
         "detector": "DP2TL",
         "element": 2,
-        "hits": 313
+        "hits": 311
     },
     {
         "detector": "DP2TL",
         "element": 3,
-        "hits": 326
+        "hits": 278
     },
     {
         "detector": "DP2TL",
         "element": 4,
-        "hits": 286
+        "hits": 233
     },
     {
         "detector": "DP2TL",
         "element": 5,
-        "hits": 222
+        "hits": 248
     },
     {
         "detector": "DP2TL",
         "element": 6,
-        "hits": 218
+        "hits": 176
     },
     {
         "detector": "DP2TL",
         "element": 7,
-        "hits": 206
+        "hits": 204
     },
     {
         "detector": "DP2TL",
         "element": 8,
-        "hits": 155
+        "hits": 172
     },
     {
         "detector": "DP2TL",
         "element": 9,
-        "hits": 159
+        "hits": 122
     },
     {
         "detector": "DP2TL",
         "element": 10,
-        "hits": 157
+        "hits": 138
     },
     {
         "detector": "DP2TL",
         "element": 11,
-        "hits": 90
+        "hits": 88
     },
     {
         "detector": "DP2TL",
         "element": 12,
-        "hits": 103
+        "hits": 120
     },
     {
         "detector": "DP2TL",
         "element": 13,
-        "hits": 94
+        "hits": 112
     },
     {
         "detector": "DP2TL",
         "element": 14,
-        "hits": 87
+        "hits": 79
     },
     {
         "detector": "DP2TL",
         "element": 15,
-        "hits": 89
+        "hits": 96
     },
     {
         "detector": "DP2TL",
         "element": 16,
-        "hits": 76
+        "hits": 90
     },
     {
         "detector": "DP2TL",
         "element": 17,
-        "hits": 74
+        "hits": 77
     },
     {
         "detector": "DP2TL",
         "element": 18,
-        "hits": 67
+        "hits": 68
     },
     {
         "detector": "DP2TL",
         "element": 19,
-        "hits": 72
+        "hits": 76
     },
     {
         "detector": "DP2TL",
         "element": 20,
-        "hits": 80
-    },
-    {
-        "detector": "DP2TL",
-        "element": 21,
-        "hits": 64
-    },
-    {
-        "detector": "DP2TL",
-        "element": 22,
         "hits": 59
     },
     {
         "detector": "DP2TL",
+        "element": 21,
+        "hits": 60
+    },
+    {
+        "detector": "DP2TL",
+        "element": 22,
+        "hits": 52
+    },
+    {
+        "detector": "DP2TL",
         "element": 23,
-        "hits": 39
-    },
-    {
-        "detector": "DP2TL",
-        "element": 24,
-        "hits": 62
-    },
-    {
-        "detector": "DP2TL",
-        "element": 25,
-        "hits": 58
-    },
-    {
-        "detector": "DP2TL",
-        "element": 26,
         "hits": 53
     },
     {
         "detector": "DP2TL",
-        "element": 27,
-        "hits": 44
+        "element": 24,
+        "hits": 47
     },
     {
         "detector": "DP2TL",
-        "element": 28,
+        "element": 25,
+        "hits": 43
+    },
+    {
+        "detector": "DP2TL",
+        "element": 26,
+        "hits": 35
+    },
+    {
+        "detector": "DP2TL",
+        "element": 27,
         "hits": 42
     },
     {
         "detector": "DP2TL",
+        "element": 28,
+        "hits": 43
+    },
+    {
+        "detector": "DP2TL",
         "element": 29,
-        "hits": 49
+        "hits": 63
     },
     {
         "detector": "DP2TL",
         "element": 30,
-        "hits": 46
-    },
-    {
-        "detector": "DP2TL",
-        "element": 31,
-        "hits": 35
-    },
-    {
-        "detector": "DP2TL",
-        "element": 32,
-        "hits": 36
-    },
-    {
-        "detector": "DP2TL",
-        "element": 33,
         "hits": 33
     },
     {
         "detector": "DP2TL",
+        "element": 31,
+        "hits": 44
+    },
+    {
+        "detector": "DP2TL",
+        "element": 32,
+        "hits": 32
+    },
+    {
+        "detector": "DP2TL",
+        "element": 33,
+        "hits": 24
+    },
+    {
+        "detector": "DP2TL",
         "element": 34,
-        "hits": 35
+        "hits": 31
     },
     {
         "detector": "DP2TL",
         "element": 35,
-        "hits": 28
+        "hits": 39
     },
     {
         "detector": "DP2TL",
         "element": 36,
-        "hits": 36
+        "hits": 29
     },
     {
         "detector": "DP2TL",
         "element": 37,
-        "hits": 29
+        "hits": 31
     },
     {
         "detector": "DP2TL",
@@ -197,47 +197,47 @@
     {
         "detector": "DP2TL",
         "element": 39,
-        "hits": 38
+        "hits": 24
     },
     {
         "detector": "DP2TL",
         "element": 40,
-        "hits": 24
-    },
-    {
-        "detector": "DP2TL",
-        "element": 41,
-        "hits": 35
-    },
-    {
-        "detector": "DP2TL",
-        "element": 42,
-        "hits": 19
-    },
-    {
-        "detector": "DP2TL",
-        "element": 43,
-        "hits": 34
-    },
-    {
-        "detector": "DP2TL",
-        "element": 44,
-        "hits": 24
-    },
-    {
-        "detector": "DP2TL",
-        "element": 45,
         "hits": 28
     },
     {
         "detector": "DP2TL",
+        "element": 41,
+        "hits": 25
+    },
+    {
+        "detector": "DP2TL",
+        "element": 42,
+        "hits": 26
+    },
+    {
+        "detector": "DP2TL",
+        "element": 43,
+        "hits": 31
+    },
+    {
+        "detector": "DP2TL",
+        "element": 44,
+        "hits": 16
+    },
+    {
+        "detector": "DP2TL",
+        "element": 45,
+        "hits": 18
+    },
+    {
+        "detector": "DP2TL",
         "element": 46,
-        "hits": 32
+        "hits": 22
     },
     {
         "detector": "DP2TL",
         "element": 47,
-        "hits": 31
+        "hits": 26
     },
     {
         "detector": "DP2TR",
@@ -247,27 +247,27 @@
     {
         "detector": "DP2TR",
         "element": 1,
-        "hits": 209
+        "hits": 217
     },
     {
         "detector": "DP2TR",
         "element": 2,
-        "hits": 208
+        "hits": 187
     },
     {
         "detector": "DP2TR",
         "element": 3,
-        "hits": 182
+        "hits": 166
     },
     {
         "detector": "DP2TR",
         "element": 4,
-        "hits": 127
+        "hits": 157
     },
     {
         "detector": "DP2TR",
         "element": 5,
-        "hits": 146
+        "hits": 134
     },
     {
         "detector": "DP2TR",
@@ -277,82 +277,82 @@
     {
         "detector": "DP2TR",
         "element": 7,
-        "hits": 113
+        "hits": 115
     },
     {
         "detector": "DP2TR",
         "element": 8,
-        "hits": 108
-    },
-    {
-        "detector": "DP2TR",
-        "element": 9,
         "hits": 97
     },
     {
         "detector": "DP2TR",
-        "element": 10,
+        "element": 9,
         "hits": 88
     },
     {
         "detector": "DP2TR",
+        "element": 10,
+        "hits": 82
+    },
+    {
+        "detector": "DP2TR",
         "element": 11,
-        "hits": 79
+        "hits": 84
     },
     {
         "detector": "DP2TR",
         "element": 12,
-        "hits": 76
+        "hits": 61
     },
     {
         "detector": "DP2TR",
         "element": 13,
-        "hits": 45
+        "hits": 68
     },
     {
         "detector": "DP2TR",
         "element": 14,
-        "hits": 59
+        "hits": 49
     },
     {
         "detector": "DP2TR",
         "element": 15,
-        "hits": 60
+        "hits": 77
     },
     {
         "detector": "DP2TR",
         "element": 16,
-        "hits": 60
+        "hits": 46
     },
     {
         "detector": "DP2TR",
         "element": 17,
-        "hits": 52
+        "hits": 42
     },
     {
         "detector": "DP2TR",
         "element": 18,
-        "hits": 53
+        "hits": 46
     },
     {
         "detector": "DP2TR",
         "element": 19,
-        "hits": 44
-    },
-    {
-        "detector": "DP2TR",
-        "element": 20,
-        "hits": 57
-    },
-    {
-        "detector": "DP2TR",
-        "element": 21,
         "hits": 45
     },
     {
         "detector": "DP2TR",
+        "element": 20,
+        "hits": 51
+    },
+    {
+        "detector": "DP2TR",
+        "element": 21,
+        "hits": 44
+    },
+    {
+        "detector": "DP2TR",
         "element": 22,
-        "hits": 41
+        "hits": 50
     },
     {
         "detector": "DP2TR",
@@ -362,122 +362,122 @@
     {
         "detector": "DP2TR",
         "element": 24,
-        "hits": 26
+        "hits": 33
     },
     {
         "detector": "DP2TR",
         "element": 25,
-        "hits": 3
+        "hits": 5
     },
     {
         "detector": "DP2TR",
         "element": 26,
-        "hits": 27
-    },
-    {
-        "detector": "DP2TR",
-        "element": 27,
-        "hits": 39
-    },
-    {
-        "detector": "DP2TR",
-        "element": 28,
-        "hits": 34
-    },
-    {
-        "detector": "DP2TR",
-        "element": 29,
-        "hits": 33
-    },
-    {
-        "detector": "DP2TR",
-        "element": 30,
-        "hits": 35
-    },
-    {
-        "detector": "DP2TR",
-        "element": 31,
-        "hits": 39
-    },
-    {
-        "detector": "DP2TR",
-        "element": 32,
-        "hits": 42
-    },
-    {
-        "detector": "DP2TR",
-        "element": 33,
-        "hits": 40
-    },
-    {
-        "detector": "DP2TR",
-        "element": 34,
-        "hits": 33
-    },
-    {
-        "detector": "DP2TR",
-        "element": 35,
-        "hits": 25
-    },
-    {
-        "detector": "DP2TR",
-        "element": 36,
-        "hits": 19
-    },
-    {
-        "detector": "DP2TR",
-        "element": 37,
-        "hits": 30
-    },
-    {
-        "detector": "DP2TR",
-        "element": 38,
-        "hits": 17
-    },
-    {
-        "detector": "DP2TR",
-        "element": 39,
-        "hits": 25
-    },
-    {
-        "detector": "DP2TR",
-        "element": 40,
-        "hits": 20
-    },
-    {
-        "detector": "DP2TR",
-        "element": 41,
-        "hits": 24
-    },
-    {
-        "detector": "DP2TR",
-        "element": 42,
-        "hits": 30
-    },
-    {
-        "detector": "DP2TR",
-        "element": 43,
         "hits": 31
     },
     {
         "detector": "DP2TR",
-        "element": 44,
+        "element": 27,
+        "hits": 30
+    },
+    {
+        "detector": "DP2TR",
+        "element": 28,
+        "hits": 31
+    },
+    {
+        "detector": "DP2TR",
+        "element": 29,
+        "hits": 24
+    },
+    {
+        "detector": "DP2TR",
+        "element": 30,
+        "hits": 27
+    },
+    {
+        "detector": "DP2TR",
+        "element": 31,
+        "hits": 31
+    },
+    {
+        "detector": "DP2TR",
+        "element": 32,
+        "hits": 32
+    },
+    {
+        "detector": "DP2TR",
+        "element": 33,
+        "hits": 44
+    },
+    {
+        "detector": "DP2TR",
+        "element": 34,
         "hits": 25
     },
     {
         "detector": "DP2TR",
-        "element": 45,
+        "element": 35,
+        "hits": 23
+    },
+    {
+        "detector": "DP2TR",
+        "element": 36,
+        "hits": 24
+    },
+    {
+        "detector": "DP2TR",
+        "element": 37,
+        "hits": 28
+    },
+    {
+        "detector": "DP2TR",
+        "element": 38,
+        "hits": 30
+    },
+    {
+        "detector": "DP2TR",
+        "element": 39,
         "hits": 21
     },
     {
         "detector": "DP2TR",
+        "element": 40,
+        "hits": 19
+    },
+    {
+        "detector": "DP2TR",
+        "element": 41,
+        "hits": 29
+    },
+    {
+        "detector": "DP2TR",
+        "element": 42,
+        "hits": 33
+    },
+    {
+        "detector": "DP2TR",
+        "element": 43,
+        "hits": 23
+    },
+    {
+        "detector": "DP2TR",
+        "element": 44,
+        "hits": 27
+    },
+    {
+        "detector": "DP2TR",
+        "element": 45,
+        "hits": 16
+    },
+    {
+        "detector": "DP2TR",
         "element": 46,
-        "hits": 25
+        "hits": 21
     },
     {
         "detector": "DP2TR",
         "element": 47,
-        "hits": 32
+        "hits": 22
     },
     {
         "detector": "DP2BL",
@@ -487,107 +487,107 @@
     {
         "detector": "DP2BL",
         "element": 1,
-        "hits": 417
+        "hits": 416
     },
     {
         "detector": "DP2BL",
         "element": 2,
-        "hits": 373
+        "hits": 333
     },
     {
         "detector": "DP2BL",
         "element": 3,
-        "hits": 315
+        "hits": 312
     },
     {
         "detector": "DP2BL",
         "element": 4,
-        "hits": 287
+        "hits": 238
     },
     {
         "detector": "DP2BL",
         "element": 5,
-        "hits": 288
+        "hits": 245
     },
     {
         "detector": "DP2BL",
         "element": 6,
-        "hits": 211
+        "hits": 217
     },
     {
         "detector": "DP2BL",
         "element": 7,
-        "hits": 195
+        "hits": 190
     },
     {
         "detector": "DP2BL",
         "element": 8,
-        "hits": 218
+        "hits": 154
     },
     {
         "detector": "DP2BL",
         "element": 9,
-        "hits": 162
+        "hits": 147
     },
     {
         "detector": "DP2BL",
         "element": 10,
-        "hits": 144
+        "hits": 156
     },
     {
         "detector": "DP2BL",
         "element": 11,
-        "hits": 138
+        "hits": 123
     },
     {
         "detector": "DP2BL",
         "element": 12,
-        "hits": 109
+        "hits": 122
     },
     {
         "detector": "DP2BL",
         "element": 13,
-        "hits": 88
+        "hits": 94
     },
     {
         "detector": "DP2BL",
         "element": 14,
-        "hits": 84
+        "hits": 100
     },
     {
         "detector": "DP2BL",
         "element": 15,
-        "hits": 103
+        "hits": 102
     },
     {
         "detector": "DP2BL",
         "element": 16,
-        "hits": 83
+        "hits": 100
     },
     {
         "detector": "DP2BL",
         "element": 17,
-        "hits": 86
+        "hits": 83
     },
     {
         "detector": "DP2BL",
         "element": 18,
-        "hits": 80
+        "hits": 65
     },
     {
         "detector": "DP2BL",
         "element": 19,
-        "hits": 80
+        "hits": 64
     },
     {
         "detector": "DP2BL",
         "element": 20,
-        "hits": 63
+        "hits": 60
     },
     {
         "detector": "DP2BL",
         "element": 21,
-        "hits": 63
+        "hits": 62
     },
     {
         "detector": "DP2BL",
@@ -597,47 +597,47 @@
     {
         "detector": "DP2BL",
         "element": 23,
-        "hits": 58
+        "hits": 65
     },
     {
         "detector": "DP2BL",
         "element": 24,
-        "hits": 55
+        "hits": 70
     },
     {
         "detector": "DP2BL",
         "element": 25,
-        "hits": 77
-    },
-    {
-        "detector": "DP2BL",
-        "element": 26,
         "hits": 59
     },
     {
         "detector": "DP2BL",
+        "element": 26,
+        "hits": 46
+    },
+    {
+        "detector": "DP2BL",
         "element": 27,
-        "hits": 41
+        "hits": 39
     },
     {
         "detector": "DP2BL",
         "element": 28,
-        "hits": 51
+        "hits": 46
     },
     {
         "detector": "DP2BL",
         "element": 29,
-        "hits": 47
+        "hits": 41
     },
     {
         "detector": "DP2BL",
         "element": 30,
-        "hits": 54
+        "hits": 34
     },
     {
         "detector": "DP2BL",
         "element": 31,
-        "hits": 50
+        "hits": 37
     },
     {
         "detector": "DP2BL",
@@ -647,77 +647,77 @@
     {
         "detector": "DP2BL",
         "element": 33,
-        "hits": 44
+        "hits": 58
     },
     {
         "detector": "DP2BL",
         "element": 34,
-        "hits": 39
+        "hits": 33
     },
     {
         "detector": "DP2BL",
         "element": 35,
-        "hits": 42
+        "hits": 41
     },
     {
         "detector": "DP2BL",
         "element": 36,
-        "hits": 28
+        "hits": 35
     },
     {
         "detector": "DP2BL",
         "element": 37,
-        "hits": 32
+        "hits": 33
     },
     {
         "detector": "DP2BL",
         "element": 38,
-        "hits": 41
-    },
-    {
-        "detector": "DP2BL",
-        "element": 39,
-        "hits": 30
-    },
-    {
-        "detector": "DP2BL",
-        "element": 40,
         "hits": 27
     },
     {
         "detector": "DP2BL",
-        "element": 41,
-        "hits": 38
-    },
-    {
-        "detector": "DP2BL",
-        "element": 42,
-        "hits": 31
-    },
-    {
-        "detector": "DP2BL",
-        "element": 43,
-        "hits": 38
-    },
-    {
-        "detector": "DP2BL",
-        "element": 44,
-        "hits": 41
-    },
-    {
-        "detector": "DP2BL",
-        "element": 45,
-        "hits": 38
-    },
-    {
-        "detector": "DP2BL",
-        "element": 46,
+        "element": 39,
         "hits": 26
     },
     {
         "detector": "DP2BL",
-        "element": 47,
+        "element": 40,
+        "hits": 40
+    },
+    {
+        "detector": "DP2BL",
+        "element": 41,
+        "hits": 31
+    },
+    {
+        "detector": "DP2BL",
+        "element": 42,
+        "hits": 34
+    },
+    {
+        "detector": "DP2BL",
+        "element": 43,
+        "hits": 42
+    },
+    {
+        "detector": "DP2BL",
+        "element": 44,
+        "hits": 27
+    },
+    {
+        "detector": "DP2BL",
+        "element": 45,
         "hits": 32
+    },
+    {
+        "detector": "DP2BL",
+        "element": 46,
+        "hits": 21
+    },
+    {
+        "detector": "DP2BL",
+        "element": 47,
+        "hits": 29
     },
     {
         "detector": "DP2BR",
@@ -727,207 +727,207 @@
     {
         "detector": "DP2BR",
         "element": 1,
-        "hits": 296
+        "hits": 288
     },
     {
         "detector": "DP2BR",
         "element": 2,
-        "hits": 246
-    },
-    {
-        "detector": "DP2BR",
-        "element": 3,
         "hits": 209
     },
     {
         "detector": "DP2BR",
+        "element": 3,
+        "hits": 184
+    },
+    {
+        "detector": "DP2BR",
         "element": 4,
-        "hits": 218
+        "hits": 192
     },
     {
         "detector": "DP2BR",
         "element": 5,
-        "hits": 143
+        "hits": 144
     },
     {
         "detector": "DP2BR",
         "element": 6,
-        "hits": 147
+        "hits": 152
     },
     {
         "detector": "DP2BR",
         "element": 7,
-        "hits": 246
+        "hits": 233
     },
     {
         "detector": "DP2BR",
         "element": 8,
-        "hits": 132
+        "hits": 126
     },
     {
         "detector": "DP2BR",
         "element": 9,
-        "hits": 146
+        "hits": 116
     },
     {
         "detector": "DP2BR",
         "element": 10,
-        "hits": 125
+        "hits": 103
     },
     {
         "detector": "DP2BR",
         "element": 11,
-        "hits": 105
+        "hits": 82
     },
     {
         "detector": "DP2BR",
         "element": 12,
-        "hits": 130
+        "hits": 98
     },
     {
         "detector": "DP2BR",
         "element": 13,
-        "hits": 100
+        "hits": 73
     },
     {
         "detector": "DP2BR",
         "element": 14,
-        "hits": 64
-    },
-    {
-        "detector": "DP2BR",
-        "element": 15,
         "hits": 80
     },
     {
         "detector": "DP2BR",
+        "element": 15,
+        "hits": 73
+    },
+    {
+        "detector": "DP2BR",
         "element": 16,
-        "hits": 86
+        "hits": 73
     },
     {
         "detector": "DP2BR",
         "element": 17,
-        "hits": 58
-    },
-    {
-        "detector": "DP2BR",
-        "element": 18,
-        "hits": 59
-    },
-    {
-        "detector": "DP2BR",
-        "element": 19,
-        "hits": 44
-    },
-    {
-        "detector": "DP2BR",
-        "element": 20,
-        "hits": 51
-    },
-    {
-        "detector": "DP2BR",
-        "element": 21,
         "hits": 54
     },
     {
         "detector": "DP2BR",
+        "element": 18,
+        "hits": 55
+    },
+    {
+        "detector": "DP2BR",
+        "element": 19,
+        "hits": 43
+    },
+    {
+        "detector": "DP2BR",
+        "element": 20,
+        "hits": 58
+    },
+    {
+        "detector": "DP2BR",
+        "element": 21,
+        "hits": 56
+    },
+    {
+        "detector": "DP2BR",
         "element": 22,
-        "hits": 44
+        "hits": 40
     },
     {
         "detector": "DP2BR",
         "element": 23,
-        "hits": 47
+        "hits": 37
     },
     {
         "detector": "DP2BR",
         "element": 24,
-        "hits": 45
+        "hits": 34
     },
     {
         "detector": "DP2BR",
         "element": 25,
-        "hits": 51
+        "hits": 46
     },
     {
         "detector": "DP2BR",
         "element": 26,
-        "hits": 44
-    },
-    {
-        "detector": "DP2BR",
-        "element": 27,
         "hits": 39
     },
     {
         "detector": "DP2BR",
-        "element": 28,
-        "hits": 32
+        "element": 27,
+        "hits": 30
     },
     {
         "detector": "DP2BR",
-        "element": 29,
+        "element": 28,
         "hits": 36
     },
     {
         "detector": "DP2BR",
+        "element": 29,
+        "hits": 34
+    },
+    {
+        "detector": "DP2BR",
         "element": 30,
-        "hits": 47
+        "hits": 43
     },
     {
         "detector": "DP2BR",
         "element": 31,
-        "hits": 38
+        "hits": 23
     },
     {
         "detector": "DP2BR",
         "element": 32,
-        "hits": 27
+        "hits": 35
     },
     {
         "detector": "DP2BR",
         "element": 33,
-        "hits": 31
+        "hits": 37
     },
     {
         "detector": "DP2BR",
         "element": 34,
-        "hits": 28
+        "hits": 25
     },
     {
         "detector": "DP2BR",
         "element": 35,
-        "hits": 42
+        "hits": 35
     },
     {
         "detector": "DP2BR",
         "element": 36,
-        "hits": 30
-    },
-    {
-        "detector": "DP2BR",
-        "element": 37,
         "hits": 32
     },
     {
         "detector": "DP2BR",
+        "element": 37,
+        "hits": 42
+    },
+    {
+        "detector": "DP2BR",
         "element": 38,
-        "hits": 30
+        "hits": 37
     },
     {
         "detector": "DP2BR",
         "element": 39,
-        "hits": 30
+        "hits": 19
     },
     {
         "detector": "DP2BR",
         "element": 40,
-        "hits": 18
+        "hits": 23
     },
     {
         "detector": "DP2BR",
         "element": 41,
-        "hits": 24
+        "hits": 36
     },
     {
         "detector": "DP2BR",
@@ -937,26 +937,26 @@
     {
         "detector": "DP2BR",
         "element": 43,
-        "hits": 24
+        "hits": 28
     },
     {
         "detector": "DP2BR",
         "element": 44,
-        "hits": 24
+        "hits": 35
     },
     {
         "detector": "DP2BR",
         "element": 45,
-        "hits": 14
+        "hits": 22
     },
     {
         "detector": "DP2BR",
         "element": 46,
-        "hits": 16
+        "hits": 31
     },
     {
         "detector": "DP2BR",
         "element": 47,
-        "hits": 26
+        "hits": 19
     }
 ]
