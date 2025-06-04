@@ -1,0 +1,3682 @@
+[
+    {
+        "detector": "D2V",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D2V",
+        "element": 1,
+        "hits": 118
+    },
+    {
+        "detector": "D2V",
+        "element": 2,
+        "hits": 177
+    },
+    {
+        "detector": "D2V",
+        "element": 3,
+        "hits": 256
+    },
+    {
+        "detector": "D2V",
+        "element": 4,
+        "hits": 418
+    },
+    {
+        "detector": "D2V",
+        "element": 5,
+        "hits": 515
+    },
+    {
+        "detector": "D2V",
+        "element": 6,
+        "hits": 784
+    },
+    {
+        "detector": "D2V",
+        "element": 7,
+        "hits": 1063
+    },
+    {
+        "detector": "D2V",
+        "element": 8,
+        "hits": 1234
+    },
+    {
+        "detector": "D2V",
+        "element": 9,
+        "hits": 1425
+    },
+    {
+        "detector": "D2V",
+        "element": 10,
+        "hits": 1538
+    },
+    {
+        "detector": "D2V",
+        "element": 11,
+        "hits": 1586
+    },
+    {
+        "detector": "D2V",
+        "element": 12,
+        "hits": 1609
+    },
+    {
+        "detector": "D2V",
+        "element": 13,
+        "hits": 1543
+    },
+    {
+        "detector": "D2V",
+        "element": 14,
+        "hits": 1527
+    },
+    {
+        "detector": "D2V",
+        "element": 15,
+        "hits": 1525
+    },
+    {
+        "detector": "D2V",
+        "element": 16,
+        "hits": 1405
+    },
+    {
+        "detector": "D2V",
+        "element": 17,
+        "hits": 1499
+    },
+    {
+        "detector": "D2V",
+        "element": 18,
+        "hits": 1420
+    },
+    {
+        "detector": "D2V",
+        "element": 19,
+        "hits": 1368
+    },
+    {
+        "detector": "D2V",
+        "element": 20,
+        "hits": 1377
+    },
+    {
+        "detector": "D2V",
+        "element": 21,
+        "hits": 1251
+    },
+    {
+        "detector": "D2V",
+        "element": 22,
+        "hits": 1293
+    },
+    {
+        "detector": "D2V",
+        "element": 23,
+        "hits": 1194
+    },
+    {
+        "detector": "D2V",
+        "element": 24,
+        "hits": 1199
+    },
+    {
+        "detector": "D2V",
+        "element": 25,
+        "hits": 1167
+    },
+    {
+        "detector": "D2V",
+        "element": 26,
+        "hits": 1156
+    },
+    {
+        "detector": "D2V",
+        "element": 27,
+        "hits": 1101
+    },
+    {
+        "detector": "D2V",
+        "element": 28,
+        "hits": 1056
+    },
+    {
+        "detector": "D2V",
+        "element": 29,
+        "hits": 1032
+    },
+    {
+        "detector": "D2V",
+        "element": 30,
+        "hits": 1003
+    },
+    {
+        "detector": "D2V",
+        "element": 31,
+        "hits": 926
+    },
+    {
+        "detector": "D2V",
+        "element": 32,
+        "hits": 934
+    },
+    {
+        "detector": "D2V",
+        "element": 33,
+        "hits": 863
+    },
+    {
+        "detector": "D2V",
+        "element": 34,
+        "hits": 903
+    },
+    {
+        "detector": "D2V",
+        "element": 35,
+        "hits": 897
+    },
+    {
+        "detector": "D2V",
+        "element": 36,
+        "hits": 889
+    },
+    {
+        "detector": "D2V",
+        "element": 37,
+        "hits": 826
+    },
+    {
+        "detector": "D2V",
+        "element": 38,
+        "hits": 805
+    },
+    {
+        "detector": "D2V",
+        "element": 39,
+        "hits": 731
+    },
+    {
+        "detector": "D2V",
+        "element": 40,
+        "hits": 752
+    },
+    {
+        "detector": "D2V",
+        "element": 41,
+        "hits": 682
+    },
+    {
+        "detector": "D2V",
+        "element": 42,
+        "hits": 655
+    },
+    {
+        "detector": "D2V",
+        "element": 43,
+        "hits": 613
+    },
+    {
+        "detector": "D2V",
+        "element": 44,
+        "hits": 564
+    },
+    {
+        "detector": "D2V",
+        "element": 45,
+        "hits": 521
+    },
+    {
+        "detector": "D2V",
+        "element": 46,
+        "hits": 466
+    },
+    {
+        "detector": "D2V",
+        "element": 47,
+        "hits": 411
+    },
+    {
+        "detector": "D2V",
+        "element": 48,
+        "hits": 380
+    },
+    {
+        "detector": "D2V",
+        "element": 49,
+        "hits": 393
+    },
+    {
+        "detector": "D2V",
+        "element": 50,
+        "hits": 384
+    },
+    {
+        "detector": "D2V",
+        "element": 51,
+        "hits": 308
+    },
+    {
+        "detector": "D2V",
+        "element": 52,
+        "hits": 311
+    },
+    {
+        "detector": "D2V",
+        "element": 53,
+        "hits": 329
+    },
+    {
+        "detector": "D2V",
+        "element": 54,
+        "hits": 313
+    },
+    {
+        "detector": "D2V",
+        "element": 55,
+        "hits": 320
+    },
+    {
+        "detector": "D2V",
+        "element": 56,
+        "hits": 260
+    },
+    {
+        "detector": "D2V",
+        "element": 57,
+        "hits": 265
+    },
+    {
+        "detector": "D2V",
+        "element": 58,
+        "hits": 281
+    },
+    {
+        "detector": "D2V",
+        "element": 59,
+        "hits": 288
+    },
+    {
+        "detector": "D2V",
+        "element": 60,
+        "hits": 253
+    },
+    {
+        "detector": "D2V",
+        "element": 61,
+        "hits": 312
+    },
+    {
+        "detector": "D2V",
+        "element": 62,
+        "hits": 242
+    },
+    {
+        "detector": "D2V",
+        "element": 63,
+        "hits": 291
+    },
+    {
+        "detector": "D2V",
+        "element": 64,
+        "hits": 309
+    },
+    {
+        "detector": "D2V",
+        "element": 65,
+        "hits": 278
+    },
+    {
+        "detector": "D2V",
+        "element": 66,
+        "hits": 291
+    },
+    {
+        "detector": "D2V",
+        "element": 67,
+        "hits": 330
+    },
+    {
+        "detector": "D2V",
+        "element": 68,
+        "hits": 319
+    },
+    {
+        "detector": "D2V",
+        "element": 69,
+        "hits": 293
+    },
+    {
+        "detector": "D2V",
+        "element": 70,
+        "hits": 354
+    },
+    {
+        "detector": "D2V",
+        "element": 71,
+        "hits": 350
+    },
+    {
+        "detector": "D2V",
+        "element": 72,
+        "hits": 351
+    },
+    {
+        "detector": "D2V",
+        "element": 73,
+        "hits": 381
+    },
+    {
+        "detector": "D2V",
+        "element": 74,
+        "hits": 381
+    },
+    {
+        "detector": "D2V",
+        "element": 75,
+        "hits": 385
+    },
+    {
+        "detector": "D2V",
+        "element": 76,
+        "hits": 387
+    },
+    {
+        "detector": "D2V",
+        "element": 77,
+        "hits": 381
+    },
+    {
+        "detector": "D2V",
+        "element": 78,
+        "hits": 395
+    },
+    {
+        "detector": "D2V",
+        "element": 79,
+        "hits": 398
+    },
+    {
+        "detector": "D2V",
+        "element": 80,
+        "hits": 468
+    },
+    {
+        "detector": "D2V",
+        "element": 81,
+        "hits": 485
+    },
+    {
+        "detector": "D2V",
+        "element": 82,
+        "hits": 487
+    },
+    {
+        "detector": "D2V",
+        "element": 83,
+        "hits": 558
+    },
+    {
+        "detector": "D2V",
+        "element": 84,
+        "hits": 623
+    },
+    {
+        "detector": "D2V",
+        "element": 85,
+        "hits": 626
+    },
+    {
+        "detector": "D2V",
+        "element": 86,
+        "hits": 758
+    },
+    {
+        "detector": "D2V",
+        "element": 87,
+        "hits": 843
+    },
+    {
+        "detector": "D2V",
+        "element": 88,
+        "hits": 865
+    },
+    {
+        "detector": "D2V",
+        "element": 89,
+        "hits": 1026
+    },
+    {
+        "detector": "D2V",
+        "element": 90,
+        "hits": 1106
+    },
+    {
+        "detector": "D2V",
+        "element": 91,
+        "hits": 1186
+    },
+    {
+        "detector": "D2V",
+        "element": 92,
+        "hits": 1243
+    },
+    {
+        "detector": "D2V",
+        "element": 93,
+        "hits": 1293
+    },
+    {
+        "detector": "D2V",
+        "element": 94,
+        "hits": 1405
+    },
+    {
+        "detector": "D2V",
+        "element": 95,
+        "hits": 1404
+    },
+    {
+        "detector": "D2V",
+        "element": 96,
+        "hits": 1406
+    },
+    {
+        "detector": "D2V",
+        "element": 97,
+        "hits": 1516
+    },
+    {
+        "detector": "D2V",
+        "element": 98,
+        "hits": 1454
+    },
+    {
+        "detector": "D2V",
+        "element": 99,
+        "hits": 1516
+    },
+    {
+        "detector": "D2V",
+        "element": 100,
+        "hits": 1648
+    },
+    {
+        "detector": "D2V",
+        "element": 101,
+        "hits": 1605
+    },
+    {
+        "detector": "D2V",
+        "element": 102,
+        "hits": 1693
+    },
+    {
+        "detector": "D2V",
+        "element": 103,
+        "hits": 1766
+    },
+    {
+        "detector": "D2V",
+        "element": 104,
+        "hits": 1732
+    },
+    {
+        "detector": "D2V",
+        "element": 105,
+        "hits": 1803
+    },
+    {
+        "detector": "D2V",
+        "element": 106,
+        "hits": 1792
+    },
+    {
+        "detector": "D2V",
+        "element": 107,
+        "hits": 2002
+    },
+    {
+        "detector": "D2V",
+        "element": 108,
+        "hits": 2015
+    },
+    {
+        "detector": "D2V",
+        "element": 109,
+        "hits": 2008
+    },
+    {
+        "detector": "D2V",
+        "element": 110,
+        "hits": 2159
+    },
+    {
+        "detector": "D2V",
+        "element": 111,
+        "hits": 2333
+    },
+    {
+        "detector": "D2V",
+        "element": 112,
+        "hits": 2265
+    },
+    {
+        "detector": "D2V",
+        "element": 113,
+        "hits": 2359
+    },
+    {
+        "detector": "D2V",
+        "element": 114,
+        "hits": 2323
+    },
+    {
+        "detector": "D2V",
+        "element": 115,
+        "hits": 2445
+    },
+    {
+        "detector": "D2V",
+        "element": 116,
+        "hits": 2623
+    },
+    {
+        "detector": "D2V",
+        "element": 117,
+        "hits": 2461
+    },
+    {
+        "detector": "D2V",
+        "element": 118,
+        "hits": 2430
+    },
+    {
+        "detector": "D2V",
+        "element": 119,
+        "hits": 2467
+    },
+    {
+        "detector": "D2V",
+        "element": 120,
+        "hits": 2121
+    },
+    {
+        "detector": "D2V",
+        "element": 121,
+        "hits": 1785
+    },
+    {
+        "detector": "D2V",
+        "element": 122,
+        "hits": 1570
+    },
+    {
+        "detector": "D2V",
+        "element": 123,
+        "hits": 1245
+    },
+    {
+        "detector": "D2V",
+        "element": 124,
+        "hits": 975
+    },
+    {
+        "detector": "D2V",
+        "element": 125,
+        "hits": 725
+    },
+    {
+        "detector": "D2V",
+        "element": 126,
+        "hits": 418
+    },
+    {
+        "detector": "D2V",
+        "element": 127,
+        "hits": 285
+    },
+    {
+        "detector": "D2Vp",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D2Vp",
+        "element": 1,
+        "hits": 132
+    },
+    {
+        "detector": "D2Vp",
+        "element": 2,
+        "hits": 209
+    },
+    {
+        "detector": "D2Vp",
+        "element": 3,
+        "hits": 285
+    },
+    {
+        "detector": "D2Vp",
+        "element": 4,
+        "hits": 393
+    },
+    {
+        "detector": "D2Vp",
+        "element": 5,
+        "hits": 569
+    },
+    {
+        "detector": "D2Vp",
+        "element": 6,
+        "hits": 848
+    },
+    {
+        "detector": "D2Vp",
+        "element": 7,
+        "hits": 1001
+    },
+    {
+        "detector": "D2Vp",
+        "element": 8,
+        "hits": 1186
+    },
+    {
+        "detector": "D2Vp",
+        "element": 9,
+        "hits": 1475
+    },
+    {
+        "detector": "D2Vp",
+        "element": 10,
+        "hits": 1514
+    },
+    {
+        "detector": "D2Vp",
+        "element": 11,
+        "hits": 1636
+    },
+    {
+        "detector": "D2Vp",
+        "element": 12,
+        "hits": 1623
+    },
+    {
+        "detector": "D2Vp",
+        "element": 13,
+        "hits": 1592
+    },
+    {
+        "detector": "D2Vp",
+        "element": 14,
+        "hits": 1519
+    },
+    {
+        "detector": "D2Vp",
+        "element": 15,
+        "hits": 1351
+    },
+    {
+        "detector": "D2Vp",
+        "element": 16,
+        "hits": 1438
+    },
+    {
+        "detector": "D2Vp",
+        "element": 17,
+        "hits": 1371
+    },
+    {
+        "detector": "D2Vp",
+        "element": 18,
+        "hits": 1388
+    },
+    {
+        "detector": "D2Vp",
+        "element": 19,
+        "hits": 1318
+    },
+    {
+        "detector": "D2Vp",
+        "element": 20,
+        "hits": 1274
+    },
+    {
+        "detector": "D2Vp",
+        "element": 21,
+        "hits": 1306
+    },
+    {
+        "detector": "D2Vp",
+        "element": 22,
+        "hits": 1181
+    },
+    {
+        "detector": "D2Vp",
+        "element": 23,
+        "hits": 1115
+    },
+    {
+        "detector": "D2Vp",
+        "element": 24,
+        "hits": 1089
+    },
+    {
+        "detector": "D2Vp",
+        "element": 25,
+        "hits": 1048
+    },
+    {
+        "detector": "D2Vp",
+        "element": 26,
+        "hits": 974
+    },
+    {
+        "detector": "D2Vp",
+        "element": 27,
+        "hits": 963
+    },
+    {
+        "detector": "D2Vp",
+        "element": 28,
+        "hits": 1003
+    },
+    {
+        "detector": "D2Vp",
+        "element": 29,
+        "hits": 1007
+    },
+    {
+        "detector": "D2Vp",
+        "element": 30,
+        "hits": 916
+    },
+    {
+        "detector": "D2Vp",
+        "element": 31,
+        "hits": 891
+    },
+    {
+        "detector": "D2Vp",
+        "element": 32,
+        "hits": 912
+    },
+    {
+        "detector": "D2Vp",
+        "element": 33,
+        "hits": 880
+    },
+    {
+        "detector": "D2Vp",
+        "element": 34,
+        "hits": 776
+    },
+    {
+        "detector": "D2Vp",
+        "element": 35,
+        "hits": 857
+    },
+    {
+        "detector": "D2Vp",
+        "element": 36,
+        "hits": 843
+    },
+    {
+        "detector": "D2Vp",
+        "element": 37,
+        "hits": 795
+    },
+    {
+        "detector": "D2Vp",
+        "element": 38,
+        "hits": 778
+    },
+    {
+        "detector": "D2Vp",
+        "element": 39,
+        "hits": 780
+    },
+    {
+        "detector": "D2Vp",
+        "element": 40,
+        "hits": 672
+    },
+    {
+        "detector": "D2Vp",
+        "element": 41,
+        "hits": 628
+    },
+    {
+        "detector": "D2Vp",
+        "element": 42,
+        "hits": 572
+    },
+    {
+        "detector": "D2Vp",
+        "element": 43,
+        "hits": 548
+    },
+    {
+        "detector": "D2Vp",
+        "element": 44,
+        "hits": 516
+    },
+    {
+        "detector": "D2Vp",
+        "element": 45,
+        "hits": 434
+    },
+    {
+        "detector": "D2Vp",
+        "element": 46,
+        "hits": 441
+    },
+    {
+        "detector": "D2Vp",
+        "element": 47,
+        "hits": 383
+    },
+    {
+        "detector": "D2Vp",
+        "element": 48,
+        "hits": 380
+    },
+    {
+        "detector": "D2Vp",
+        "element": 49,
+        "hits": 316
+    },
+    {
+        "detector": "D2Vp",
+        "element": 50,
+        "hits": 318
+    },
+    {
+        "detector": "D2Vp",
+        "element": 51,
+        "hits": 299
+    },
+    {
+        "detector": "D2Vp",
+        "element": 52,
+        "hits": 278
+    },
+    {
+        "detector": "D2Vp",
+        "element": 53,
+        "hits": 279
+    },
+    {
+        "detector": "D2Vp",
+        "element": 54,
+        "hits": 258
+    },
+    {
+        "detector": "D2Vp",
+        "element": 55,
+        "hits": 260
+    },
+    {
+        "detector": "D2Vp",
+        "element": 56,
+        "hits": 256
+    },
+    {
+        "detector": "D2Vp",
+        "element": 57,
+        "hits": 276
+    },
+    {
+        "detector": "D2Vp",
+        "element": 58,
+        "hits": 250
+    },
+    {
+        "detector": "D2Vp",
+        "element": 59,
+        "hits": 294
+    },
+    {
+        "detector": "D2Vp",
+        "element": 60,
+        "hits": 290
+    },
+    {
+        "detector": "D2Vp",
+        "element": 61,
+        "hits": 234
+    },
+    {
+        "detector": "D2Vp",
+        "element": 62,
+        "hits": 296
+    },
+    {
+        "detector": "D2Vp",
+        "element": 63,
+        "hits": 275
+    },
+    {
+        "detector": "D2Vp",
+        "element": 64,
+        "hits": 261
+    },
+    {
+        "detector": "D2Vp",
+        "element": 65,
+        "hits": 274
+    },
+    {
+        "detector": "D2Vp",
+        "element": 66,
+        "hits": 255
+    },
+    {
+        "detector": "D2Vp",
+        "element": 67,
+        "hits": 259
+    },
+    {
+        "detector": "D2Vp",
+        "element": 68,
+        "hits": 260
+    },
+    {
+        "detector": "D2Vp",
+        "element": 69,
+        "hits": 318
+    },
+    {
+        "detector": "D2Vp",
+        "element": 70,
+        "hits": 357
+    },
+    {
+        "detector": "D2Vp",
+        "element": 71,
+        "hits": 298
+    },
+    {
+        "detector": "D2Vp",
+        "element": 72,
+        "hits": 343
+    },
+    {
+        "detector": "D2Vp",
+        "element": 73,
+        "hits": 335
+    },
+    {
+        "detector": "D2Vp",
+        "element": 74,
+        "hits": 337
+    },
+    {
+        "detector": "D2Vp",
+        "element": 75,
+        "hits": 352
+    },
+    {
+        "detector": "D2Vp",
+        "element": 76,
+        "hits": 364
+    },
+    {
+        "detector": "D2Vp",
+        "element": 77,
+        "hits": 373
+    },
+    {
+        "detector": "D2Vp",
+        "element": 78,
+        "hits": 373
+    },
+    {
+        "detector": "D2Vp",
+        "element": 79,
+        "hits": 380
+    },
+    {
+        "detector": "D2Vp",
+        "element": 80,
+        "hits": 479
+    },
+    {
+        "detector": "D2Vp",
+        "element": 81,
+        "hits": 499
+    },
+    {
+        "detector": "D2Vp",
+        "element": 82,
+        "hits": 450
+    },
+    {
+        "detector": "D2Vp",
+        "element": 83,
+        "hits": 538
+    },
+    {
+        "detector": "D2Vp",
+        "element": 84,
+        "hits": 606
+    },
+    {
+        "detector": "D2Vp",
+        "element": 85,
+        "hits": 614
+    },
+    {
+        "detector": "D2Vp",
+        "element": 86,
+        "hits": 727
+    },
+    {
+        "detector": "D2Vp",
+        "element": 87,
+        "hits": 739
+    },
+    {
+        "detector": "D2Vp",
+        "element": 88,
+        "hits": 888
+    },
+    {
+        "detector": "D2Vp",
+        "element": 89,
+        "hits": 1002
+    },
+    {
+        "detector": "D2Vp",
+        "element": 90,
+        "hits": 1123
+    },
+    {
+        "detector": "D2Vp",
+        "element": 91,
+        "hits": 1135
+    },
+    {
+        "detector": "D2Vp",
+        "element": 92,
+        "hits": 1200
+    },
+    {
+        "detector": "D2Vp",
+        "element": 93,
+        "hits": 1305
+    },
+    {
+        "detector": "D2Vp",
+        "element": 94,
+        "hits": 1242
+    },
+    {
+        "detector": "D2Vp",
+        "element": 95,
+        "hits": 1281
+    },
+    {
+        "detector": "D2Vp",
+        "element": 96,
+        "hits": 1242
+    },
+    {
+        "detector": "D2Vp",
+        "element": 97,
+        "hits": 1326
+    },
+    {
+        "detector": "D2Vp",
+        "element": 98,
+        "hits": 1405
+    },
+    {
+        "detector": "D2Vp",
+        "element": 99,
+        "hits": 1403
+    },
+    {
+        "detector": "D2Vp",
+        "element": 100,
+        "hits": 1422
+    },
+    {
+        "detector": "D2Vp",
+        "element": 101,
+        "hits": 1382
+    },
+    {
+        "detector": "D2Vp",
+        "element": 102,
+        "hits": 1513
+    },
+    {
+        "detector": "D2Vp",
+        "element": 103,
+        "hits": 1536
+    },
+    {
+        "detector": "D2Vp",
+        "element": 104,
+        "hits": 1596
+    },
+    {
+        "detector": "D2Vp",
+        "element": 105,
+        "hits": 1545
+    },
+    {
+        "detector": "D2Vp",
+        "element": 106,
+        "hits": 1518
+    },
+    {
+        "detector": "D2Vp",
+        "element": 107,
+        "hits": 1709
+    },
+    {
+        "detector": "D2Vp",
+        "element": 108,
+        "hits": 1699
+    },
+    {
+        "detector": "D2Vp",
+        "element": 109,
+        "hits": 1742
+    },
+    {
+        "detector": "D2Vp",
+        "element": 110,
+        "hits": 1773
+    },
+    {
+        "detector": "D2Vp",
+        "element": 111,
+        "hits": 1904
+    },
+    {
+        "detector": "D2Vp",
+        "element": 112,
+        "hits": 1788
+    },
+    {
+        "detector": "D2Vp",
+        "element": 113,
+        "hits": 1918
+    },
+    {
+        "detector": "D2Vp",
+        "element": 114,
+        "hits": 2015
+    },
+    {
+        "detector": "D2Vp",
+        "element": 115,
+        "hits": 2135
+    },
+    {
+        "detector": "D2Vp",
+        "element": 116,
+        "hits": 2082
+    },
+    {
+        "detector": "D2Vp",
+        "element": 117,
+        "hits": 1863
+    },
+    {
+        "detector": "D2Vp",
+        "element": 118,
+        "hits": 1568
+    },
+    {
+        "detector": "D2Vp",
+        "element": 119,
+        "hits": 1660
+    },
+    {
+        "detector": "D2Vp",
+        "element": 120,
+        "hits": 1353
+    },
+    {
+        "detector": "D2Vp",
+        "element": 121,
+        "hits": 1363
+    },
+    {
+        "detector": "D2Vp",
+        "element": 122,
+        "hits": 1009
+    },
+    {
+        "detector": "D2Vp",
+        "element": 123,
+        "hits": 846
+    },
+    {
+        "detector": "D2Vp",
+        "element": 124,
+        "hits": 652
+    },
+    {
+        "detector": "D2Vp",
+        "element": 125,
+        "hits": 514
+    },
+    {
+        "detector": "D2Vp",
+        "element": 126,
+        "hits": 338
+    },
+    {
+        "detector": "D2Vp",
+        "element": 127,
+        "hits": 199
+    },
+    {
+        "detector": "D2Xp",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D2Xp",
+        "element": 1,
+        "hits": 1479
+    },
+    {
+        "detector": "D2Xp",
+        "element": 2,
+        "hits": 1416
+    },
+    {
+        "detector": "D2Xp",
+        "element": 3,
+        "hits": 1588
+    },
+    {
+        "detector": "D2Xp",
+        "element": 4,
+        "hits": 1660
+    },
+    {
+        "detector": "D2Xp",
+        "element": 5,
+        "hits": 1479
+    },
+    {
+        "detector": "D2Xp",
+        "element": 6,
+        "hits": 1482
+    },
+    {
+        "detector": "D2Xp",
+        "element": 7,
+        "hits": 1361
+    },
+    {
+        "detector": "D2Xp",
+        "element": 8,
+        "hits": 1421
+    },
+    {
+        "detector": "D2Xp",
+        "element": 9,
+        "hits": 1459
+    },
+    {
+        "detector": "D2Xp",
+        "element": 10,
+        "hits": 1321
+    },
+    {
+        "detector": "D2Xp",
+        "element": 11,
+        "hits": 1330
+    },
+    {
+        "detector": "D2Xp",
+        "element": 12,
+        "hits": 1298
+    },
+    {
+        "detector": "D2Xp",
+        "element": 13,
+        "hits": 1166
+    },
+    {
+        "detector": "D2Xp",
+        "element": 14,
+        "hits": 1186
+    },
+    {
+        "detector": "D2Xp",
+        "element": 15,
+        "hits": 1166
+    },
+    {
+        "detector": "D2Xp",
+        "element": 16,
+        "hits": 1111
+    },
+    {
+        "detector": "D2Xp",
+        "element": 17,
+        "hits": 1047
+    },
+    {
+        "detector": "D2Xp",
+        "element": 18,
+        "hits": 1029
+    },
+    {
+        "detector": "D2Xp",
+        "element": 19,
+        "hits": 908
+    },
+    {
+        "detector": "D2Xp",
+        "element": 20,
+        "hits": 945
+    },
+    {
+        "detector": "D2Xp",
+        "element": 21,
+        "hits": 819
+    },
+    {
+        "detector": "D2Xp",
+        "element": 22,
+        "hits": 812
+    },
+    {
+        "detector": "D2Xp",
+        "element": 23,
+        "hits": 808
+    },
+    {
+        "detector": "D2Xp",
+        "element": 24,
+        "hits": 742
+    },
+    {
+        "detector": "D2Xp",
+        "element": 25,
+        "hits": 755
+    },
+    {
+        "detector": "D2Xp",
+        "element": 26,
+        "hits": 745
+    },
+    {
+        "detector": "D2Xp",
+        "element": 27,
+        "hits": 725
+    },
+    {
+        "detector": "D2Xp",
+        "element": 28,
+        "hits": 655
+    },
+    {
+        "detector": "D2Xp",
+        "element": 29,
+        "hits": 731
+    },
+    {
+        "detector": "D2Xp",
+        "element": 30,
+        "hits": 655
+    },
+    {
+        "detector": "D2Xp",
+        "element": 31,
+        "hits": 629
+    },
+    {
+        "detector": "D2Xp",
+        "element": 32,
+        "hits": 596
+    },
+    {
+        "detector": "D2Xp",
+        "element": 33,
+        "hits": 439
+    },
+    {
+        "detector": "D2Xp",
+        "element": 34,
+        "hits": 431
+    },
+    {
+        "detector": "D2Xp",
+        "element": 35,
+        "hits": 446
+    },
+    {
+        "detector": "D2Xp",
+        "element": 36,
+        "hits": 442
+    },
+    {
+        "detector": "D2Xp",
+        "element": 37,
+        "hits": 340
+    },
+    {
+        "detector": "D2Xp",
+        "element": 38,
+        "hits": 350
+    },
+    {
+        "detector": "D2Xp",
+        "element": 39,
+        "hits": 294
+    },
+    {
+        "detector": "D2Xp",
+        "element": 40,
+        "hits": 260
+    },
+    {
+        "detector": "D2Xp",
+        "element": 41,
+        "hits": 264
+    },
+    {
+        "detector": "D2Xp",
+        "element": 42,
+        "hits": 267
+    },
+    {
+        "detector": "D2Xp",
+        "element": 43,
+        "hits": 221
+    },
+    {
+        "detector": "D2Xp",
+        "element": 44,
+        "hits": 202
+    },
+    {
+        "detector": "D2Xp",
+        "element": 45,
+        "hits": 231
+    },
+    {
+        "detector": "D2Xp",
+        "element": 46,
+        "hits": 183
+    },
+    {
+        "detector": "D2Xp",
+        "element": 47,
+        "hits": 200
+    },
+    {
+        "detector": "D2Xp",
+        "element": 48,
+        "hits": 195
+    },
+    {
+        "detector": "D2Xp",
+        "element": 49,
+        "hits": 238
+    },
+    {
+        "detector": "D2Xp",
+        "element": 50,
+        "hits": 206
+    },
+    {
+        "detector": "D2Xp",
+        "element": 51,
+        "hits": 221
+    },
+    {
+        "detector": "D2Xp",
+        "element": 52,
+        "hits": 192
+    },
+    {
+        "detector": "D2Xp",
+        "element": 53,
+        "hits": 166
+    },
+    {
+        "detector": "D2Xp",
+        "element": 54,
+        "hits": 81
+    },
+    {
+        "detector": "D2Xp",
+        "element": 55,
+        "hits": 28
+    },
+    {
+        "detector": "D2Xp",
+        "element": 56,
+        "hits": 195
+    },
+    {
+        "detector": "D2Xp",
+        "element": 57,
+        "hits": 216
+    },
+    {
+        "detector": "D2Xp",
+        "element": 58,
+        "hits": 230
+    },
+    {
+        "detector": "D2Xp",
+        "element": 59,
+        "hits": 225
+    },
+    {
+        "detector": "D2Xp",
+        "element": 60,
+        "hits": 245
+    },
+    {
+        "detector": "D2Xp",
+        "element": 61,
+        "hits": 210
+    },
+    {
+        "detector": "D2Xp",
+        "element": 62,
+        "hits": 221
+    },
+    {
+        "detector": "D2Xp",
+        "element": 63,
+        "hits": 214
+    },
+    {
+        "detector": "D2Xp",
+        "element": 64,
+        "hits": 252
+    },
+    {
+        "detector": "D2Xp",
+        "element": 65,
+        "hits": 271
+    },
+    {
+        "detector": "D2Xp",
+        "element": 66,
+        "hits": 260
+    },
+    {
+        "detector": "D2Xp",
+        "element": 67,
+        "hits": 289
+    },
+    {
+        "detector": "D2Xp",
+        "element": 68,
+        "hits": 274
+    },
+    {
+        "detector": "D2Xp",
+        "element": 69,
+        "hits": 303
+    },
+    {
+        "detector": "D2Xp",
+        "element": 70,
+        "hits": 334
+    },
+    {
+        "detector": "D2Xp",
+        "element": 71,
+        "hits": 364
+    },
+    {
+        "detector": "D2Xp",
+        "element": 72,
+        "hits": 392
+    },
+    {
+        "detector": "D2Xp",
+        "element": 73,
+        "hits": 409
+    },
+    {
+        "detector": "D2Xp",
+        "element": 74,
+        "hits": 404
+    },
+    {
+        "detector": "D2Xp",
+        "element": 75,
+        "hits": 436
+    },
+    {
+        "detector": "D2Xp",
+        "element": 76,
+        "hits": 535
+    },
+    {
+        "detector": "D2Xp",
+        "element": 77,
+        "hits": 560
+    },
+    {
+        "detector": "D2Xp",
+        "element": 78,
+        "hits": 558
+    },
+    {
+        "detector": "D2Xp",
+        "element": 79,
+        "hits": 573
+    },
+    {
+        "detector": "D2Xp",
+        "element": 80,
+        "hits": 713
+    },
+    {
+        "detector": "D2Xp",
+        "element": 81,
+        "hits": 885
+    },
+    {
+        "detector": "D2Xp",
+        "element": 82,
+        "hits": 1035
+    },
+    {
+        "detector": "D2Xp",
+        "element": 83,
+        "hits": 1038
+    },
+    {
+        "detector": "D2Xp",
+        "element": 84,
+        "hits": 1092
+    },
+    {
+        "detector": "D2Xp",
+        "element": 85,
+        "hits": 1130
+    },
+    {
+        "detector": "D2Xp",
+        "element": 86,
+        "hits": 1114
+    },
+    {
+        "detector": "D2Xp",
+        "element": 87,
+        "hits": 1212
+    },
+    {
+        "detector": "D2Xp",
+        "element": 88,
+        "hits": 1188
+    },
+    {
+        "detector": "D2Xp",
+        "element": 89,
+        "hits": 1252
+    },
+    {
+        "detector": "D2Xp",
+        "element": 90,
+        "hits": 1419
+    },
+    {
+        "detector": "D2Xp",
+        "element": 91,
+        "hits": 1434
+    },
+    {
+        "detector": "D2Xp",
+        "element": 92,
+        "hits": 1419
+    },
+    {
+        "detector": "D2Xp",
+        "element": 93,
+        "hits": 1464
+    },
+    {
+        "detector": "D2Xp",
+        "element": 94,
+        "hits": 1559
+    },
+    {
+        "detector": "D2Xp",
+        "element": 95,
+        "hits": 1670
+    },
+    {
+        "detector": "D2Xp",
+        "element": 96,
+        "hits": 1639
+    },
+    {
+        "detector": "D2Xp",
+        "element": 97,
+        "hits": 1721
+    },
+    {
+        "detector": "D2Xp",
+        "element": 98,
+        "hits": 1782
+    },
+    {
+        "detector": "D2Xp",
+        "element": 99,
+        "hits": 1900
+    },
+    {
+        "detector": "D2Xp",
+        "element": 100,
+        "hits": 1951
+    },
+    {
+        "detector": "D2Xp",
+        "element": 101,
+        "hits": 1969
+    },
+    {
+        "detector": "D2Xp",
+        "element": 102,
+        "hits": 2065
+    },
+    {
+        "detector": "D2Xp",
+        "element": 103,
+        "hits": 1933
+    },
+    {
+        "detector": "D2Xp",
+        "element": 104,
+        "hits": 2045
+    },
+    {
+        "detector": "D2Xp",
+        "element": 105,
+        "hits": 2134
+    },
+    {
+        "detector": "D2Xp",
+        "element": 106,
+        "hits": 2153
+    },
+    {
+        "detector": "D2Xp",
+        "element": 107,
+        "hits": 2041
+    },
+    {
+        "detector": "D2Xp",
+        "element": 108,
+        "hits": 2005
+    },
+    {
+        "detector": "D2Xp",
+        "element": 109,
+        "hits": 2074
+    },
+    {
+        "detector": "D2Xp",
+        "element": 110,
+        "hits": 2098
+    },
+    {
+        "detector": "D2Xp",
+        "element": 111,
+        "hits": 2063
+    },
+    {
+        "detector": "D2X",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D2X",
+        "element": 1,
+        "hits": 1347
+    },
+    {
+        "detector": "D2X",
+        "element": 2,
+        "hits": 1393
+    },
+    {
+        "detector": "D2X",
+        "element": 3,
+        "hits": 1343
+    },
+    {
+        "detector": "D2X",
+        "element": 4,
+        "hits": 1326
+    },
+    {
+        "detector": "D2X",
+        "element": 5,
+        "hits": 1382
+    },
+    {
+        "detector": "D2X",
+        "element": 6,
+        "hits": 1224
+    },
+    {
+        "detector": "D2X",
+        "element": 7,
+        "hits": 1017
+    },
+    {
+        "detector": "D2X",
+        "element": 8,
+        "hits": 1128
+    },
+    {
+        "detector": "D2X",
+        "element": 9,
+        "hits": 1116
+    },
+    {
+        "detector": "D2X",
+        "element": 10,
+        "hits": 1163
+    },
+    {
+        "detector": "D2X",
+        "element": 11,
+        "hits": 1154
+    },
+    {
+        "detector": "D2X",
+        "element": 12,
+        "hits": 1013
+    },
+    {
+        "detector": "D2X",
+        "element": 13,
+        "hits": 1091
+    },
+    {
+        "detector": "D2X",
+        "element": 14,
+        "hits": 1012
+    },
+    {
+        "detector": "D2X",
+        "element": 15,
+        "hits": 951
+    },
+    {
+        "detector": "D2X",
+        "element": 16,
+        "hits": 975
+    },
+    {
+        "detector": "D2X",
+        "element": 17,
+        "hits": 934
+    },
+    {
+        "detector": "D2X",
+        "element": 18,
+        "hits": 913
+    },
+    {
+        "detector": "D2X",
+        "element": 19,
+        "hits": 910
+    },
+    {
+        "detector": "D2X",
+        "element": 20,
+        "hits": 758
+    },
+    {
+        "detector": "D2X",
+        "element": 21,
+        "hits": 805
+    },
+    {
+        "detector": "D2X",
+        "element": 22,
+        "hits": 780
+    },
+    {
+        "detector": "D2X",
+        "element": 23,
+        "hits": 733
+    },
+    {
+        "detector": "D2X",
+        "element": 24,
+        "hits": 736
+    },
+    {
+        "detector": "D2X",
+        "element": 25,
+        "hits": 759
+    },
+    {
+        "detector": "D2X",
+        "element": 26,
+        "hits": 735
+    },
+    {
+        "detector": "D2X",
+        "element": 27,
+        "hits": 607
+    },
+    {
+        "detector": "D2X",
+        "element": 28,
+        "hits": 785
+    },
+    {
+        "detector": "D2X",
+        "element": 29,
+        "hits": 650
+    },
+    {
+        "detector": "D2X",
+        "element": 30,
+        "hits": 617
+    },
+    {
+        "detector": "D2X",
+        "element": 31,
+        "hits": 624
+    },
+    {
+        "detector": "D2X",
+        "element": 32,
+        "hits": 489
+    },
+    {
+        "detector": "D2X",
+        "element": 33,
+        "hits": 404
+    },
+    {
+        "detector": "D2X",
+        "element": 34,
+        "hits": 464
+    },
+    {
+        "detector": "D2X",
+        "element": 35,
+        "hits": 411
+    },
+    {
+        "detector": "D2X",
+        "element": 36,
+        "hits": 382
+    },
+    {
+        "detector": "D2X",
+        "element": 37,
+        "hits": 358
+    },
+    {
+        "detector": "D2X",
+        "element": 38,
+        "hits": 307
+    },
+    {
+        "detector": "D2X",
+        "element": 39,
+        "hits": 250
+    },
+    {
+        "detector": "D2X",
+        "element": 40,
+        "hits": 255
+    },
+    {
+        "detector": "D2X",
+        "element": 41,
+        "hits": 257
+    },
+    {
+        "detector": "D2X",
+        "element": 42,
+        "hits": 232
+    },
+    {
+        "detector": "D2X",
+        "element": 43,
+        "hits": 258
+    },
+    {
+        "detector": "D2X",
+        "element": 44,
+        "hits": 231
+    },
+    {
+        "detector": "D2X",
+        "element": 45,
+        "hits": 201
+    },
+    {
+        "detector": "D2X",
+        "element": 46,
+        "hits": 184
+    },
+    {
+        "detector": "D2X",
+        "element": 47,
+        "hits": 184
+    },
+    {
+        "detector": "D2X",
+        "element": 48,
+        "hits": 208
+    },
+    {
+        "detector": "D2X",
+        "element": 49,
+        "hits": 0
+    },
+    {
+        "detector": "D2X",
+        "element": 50,
+        "hits": 201
+    },
+    {
+        "detector": "D2X",
+        "element": 51,
+        "hits": 221
+    },
+    {
+        "detector": "D2X",
+        "element": 52,
+        "hits": 229
+    },
+    {
+        "detector": "D2X",
+        "element": 53,
+        "hits": 0
+    },
+    {
+        "detector": "D2X",
+        "element": 54,
+        "hits": 211
+    },
+    {
+        "detector": "D2X",
+        "element": 55,
+        "hits": 188
+    },
+    {
+        "detector": "D2X",
+        "element": 56,
+        "hits": 223
+    },
+    {
+        "detector": "D2X",
+        "element": 57,
+        "hits": 0
+    },
+    {
+        "detector": "D2X",
+        "element": 58,
+        "hits": 217
+    },
+    {
+        "detector": "D2X",
+        "element": 59,
+        "hits": 222
+    },
+    {
+        "detector": "D2X",
+        "element": 60,
+        "hits": 228
+    },
+    {
+        "detector": "D2X",
+        "element": 61,
+        "hits": 217
+    },
+    {
+        "detector": "D2X",
+        "element": 62,
+        "hits": 238
+    },
+    {
+        "detector": "D2X",
+        "element": 63,
+        "hits": 255
+    },
+    {
+        "detector": "D2X",
+        "element": 64,
+        "hits": 255
+    },
+    {
+        "detector": "D2X",
+        "element": 65,
+        "hits": 236
+    },
+    {
+        "detector": "D2X",
+        "element": 66,
+        "hits": 281
+    },
+    {
+        "detector": "D2X",
+        "element": 67,
+        "hits": 279
+    },
+    {
+        "detector": "D2X",
+        "element": 68,
+        "hits": 289
+    },
+    {
+        "detector": "D2X",
+        "element": 69,
+        "hits": 283
+    },
+    {
+        "detector": "D2X",
+        "element": 70,
+        "hits": 347
+    },
+    {
+        "detector": "D2X",
+        "element": 71,
+        "hits": 322
+    },
+    {
+        "detector": "D2X",
+        "element": 72,
+        "hits": 322
+    },
+    {
+        "detector": "D2X",
+        "element": 73,
+        "hits": 396
+    },
+    {
+        "detector": "D2X",
+        "element": 74,
+        "hits": 395
+    },
+    {
+        "detector": "D2X",
+        "element": 75,
+        "hits": 483
+    },
+    {
+        "detector": "D2X",
+        "element": 76,
+        "hits": 505
+    },
+    {
+        "detector": "D2X",
+        "element": 77,
+        "hits": 625
+    },
+    {
+        "detector": "D2X",
+        "element": 78,
+        "hits": 667
+    },
+    {
+        "detector": "D2X",
+        "element": 79,
+        "hits": 654
+    },
+    {
+        "detector": "D2X",
+        "element": 80,
+        "hits": 717
+    },
+    {
+        "detector": "D2X",
+        "element": 81,
+        "hits": 991
+    },
+    {
+        "detector": "D2X",
+        "element": 82,
+        "hits": 1099
+    },
+    {
+        "detector": "D2X",
+        "element": 83,
+        "hits": 1081
+    },
+    {
+        "detector": "D2X",
+        "element": 84,
+        "hits": 1123
+    },
+    {
+        "detector": "D2X",
+        "element": 85,
+        "hits": 1078
+    },
+    {
+        "detector": "D2X",
+        "element": 86,
+        "hits": 1150
+    },
+    {
+        "detector": "D2X",
+        "element": 87,
+        "hits": 1211
+    },
+    {
+        "detector": "D2X",
+        "element": 88,
+        "hits": 1328
+    },
+    {
+        "detector": "D2X",
+        "element": 89,
+        "hits": 1339
+    },
+    {
+        "detector": "D2X",
+        "element": 90,
+        "hits": 1367
+    },
+    {
+        "detector": "D2X",
+        "element": 91,
+        "hits": 1290
+    },
+    {
+        "detector": "D2X",
+        "element": 92,
+        "hits": 1476
+    },
+    {
+        "detector": "D2X",
+        "element": 93,
+        "hits": 1467
+    },
+    {
+        "detector": "D2X",
+        "element": 94,
+        "hits": 1587
+    },
+    {
+        "detector": "D2X",
+        "element": 95,
+        "hits": 1740
+    },
+    {
+        "detector": "D2X",
+        "element": 96,
+        "hits": 1740
+    },
+    {
+        "detector": "D2X",
+        "element": 97,
+        "hits": 1817
+    },
+    {
+        "detector": "D2X",
+        "element": 98,
+        "hits": 1925
+    },
+    {
+        "detector": "D2X",
+        "element": 99,
+        "hits": 2026
+    },
+    {
+        "detector": "D2X",
+        "element": 100,
+        "hits": 2126
+    },
+    {
+        "detector": "D2X",
+        "element": 101,
+        "hits": 2083
+    },
+    {
+        "detector": "D2X",
+        "element": 102,
+        "hits": 2236
+    },
+    {
+        "detector": "D2X",
+        "element": 103,
+        "hits": 2245
+    },
+    {
+        "detector": "D2X",
+        "element": 104,
+        "hits": 2292
+    },
+    {
+        "detector": "D2X",
+        "element": 105,
+        "hits": 2216
+    },
+    {
+        "detector": "D2X",
+        "element": 106,
+        "hits": 2456
+    },
+    {
+        "detector": "D2X",
+        "element": 107,
+        "hits": 2383
+    },
+    {
+        "detector": "D2X",
+        "element": 108,
+        "hits": 2496
+    },
+    {
+        "detector": "D2X",
+        "element": 109,
+        "hits": 2483
+    },
+    {
+        "detector": "D2X",
+        "element": 110,
+        "hits": 2443
+    },
+    {
+        "detector": "D2X",
+        "element": 111,
+        "hits": 2101
+    },
+    {
+        "detector": "D2U",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D2U",
+        "element": 1,
+        "hits": 131
+    },
+    {
+        "detector": "D2U",
+        "element": 2,
+        "hits": 147
+    },
+    {
+        "detector": "D2U",
+        "element": 3,
+        "hits": 189
+    },
+    {
+        "detector": "D2U",
+        "element": 4,
+        "hits": 289
+    },
+    {
+        "detector": "D2U",
+        "element": 5,
+        "hits": 440
+    },
+    {
+        "detector": "D2U",
+        "element": 6,
+        "hits": 537
+    },
+    {
+        "detector": "D2U",
+        "element": 7,
+        "hits": 715
+    },
+    {
+        "detector": "D2U",
+        "element": 8,
+        "hits": 1033
+    },
+    {
+        "detector": "D2U",
+        "element": 9,
+        "hits": 1169
+    },
+    {
+        "detector": "D2U",
+        "element": 10,
+        "hits": 1420
+    },
+    {
+        "detector": "D2U",
+        "element": 11,
+        "hits": 1485
+    },
+    {
+        "detector": "D2U",
+        "element": 12,
+        "hits": 1705
+    },
+    {
+        "detector": "D2U",
+        "element": 13,
+        "hits": 1589
+    },
+    {
+        "detector": "D2U",
+        "element": 14,
+        "hits": 1531
+    },
+    {
+        "detector": "D2U",
+        "element": 15,
+        "hits": 1502
+    },
+    {
+        "detector": "D2U",
+        "element": 16,
+        "hits": 1395
+    },
+    {
+        "detector": "D2U",
+        "element": 17,
+        "hits": 1388
+    },
+    {
+        "detector": "D2U",
+        "element": 18,
+        "hits": 1210
+    },
+    {
+        "detector": "D2U",
+        "element": 19,
+        "hits": 1237
+    },
+    {
+        "detector": "D2U",
+        "element": 20,
+        "hits": 1103
+    },
+    {
+        "detector": "D2U",
+        "element": 21,
+        "hits": 1055
+    },
+    {
+        "detector": "D2U",
+        "element": 22,
+        "hits": 1069
+    },
+    {
+        "detector": "D2U",
+        "element": 23,
+        "hits": 1093
+    },
+    {
+        "detector": "D2U",
+        "element": 24,
+        "hits": 1063
+    },
+    {
+        "detector": "D2U",
+        "element": 25,
+        "hits": 957
+    },
+    {
+        "detector": "D2U",
+        "element": 26,
+        "hits": 974
+    },
+    {
+        "detector": "D2U",
+        "element": 27,
+        "hits": 847
+    },
+    {
+        "detector": "D2U",
+        "element": 28,
+        "hits": 869
+    },
+    {
+        "detector": "D2U",
+        "element": 29,
+        "hits": 799
+    },
+    {
+        "detector": "D2U",
+        "element": 30,
+        "hits": 852
+    },
+    {
+        "detector": "D2U",
+        "element": 31,
+        "hits": 881
+    },
+    {
+        "detector": "D2U",
+        "element": 32,
+        "hits": 829
+    },
+    {
+        "detector": "D2U",
+        "element": 33,
+        "hits": 803
+    },
+    {
+        "detector": "D2U",
+        "element": 34,
+        "hits": 840
+    },
+    {
+        "detector": "D2U",
+        "element": 35,
+        "hits": 728
+    },
+    {
+        "detector": "D2U",
+        "element": 36,
+        "hits": 752
+    },
+    {
+        "detector": "D2U",
+        "element": 37,
+        "hits": 782
+    },
+    {
+        "detector": "D2U",
+        "element": 38,
+        "hits": 694
+    },
+    {
+        "detector": "D2U",
+        "element": 39,
+        "hits": 604
+    },
+    {
+        "detector": "D2U",
+        "element": 40,
+        "hits": 551
+    },
+    {
+        "detector": "D2U",
+        "element": 41,
+        "hits": 517
+    },
+    {
+        "detector": "D2U",
+        "element": 42,
+        "hits": 466
+    },
+    {
+        "detector": "D2U",
+        "element": 43,
+        "hits": 449
+    },
+    {
+        "detector": "D2U",
+        "element": 44,
+        "hits": 388
+    },
+    {
+        "detector": "D2U",
+        "element": 45,
+        "hits": 366
+    },
+    {
+        "detector": "D2U",
+        "element": 46,
+        "hits": 344
+    },
+    {
+        "detector": "D2U",
+        "element": 47,
+        "hits": 340
+    },
+    {
+        "detector": "D2U",
+        "element": 48,
+        "hits": 313
+    },
+    {
+        "detector": "D2U",
+        "element": 49,
+        "hits": 274
+    },
+    {
+        "detector": "D2U",
+        "element": 50,
+        "hits": 243
+    },
+    {
+        "detector": "D2U",
+        "element": 51,
+        "hits": 224
+    },
+    {
+        "detector": "D2U",
+        "element": 52,
+        "hits": 202
+    },
+    {
+        "detector": "D2U",
+        "element": 53,
+        "hits": 226
+    },
+    {
+        "detector": "D2U",
+        "element": 54,
+        "hits": 215
+    },
+    {
+        "detector": "D2U",
+        "element": 55,
+        "hits": 212
+    },
+    {
+        "detector": "D2U",
+        "element": 56,
+        "hits": 212
+    },
+    {
+        "detector": "D2U",
+        "element": 57,
+        "hits": 212
+    },
+    {
+        "detector": "D2U",
+        "element": 58,
+        "hits": 220
+    },
+    {
+        "detector": "D2U",
+        "element": 59,
+        "hits": 227
+    },
+    {
+        "detector": "D2U",
+        "element": 60,
+        "hits": 191
+    },
+    {
+        "detector": "D2U",
+        "element": 61,
+        "hits": 214
+    },
+    {
+        "detector": "D2U",
+        "element": 62,
+        "hits": 207
+    },
+    {
+        "detector": "D2U",
+        "element": 63,
+        "hits": 182
+    },
+    {
+        "detector": "D2U",
+        "element": 64,
+        "hits": 213
+    },
+    {
+        "detector": "D2U",
+        "element": 65,
+        "hits": 205
+    },
+    {
+        "detector": "D2U",
+        "element": 66,
+        "hits": 201
+    },
+    {
+        "detector": "D2U",
+        "element": 67,
+        "hits": 209
+    },
+    {
+        "detector": "D2U",
+        "element": 68,
+        "hits": 221
+    },
+    {
+        "detector": "D2U",
+        "element": 69,
+        "hits": 249
+    },
+    {
+        "detector": "D2U",
+        "element": 70,
+        "hits": 206
+    },
+    {
+        "detector": "D2U",
+        "element": 71,
+        "hits": 196
+    },
+    {
+        "detector": "D2U",
+        "element": 72,
+        "hits": 237
+    },
+    {
+        "detector": "D2U",
+        "element": 73,
+        "hits": 225
+    },
+    {
+        "detector": "D2U",
+        "element": 74,
+        "hits": 229
+    },
+    {
+        "detector": "D2U",
+        "element": 75,
+        "hits": 238
+    },
+    {
+        "detector": "D2U",
+        "element": 76,
+        "hits": 262
+    },
+    {
+        "detector": "D2U",
+        "element": 77,
+        "hits": 259
+    },
+    {
+        "detector": "D2U",
+        "element": 78,
+        "hits": 297
+    },
+    {
+        "detector": "D2U",
+        "element": 79,
+        "hits": 323
+    },
+    {
+        "detector": "D2U",
+        "element": 80,
+        "hits": 317
+    },
+    {
+        "detector": "D2U",
+        "element": 81,
+        "hits": 361
+    },
+    {
+        "detector": "D2U",
+        "element": 82,
+        "hits": 382
+    },
+    {
+        "detector": "D2U",
+        "element": 83,
+        "hits": 414
+    },
+    {
+        "detector": "D2U",
+        "element": 84,
+        "hits": 485
+    },
+    {
+        "detector": "D2U",
+        "element": 85,
+        "hits": 528
+    },
+    {
+        "detector": "D2U",
+        "element": 86,
+        "hits": 620
+    },
+    {
+        "detector": "D2U",
+        "element": 87,
+        "hits": 651
+    },
+    {
+        "detector": "D2U",
+        "element": 88,
+        "hits": 779
+    },
+    {
+        "detector": "D2U",
+        "element": 89,
+        "hits": 857
+    },
+    {
+        "detector": "D2U",
+        "element": 90,
+        "hits": 1035
+    },
+    {
+        "detector": "D2U",
+        "element": 91,
+        "hits": 1074
+    },
+    {
+        "detector": "D2U",
+        "element": 92,
+        "hits": 1130
+    },
+    {
+        "detector": "D2U",
+        "element": 93,
+        "hits": 1227
+    },
+    {
+        "detector": "D2U",
+        "element": 94,
+        "hits": 1153
+    },
+    {
+        "detector": "D2U",
+        "element": 95,
+        "hits": 1259
+    },
+    {
+        "detector": "D2U",
+        "element": 96,
+        "hits": 1350
+    },
+    {
+        "detector": "D2U",
+        "element": 97,
+        "hits": 1443
+    },
+    {
+        "detector": "D2U",
+        "element": 98,
+        "hits": 1442
+    },
+    {
+        "detector": "D2U",
+        "element": 99,
+        "hits": 1551
+    },
+    {
+        "detector": "D2U",
+        "element": 100,
+        "hits": 1550
+    },
+    {
+        "detector": "D2U",
+        "element": 101,
+        "hits": 1690
+    },
+    {
+        "detector": "D2U",
+        "element": 102,
+        "hits": 1630
+    },
+    {
+        "detector": "D2U",
+        "element": 103,
+        "hits": 1715
+    },
+    {
+        "detector": "D2U",
+        "element": 104,
+        "hits": 1798
+    },
+    {
+        "detector": "D2U",
+        "element": 105,
+        "hits": 1860
+    },
+    {
+        "detector": "D2U",
+        "element": 106,
+        "hits": 1876
+    },
+    {
+        "detector": "D2U",
+        "element": 107,
+        "hits": 1923
+    },
+    {
+        "detector": "D2U",
+        "element": 108,
+        "hits": 2003
+    },
+    {
+        "detector": "D2U",
+        "element": 109,
+        "hits": 2158
+    },
+    {
+        "detector": "D2U",
+        "element": 110,
+        "hits": 2141
+    },
+    {
+        "detector": "D2U",
+        "element": 111,
+        "hits": 2297
+    },
+    {
+        "detector": "D2U",
+        "element": 112,
+        "hits": 2393
+    },
+    {
+        "detector": "D2U",
+        "element": 113,
+        "hits": 2383
+    },
+    {
+        "detector": "D2U",
+        "element": 114,
+        "hits": 2349
+    },
+    {
+        "detector": "D2U",
+        "element": 115,
+        "hits": 2415
+    },
+    {
+        "detector": "D2U",
+        "element": 116,
+        "hits": 2512
+    },
+    {
+        "detector": "D2U",
+        "element": 117,
+        "hits": 2401
+    },
+    {
+        "detector": "D2U",
+        "element": 118,
+        "hits": 2449
+    },
+    {
+        "detector": "D2U",
+        "element": 119,
+        "hits": 2146
+    },
+    {
+        "detector": "D2U",
+        "element": 120,
+        "hits": 1956
+    },
+    {
+        "detector": "D2U",
+        "element": 121,
+        "hits": 1890
+    },
+    {
+        "detector": "D2U",
+        "element": 122,
+        "hits": 1508
+    },
+    {
+        "detector": "D2U",
+        "element": 123,
+        "hits": 1398
+    },
+    {
+        "detector": "D2U",
+        "element": 124,
+        "hits": 956
+    },
+    {
+        "detector": "D2U",
+        "element": 125,
+        "hits": 740
+    },
+    {
+        "detector": "D2U",
+        "element": 126,
+        "hits": 456
+    },
+    {
+        "detector": "D2U",
+        "element": 127,
+        "hits": 280
+    },
+    {
+        "detector": "D2Up",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D2Up",
+        "element": 1,
+        "hits": 151
+    },
+    {
+        "detector": "D2Up",
+        "element": 2,
+        "hits": 199
+    },
+    {
+        "detector": "D2Up",
+        "element": 3,
+        "hits": 293
+    },
+    {
+        "detector": "D2Up",
+        "element": 4,
+        "hits": 422
+    },
+    {
+        "detector": "D2Up",
+        "element": 5,
+        "hits": 642
+    },
+    {
+        "detector": "D2Up",
+        "element": 6,
+        "hits": 759
+    },
+    {
+        "detector": "D2Up",
+        "element": 7,
+        "hits": 1090
+    },
+    {
+        "detector": "D2Up",
+        "element": 8,
+        "hits": 1352
+    },
+    {
+        "detector": "D2Up",
+        "element": 9,
+        "hits": 1581
+    },
+    {
+        "detector": "D2Up",
+        "element": 10,
+        "hits": 1679
+    },
+    {
+        "detector": "D2Up",
+        "element": 11,
+        "hits": 1690
+    },
+    {
+        "detector": "D2Up",
+        "element": 12,
+        "hits": 1751
+    },
+    {
+        "detector": "D2Up",
+        "element": 13,
+        "hits": 1695
+    },
+    {
+        "detector": "D2Up",
+        "element": 14,
+        "hits": 1621
+    },
+    {
+        "detector": "D2Up",
+        "element": 15,
+        "hits": 1560
+    },
+    {
+        "detector": "D2Up",
+        "element": 16,
+        "hits": 1493
+    },
+    {
+        "detector": "D2Up",
+        "element": 17,
+        "hits": 1430
+    },
+    {
+        "detector": "D2Up",
+        "element": 18,
+        "hits": 1492
+    },
+    {
+        "detector": "D2Up",
+        "element": 19,
+        "hits": 1349
+    },
+    {
+        "detector": "D2Up",
+        "element": 20,
+        "hits": 1275
+    },
+    {
+        "detector": "D2Up",
+        "element": 21,
+        "hits": 1220
+    },
+    {
+        "detector": "D2Up",
+        "element": 22,
+        "hits": 1143
+    },
+    {
+        "detector": "D2Up",
+        "element": 23,
+        "hits": 1151
+    },
+    {
+        "detector": "D2Up",
+        "element": 24,
+        "hits": 1069
+    },
+    {
+        "detector": "D2Up",
+        "element": 25,
+        "hits": 994
+    },
+    {
+        "detector": "D2Up",
+        "element": 26,
+        "hits": 960
+    },
+    {
+        "detector": "D2Up",
+        "element": 27,
+        "hits": 897
+    },
+    {
+        "detector": "D2Up",
+        "element": 28,
+        "hits": 844
+    },
+    {
+        "detector": "D2Up",
+        "element": 29,
+        "hits": 818
+    },
+    {
+        "detector": "D2Up",
+        "element": 30,
+        "hits": 791
+    },
+    {
+        "detector": "D2Up",
+        "element": 31,
+        "hits": 826
+    },
+    {
+        "detector": "D2Up",
+        "element": 32,
+        "hits": 833
+    },
+    {
+        "detector": "D2Up",
+        "element": 33,
+        "hits": 504
+    },
+    {
+        "detector": "D2Up",
+        "element": 34,
+        "hits": 761
+    },
+    {
+        "detector": "D2Up",
+        "element": 35,
+        "hits": 706
+    },
+    {
+        "detector": "D2Up",
+        "element": 36,
+        "hits": 667
+    },
+    {
+        "detector": "D2Up",
+        "element": 37,
+        "hits": 678
+    },
+    {
+        "detector": "D2Up",
+        "element": 38,
+        "hits": 578
+    },
+    {
+        "detector": "D2Up",
+        "element": 39,
+        "hits": 532
+    },
+    {
+        "detector": "D2Up",
+        "element": 40,
+        "hits": 507
+    },
+    {
+        "detector": "D2Up",
+        "element": 41,
+        "hits": 496
+    },
+    {
+        "detector": "D2Up",
+        "element": 42,
+        "hits": 460
+    },
+    {
+        "detector": "D2Up",
+        "element": 43,
+        "hits": 400
+    },
+    {
+        "detector": "D2Up",
+        "element": 44,
+        "hits": 369
+    },
+    {
+        "detector": "D2Up",
+        "element": 45,
+        "hits": 354
+    },
+    {
+        "detector": "D2Up",
+        "element": 46,
+        "hits": 334
+    },
+    {
+        "detector": "D2Up",
+        "element": 47,
+        "hits": 291
+    },
+    {
+        "detector": "D2Up",
+        "element": 48,
+        "hits": 250
+    },
+    {
+        "detector": "D2Up",
+        "element": 49,
+        "hits": 223
+    },
+    {
+        "detector": "D2Up",
+        "element": 50,
+        "hits": 223
+    },
+    {
+        "detector": "D2Up",
+        "element": 51,
+        "hits": 221
+    },
+    {
+        "detector": "D2Up",
+        "element": 52,
+        "hits": 207
+    },
+    {
+        "detector": "D2Up",
+        "element": 53,
+        "hits": 211
+    },
+    {
+        "detector": "D2Up",
+        "element": 54,
+        "hits": 202
+    },
+    {
+        "detector": "D2Up",
+        "element": 55,
+        "hits": 206
+    },
+    {
+        "detector": "D2Up",
+        "element": 56,
+        "hits": 197
+    },
+    {
+        "detector": "D2Up",
+        "element": 57,
+        "hits": 189
+    },
+    {
+        "detector": "D2Up",
+        "element": 58,
+        "hits": 169
+    },
+    {
+        "detector": "D2Up",
+        "element": 59,
+        "hits": 189
+    },
+    {
+        "detector": "D2Up",
+        "element": 60,
+        "hits": 171
+    },
+    {
+        "detector": "D2Up",
+        "element": 61,
+        "hits": 158
+    },
+    {
+        "detector": "D2Up",
+        "element": 62,
+        "hits": 214
+    },
+    {
+        "detector": "D2Up",
+        "element": 63,
+        "hits": 187
+    },
+    {
+        "detector": "D2Up",
+        "element": 64,
+        "hits": 190
+    },
+    {
+        "detector": "D2Up",
+        "element": 65,
+        "hits": 187
+    },
+    {
+        "detector": "D2Up",
+        "element": 66,
+        "hits": 191
+    },
+    {
+        "detector": "D2Up",
+        "element": 67,
+        "hits": 214
+    },
+    {
+        "detector": "D2Up",
+        "element": 68,
+        "hits": 202
+    },
+    {
+        "detector": "D2Up",
+        "element": 69,
+        "hits": 197
+    },
+    {
+        "detector": "D2Up",
+        "element": 70,
+        "hits": 196
+    },
+    {
+        "detector": "D2Up",
+        "element": 71,
+        "hits": 204
+    },
+    {
+        "detector": "D2Up",
+        "element": 72,
+        "hits": 238
+    },
+    {
+        "detector": "D2Up",
+        "element": 73,
+        "hits": 255
+    },
+    {
+        "detector": "D2Up",
+        "element": 74,
+        "hits": 224
+    },
+    {
+        "detector": "D2Up",
+        "element": 75,
+        "hits": 271
+    },
+    {
+        "detector": "D2Up",
+        "element": 76,
+        "hits": 294
+    },
+    {
+        "detector": "D2Up",
+        "element": 77,
+        "hits": 287
+    },
+    {
+        "detector": "D2Up",
+        "element": 78,
+        "hits": 334
+    },
+    {
+        "detector": "D2Up",
+        "element": 79,
+        "hits": 313
+    },
+    {
+        "detector": "D2Up",
+        "element": 80,
+        "hits": 373
+    },
+    {
+        "detector": "D2Up",
+        "element": 81,
+        "hits": 387
+    },
+    {
+        "detector": "D2Up",
+        "element": 82,
+        "hits": 563
+    },
+    {
+        "detector": "D2Up",
+        "element": 83,
+        "hits": 517
+    },
+    {
+        "detector": "D2Up",
+        "element": 84,
+        "hits": 560
+    },
+    {
+        "detector": "D2Up",
+        "element": 85,
+        "hits": 683
+    },
+    {
+        "detector": "D2Up",
+        "element": 86,
+        "hits": 788
+    },
+    {
+        "detector": "D2Up",
+        "element": 87,
+        "hits": 904
+    },
+    {
+        "detector": "D2Up",
+        "element": 88,
+        "hits": 0
+    },
+    {
+        "detector": "D2Up",
+        "element": 89,
+        "hits": 0
+    },
+    {
+        "detector": "D2Up",
+        "element": 90,
+        "hits": 1089
+    },
+    {
+        "detector": "D2Up",
+        "element": 91,
+        "hits": 1215
+    },
+    {
+        "detector": "D2Up",
+        "element": 92,
+        "hits": 1115
+    },
+    {
+        "detector": "D2Up",
+        "element": 93,
+        "hits": 1320
+    },
+    {
+        "detector": "D2Up",
+        "element": 94,
+        "hits": 1203
+    },
+    {
+        "detector": "D2Up",
+        "element": 95,
+        "hits": 1380
+    },
+    {
+        "detector": "D2Up",
+        "element": 96,
+        "hits": 1490
+    },
+    {
+        "detector": "D2Up",
+        "element": 97,
+        "hits": 1355
+    },
+    {
+        "detector": "D2Up",
+        "element": 98,
+        "hits": 1443
+    },
+    {
+        "detector": "D2Up",
+        "element": 99,
+        "hits": 1414
+    },
+    {
+        "detector": "D2Up",
+        "element": 100,
+        "hits": 1427
+    },
+    {
+        "detector": "D2Up",
+        "element": 101,
+        "hits": 1451
+    },
+    {
+        "detector": "D2Up",
+        "element": 102,
+        "hits": 1519
+    },
+    {
+        "detector": "D2Up",
+        "element": 103,
+        "hits": 1499
+    },
+    {
+        "detector": "D2Up",
+        "element": 104,
+        "hits": 1520
+    },
+    {
+        "detector": "D2Up",
+        "element": 105,
+        "hits": 1519
+    },
+    {
+        "detector": "D2Up",
+        "element": 106,
+        "hits": 1562
+    },
+    {
+        "detector": "D2Up",
+        "element": 107,
+        "hits": 1682
+    },
+    {
+        "detector": "D2Up",
+        "element": 108,
+        "hits": 1703
+    },
+    {
+        "detector": "D2Up",
+        "element": 109,
+        "hits": 1874
+    },
+    {
+        "detector": "D2Up",
+        "element": 110,
+        "hits": 1819
+    },
+    {
+        "detector": "D2Up",
+        "element": 111,
+        "hits": 1917
+    },
+    {
+        "detector": "D2Up",
+        "element": 112,
+        "hits": 2009
+    },
+    {
+        "detector": "D2Up",
+        "element": 113,
+        "hits": 1985
+    },
+    {
+        "detector": "D2Up",
+        "element": 114,
+        "hits": 1970
+    },
+    {
+        "detector": "D2Up",
+        "element": 115,
+        "hits": 1955
+    },
+    {
+        "detector": "D2Up",
+        "element": 116,
+        "hits": 2120
+    },
+    {
+        "detector": "D2Up",
+        "element": 117,
+        "hits": 2046
+    },
+    {
+        "detector": "D2Up",
+        "element": 118,
+        "hits": 1952
+    },
+    {
+        "detector": "D2Up",
+        "element": 119,
+        "hits": 1802
+    },
+    {
+        "detector": "D2Up",
+        "element": 120,
+        "hits": 1759
+    },
+    {
+        "detector": "D2Up",
+        "element": 121,
+        "hits": 1570
+    },
+    {
+        "detector": "D2Up",
+        "element": 122,
+        "hits": 1246
+    },
+    {
+        "detector": "D2Up",
+        "element": 123,
+        "hits": 1064
+    },
+    {
+        "detector": "D2Up",
+        "element": 124,
+        "hits": 764
+    },
+    {
+        "detector": "D2Up",
+        "element": 125,
+        "hits": 573
+    },
+    {
+        "detector": "D2Up",
+        "element": 126,
+        "hits": 398
+    },
+    {
+        "detector": "D2Up",
+        "element": 127,
+        "hits": 286
+    }
+]

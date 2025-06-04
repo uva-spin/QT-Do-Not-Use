@@ -1,0 +1,3842 @@
+[
+    {
+        "detector": "D3pVp",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D3pVp",
+        "element": 1,
+        "hits": 967
+    },
+    {
+        "detector": "D3pVp",
+        "element": 2,
+        "hits": 959
+    },
+    {
+        "detector": "D3pVp",
+        "element": 3,
+        "hits": 948
+    },
+    {
+        "detector": "D3pVp",
+        "element": 4,
+        "hits": 839
+    },
+    {
+        "detector": "D3pVp",
+        "element": 5,
+        "hits": 864
+    },
+    {
+        "detector": "D3pVp",
+        "element": 6,
+        "hits": 779
+    },
+    {
+        "detector": "D3pVp",
+        "element": 7,
+        "hits": 801
+    },
+    {
+        "detector": "D3pVp",
+        "element": 8,
+        "hits": 762
+    },
+    {
+        "detector": "D3pVp",
+        "element": 9,
+        "hits": 795
+    },
+    {
+        "detector": "D3pVp",
+        "element": 10,
+        "hits": 752
+    },
+    {
+        "detector": "D3pVp",
+        "element": 11,
+        "hits": 771
+    },
+    {
+        "detector": "D3pVp",
+        "element": 12,
+        "hits": 714
+    },
+    {
+        "detector": "D3pVp",
+        "element": 13,
+        "hits": 744
+    },
+    {
+        "detector": "D3pVp",
+        "element": 14,
+        "hits": 674
+    },
+    {
+        "detector": "D3pVp",
+        "element": 15,
+        "hits": 644
+    },
+    {
+        "detector": "D3pVp",
+        "element": 16,
+        "hits": 693
+    },
+    {
+        "detector": "D3pVp",
+        "element": 17,
+        "hits": 625
+    },
+    {
+        "detector": "D3pVp",
+        "element": 18,
+        "hits": 654
+    },
+    {
+        "detector": "D3pVp",
+        "element": 19,
+        "hits": 578
+    },
+    {
+        "detector": "D3pVp",
+        "element": 20,
+        "hits": 562
+    },
+    {
+        "detector": "D3pVp",
+        "element": 21,
+        "hits": 543
+    },
+    {
+        "detector": "D3pVp",
+        "element": 22,
+        "hits": 524
+    },
+    {
+        "detector": "D3pVp",
+        "element": 23,
+        "hits": 577
+    },
+    {
+        "detector": "D3pVp",
+        "element": 24,
+        "hits": 492
+    },
+    {
+        "detector": "D3pVp",
+        "element": 25,
+        "hits": 475
+    },
+    {
+        "detector": "D3pVp",
+        "element": 26,
+        "hits": 510
+    },
+    {
+        "detector": "D3pVp",
+        "element": 27,
+        "hits": 546
+    },
+    {
+        "detector": "D3pVp",
+        "element": 28,
+        "hits": 483
+    },
+    {
+        "detector": "D3pVp",
+        "element": 29,
+        "hits": 467
+    },
+    {
+        "detector": "D3pVp",
+        "element": 30,
+        "hits": 489
+    },
+    {
+        "detector": "D3pVp",
+        "element": 31,
+        "hits": 450
+    },
+    {
+        "detector": "D3pVp",
+        "element": 32,
+        "hits": 439
+    },
+    {
+        "detector": "D3pVp",
+        "element": 33,
+        "hits": 439
+    },
+    {
+        "detector": "D3pVp",
+        "element": 34,
+        "hits": 411
+    },
+    {
+        "detector": "D3pVp",
+        "element": 35,
+        "hits": 406
+    },
+    {
+        "detector": "D3pVp",
+        "element": 36,
+        "hits": 443
+    },
+    {
+        "detector": "D3pVp",
+        "element": 37,
+        "hits": 383
+    },
+    {
+        "detector": "D3pVp",
+        "element": 38,
+        "hits": 385
+    },
+    {
+        "detector": "D3pVp",
+        "element": 39,
+        "hits": 409
+    },
+    {
+        "detector": "D3pVp",
+        "element": 40,
+        "hits": 372
+    },
+    {
+        "detector": "D3pVp",
+        "element": 41,
+        "hits": 378
+    },
+    {
+        "detector": "D3pVp",
+        "element": 42,
+        "hits": 358
+    },
+    {
+        "detector": "D3pVp",
+        "element": 43,
+        "hits": 397
+    },
+    {
+        "detector": "D3pVp",
+        "element": 44,
+        "hits": 383
+    },
+    {
+        "detector": "D3pVp",
+        "element": 45,
+        "hits": 397
+    },
+    {
+        "detector": "D3pVp",
+        "element": 46,
+        "hits": 399
+    },
+    {
+        "detector": "D3pVp",
+        "element": 47,
+        "hits": 437
+    },
+    {
+        "detector": "D3pVp",
+        "element": 48,
+        "hits": 346
+    },
+    {
+        "detector": "D3pVp",
+        "element": 49,
+        "hits": 426
+    },
+    {
+        "detector": "D3pVp",
+        "element": 50,
+        "hits": 368
+    },
+    {
+        "detector": "D3pVp",
+        "element": 51,
+        "hits": 387
+    },
+    {
+        "detector": "D3pVp",
+        "element": 52,
+        "hits": 441
+    },
+    {
+        "detector": "D3pVp",
+        "element": 53,
+        "hits": 394
+    },
+    {
+        "detector": "D3pVp",
+        "element": 54,
+        "hits": 398
+    },
+    {
+        "detector": "D3pVp",
+        "element": 55,
+        "hits": 395
+    },
+    {
+        "detector": "D3pVp",
+        "element": 56,
+        "hits": 387
+    },
+    {
+        "detector": "D3pVp",
+        "element": 57,
+        "hits": 382
+    },
+    {
+        "detector": "D3pVp",
+        "element": 58,
+        "hits": 357
+    },
+    {
+        "detector": "D3pVp",
+        "element": 59,
+        "hits": 414
+    },
+    {
+        "detector": "D3pVp",
+        "element": 60,
+        "hits": 430
+    },
+    {
+        "detector": "D3pVp",
+        "element": 61,
+        "hits": 408
+    },
+    {
+        "detector": "D3pVp",
+        "element": 62,
+        "hits": 428
+    },
+    {
+        "detector": "D3pVp",
+        "element": 63,
+        "hits": 398
+    },
+    {
+        "detector": "D3pVp",
+        "element": 64,
+        "hits": 441
+    },
+    {
+        "detector": "D3pVp",
+        "element": 65,
+        "hits": 443
+    },
+    {
+        "detector": "D3pVp",
+        "element": 66,
+        "hits": 392
+    },
+    {
+        "detector": "D3pVp",
+        "element": 67,
+        "hits": 446
+    },
+    {
+        "detector": "D3pVp",
+        "element": 68,
+        "hits": 448
+    },
+    {
+        "detector": "D3pVp",
+        "element": 69,
+        "hits": 424
+    },
+    {
+        "detector": "D3pVp",
+        "element": 70,
+        "hits": 446
+    },
+    {
+        "detector": "D3pVp",
+        "element": 71,
+        "hits": 427
+    },
+    {
+        "detector": "D3pVp",
+        "element": 72,
+        "hits": 474
+    },
+    {
+        "detector": "D3pVp",
+        "element": 73,
+        "hits": 454
+    },
+    {
+        "detector": "D3pVp",
+        "element": 74,
+        "hits": 428
+    },
+    {
+        "detector": "D3pVp",
+        "element": 75,
+        "hits": 458
+    },
+    {
+        "detector": "D3pVp",
+        "element": 76,
+        "hits": 478
+    },
+    {
+        "detector": "D3pVp",
+        "element": 77,
+        "hits": 437
+    },
+    {
+        "detector": "D3pVp",
+        "element": 78,
+        "hits": 424
+    },
+    {
+        "detector": "D3pVp",
+        "element": 79,
+        "hits": 406
+    },
+    {
+        "detector": "D3pVp",
+        "element": 80,
+        "hits": 438
+    },
+    {
+        "detector": "D3pVp",
+        "element": 81,
+        "hits": 441
+    },
+    {
+        "detector": "D3pVp",
+        "element": 82,
+        "hits": 430
+    },
+    {
+        "detector": "D3pVp",
+        "element": 83,
+        "hits": 491
+    },
+    {
+        "detector": "D3pVp",
+        "element": 84,
+        "hits": 480
+    },
+    {
+        "detector": "D3pVp",
+        "element": 85,
+        "hits": 474
+    },
+    {
+        "detector": "D3pVp",
+        "element": 86,
+        "hits": 489
+    },
+    {
+        "detector": "D3pVp",
+        "element": 87,
+        "hits": 483
+    },
+    {
+        "detector": "D3pVp",
+        "element": 88,
+        "hits": 544
+    },
+    {
+        "detector": "D3pVp",
+        "element": 89,
+        "hits": 535
+    },
+    {
+        "detector": "D3pVp",
+        "element": 90,
+        "hits": 578
+    },
+    {
+        "detector": "D3pVp",
+        "element": 91,
+        "hits": 563
+    },
+    {
+        "detector": "D3pVp",
+        "element": 92,
+        "hits": 577
+    },
+    {
+        "detector": "D3pVp",
+        "element": 93,
+        "hits": 601
+    },
+    {
+        "detector": "D3pVp",
+        "element": 94,
+        "hits": 597
+    },
+    {
+        "detector": "D3pVp",
+        "element": 95,
+        "hits": 650
+    },
+    {
+        "detector": "D3pVp",
+        "element": 96,
+        "hits": 690
+    },
+    {
+        "detector": "D3pVp",
+        "element": 97,
+        "hits": 681
+    },
+    {
+        "detector": "D3pVp",
+        "element": 98,
+        "hits": 735
+    },
+    {
+        "detector": "D3pVp",
+        "element": 99,
+        "hits": 776
+    },
+    {
+        "detector": "D3pVp",
+        "element": 100,
+        "hits": 867
+    },
+    {
+        "detector": "D3pVp",
+        "element": 101,
+        "hits": 812
+    },
+    {
+        "detector": "D3pVp",
+        "element": 102,
+        "hits": 853
+    },
+    {
+        "detector": "D3pVp",
+        "element": 103,
+        "hits": 887
+    },
+    {
+        "detector": "D3pVp",
+        "element": 104,
+        "hits": 845
+    },
+    {
+        "detector": "D3pVp",
+        "element": 105,
+        "hits": 908
+    },
+    {
+        "detector": "D3pVp",
+        "element": 106,
+        "hits": 962
+    },
+    {
+        "detector": "D3pVp",
+        "element": 107,
+        "hits": 940
+    },
+    {
+        "detector": "D3pVp",
+        "element": 108,
+        "hits": 1017
+    },
+    {
+        "detector": "D3pVp",
+        "element": 109,
+        "hits": 1006
+    },
+    {
+        "detector": "D3pVp",
+        "element": 110,
+        "hits": 1051
+    },
+    {
+        "detector": "D3pVp",
+        "element": 111,
+        "hits": 1053
+    },
+    {
+        "detector": "D3pVp",
+        "element": 112,
+        "hits": 1104
+    },
+    {
+        "detector": "D3pVp",
+        "element": 113,
+        "hits": 1062
+    },
+    {
+        "detector": "D3pVp",
+        "element": 114,
+        "hits": 1082
+    },
+    {
+        "detector": "D3pVp",
+        "element": 115,
+        "hits": 1133
+    },
+    {
+        "detector": "D3pVp",
+        "element": 116,
+        "hits": 1129
+    },
+    {
+        "detector": "D3pVp",
+        "element": 117,
+        "hits": 1092
+    },
+    {
+        "detector": "D3pVp",
+        "element": 118,
+        "hits": 1156
+    },
+    {
+        "detector": "D3pVp",
+        "element": 119,
+        "hits": 1186
+    },
+    {
+        "detector": "D3pVp",
+        "element": 120,
+        "hits": 1230
+    },
+    {
+        "detector": "D3pVp",
+        "element": 121,
+        "hits": 1192
+    },
+    {
+        "detector": "D3pVp",
+        "element": 122,
+        "hits": 1245
+    },
+    {
+        "detector": "D3pVp",
+        "element": 123,
+        "hits": 1235
+    },
+    {
+        "detector": "D3pVp",
+        "element": 124,
+        "hits": 1255
+    },
+    {
+        "detector": "D3pVp",
+        "element": 125,
+        "hits": 1318
+    },
+    {
+        "detector": "D3pVp",
+        "element": 126,
+        "hits": 1413
+    },
+    {
+        "detector": "D3pVp",
+        "element": 127,
+        "hits": 1392
+    },
+    {
+        "detector": "D3pVp",
+        "element": 128,
+        "hits": 1418
+    },
+    {
+        "detector": "D3pVp",
+        "element": 129,
+        "hits": 1404
+    },
+    {
+        "detector": "D3pVp",
+        "element": 130,
+        "hits": 1509
+    },
+    {
+        "detector": "D3pVp",
+        "element": 131,
+        "hits": 1527
+    },
+    {
+        "detector": "D3pVp",
+        "element": 132,
+        "hits": 1494
+    },
+    {
+        "detector": "D3pVp",
+        "element": 133,
+        "hits": 1516
+    },
+    {
+        "detector": "D3pV",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D3pV",
+        "element": 1,
+        "hits": 1007
+    },
+    {
+        "detector": "D3pV",
+        "element": 2,
+        "hits": 1035
+    },
+    {
+        "detector": "D3pV",
+        "element": 3,
+        "hits": 943
+    },
+    {
+        "detector": "D3pV",
+        "element": 4,
+        "hits": 961
+    },
+    {
+        "detector": "D3pV",
+        "element": 5,
+        "hits": 937
+    },
+    {
+        "detector": "D3pV",
+        "element": 6,
+        "hits": 861
+    },
+    {
+        "detector": "D3pV",
+        "element": 7,
+        "hits": 786
+    },
+    {
+        "detector": "D3pV",
+        "element": 8,
+        "hits": 868
+    },
+    {
+        "detector": "D3pV",
+        "element": 9,
+        "hits": 755
+    },
+    {
+        "detector": "D3pV",
+        "element": 10,
+        "hits": 766
+    },
+    {
+        "detector": "D3pV",
+        "element": 11,
+        "hits": 762
+    },
+    {
+        "detector": "D3pV",
+        "element": 12,
+        "hits": 705
+    },
+    {
+        "detector": "D3pV",
+        "element": 13,
+        "hits": 732
+    },
+    {
+        "detector": "D3pV",
+        "element": 14,
+        "hits": 717
+    },
+    {
+        "detector": "D3pV",
+        "element": 15,
+        "hits": 670
+    },
+    {
+        "detector": "D3pV",
+        "element": 16,
+        "hits": 675
+    },
+    {
+        "detector": "D3pV",
+        "element": 17,
+        "hits": 666
+    },
+    {
+        "detector": "D3pV",
+        "element": 18,
+        "hits": 659
+    },
+    {
+        "detector": "D3pV",
+        "element": 19,
+        "hits": 598
+    },
+    {
+        "detector": "D3pV",
+        "element": 20,
+        "hits": 637
+    },
+    {
+        "detector": "D3pV",
+        "element": 21,
+        "hits": 588
+    },
+    {
+        "detector": "D3pV",
+        "element": 22,
+        "hits": 552
+    },
+    {
+        "detector": "D3pV",
+        "element": 23,
+        "hits": 571
+    },
+    {
+        "detector": "D3pV",
+        "element": 24,
+        "hits": 568
+    },
+    {
+        "detector": "D3pV",
+        "element": 25,
+        "hits": 481
+    },
+    {
+        "detector": "D3pV",
+        "element": 26,
+        "hits": 572
+    },
+    {
+        "detector": "D3pV",
+        "element": 27,
+        "hits": 538
+    },
+    {
+        "detector": "D3pV",
+        "element": 28,
+        "hits": 543
+    },
+    {
+        "detector": "D3pV",
+        "element": 29,
+        "hits": 486
+    },
+    {
+        "detector": "D3pV",
+        "element": 30,
+        "hits": 492
+    },
+    {
+        "detector": "D3pV",
+        "element": 31,
+        "hits": 477
+    },
+    {
+        "detector": "D3pV",
+        "element": 32,
+        "hits": 479
+    },
+    {
+        "detector": "D3pV",
+        "element": 33,
+        "hits": 421
+    },
+    {
+        "detector": "D3pV",
+        "element": 34,
+        "hits": 430
+    },
+    {
+        "detector": "D3pV",
+        "element": 35,
+        "hits": 452
+    },
+    {
+        "detector": "D3pV",
+        "element": 36,
+        "hits": 458
+    },
+    {
+        "detector": "D3pV",
+        "element": 37,
+        "hits": 442
+    },
+    {
+        "detector": "D3pV",
+        "element": 38,
+        "hits": 396
+    },
+    {
+        "detector": "D3pV",
+        "element": 39,
+        "hits": 398
+    },
+    {
+        "detector": "D3pV",
+        "element": 40,
+        "hits": 421
+    },
+    {
+        "detector": "D3pV",
+        "element": 41,
+        "hits": 369
+    },
+    {
+        "detector": "D3pV",
+        "element": 42,
+        "hits": 414
+    },
+    {
+        "detector": "D3pV",
+        "element": 43,
+        "hits": 389
+    },
+    {
+        "detector": "D3pV",
+        "element": 44,
+        "hits": 387
+    },
+    {
+        "detector": "D3pV",
+        "element": 45,
+        "hits": 379
+    },
+    {
+        "detector": "D3pV",
+        "element": 46,
+        "hits": 429
+    },
+    {
+        "detector": "D3pV",
+        "element": 47,
+        "hits": 419
+    },
+    {
+        "detector": "D3pV",
+        "element": 48,
+        "hits": 396
+    },
+    {
+        "detector": "D3pV",
+        "element": 49,
+        "hits": 383
+    },
+    {
+        "detector": "D3pV",
+        "element": 50,
+        "hits": 434
+    },
+    {
+        "detector": "D3pV",
+        "element": 51,
+        "hits": 403
+    },
+    {
+        "detector": "D3pV",
+        "element": 52,
+        "hits": 394
+    },
+    {
+        "detector": "D3pV",
+        "element": 53,
+        "hits": 420
+    },
+    {
+        "detector": "D3pV",
+        "element": 54,
+        "hits": 393
+    },
+    {
+        "detector": "D3pV",
+        "element": 55,
+        "hits": 385
+    },
+    {
+        "detector": "D3pV",
+        "element": 56,
+        "hits": 339
+    },
+    {
+        "detector": "D3pV",
+        "element": 57,
+        "hits": 370
+    },
+    {
+        "detector": "D3pV",
+        "element": 58,
+        "hits": 387
+    },
+    {
+        "detector": "D3pV",
+        "element": 59,
+        "hits": 440
+    },
+    {
+        "detector": "D3pV",
+        "element": 60,
+        "hits": 412
+    },
+    {
+        "detector": "D3pV",
+        "element": 61,
+        "hits": 405
+    },
+    {
+        "detector": "D3pV",
+        "element": 62,
+        "hits": 408
+    },
+    {
+        "detector": "D3pV",
+        "element": 63,
+        "hits": 413
+    },
+    {
+        "detector": "D3pV",
+        "element": 64,
+        "hits": 421
+    },
+    {
+        "detector": "D3pV",
+        "element": 65,
+        "hits": 411
+    },
+    {
+        "detector": "D3pV",
+        "element": 66,
+        "hits": 435
+    },
+    {
+        "detector": "D3pV",
+        "element": 67,
+        "hits": 431
+    },
+    {
+        "detector": "D3pV",
+        "element": 68,
+        "hits": 493
+    },
+    {
+        "detector": "D3pV",
+        "element": 69,
+        "hits": 433
+    },
+    {
+        "detector": "D3pV",
+        "element": 70,
+        "hits": 395
+    },
+    {
+        "detector": "D3pV",
+        "element": 71,
+        "hits": 433
+    },
+    {
+        "detector": "D3pV",
+        "element": 72,
+        "hits": 437
+    },
+    {
+        "detector": "D3pV",
+        "element": 73,
+        "hits": 456
+    },
+    {
+        "detector": "D3pV",
+        "element": 74,
+        "hits": 451
+    },
+    {
+        "detector": "D3pV",
+        "element": 75,
+        "hits": 465
+    },
+    {
+        "detector": "D3pV",
+        "element": 76,
+        "hits": 462
+    },
+    {
+        "detector": "D3pV",
+        "element": 77,
+        "hits": 427
+    },
+    {
+        "detector": "D3pV",
+        "element": 78,
+        "hits": 441
+    },
+    {
+        "detector": "D3pV",
+        "element": 79,
+        "hits": 489
+    },
+    {
+        "detector": "D3pV",
+        "element": 80,
+        "hits": 434
+    },
+    {
+        "detector": "D3pV",
+        "element": 81,
+        "hits": 474
+    },
+    {
+        "detector": "D3pV",
+        "element": 82,
+        "hits": 446
+    },
+    {
+        "detector": "D3pV",
+        "element": 83,
+        "hits": 494
+    },
+    {
+        "detector": "D3pV",
+        "element": 84,
+        "hits": 479
+    },
+    {
+        "detector": "D3pV",
+        "element": 85,
+        "hits": 477
+    },
+    {
+        "detector": "D3pV",
+        "element": 86,
+        "hits": 508
+    },
+    {
+        "detector": "D3pV",
+        "element": 87,
+        "hits": 538
+    },
+    {
+        "detector": "D3pV",
+        "element": 88,
+        "hits": 519
+    },
+    {
+        "detector": "D3pV",
+        "element": 89,
+        "hits": 545
+    },
+    {
+        "detector": "D3pV",
+        "element": 90,
+        "hits": 545
+    },
+    {
+        "detector": "D3pV",
+        "element": 91,
+        "hits": 613
+    },
+    {
+        "detector": "D3pV",
+        "element": 92,
+        "hits": 583
+    },
+    {
+        "detector": "D3pV",
+        "element": 93,
+        "hits": 629
+    },
+    {
+        "detector": "D3pV",
+        "element": 94,
+        "hits": 614
+    },
+    {
+        "detector": "D3pV",
+        "element": 95,
+        "hits": 625
+    },
+    {
+        "detector": "D3pV",
+        "element": 96,
+        "hits": 698
+    },
+    {
+        "detector": "D3pV",
+        "element": 97,
+        "hits": 698
+    },
+    {
+        "detector": "D3pV",
+        "element": 98,
+        "hits": 765
+    },
+    {
+        "detector": "D3pV",
+        "element": 99,
+        "hits": 744
+    },
+    {
+        "detector": "D3pV",
+        "element": 100,
+        "hits": 780
+    },
+    {
+        "detector": "D3pV",
+        "element": 101,
+        "hits": 875
+    },
+    {
+        "detector": "D3pV",
+        "element": 102,
+        "hits": 889
+    },
+    {
+        "detector": "D3pV",
+        "element": 103,
+        "hits": 936
+    },
+    {
+        "detector": "D3pV",
+        "element": 104,
+        "hits": 892
+    },
+    {
+        "detector": "D3pV",
+        "element": 105,
+        "hits": 878
+    },
+    {
+        "detector": "D3pV",
+        "element": 106,
+        "hits": 866
+    },
+    {
+        "detector": "D3pV",
+        "element": 107,
+        "hits": 968
+    },
+    {
+        "detector": "D3pV",
+        "element": 108,
+        "hits": 1016
+    },
+    {
+        "detector": "D3pV",
+        "element": 109,
+        "hits": 978
+    },
+    {
+        "detector": "D3pV",
+        "element": 110,
+        "hits": 1070
+    },
+    {
+        "detector": "D3pV",
+        "element": 111,
+        "hits": 1078
+    },
+    {
+        "detector": "D3pV",
+        "element": 112,
+        "hits": 1178
+    },
+    {
+        "detector": "D3pV",
+        "element": 113,
+        "hits": 1138
+    },
+    {
+        "detector": "D3pV",
+        "element": 114,
+        "hits": 1077
+    },
+    {
+        "detector": "D3pV",
+        "element": 115,
+        "hits": 1100
+    },
+    {
+        "detector": "D3pV",
+        "element": 116,
+        "hits": 1108
+    },
+    {
+        "detector": "D3pV",
+        "element": 117,
+        "hits": 1143
+    },
+    {
+        "detector": "D3pV",
+        "element": 118,
+        "hits": 1117
+    },
+    {
+        "detector": "D3pV",
+        "element": 119,
+        "hits": 1191
+    },
+    {
+        "detector": "D3pV",
+        "element": 120,
+        "hits": 1230
+    },
+    {
+        "detector": "D3pV",
+        "element": 121,
+        "hits": 1244
+    },
+    {
+        "detector": "D3pV",
+        "element": 122,
+        "hits": 1221
+    },
+    {
+        "detector": "D3pV",
+        "element": 123,
+        "hits": 1294
+    },
+    {
+        "detector": "D3pV",
+        "element": 124,
+        "hits": 1329
+    },
+    {
+        "detector": "D3pV",
+        "element": 125,
+        "hits": 1347
+    },
+    {
+        "detector": "D3pV",
+        "element": 126,
+        "hits": 1412
+    },
+    {
+        "detector": "D3pV",
+        "element": 127,
+        "hits": 1440
+    },
+    {
+        "detector": "D3pV",
+        "element": 128,
+        "hits": 1436
+    },
+    {
+        "detector": "D3pV",
+        "element": 129,
+        "hits": 1473
+    },
+    {
+        "detector": "D3pV",
+        "element": 130,
+        "hits": 1521
+    },
+    {
+        "detector": "D3pV",
+        "element": 131,
+        "hits": 1499
+    },
+    {
+        "detector": "D3pV",
+        "element": 132,
+        "hits": 1614
+    },
+    {
+        "detector": "D3pV",
+        "element": 133,
+        "hits": 1605
+    },
+    {
+        "detector": "D3pXp",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D3pXp",
+        "element": 1,
+        "hits": 742
+    },
+    {
+        "detector": "D3pXp",
+        "element": 2,
+        "hits": 741
+    },
+    {
+        "detector": "D3pXp",
+        "element": 3,
+        "hits": 757
+    },
+    {
+        "detector": "D3pXp",
+        "element": 4,
+        "hits": 762
+    },
+    {
+        "detector": "D3pXp",
+        "element": 5,
+        "hits": 728
+    },
+    {
+        "detector": "D3pXp",
+        "element": 6,
+        "hits": 737
+    },
+    {
+        "detector": "D3pXp",
+        "element": 7,
+        "hits": 729
+    },
+    {
+        "detector": "D3pXp",
+        "element": 8,
+        "hits": 752
+    },
+    {
+        "detector": "D3pXp",
+        "element": 9,
+        "hits": 642
+    },
+    {
+        "detector": "D3pXp",
+        "element": 10,
+        "hits": 697
+    },
+    {
+        "detector": "D3pXp",
+        "element": 11,
+        "hits": 746
+    },
+    {
+        "detector": "D3pXp",
+        "element": 12,
+        "hits": 650
+    },
+    {
+        "detector": "D3pXp",
+        "element": 13,
+        "hits": 629
+    },
+    {
+        "detector": "D3pXp",
+        "element": 14,
+        "hits": 586
+    },
+    {
+        "detector": "D3pXp",
+        "element": 15,
+        "hits": 617
+    },
+    {
+        "detector": "D3pXp",
+        "element": 16,
+        "hits": 535
+    },
+    {
+        "detector": "D3pXp",
+        "element": 17,
+        "hits": 574
+    },
+    {
+        "detector": "D3pXp",
+        "element": 18,
+        "hits": 525
+    },
+    {
+        "detector": "D3pXp",
+        "element": 19,
+        "hits": 479
+    },
+    {
+        "detector": "D3pXp",
+        "element": 20,
+        "hits": 515
+    },
+    {
+        "detector": "D3pXp",
+        "element": 21,
+        "hits": 490
+    },
+    {
+        "detector": "D3pXp",
+        "element": 22,
+        "hits": 518
+    },
+    {
+        "detector": "D3pXp",
+        "element": 23,
+        "hits": 519
+    },
+    {
+        "detector": "D3pXp",
+        "element": 24,
+        "hits": 493
+    },
+    {
+        "detector": "D3pXp",
+        "element": 25,
+        "hits": 441
+    },
+    {
+        "detector": "D3pXp",
+        "element": 26,
+        "hits": 484
+    },
+    {
+        "detector": "D3pXp",
+        "element": 27,
+        "hits": 414
+    },
+    {
+        "detector": "D3pXp",
+        "element": 28,
+        "hits": 386
+    },
+    {
+        "detector": "D3pXp",
+        "element": 29,
+        "hits": 412
+    },
+    {
+        "detector": "D3pXp",
+        "element": 30,
+        "hits": 475
+    },
+    {
+        "detector": "D3pXp",
+        "element": 31,
+        "hits": 460
+    },
+    {
+        "detector": "D3pXp",
+        "element": 32,
+        "hits": 475
+    },
+    {
+        "detector": "D3pXp",
+        "element": 33,
+        "hits": 387
+    },
+    {
+        "detector": "D3pXp",
+        "element": 34,
+        "hits": 381
+    },
+    {
+        "detector": "D3pXp",
+        "element": 35,
+        "hits": 424
+    },
+    {
+        "detector": "D3pXp",
+        "element": 36,
+        "hits": 432
+    },
+    {
+        "detector": "D3pXp",
+        "element": 37,
+        "hits": 421
+    },
+    {
+        "detector": "D3pXp",
+        "element": 38,
+        "hits": 406
+    },
+    {
+        "detector": "D3pXp",
+        "element": 39,
+        "hits": 393
+    },
+    {
+        "detector": "D3pXp",
+        "element": 40,
+        "hits": 364
+    },
+    {
+        "detector": "D3pXp",
+        "element": 41,
+        "hits": 388
+    },
+    {
+        "detector": "D3pXp",
+        "element": 42,
+        "hits": 366
+    },
+    {
+        "detector": "D3pXp",
+        "element": 43,
+        "hits": 361
+    },
+    {
+        "detector": "D3pXp",
+        "element": 44,
+        "hits": 408
+    },
+    {
+        "detector": "D3pXp",
+        "element": 45,
+        "hits": 413
+    },
+    {
+        "detector": "D3pXp",
+        "element": 46,
+        "hits": 388
+    },
+    {
+        "detector": "D3pXp",
+        "element": 47,
+        "hits": 380
+    },
+    {
+        "detector": "D3pXp",
+        "element": 48,
+        "hits": 362
+    },
+    {
+        "detector": "D3pXp",
+        "element": 49,
+        "hits": 429
+    },
+    {
+        "detector": "D3pXp",
+        "element": 50,
+        "hits": 416
+    },
+    {
+        "detector": "D3pXp",
+        "element": 51,
+        "hits": 359
+    },
+    {
+        "detector": "D3pXp",
+        "element": 52,
+        "hits": 386
+    },
+    {
+        "detector": "D3pXp",
+        "element": 53,
+        "hits": 370
+    },
+    {
+        "detector": "D3pXp",
+        "element": 54,
+        "hits": 396
+    },
+    {
+        "detector": "D3pXp",
+        "element": 55,
+        "hits": 376
+    },
+    {
+        "detector": "D3pXp",
+        "element": 56,
+        "hits": 378
+    },
+    {
+        "detector": "D3pXp",
+        "element": 57,
+        "hits": 390
+    },
+    {
+        "detector": "D3pXp",
+        "element": 58,
+        "hits": 350
+    },
+    {
+        "detector": "D3pXp",
+        "element": 59,
+        "hits": 399
+    },
+    {
+        "detector": "D3pXp",
+        "element": 60,
+        "hits": 400
+    },
+    {
+        "detector": "D3pXp",
+        "element": 61,
+        "hits": 430
+    },
+    {
+        "detector": "D3pXp",
+        "element": 62,
+        "hits": 408
+    },
+    {
+        "detector": "D3pXp",
+        "element": 63,
+        "hits": 392
+    },
+    {
+        "detector": "D3pXp",
+        "element": 64,
+        "hits": 410
+    },
+    {
+        "detector": "D3pXp",
+        "element": 65,
+        "hits": 390
+    },
+    {
+        "detector": "D3pXp",
+        "element": 66,
+        "hits": 411
+    },
+    {
+        "detector": "D3pXp",
+        "element": 67,
+        "hits": 431
+    },
+    {
+        "detector": "D3pXp",
+        "element": 68,
+        "hits": 393
+    },
+    {
+        "detector": "D3pXp",
+        "element": 69,
+        "hits": 428
+    },
+    {
+        "detector": "D3pXp",
+        "element": 70,
+        "hits": 414
+    },
+    {
+        "detector": "D3pXp",
+        "element": 71,
+        "hits": 436
+    },
+    {
+        "detector": "D3pXp",
+        "element": 72,
+        "hits": 359
+    },
+    {
+        "detector": "D3pXp",
+        "element": 73,
+        "hits": 438
+    },
+    {
+        "detector": "D3pXp",
+        "element": 74,
+        "hits": 423
+    },
+    {
+        "detector": "D3pXp",
+        "element": 75,
+        "hits": 397
+    },
+    {
+        "detector": "D3pXp",
+        "element": 76,
+        "hits": 450
+    },
+    {
+        "detector": "D3pXp",
+        "element": 77,
+        "hits": 430
+    },
+    {
+        "detector": "D3pXp",
+        "element": 78,
+        "hits": 415
+    },
+    {
+        "detector": "D3pXp",
+        "element": 79,
+        "hits": 440
+    },
+    {
+        "detector": "D3pXp",
+        "element": 80,
+        "hits": 441
+    },
+    {
+        "detector": "D3pXp",
+        "element": 81,
+        "hits": 468
+    },
+    {
+        "detector": "D3pXp",
+        "element": 82,
+        "hits": 448
+    },
+    {
+        "detector": "D3pXp",
+        "element": 83,
+        "hits": 396
+    },
+    {
+        "detector": "D3pXp",
+        "element": 84,
+        "hits": 465
+    },
+    {
+        "detector": "D3pXp",
+        "element": 85,
+        "hits": 453
+    },
+    {
+        "detector": "D3pXp",
+        "element": 86,
+        "hits": 488
+    },
+    {
+        "detector": "D3pXp",
+        "element": 87,
+        "hits": 491
+    },
+    {
+        "detector": "D3pXp",
+        "element": 88,
+        "hits": 470
+    },
+    {
+        "detector": "D3pXp",
+        "element": 89,
+        "hits": 508
+    },
+    {
+        "detector": "D3pXp",
+        "element": 90,
+        "hits": 551
+    },
+    {
+        "detector": "D3pXp",
+        "element": 91,
+        "hits": 562
+    },
+    {
+        "detector": "D3pXp",
+        "element": 92,
+        "hits": 550
+    },
+    {
+        "detector": "D3pXp",
+        "element": 93,
+        "hits": 541
+    },
+    {
+        "detector": "D3pXp",
+        "element": 94,
+        "hits": 652
+    },
+    {
+        "detector": "D3pXp",
+        "element": 95,
+        "hits": 673
+    },
+    {
+        "detector": "D3pXp",
+        "element": 96,
+        "hits": 657
+    },
+    {
+        "detector": "D3pXp",
+        "element": 97,
+        "hits": 642
+    },
+    {
+        "detector": "D3pXp",
+        "element": 98,
+        "hits": 684
+    },
+    {
+        "detector": "D3pXp",
+        "element": 99,
+        "hits": 690
+    },
+    {
+        "detector": "D3pXp",
+        "element": 100,
+        "hits": 785
+    },
+    {
+        "detector": "D3pXp",
+        "element": 101,
+        "hits": 830
+    },
+    {
+        "detector": "D3pXp",
+        "element": 102,
+        "hits": 834
+    },
+    {
+        "detector": "D3pXp",
+        "element": 103,
+        "hits": 864
+    },
+    {
+        "detector": "D3pXp",
+        "element": 104,
+        "hits": 861
+    },
+    {
+        "detector": "D3pXp",
+        "element": 105,
+        "hits": 861
+    },
+    {
+        "detector": "D3pXp",
+        "element": 106,
+        "hits": 894
+    },
+    {
+        "detector": "D3pXp",
+        "element": 107,
+        "hits": 940
+    },
+    {
+        "detector": "D3pXp",
+        "element": 108,
+        "hits": 952
+    },
+    {
+        "detector": "D3pXp",
+        "element": 109,
+        "hits": 943
+    },
+    {
+        "detector": "D3pXp",
+        "element": 110,
+        "hits": 966
+    },
+    {
+        "detector": "D3pXp",
+        "element": 111,
+        "hits": 1054
+    },
+    {
+        "detector": "D3pXp",
+        "element": 112,
+        "hits": 1058
+    },
+    {
+        "detector": "D3pXp",
+        "element": 113,
+        "hits": 1092
+    },
+    {
+        "detector": "D3pXp",
+        "element": 114,
+        "hits": 1072
+    },
+    {
+        "detector": "D3pXp",
+        "element": 115,
+        "hits": 1061
+    },
+    {
+        "detector": "D3pX",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D3pX",
+        "element": 1,
+        "hits": 880
+    },
+    {
+        "detector": "D3pX",
+        "element": 2,
+        "hits": 781
+    },
+    {
+        "detector": "D3pX",
+        "element": 3,
+        "hits": 720
+    },
+    {
+        "detector": "D3pX",
+        "element": 4,
+        "hits": 788
+    },
+    {
+        "detector": "D3pX",
+        "element": 5,
+        "hits": 754
+    },
+    {
+        "detector": "D3pX",
+        "element": 6,
+        "hits": 748
+    },
+    {
+        "detector": "D3pX",
+        "element": 7,
+        "hits": 711
+    },
+    {
+        "detector": "D3pX",
+        "element": 8,
+        "hits": 709
+    },
+    {
+        "detector": "D3pX",
+        "element": 9,
+        "hits": 690
+    },
+    {
+        "detector": "D3pX",
+        "element": 10,
+        "hits": 662
+    },
+    {
+        "detector": "D3pX",
+        "element": 11,
+        "hits": 681
+    },
+    {
+        "detector": "D3pX",
+        "element": 12,
+        "hits": 638
+    },
+    {
+        "detector": "D3pX",
+        "element": 13,
+        "hits": 629
+    },
+    {
+        "detector": "D3pX",
+        "element": 14,
+        "hits": 636
+    },
+    {
+        "detector": "D3pX",
+        "element": 15,
+        "hits": 567
+    },
+    {
+        "detector": "D3pX",
+        "element": 16,
+        "hits": 585
+    },
+    {
+        "detector": "D3pX",
+        "element": 17,
+        "hits": 575
+    },
+    {
+        "detector": "D3pX",
+        "element": 18,
+        "hits": 519
+    },
+    {
+        "detector": "D3pX",
+        "element": 19,
+        "hits": 532
+    },
+    {
+        "detector": "D3pX",
+        "element": 20,
+        "hits": 546
+    },
+    {
+        "detector": "D3pX",
+        "element": 21,
+        "hits": 518
+    },
+    {
+        "detector": "D3pX",
+        "element": 22,
+        "hits": 488
+    },
+    {
+        "detector": "D3pX",
+        "element": 23,
+        "hits": 544
+    },
+    {
+        "detector": "D3pX",
+        "element": 24,
+        "hits": 477
+    },
+    {
+        "detector": "D3pX",
+        "element": 25,
+        "hits": 420
+    },
+    {
+        "detector": "D3pX",
+        "element": 26,
+        "hits": 480
+    },
+    {
+        "detector": "D3pX",
+        "element": 27,
+        "hits": 473
+    },
+    {
+        "detector": "D3pX",
+        "element": 28,
+        "hits": 395
+    },
+    {
+        "detector": "D3pX",
+        "element": 29,
+        "hits": 413
+    },
+    {
+        "detector": "D3pX",
+        "element": 30,
+        "hits": 433
+    },
+    {
+        "detector": "D3pX",
+        "element": 31,
+        "hits": 418
+    },
+    {
+        "detector": "D3pX",
+        "element": 32,
+        "hits": 425
+    },
+    {
+        "detector": "D3pX",
+        "element": 33,
+        "hits": 450
+    },
+    {
+        "detector": "D3pX",
+        "element": 34,
+        "hits": 413
+    },
+    {
+        "detector": "D3pX",
+        "element": 35,
+        "hits": 407
+    },
+    {
+        "detector": "D3pX",
+        "element": 36,
+        "hits": 448
+    },
+    {
+        "detector": "D3pX",
+        "element": 37,
+        "hits": 423
+    },
+    {
+        "detector": "D3pX",
+        "element": 38,
+        "hits": 411
+    },
+    {
+        "detector": "D3pX",
+        "element": 39,
+        "hits": 410
+    },
+    {
+        "detector": "D3pX",
+        "element": 40,
+        "hits": 361
+    },
+    {
+        "detector": "D3pX",
+        "element": 41,
+        "hits": 395
+    },
+    {
+        "detector": "D3pX",
+        "element": 42,
+        "hits": 380
+    },
+    {
+        "detector": "D3pX",
+        "element": 43,
+        "hits": 412
+    },
+    {
+        "detector": "D3pX",
+        "element": 44,
+        "hits": 382
+    },
+    {
+        "detector": "D3pX",
+        "element": 45,
+        "hits": 436
+    },
+    {
+        "detector": "D3pX",
+        "element": 46,
+        "hits": 405
+    },
+    {
+        "detector": "D3pX",
+        "element": 47,
+        "hits": 373
+    },
+    {
+        "detector": "D3pX",
+        "element": 48,
+        "hits": 346
+    },
+    {
+        "detector": "D3pX",
+        "element": 49,
+        "hits": 376
+    },
+    {
+        "detector": "D3pX",
+        "element": 50,
+        "hits": 411
+    },
+    {
+        "detector": "D3pX",
+        "element": 51,
+        "hits": 377
+    },
+    {
+        "detector": "D3pX",
+        "element": 52,
+        "hits": 392
+    },
+    {
+        "detector": "D3pX",
+        "element": 53,
+        "hits": 347
+    },
+    {
+        "detector": "D3pX",
+        "element": 54,
+        "hits": 400
+    },
+    {
+        "detector": "D3pX",
+        "element": 55,
+        "hits": 394
+    },
+    {
+        "detector": "D3pX",
+        "element": 56,
+        "hits": 340
+    },
+    {
+        "detector": "D3pX",
+        "element": 57,
+        "hits": 416
+    },
+    {
+        "detector": "D3pX",
+        "element": 58,
+        "hits": 398
+    },
+    {
+        "detector": "D3pX",
+        "element": 59,
+        "hits": 415
+    },
+    {
+        "detector": "D3pX",
+        "element": 60,
+        "hits": 402
+    },
+    {
+        "detector": "D3pX",
+        "element": 61,
+        "hits": 463
+    },
+    {
+        "detector": "D3pX",
+        "element": 62,
+        "hits": 429
+    },
+    {
+        "detector": "D3pX",
+        "element": 63,
+        "hits": 440
+    },
+    {
+        "detector": "D3pX",
+        "element": 64,
+        "hits": 431
+    },
+    {
+        "detector": "D3pX",
+        "element": 65,
+        "hits": 424
+    },
+    {
+        "detector": "D3pX",
+        "element": 66,
+        "hits": 428
+    },
+    {
+        "detector": "D3pX",
+        "element": 67,
+        "hits": 433
+    },
+    {
+        "detector": "D3pX",
+        "element": 68,
+        "hits": 452
+    },
+    {
+        "detector": "D3pX",
+        "element": 69,
+        "hits": 479
+    },
+    {
+        "detector": "D3pX",
+        "element": 70,
+        "hits": 426
+    },
+    {
+        "detector": "D3pX",
+        "element": 71,
+        "hits": 421
+    },
+    {
+        "detector": "D3pX",
+        "element": 72,
+        "hits": 425
+    },
+    {
+        "detector": "D3pX",
+        "element": 73,
+        "hits": 424
+    },
+    {
+        "detector": "D3pX",
+        "element": 74,
+        "hits": 441
+    },
+    {
+        "detector": "D3pX",
+        "element": 75,
+        "hits": 419
+    },
+    {
+        "detector": "D3pX",
+        "element": 76,
+        "hits": 431
+    },
+    {
+        "detector": "D3pX",
+        "element": 77,
+        "hits": 453
+    },
+    {
+        "detector": "D3pX",
+        "element": 78,
+        "hits": 459
+    },
+    {
+        "detector": "D3pX",
+        "element": 79,
+        "hits": 448
+    },
+    {
+        "detector": "D3pX",
+        "element": 80,
+        "hits": 446
+    },
+    {
+        "detector": "D3pX",
+        "element": 81,
+        "hits": 442
+    },
+    {
+        "detector": "D3pX",
+        "element": 82,
+        "hits": 476
+    },
+    {
+        "detector": "D3pX",
+        "element": 83,
+        "hits": 437
+    },
+    {
+        "detector": "D3pX",
+        "element": 84,
+        "hits": 453
+    },
+    {
+        "detector": "D3pX",
+        "element": 85,
+        "hits": 481
+    },
+    {
+        "detector": "D3pX",
+        "element": 86,
+        "hits": 495
+    },
+    {
+        "detector": "D3pX",
+        "element": 87,
+        "hits": 497
+    },
+    {
+        "detector": "D3pX",
+        "element": 88,
+        "hits": 510
+    },
+    {
+        "detector": "D3pX",
+        "element": 89,
+        "hits": 500
+    },
+    {
+        "detector": "D3pX",
+        "element": 90,
+        "hits": 561
+    },
+    {
+        "detector": "D3pX",
+        "element": 91,
+        "hits": 586
+    },
+    {
+        "detector": "D3pX",
+        "element": 92,
+        "hits": 583
+    },
+    {
+        "detector": "D3pX",
+        "element": 93,
+        "hits": 597
+    },
+    {
+        "detector": "D3pX",
+        "element": 94,
+        "hits": 597
+    },
+    {
+        "detector": "D3pX",
+        "element": 95,
+        "hits": 672
+    },
+    {
+        "detector": "D3pX",
+        "element": 96,
+        "hits": 684
+    },
+    {
+        "detector": "D3pX",
+        "element": 97,
+        "hits": 664
+    },
+    {
+        "detector": "D3pX",
+        "element": 98,
+        "hits": 655
+    },
+    {
+        "detector": "D3pX",
+        "element": 99,
+        "hits": 755
+    },
+    {
+        "detector": "D3pX",
+        "element": 100,
+        "hits": 751
+    },
+    {
+        "detector": "D3pX",
+        "element": 101,
+        "hits": 887
+    },
+    {
+        "detector": "D3pX",
+        "element": 102,
+        "hits": 872
+    },
+    {
+        "detector": "D3pX",
+        "element": 103,
+        "hits": 910
+    },
+    {
+        "detector": "D3pX",
+        "element": 104,
+        "hits": 903
+    },
+    {
+        "detector": "D3pX",
+        "element": 105,
+        "hits": 880
+    },
+    {
+        "detector": "D3pX",
+        "element": 106,
+        "hits": 908
+    },
+    {
+        "detector": "D3pX",
+        "element": 107,
+        "hits": 985
+    },
+    {
+        "detector": "D3pX",
+        "element": 108,
+        "hits": 980
+    },
+    {
+        "detector": "D3pX",
+        "element": 109,
+        "hits": 1037
+    },
+    {
+        "detector": "D3pX",
+        "element": 110,
+        "hits": 1069
+    },
+    {
+        "detector": "D3pX",
+        "element": 111,
+        "hits": 996
+    },
+    {
+        "detector": "D3pX",
+        "element": 112,
+        "hits": 1103
+    },
+    {
+        "detector": "D3pX",
+        "element": 113,
+        "hits": 1130
+    },
+    {
+        "detector": "D3pX",
+        "element": 114,
+        "hits": 1027
+    },
+    {
+        "detector": "D3pX",
+        "element": 115,
+        "hits": 1043
+    },
+    {
+        "detector": "D3pUp",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D3pUp",
+        "element": 1,
+        "hits": 1050
+    },
+    {
+        "detector": "D3pUp",
+        "element": 2,
+        "hits": 1057
+    },
+    {
+        "detector": "D3pUp",
+        "element": 3,
+        "hits": 997
+    },
+    {
+        "detector": "D3pUp",
+        "element": 4,
+        "hits": 1027
+    },
+    {
+        "detector": "D3pUp",
+        "element": 5,
+        "hits": 1013
+    },
+    {
+        "detector": "D3pUp",
+        "element": 6,
+        "hits": 964
+    },
+    {
+        "detector": "D3pUp",
+        "element": 7,
+        "hits": 928
+    },
+    {
+        "detector": "D3pUp",
+        "element": 8,
+        "hits": 977
+    },
+    {
+        "detector": "D3pUp",
+        "element": 9,
+        "hits": 844
+    },
+    {
+        "detector": "D3pUp",
+        "element": 10,
+        "hits": 837
+    },
+    {
+        "detector": "D3pUp",
+        "element": 11,
+        "hits": 823
+    },
+    {
+        "detector": "D3pUp",
+        "element": 12,
+        "hits": 851
+    },
+    {
+        "detector": "D3pUp",
+        "element": 13,
+        "hits": 811
+    },
+    {
+        "detector": "D3pUp",
+        "element": 14,
+        "hits": 799
+    },
+    {
+        "detector": "D3pUp",
+        "element": 15,
+        "hits": 813
+    },
+    {
+        "detector": "D3pUp",
+        "element": 16,
+        "hits": 742
+    },
+    {
+        "detector": "D3pUp",
+        "element": 17,
+        "hits": 785
+    },
+    {
+        "detector": "D3pUp",
+        "element": 18,
+        "hits": 736
+    },
+    {
+        "detector": "D3pUp",
+        "element": 19,
+        "hits": 755
+    },
+    {
+        "detector": "D3pUp",
+        "element": 20,
+        "hits": 757
+    },
+    {
+        "detector": "D3pUp",
+        "element": 21,
+        "hits": 784
+    },
+    {
+        "detector": "D3pUp",
+        "element": 22,
+        "hits": 784
+    },
+    {
+        "detector": "D3pUp",
+        "element": 23,
+        "hits": 735
+    },
+    {
+        "detector": "D3pUp",
+        "element": 24,
+        "hits": 682
+    },
+    {
+        "detector": "D3pUp",
+        "element": 25,
+        "hits": 668
+    },
+    {
+        "detector": "D3pUp",
+        "element": 26,
+        "hits": 644
+    },
+    {
+        "detector": "D3pUp",
+        "element": 27,
+        "hits": 686
+    },
+    {
+        "detector": "D3pUp",
+        "element": 28,
+        "hits": 671
+    },
+    {
+        "detector": "D3pUp",
+        "element": 29,
+        "hits": 591
+    },
+    {
+        "detector": "D3pUp",
+        "element": 30,
+        "hits": 616
+    },
+    {
+        "detector": "D3pUp",
+        "element": 31,
+        "hits": 613
+    },
+    {
+        "detector": "D3pUp",
+        "element": 32,
+        "hits": 539
+    },
+    {
+        "detector": "D3pUp",
+        "element": 33,
+        "hits": 576
+    },
+    {
+        "detector": "D3pUp",
+        "element": 34,
+        "hits": 549
+    },
+    {
+        "detector": "D3pUp",
+        "element": 35,
+        "hits": 509
+    },
+    {
+        "detector": "D3pUp",
+        "element": 36,
+        "hits": 571
+    },
+    {
+        "detector": "D3pUp",
+        "element": 37,
+        "hits": 544
+    },
+    {
+        "detector": "D3pUp",
+        "element": 38,
+        "hits": 522
+    },
+    {
+        "detector": "D3pUp",
+        "element": 39,
+        "hits": 512
+    },
+    {
+        "detector": "D3pUp",
+        "element": 40,
+        "hits": 506
+    },
+    {
+        "detector": "D3pUp",
+        "element": 41,
+        "hits": 499
+    },
+    {
+        "detector": "D3pUp",
+        "element": 42,
+        "hits": 518
+    },
+    {
+        "detector": "D3pUp",
+        "element": 43,
+        "hits": 526
+    },
+    {
+        "detector": "D3pUp",
+        "element": 44,
+        "hits": 469
+    },
+    {
+        "detector": "D3pUp",
+        "element": 45,
+        "hits": 458
+    },
+    {
+        "detector": "D3pUp",
+        "element": 46,
+        "hits": 457
+    },
+    {
+        "detector": "D3pUp",
+        "element": 47,
+        "hits": 424
+    },
+    {
+        "detector": "D3pUp",
+        "element": 48,
+        "hits": 437
+    },
+    {
+        "detector": "D3pUp",
+        "element": 49,
+        "hits": 450
+    },
+    {
+        "detector": "D3pUp",
+        "element": 50,
+        "hits": 459
+    },
+    {
+        "detector": "D3pUp",
+        "element": 51,
+        "hits": 486
+    },
+    {
+        "detector": "D3pUp",
+        "element": 52,
+        "hits": 419
+    },
+    {
+        "detector": "D3pUp",
+        "element": 53,
+        "hits": 442
+    },
+    {
+        "detector": "D3pUp",
+        "element": 54,
+        "hits": 455
+    },
+    {
+        "detector": "D3pUp",
+        "element": 55,
+        "hits": 403
+    },
+    {
+        "detector": "D3pUp",
+        "element": 56,
+        "hits": 398
+    },
+    {
+        "detector": "D3pUp",
+        "element": 57,
+        "hits": 408
+    },
+    {
+        "detector": "D3pUp",
+        "element": 58,
+        "hits": 382
+    },
+    {
+        "detector": "D3pUp",
+        "element": 59,
+        "hits": 397
+    },
+    {
+        "detector": "D3pUp",
+        "element": 60,
+        "hits": 431
+    },
+    {
+        "detector": "D3pUp",
+        "element": 61,
+        "hits": 406
+    },
+    {
+        "detector": "D3pUp",
+        "element": 62,
+        "hits": 386
+    },
+    {
+        "detector": "D3pUp",
+        "element": 63,
+        "hits": 354
+    },
+    {
+        "detector": "D3pUp",
+        "element": 64,
+        "hits": 350
+    },
+    {
+        "detector": "D3pUp",
+        "element": 65,
+        "hits": 355
+    },
+    {
+        "detector": "D3pUp",
+        "element": 66,
+        "hits": 402
+    },
+    {
+        "detector": "D3pUp",
+        "element": 67,
+        "hits": 444
+    },
+    {
+        "detector": "D3pUp",
+        "element": 68,
+        "hits": 430
+    },
+    {
+        "detector": "D3pUp",
+        "element": 69,
+        "hits": 391
+    },
+    {
+        "detector": "D3pUp",
+        "element": 70,
+        "hits": 391
+    },
+    {
+        "detector": "D3pUp",
+        "element": 71,
+        "hits": 420
+    },
+    {
+        "detector": "D3pUp",
+        "element": 72,
+        "hits": 436
+    },
+    {
+        "detector": "D3pUp",
+        "element": 73,
+        "hits": 417
+    },
+    {
+        "detector": "D3pUp",
+        "element": 74,
+        "hits": 396
+    },
+    {
+        "detector": "D3pUp",
+        "element": 75,
+        "hits": 425
+    },
+    {
+        "detector": "D3pUp",
+        "element": 76,
+        "hits": 409
+    },
+    {
+        "detector": "D3pUp",
+        "element": 77,
+        "hits": 382
+    },
+    {
+        "detector": "D3pUp",
+        "element": 78,
+        "hits": 387
+    },
+    {
+        "detector": "D3pUp",
+        "element": 79,
+        "hits": 426
+    },
+    {
+        "detector": "D3pUp",
+        "element": 80,
+        "hits": 426
+    },
+    {
+        "detector": "D3pUp",
+        "element": 81,
+        "hits": 403
+    },
+    {
+        "detector": "D3pUp",
+        "element": 82,
+        "hits": 429
+    },
+    {
+        "detector": "D3pUp",
+        "element": 83,
+        "hits": 424
+    },
+    {
+        "detector": "D3pUp",
+        "element": 84,
+        "hits": 450
+    },
+    {
+        "detector": "D3pUp",
+        "element": 85,
+        "hits": 444
+    },
+    {
+        "detector": "D3pUp",
+        "element": 86,
+        "hits": 386
+    },
+    {
+        "detector": "D3pUp",
+        "element": 87,
+        "hits": 435
+    },
+    {
+        "detector": "D3pUp",
+        "element": 88,
+        "hits": 380
+    },
+    {
+        "detector": "D3pUp",
+        "element": 89,
+        "hits": 411
+    },
+    {
+        "detector": "D3pUp",
+        "element": 90,
+        "hits": 457
+    },
+    {
+        "detector": "D3pUp",
+        "element": 91,
+        "hits": 421
+    },
+    {
+        "detector": "D3pUp",
+        "element": 92,
+        "hits": 432
+    },
+    {
+        "detector": "D3pUp",
+        "element": 93,
+        "hits": 454
+    },
+    {
+        "detector": "D3pUp",
+        "element": 94,
+        "hits": 447
+    },
+    {
+        "detector": "D3pUp",
+        "element": 95,
+        "hits": 458
+    },
+    {
+        "detector": "D3pUp",
+        "element": 96,
+        "hits": 494
+    },
+    {
+        "detector": "D3pUp",
+        "element": 97,
+        "hits": 530
+    },
+    {
+        "detector": "D3pUp",
+        "element": 98,
+        "hits": 475
+    },
+    {
+        "detector": "D3pUp",
+        "element": 99,
+        "hits": 507
+    },
+    {
+        "detector": "D3pUp",
+        "element": 100,
+        "hits": 530
+    },
+    {
+        "detector": "D3pUp",
+        "element": 101,
+        "hits": 598
+    },
+    {
+        "detector": "D3pUp",
+        "element": 102,
+        "hits": 505
+    },
+    {
+        "detector": "D3pUp",
+        "element": 103,
+        "hits": 512
+    },
+    {
+        "detector": "D3pUp",
+        "element": 104,
+        "hits": 564
+    },
+    {
+        "detector": "D3pUp",
+        "element": 105,
+        "hits": 572
+    },
+    {
+        "detector": "D3pUp",
+        "element": 106,
+        "hits": 572
+    },
+    {
+        "detector": "D3pUp",
+        "element": 107,
+        "hits": 542
+    },
+    {
+        "detector": "D3pUp",
+        "element": 108,
+        "hits": 605
+    },
+    {
+        "detector": "D3pUp",
+        "element": 109,
+        "hits": 614
+    },
+    {
+        "detector": "D3pUp",
+        "element": 110,
+        "hits": 675
+    },
+    {
+        "detector": "D3pUp",
+        "element": 111,
+        "hits": 644
+    },
+    {
+        "detector": "D3pUp",
+        "element": 112,
+        "hits": 681
+    },
+    {
+        "detector": "D3pUp",
+        "element": 113,
+        "hits": 706
+    },
+    {
+        "detector": "D3pUp",
+        "element": 114,
+        "hits": 746
+    },
+    {
+        "detector": "D3pUp",
+        "element": 115,
+        "hits": 748
+    },
+    {
+        "detector": "D3pUp",
+        "element": 116,
+        "hits": 846
+    },
+    {
+        "detector": "D3pUp",
+        "element": 117,
+        "hits": 839
+    },
+    {
+        "detector": "D3pUp",
+        "element": 118,
+        "hits": 907
+    },
+    {
+        "detector": "D3pUp",
+        "element": 119,
+        "hits": 939
+    },
+    {
+        "detector": "D3pUp",
+        "element": 120,
+        "hits": 952
+    },
+    {
+        "detector": "D3pUp",
+        "element": 121,
+        "hits": 988
+    },
+    {
+        "detector": "D3pUp",
+        "element": 122,
+        "hits": 1018
+    },
+    {
+        "detector": "D3pUp",
+        "element": 123,
+        "hits": 1036
+    },
+    {
+        "detector": "D3pUp",
+        "element": 124,
+        "hits": 1070
+    },
+    {
+        "detector": "D3pUp",
+        "element": 125,
+        "hits": 1118
+    },
+    {
+        "detector": "D3pUp",
+        "element": 126,
+        "hits": 1150
+    },
+    {
+        "detector": "D3pUp",
+        "element": 127,
+        "hits": 1159
+    },
+    {
+        "detector": "D3pUp",
+        "element": 128,
+        "hits": 1220
+    },
+    {
+        "detector": "D3pUp",
+        "element": 129,
+        "hits": 1186
+    },
+    {
+        "detector": "D3pUp",
+        "element": 130,
+        "hits": 1247
+    },
+    {
+        "detector": "D3pUp",
+        "element": 131,
+        "hits": 1281
+    },
+    {
+        "detector": "D3pUp",
+        "element": 132,
+        "hits": 1281
+    },
+    {
+        "detector": "D3pUp",
+        "element": 133,
+        "hits": 1359
+    },
+    {
+        "detector": "D3pU",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "D3pU",
+        "element": 1,
+        "hits": 973
+    },
+    {
+        "detector": "D3pU",
+        "element": 2,
+        "hits": 996
+    },
+    {
+        "detector": "D3pU",
+        "element": 3,
+        "hits": 911
+    },
+    {
+        "detector": "D3pU",
+        "element": 4,
+        "hits": 930
+    },
+    {
+        "detector": "D3pU",
+        "element": 5,
+        "hits": 968
+    },
+    {
+        "detector": "D3pU",
+        "element": 6,
+        "hits": 941
+    },
+    {
+        "detector": "D3pU",
+        "element": 7,
+        "hits": 914
+    },
+    {
+        "detector": "D3pU",
+        "element": 8,
+        "hits": 926
+    },
+    {
+        "detector": "D3pU",
+        "element": 9,
+        "hits": 892
+    },
+    {
+        "detector": "D3pU",
+        "element": 10,
+        "hits": 821
+    },
+    {
+        "detector": "D3pU",
+        "element": 11,
+        "hits": 784
+    },
+    {
+        "detector": "D3pU",
+        "element": 12,
+        "hits": 782
+    },
+    {
+        "detector": "D3pU",
+        "element": 13,
+        "hits": 779
+    },
+    {
+        "detector": "D3pU",
+        "element": 14,
+        "hits": 792
+    },
+    {
+        "detector": "D3pU",
+        "element": 15,
+        "hits": 794
+    },
+    {
+        "detector": "D3pU",
+        "element": 16,
+        "hits": 707
+    },
+    {
+        "detector": "D3pU",
+        "element": 17,
+        "hits": 735
+    },
+    {
+        "detector": "D3pU",
+        "element": 18,
+        "hits": 734
+    },
+    {
+        "detector": "D3pU",
+        "element": 19,
+        "hits": 729
+    },
+    {
+        "detector": "D3pU",
+        "element": 20,
+        "hits": 705
+    },
+    {
+        "detector": "D3pU",
+        "element": 21,
+        "hits": 685
+    },
+    {
+        "detector": "D3pU",
+        "element": 22,
+        "hits": 723
+    },
+    {
+        "detector": "D3pU",
+        "element": 23,
+        "hits": 709
+    },
+    {
+        "detector": "D3pU",
+        "element": 24,
+        "hits": 669
+    },
+    {
+        "detector": "D3pU",
+        "element": 25,
+        "hits": 632
+    },
+    {
+        "detector": "D3pU",
+        "element": 26,
+        "hits": 650
+    },
+    {
+        "detector": "D3pU",
+        "element": 27,
+        "hits": 622
+    },
+    {
+        "detector": "D3pU",
+        "element": 28,
+        "hits": 596
+    },
+    {
+        "detector": "D3pU",
+        "element": 29,
+        "hits": 578
+    },
+    {
+        "detector": "D3pU",
+        "element": 30,
+        "hits": 585
+    },
+    {
+        "detector": "D3pU",
+        "element": 31,
+        "hits": 562
+    },
+    {
+        "detector": "D3pU",
+        "element": 32,
+        "hits": 545
+    },
+    {
+        "detector": "D3pU",
+        "element": 33,
+        "hits": 560
+    },
+    {
+        "detector": "D3pU",
+        "element": 34,
+        "hits": 537
+    },
+    {
+        "detector": "D3pU",
+        "element": 35,
+        "hits": 498
+    },
+    {
+        "detector": "D3pU",
+        "element": 36,
+        "hits": 489
+    },
+    {
+        "detector": "D3pU",
+        "element": 37,
+        "hits": 511
+    },
+    {
+        "detector": "D3pU",
+        "element": 38,
+        "hits": 519
+    },
+    {
+        "detector": "D3pU",
+        "element": 39,
+        "hits": 471
+    },
+    {
+        "detector": "D3pU",
+        "element": 40,
+        "hits": 512
+    },
+    {
+        "detector": "D3pU",
+        "element": 41,
+        "hits": 489
+    },
+    {
+        "detector": "D3pU",
+        "element": 42,
+        "hits": 458
+    },
+    {
+        "detector": "D3pU",
+        "element": 43,
+        "hits": 482
+    },
+    {
+        "detector": "D3pU",
+        "element": 44,
+        "hits": 445
+    },
+    {
+        "detector": "D3pU",
+        "element": 45,
+        "hits": 452
+    },
+    {
+        "detector": "D3pU",
+        "element": 46,
+        "hits": 437
+    },
+    {
+        "detector": "D3pU",
+        "element": 47,
+        "hits": 417
+    },
+    {
+        "detector": "D3pU",
+        "element": 48,
+        "hits": 382
+    },
+    {
+        "detector": "D3pU",
+        "element": 49,
+        "hits": 389
+    },
+    {
+        "detector": "D3pU",
+        "element": 50,
+        "hits": 437
+    },
+    {
+        "detector": "D3pU",
+        "element": 51,
+        "hits": 452
+    },
+    {
+        "detector": "D3pU",
+        "element": 52,
+        "hits": 469
+    },
+    {
+        "detector": "D3pU",
+        "element": 53,
+        "hits": 440
+    },
+    {
+        "detector": "D3pU",
+        "element": 54,
+        "hits": 409
+    },
+    {
+        "detector": "D3pU",
+        "element": 55,
+        "hits": 386
+    },
+    {
+        "detector": "D3pU",
+        "element": 56,
+        "hits": 343
+    },
+    {
+        "detector": "D3pU",
+        "element": 57,
+        "hits": 368
+    },
+    {
+        "detector": "D3pU",
+        "element": 58,
+        "hits": 382
+    },
+    {
+        "detector": "D3pU",
+        "element": 59,
+        "hits": 387
+    },
+    {
+        "detector": "D3pU",
+        "element": 60,
+        "hits": 369
+    },
+    {
+        "detector": "D3pU",
+        "element": 61,
+        "hits": 368
+    },
+    {
+        "detector": "D3pU",
+        "element": 62,
+        "hits": 373
+    },
+    {
+        "detector": "D3pU",
+        "element": 63,
+        "hits": 336
+    },
+    {
+        "detector": "D3pU",
+        "element": 64,
+        "hits": 353
+    },
+    {
+        "detector": "D3pU",
+        "element": 65,
+        "hits": 361
+    },
+    {
+        "detector": "D3pU",
+        "element": 66,
+        "hits": 350
+    },
+    {
+        "detector": "D3pU",
+        "element": 67,
+        "hits": 372
+    },
+    {
+        "detector": "D3pU",
+        "element": 68,
+        "hits": 393
+    },
+    {
+        "detector": "D3pU",
+        "element": 69,
+        "hits": 352
+    },
+    {
+        "detector": "D3pU",
+        "element": 70,
+        "hits": 354
+    },
+    {
+        "detector": "D3pU",
+        "element": 71,
+        "hits": 363
+    },
+    {
+        "detector": "D3pU",
+        "element": 72,
+        "hits": 395
+    },
+    {
+        "detector": "D3pU",
+        "element": 73,
+        "hits": 413
+    },
+    {
+        "detector": "D3pU",
+        "element": 74,
+        "hits": 399
+    },
+    {
+        "detector": "D3pU",
+        "element": 75,
+        "hits": 403
+    },
+    {
+        "detector": "D3pU",
+        "element": 76,
+        "hits": 385
+    },
+    {
+        "detector": "D3pU",
+        "element": 77,
+        "hits": 385
+    },
+    {
+        "detector": "D3pU",
+        "element": 78,
+        "hits": 376
+    },
+    {
+        "detector": "D3pU",
+        "element": 79,
+        "hits": 410
+    },
+    {
+        "detector": "D3pU",
+        "element": 80,
+        "hits": 410
+    },
+    {
+        "detector": "D3pU",
+        "element": 81,
+        "hits": 410
+    },
+    {
+        "detector": "D3pU",
+        "element": 82,
+        "hits": 429
+    },
+    {
+        "detector": "D3pU",
+        "element": 83,
+        "hits": 438
+    },
+    {
+        "detector": "D3pU",
+        "element": 84,
+        "hits": 450
+    },
+    {
+        "detector": "D3pU",
+        "element": 85,
+        "hits": 433
+    },
+    {
+        "detector": "D3pU",
+        "element": 86,
+        "hits": 386
+    },
+    {
+        "detector": "D3pU",
+        "element": 87,
+        "hits": 428
+    },
+    {
+        "detector": "D3pU",
+        "element": 88,
+        "hits": 419
+    },
+    {
+        "detector": "D3pU",
+        "element": 89,
+        "hits": 395
+    },
+    {
+        "detector": "D3pU",
+        "element": 90,
+        "hits": 407
+    },
+    {
+        "detector": "D3pU",
+        "element": 91,
+        "hits": 401
+    },
+    {
+        "detector": "D3pU",
+        "element": 92,
+        "hits": 389
+    },
+    {
+        "detector": "D3pU",
+        "element": 93,
+        "hits": 454
+    },
+    {
+        "detector": "D3pU",
+        "element": 94,
+        "hits": 449
+    },
+    {
+        "detector": "D3pU",
+        "element": 95,
+        "hits": 479
+    },
+    {
+        "detector": "D3pU",
+        "element": 96,
+        "hits": 469
+    },
+    {
+        "detector": "D3pU",
+        "element": 97,
+        "hits": 485
+    },
+    {
+        "detector": "D3pU",
+        "element": 98,
+        "hits": 465
+    },
+    {
+        "detector": "D3pU",
+        "element": 99,
+        "hits": 510
+    },
+    {
+        "detector": "D3pU",
+        "element": 100,
+        "hits": 484
+    },
+    {
+        "detector": "D3pU",
+        "element": 101,
+        "hits": 555
+    },
+    {
+        "detector": "D3pU",
+        "element": 102,
+        "hits": 515
+    },
+    {
+        "detector": "D3pU",
+        "element": 103,
+        "hits": 519
+    },
+    {
+        "detector": "D3pU",
+        "element": 104,
+        "hits": 500
+    },
+    {
+        "detector": "D3pU",
+        "element": 105,
+        "hits": 516
+    },
+    {
+        "detector": "D3pU",
+        "element": 106,
+        "hits": 535
+    },
+    {
+        "detector": "D3pU",
+        "element": 107,
+        "hits": 538
+    },
+    {
+        "detector": "D3pU",
+        "element": 108,
+        "hits": 585
+    },
+    {
+        "detector": "D3pU",
+        "element": 109,
+        "hits": 594
+    },
+    {
+        "detector": "D3pU",
+        "element": 110,
+        "hits": 651
+    },
+    {
+        "detector": "D3pU",
+        "element": 111,
+        "hits": 657
+    },
+    {
+        "detector": "D3pU",
+        "element": 112,
+        "hits": 638
+    },
+    {
+        "detector": "D3pU",
+        "element": 113,
+        "hits": 674
+    },
+    {
+        "detector": "D3pU",
+        "element": 114,
+        "hits": 751
+    },
+    {
+        "detector": "D3pU",
+        "element": 115,
+        "hits": 747
+    },
+    {
+        "detector": "D3pU",
+        "element": 116,
+        "hits": 805
+    },
+    {
+        "detector": "D3pU",
+        "element": 117,
+        "hits": 793
+    },
+    {
+        "detector": "D3pU",
+        "element": 118,
+        "hits": 832
+    },
+    {
+        "detector": "D3pU",
+        "element": 119,
+        "hits": 897
+    },
+    {
+        "detector": "D3pU",
+        "element": 120,
+        "hits": 889
+    },
+    {
+        "detector": "D3pU",
+        "element": 121,
+        "hits": 990
+    },
+    {
+        "detector": "D3pU",
+        "element": 122,
+        "hits": 1039
+    },
+    {
+        "detector": "D3pU",
+        "element": 123,
+        "hits": 1014
+    },
+    {
+        "detector": "D3pU",
+        "element": 124,
+        "hits": 1052
+    },
+    {
+        "detector": "D3pU",
+        "element": 125,
+        "hits": 1142
+    },
+    {
+        "detector": "D3pU",
+        "element": 126,
+        "hits": 1140
+    },
+    {
+        "detector": "D3pU",
+        "element": 127,
+        "hits": 1165
+    },
+    {
+        "detector": "D3pU",
+        "element": 128,
+        "hits": 1183
+    },
+    {
+        "detector": "D3pU",
+        "element": 129,
+        "hits": 1197
+    },
+    {
+        "detector": "D3pU",
+        "element": 130,
+        "hits": 1206
+    },
+    {
+        "detector": "D3pU",
+        "element": 131,
+        "hits": 1219
+    },
+    {
+        "detector": "D3pU",
+        "element": 132,
+        "hits": 1293
+    },
+    {
+        "detector": "D3pU",
+        "element": 133,
+        "hits": 1338
+    }
+]

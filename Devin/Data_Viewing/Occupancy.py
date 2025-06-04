@@ -1,12 +1,12 @@
 import os
 import numpy as np
-import cupy as cp
 import tqdm
 import uproot
 import json
 import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 from matplotlib.patches import Rectangle
+import argparse
 
 class DetectorPlot:
     def __init__(self):
@@ -103,14 +103,18 @@ class DetectorPlot:
     def read_event(self, file_path, event_number):
         """Read a specific event from the given ROOT file."""
         with uproot.open(file_path + ":save") as file:
-            detectorid = cp.array(file["fAllHits.detectorID"].array(library="np")[event_number])
-            elementid = cp.array(file["fAllHits.elementID"].array(library="np")[event_number])
+            detectorid = np.array(file["fAllHits.detectorID"].array(library="np")[event_number])
+            
+            elementid = np.array(file["fAllHits.elementID"].array(library="np")[event_number])
         return detectorid, elementid
     
     def process_files(self, run_directory, save_directory, max_files=None):
         """Process all events across the first `max_files` ROOT files in the given directory."""
-        self.aggregated_detectorid = cp.array([], dtype=int)
-        self.aggregated_elementid = cp.array([], dtype=int)
+        self.aggregated_detectorid = np.array([], dtype=int)
+        self.aggregated_elementid = np.array([], dtype=int)
+        
+        # Dictionary to store accumulated hits per file
+        self.file_hits_data = {}
 
         # Gather all ROOT files in the directory
         for root_path, _, files in os.walk(run_directory):
@@ -132,13 +136,22 @@ class DetectorPlot:
 
         with tqdm.tqdm(total=total_events, desc="Processing Events", unit="event") as pbar:
             for file_path in self.file_paths:
+                file_detectorid = np.array([], dtype=int)
+                file_elementid = np.array([], dtype=int)
+                
                 with uproot.open(file_path + ":save") as file:
                     num_events = len(file["fAllHits.detectorID"].array(library="np"))
                     for event_number in range(num_events):
                         detectorid, elementid = self.read_event(file_path, event_number)
-                        self.aggregated_detectorid = cp.concatenate((self.aggregated_detectorid, detectorid)) # Concatenate the detectorid and elementid arrays
-                        self.aggregated_elementid = cp.concatenate((self.aggregated_elementid, elementid))
+                        file_detectorid = np.concatenate((file_detectorid, detectorid))
+                        file_elementid = np.concatenate((file_elementid, elementid))
+                        self.aggregated_detectorid = np.concatenate((self.aggregated_detectorid, detectorid))
+                        self.aggregated_elementid = np.concatenate((self.aggregated_elementid, elementid))
                         pbar.update(1)
+                
+                # Accumulate hits for this file
+                file_hits = self.accumulate_hits(file_detectorid, file_elementid)
+                self.file_hits_data[os.path.basename(file_path)] = file_hits
 
         # Debug message if no hits are found
         if len(self.aggregated_detectorid) == 0 or len(self.aggregated_elementid) == 0:
@@ -147,7 +160,53 @@ class DetectorPlot:
         else:
             print(f"[DEBUG] Aggregated {len(self.aggregated_detectorid)} detector hits and {len(self.aggregated_elementid)} element hits.")
 
+        # Save accumulated hits data
+        self.save_accumulated_hits(save_directory)
+        
         self.create_plots(save_directory)
+
+    def save_accumulated_hits(self, save_directory):
+        """Save accumulated hits data for all files and total hits."""
+        os.makedirs(save_directory, exist_ok=True)
+        
+        # Convert file hits data to JSON-serializable format
+        serializable_file_hits = {}
+        for filename, hits in self.file_hits_data.items():
+            serializable_file_hits[filename] = {
+                f"{det_id}_{elem_id}": count 
+                for (det_id, elem_id), count in hits.items()
+            }
+        
+        # Save per-file hits data
+        file_hits_path = os.path.join(save_directory, "file_hits_data.json")
+        with open(file_hits_path, 'w') as f:
+            json.dump(serializable_file_hits, f, indent=4)
+        
+        # Save total accumulated hits
+        total_hits = self.accumulate_hits(self.aggregated_detectorid, self.aggregated_elementid)
+        serializable_total_hits = {
+            f"{det_id}_{elem_id}": count 
+            for (det_id, elem_id), count in total_hits.items()
+        }
+        
+        total_hits_path = os.path.join(save_directory, "total_hits_data.json")
+        with open(total_hits_path, 'w') as f:
+            json.dump(serializable_total_hits, f, indent=4)
+        
+        print(f"[INFO] Saved accumulated hits data to {save_directory}")
+
+    def load_accumulated_hits(self, file_path):
+        """Load accumulated hits data from JSON file."""
+        with open(file_path, 'r') as f:
+            data = json.load(f)
+        
+        # Convert string keys back to tuples
+        hits = {}
+        for key, count in data.items():
+            det_id, elem_id = map(int, key.split('_'))
+            hits[(det_id, elem_id)] = count
+        
+        return hits
 
     def accumulate_hits(self, detectorid, elementid):
         """
@@ -173,8 +232,8 @@ class DetectorPlot:
         output_data_dir = os.path.join(save_directory, "output_data")
         os.makedirs(output_data_dir, exist_ok=True)
 
-        detectorid = np.array(self.aggregated_detectorid.get()) # Convert the cupy array to a numpy array
-        elementid = np.array(self.aggregated_elementid.get())
+        detectorid = np.array(self.aggregated_detectorid)
+        elementid = np.array(self.aggregated_elementid)
 
         # Accumulate hits
         occupancy = self.accumulate_hits(detectorid, elementid)
@@ -344,8 +403,11 @@ class DetectorPlot:
         plt.tight_layout()
 
 if __name__ == "__main__":
-    run_directory = r"/home/devin/Documents/Big_Data/run_005994"
-    save_directory = r"/home/devin/Documents/Big_Data/QTracker_Station_Occupancies"
+    parser = argparse.ArgumentParser(description='Detector Hit Display')
+    parser.add_argument('--directory', type=str, default=".", help='Initial directory to monitor')
+    args = parser.parse_args()
+    run_directory = args.directory
+    save_directory = r"QTracker_Station_Occupancies"
     max_files = 1  # For Debugging
     detector_plot = DetectorPlot()
     detector_plot.process_files(run_directory, save_directory, max_files=max_files)

@@ -1,0 +1,1602 @@
+[
+    {
+        "detector": "DP1TL",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "DP1TL",
+        "element": 1,
+        "hits": 1290
+    },
+    {
+        "detector": "DP1TL",
+        "element": 2,
+        "hits": 1151
+    },
+    {
+        "detector": "DP1TL",
+        "element": 3,
+        "hits": 1010
+    },
+    {
+        "detector": "DP1TL",
+        "element": 4,
+        "hits": 988
+    },
+    {
+        "detector": "DP1TL",
+        "element": 5,
+        "hits": 863
+    },
+    {
+        "detector": "DP1TL",
+        "element": 6,
+        "hits": 851
+    },
+    {
+        "detector": "DP1TL",
+        "element": 7,
+        "hits": 752
+    },
+    {
+        "detector": "DP1TL",
+        "element": 8,
+        "hits": 693
+    },
+    {
+        "detector": "DP1TL",
+        "element": 9,
+        "hits": 696
+    },
+    {
+        "detector": "DP1TL",
+        "element": 10,
+        "hits": 631
+    },
+    {
+        "detector": "DP1TL",
+        "element": 11,
+        "hits": 593
+    },
+    {
+        "detector": "DP1TL",
+        "element": 12,
+        "hits": 532
+    },
+    {
+        "detector": "DP1TL",
+        "element": 13,
+        "hits": 426
+    },
+    {
+        "detector": "DP1TL",
+        "element": 14,
+        "hits": 476
+    },
+    {
+        "detector": "DP1TL",
+        "element": 15,
+        "hits": 343
+    },
+    {
+        "detector": "DP1TL",
+        "element": 16,
+        "hits": 377
+    },
+    {
+        "detector": "DP1TL",
+        "element": 17,
+        "hits": 341
+    },
+    {
+        "detector": "DP1TL",
+        "element": 18,
+        "hits": 344
+    },
+    {
+        "detector": "DP1TL",
+        "element": 19,
+        "hits": 343
+    },
+    {
+        "detector": "DP1TL",
+        "element": 20,
+        "hits": 302
+    },
+    {
+        "detector": "DP1TL",
+        "element": 21,
+        "hits": 282
+    },
+    {
+        "detector": "DP1TL",
+        "element": 22,
+        "hits": 237
+    },
+    {
+        "detector": "DP1TL",
+        "element": 23,
+        "hits": 295
+    },
+    {
+        "detector": "DP1TL",
+        "element": 24,
+        "hits": 247
+    },
+    {
+        "detector": "DP1TL",
+        "element": 25,
+        "hits": 238
+    },
+    {
+        "detector": "DP1TL",
+        "element": 26,
+        "hits": 231
+    },
+    {
+        "detector": "DP1TL",
+        "element": 27,
+        "hits": 219
+    },
+    {
+        "detector": "DP1TL",
+        "element": 28,
+        "hits": 0
+    },
+    {
+        "detector": "DP1TL",
+        "element": 29,
+        "hits": 210
+    },
+    {
+        "detector": "DP1TL",
+        "element": 30,
+        "hits": 186
+    },
+    {
+        "detector": "DP1TL",
+        "element": 31,
+        "hits": 172
+    },
+    {
+        "detector": "DP1TL",
+        "element": 32,
+        "hits": 182
+    },
+    {
+        "detector": "DP1TL",
+        "element": 33,
+        "hits": 176
+    },
+    {
+        "detector": "DP1TL",
+        "element": 34,
+        "hits": 173
+    },
+    {
+        "detector": "DP1TL",
+        "element": 35,
+        "hits": 142
+    },
+    {
+        "detector": "DP1TL",
+        "element": 36,
+        "hits": 143
+    },
+    {
+        "detector": "DP1TL",
+        "element": 37,
+        "hits": 145
+    },
+    {
+        "detector": "DP1TL",
+        "element": 38,
+        "hits": 138
+    },
+    {
+        "detector": "DP1TL",
+        "element": 39,
+        "hits": 118
+    },
+    {
+        "detector": "DP1TL",
+        "element": 40,
+        "hits": 129
+    },
+    {
+        "detector": "DP1TL",
+        "element": 41,
+        "hits": 133
+    },
+    {
+        "detector": "DP1TL",
+        "element": 42,
+        "hits": 119
+    },
+    {
+        "detector": "DP1TL",
+        "element": 43,
+        "hits": 107
+    },
+    {
+        "detector": "DP1TL",
+        "element": 44,
+        "hits": 113
+    },
+    {
+        "detector": "DP1TL",
+        "element": 45,
+        "hits": 118
+    },
+    {
+        "detector": "DP1TL",
+        "element": 46,
+        "hits": 66
+    },
+    {
+        "detector": "DP1TL",
+        "element": 47,
+        "hits": 106
+    },
+    {
+        "detector": "DP1TL",
+        "element": 48,
+        "hits": 0
+    },
+    {
+        "detector": "DP1TL",
+        "element": 49,
+        "hits": 106
+    },
+    {
+        "detector": "DP1TL",
+        "element": 50,
+        "hits": 109
+    },
+    {
+        "detector": "DP1TL",
+        "element": 51,
+        "hits": 85
+    },
+    {
+        "detector": "DP1TL",
+        "element": 52,
+        "hits": 91
+    },
+    {
+        "detector": "DP1TL",
+        "element": 53,
+        "hits": 104
+    },
+    {
+        "detector": "DP1TL",
+        "element": 54,
+        "hits": 107
+    },
+    {
+        "detector": "DP1TL",
+        "element": 55,
+        "hits": 125
+    },
+    {
+        "detector": "DP1TL",
+        "element": 56,
+        "hits": 0
+    },
+    {
+        "detector": "DP1TL",
+        "element": 57,
+        "hits": 104
+    },
+    {
+        "detector": "DP1TL",
+        "element": 58,
+        "hits": 108
+    },
+    {
+        "detector": "DP1TL",
+        "element": 59,
+        "hits": 93
+    },
+    {
+        "detector": "DP1TL",
+        "element": 60,
+        "hits": 102
+    },
+    {
+        "detector": "DP1TL",
+        "element": 61,
+        "hits": 86
+    },
+    {
+        "detector": "DP1TL",
+        "element": 62,
+        "hits": 72
+    },
+    {
+        "detector": "DP1TL",
+        "element": 63,
+        "hits": 87
+    },
+    {
+        "detector": "DP1TL",
+        "element": 64,
+        "hits": 109
+    },
+    {
+        "detector": "DP1TL",
+        "element": 65,
+        "hits": 65
+    },
+    {
+        "detector": "DP1TL",
+        "element": 66,
+        "hits": 71
+    },
+    {
+        "detector": "DP1TL",
+        "element": 67,
+        "hits": 72
+    },
+    {
+        "detector": "DP1TL",
+        "element": 68,
+        "hits": 52
+    },
+    {
+        "detector": "DP1TL",
+        "element": 69,
+        "hits": 63
+    },
+    {
+        "detector": "DP1TL",
+        "element": 70,
+        "hits": 102
+    },
+    {
+        "detector": "DP1TL",
+        "element": 71,
+        "hits": 85
+    },
+    {
+        "detector": "DP1TL",
+        "element": 72,
+        "hits": 92
+    },
+    {
+        "detector": "DP1TL",
+        "element": 73,
+        "hits": 78
+    },
+    {
+        "detector": "DP1TL",
+        "element": 74,
+        "hits": 111
+    },
+    {
+        "detector": "DP1TL",
+        "element": 75,
+        "hits": 104
+    },
+    {
+        "detector": "DP1TL",
+        "element": 76,
+        "hits": 84
+    },
+    {
+        "detector": "DP1TL",
+        "element": 77,
+        "hits": 81
+    },
+    {
+        "detector": "DP1TL",
+        "element": 78,
+        "hits": 96
+    },
+    {
+        "detector": "DP1TL",
+        "element": 79,
+        "hits": 0
+    },
+    {
+        "detector": "DP1TR",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "DP1TR",
+        "element": 1,
+        "hits": 769
+    },
+    {
+        "detector": "DP1TR",
+        "element": 2,
+        "hits": 744
+    },
+    {
+        "detector": "DP1TR",
+        "element": 3,
+        "hits": 622
+    },
+    {
+        "detector": "DP1TR",
+        "element": 4,
+        "hits": 615
+    },
+    {
+        "detector": "DP1TR",
+        "element": 5,
+        "hits": 615
+    },
+    {
+        "detector": "DP1TR",
+        "element": 6,
+        "hits": 539
+    },
+    {
+        "detector": "DP1TR",
+        "element": 7,
+        "hits": 523
+    },
+    {
+        "detector": "DP1TR",
+        "element": 8,
+        "hits": 474
+    },
+    {
+        "detector": "DP1TR",
+        "element": 9,
+        "hits": 482
+    },
+    {
+        "detector": "DP1TR",
+        "element": 10,
+        "hits": 434
+    },
+    {
+        "detector": "DP1TR",
+        "element": 11,
+        "hits": 367
+    },
+    {
+        "detector": "DP1TR",
+        "element": 12,
+        "hits": 325
+    },
+    {
+        "detector": "DP1TR",
+        "element": 13,
+        "hits": 351
+    },
+    {
+        "detector": "DP1TR",
+        "element": 14,
+        "hits": 327
+    },
+    {
+        "detector": "DP1TR",
+        "element": 15,
+        "hits": 283
+    },
+    {
+        "detector": "DP1TR",
+        "element": 16,
+        "hits": 250
+    },
+    {
+        "detector": "DP1TR",
+        "element": 17,
+        "hits": 247
+    },
+    {
+        "detector": "DP1TR",
+        "element": 18,
+        "hits": 216
+    },
+    {
+        "detector": "DP1TR",
+        "element": 19,
+        "hits": 229
+    },
+    {
+        "detector": "DP1TR",
+        "element": 20,
+        "hits": 220
+    },
+    {
+        "detector": "DP1TR",
+        "element": 21,
+        "hits": 194
+    },
+    {
+        "detector": "DP1TR",
+        "element": 22,
+        "hits": 162
+    },
+    {
+        "detector": "DP1TR",
+        "element": 23,
+        "hits": 198
+    },
+    {
+        "detector": "DP1TR",
+        "element": 24,
+        "hits": 186
+    },
+    {
+        "detector": "DP1TR",
+        "element": 25,
+        "hits": 177
+    },
+    {
+        "detector": "DP1TR",
+        "element": 26,
+        "hits": 151
+    },
+    {
+        "detector": "DP1TR",
+        "element": 27,
+        "hits": 121
+    },
+    {
+        "detector": "DP1TR",
+        "element": 28,
+        "hits": 147
+    },
+    {
+        "detector": "DP1TR",
+        "element": 29,
+        "hits": 118
+    },
+    {
+        "detector": "DP1TR",
+        "element": 30,
+        "hits": 116
+    },
+    {
+        "detector": "DP1TR",
+        "element": 31,
+        "hits": 130
+    },
+    {
+        "detector": "DP1TR",
+        "element": 32,
+        "hits": 121
+    },
+    {
+        "detector": "DP1TR",
+        "element": 33,
+        "hits": 111
+    },
+    {
+        "detector": "DP1TR",
+        "element": 34,
+        "hits": 38
+    },
+    {
+        "detector": "DP1TR",
+        "element": 35,
+        "hits": 74
+    },
+    {
+        "detector": "DP1TR",
+        "element": 36,
+        "hits": 27
+    },
+    {
+        "detector": "DP1TR",
+        "element": 37,
+        "hits": 62
+    },
+    {
+        "detector": "DP1TR",
+        "element": 38,
+        "hits": 82
+    },
+    {
+        "detector": "DP1TR",
+        "element": 39,
+        "hits": 100
+    },
+    {
+        "detector": "DP1TR",
+        "element": 40,
+        "hits": 72
+    },
+    {
+        "detector": "DP1TR",
+        "element": 41,
+        "hits": 63
+    },
+    {
+        "detector": "DP1TR",
+        "element": 42,
+        "hits": 52
+    },
+    {
+        "detector": "DP1TR",
+        "element": 43,
+        "hits": 79
+    },
+    {
+        "detector": "DP1TR",
+        "element": 44,
+        "hits": 62
+    },
+    {
+        "detector": "DP1TR",
+        "element": 45,
+        "hits": 26
+    },
+    {
+        "detector": "DP1TR",
+        "element": 46,
+        "hits": 60
+    },
+    {
+        "detector": "DP1TR",
+        "element": 47,
+        "hits": 41
+    },
+    {
+        "detector": "DP1TR",
+        "element": 48,
+        "hits": 54
+    },
+    {
+        "detector": "DP1TR",
+        "element": 49,
+        "hits": 86
+    },
+    {
+        "detector": "DP1TR",
+        "element": 50,
+        "hits": 67
+    },
+    {
+        "detector": "DP1TR",
+        "element": 51,
+        "hits": 65
+    },
+    {
+        "detector": "DP1TR",
+        "element": 52,
+        "hits": 42
+    },
+    {
+        "detector": "DP1TR",
+        "element": 53,
+        "hits": 36
+    },
+    {
+        "detector": "DP1TR",
+        "element": 54,
+        "hits": 52
+    },
+    {
+        "detector": "DP1TR",
+        "element": 55,
+        "hits": 75
+    },
+    {
+        "detector": "DP1TR",
+        "element": 56,
+        "hits": 86
+    },
+    {
+        "detector": "DP1TR",
+        "element": 57,
+        "hits": 69
+    },
+    {
+        "detector": "DP1TR",
+        "element": 58,
+        "hits": 60
+    },
+    {
+        "detector": "DP1TR",
+        "element": 59,
+        "hits": 80
+    },
+    {
+        "detector": "DP1TR",
+        "element": 60,
+        "hits": 74
+    },
+    {
+        "detector": "DP1TR",
+        "element": 61,
+        "hits": 74
+    },
+    {
+        "detector": "DP1TR",
+        "element": 62,
+        "hits": 74
+    },
+    {
+        "detector": "DP1TR",
+        "element": 63,
+        "hits": 53
+    },
+    {
+        "detector": "DP1TR",
+        "element": 64,
+        "hits": 63
+    },
+    {
+        "detector": "DP1TR",
+        "element": 65,
+        "hits": 44
+    },
+    {
+        "detector": "DP1TR",
+        "element": 66,
+        "hits": 36
+    },
+    {
+        "detector": "DP1TR",
+        "element": 67,
+        "hits": 45
+    },
+    {
+        "detector": "DP1TR",
+        "element": 68,
+        "hits": 35
+    },
+    {
+        "detector": "DP1TR",
+        "element": 69,
+        "hits": 53
+    },
+    {
+        "detector": "DP1TR",
+        "element": 70,
+        "hits": 49
+    },
+    {
+        "detector": "DP1TR",
+        "element": 71,
+        "hits": 57
+    },
+    {
+        "detector": "DP1TR",
+        "element": 72,
+        "hits": 55
+    },
+    {
+        "detector": "DP1TR",
+        "element": 73,
+        "hits": 51
+    },
+    {
+        "detector": "DP1TR",
+        "element": 74,
+        "hits": 66
+    },
+    {
+        "detector": "DP1TR",
+        "element": 75,
+        "hits": 46
+    },
+    {
+        "detector": "DP1TR",
+        "element": 76,
+        "hits": 55
+    },
+    {
+        "detector": "DP1TR",
+        "element": 77,
+        "hits": 88
+    },
+    {
+        "detector": "DP1TR",
+        "element": 78,
+        "hits": 49
+    },
+    {
+        "detector": "DP1TR",
+        "element": 79,
+        "hits": 65
+    },
+    {
+        "detector": "DP1BL",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BL",
+        "element": 1,
+        "hits": 1221
+    },
+    {
+        "detector": "DP1BL",
+        "element": 2,
+        "hits": 1159
+    },
+    {
+        "detector": "DP1BL",
+        "element": 3,
+        "hits": 202
+    },
+    {
+        "detector": "DP1BL",
+        "element": 4,
+        "hits": 992
+    },
+    {
+        "detector": "DP1BL",
+        "element": 5,
+        "hits": 957
+    },
+    {
+        "detector": "DP1BL",
+        "element": 6,
+        "hits": 933
+    },
+    {
+        "detector": "DP1BL",
+        "element": 7,
+        "hits": 591
+    },
+    {
+        "detector": "DP1BL",
+        "element": 8,
+        "hits": 728
+    },
+    {
+        "detector": "DP1BL",
+        "element": 9,
+        "hits": 692
+    },
+    {
+        "detector": "DP1BL",
+        "element": 10,
+        "hits": 581
+    },
+    {
+        "detector": "DP1BL",
+        "element": 11,
+        "hits": 192
+    },
+    {
+        "detector": "DP1BL",
+        "element": 12,
+        "hits": 556
+    },
+    {
+        "detector": "DP1BL",
+        "element": 13,
+        "hits": 443
+    },
+    {
+        "detector": "DP1BL",
+        "element": 14,
+        "hits": 419
+    },
+    {
+        "detector": "DP1BL",
+        "element": 15,
+        "hits": 467
+    },
+    {
+        "detector": "DP1BL",
+        "element": 16,
+        "hits": 459
+    },
+    {
+        "detector": "DP1BL",
+        "element": 17,
+        "hits": 350
+    },
+    {
+        "detector": "DP1BL",
+        "element": 18,
+        "hits": 361
+    },
+    {
+        "detector": "DP1BL",
+        "element": 19,
+        "hits": 318
+    },
+    {
+        "detector": "DP1BL",
+        "element": 20,
+        "hits": 266
+    },
+    {
+        "detector": "DP1BL",
+        "element": 21,
+        "hits": 276
+    },
+    {
+        "detector": "DP1BL",
+        "element": 22,
+        "hits": 226
+    },
+    {
+        "detector": "DP1BL",
+        "element": 23,
+        "hits": 259
+    },
+    {
+        "detector": "DP1BL",
+        "element": 24,
+        "hits": 251
+    },
+    {
+        "detector": "DP1BL",
+        "element": 25,
+        "hits": 222
+    },
+    {
+        "detector": "DP1BL",
+        "element": 26,
+        "hits": 236
+    },
+    {
+        "detector": "DP1BL",
+        "element": 27,
+        "hits": 186
+    },
+    {
+        "detector": "DP1BL",
+        "element": 28,
+        "hits": 150
+    },
+    {
+        "detector": "DP1BL",
+        "element": 29,
+        "hits": 166
+    },
+    {
+        "detector": "DP1BL",
+        "element": 30,
+        "hits": 172
+    },
+    {
+        "detector": "DP1BL",
+        "element": 31,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BL",
+        "element": 32,
+        "hits": 150
+    },
+    {
+        "detector": "DP1BL",
+        "element": 33,
+        "hits": 158
+    },
+    {
+        "detector": "DP1BL",
+        "element": 34,
+        "hits": 164
+    },
+    {
+        "detector": "DP1BL",
+        "element": 35,
+        "hits": 158
+    },
+    {
+        "detector": "DP1BL",
+        "element": 36,
+        "hits": 150
+    },
+    {
+        "detector": "DP1BL",
+        "element": 37,
+        "hits": 119
+    },
+    {
+        "detector": "DP1BL",
+        "element": 38,
+        "hits": 161
+    },
+    {
+        "detector": "DP1BL",
+        "element": 39,
+        "hits": 144
+    },
+    {
+        "detector": "DP1BL",
+        "element": 40,
+        "hits": 76
+    },
+    {
+        "detector": "DP1BL",
+        "element": 41,
+        "hits": 89
+    },
+    {
+        "detector": "DP1BL",
+        "element": 42,
+        "hits": 110
+    },
+    {
+        "detector": "DP1BL",
+        "element": 43,
+        "hits": 123
+    },
+    {
+        "detector": "DP1BL",
+        "element": 44,
+        "hits": 112
+    },
+    {
+        "detector": "DP1BL",
+        "element": 45,
+        "hits": 121
+    },
+    {
+        "detector": "DP1BL",
+        "element": 46,
+        "hits": 119
+    },
+    {
+        "detector": "DP1BL",
+        "element": 47,
+        "hits": 89
+    },
+    {
+        "detector": "DP1BL",
+        "element": 48,
+        "hits": 108
+    },
+    {
+        "detector": "DP1BL",
+        "element": 49,
+        "hits": 119
+    },
+    {
+        "detector": "DP1BL",
+        "element": 50,
+        "hits": 94
+    },
+    {
+        "detector": "DP1BL",
+        "element": 51,
+        "hits": 29
+    },
+    {
+        "detector": "DP1BL",
+        "element": 52,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BL",
+        "element": 53,
+        "hits": 101
+    },
+    {
+        "detector": "DP1BL",
+        "element": 54,
+        "hits": 63
+    },
+    {
+        "detector": "DP1BL",
+        "element": 55,
+        "hits": 39
+    },
+    {
+        "detector": "DP1BL",
+        "element": 56,
+        "hits": 86
+    },
+    {
+        "detector": "DP1BL",
+        "element": 57,
+        "hits": 92
+    },
+    {
+        "detector": "DP1BL",
+        "element": 58,
+        "hits": 76
+    },
+    {
+        "detector": "DP1BL",
+        "element": 59,
+        "hits": 75
+    },
+    {
+        "detector": "DP1BL",
+        "element": 60,
+        "hits": 100
+    },
+    {
+        "detector": "DP1BL",
+        "element": 61,
+        "hits": 56
+    },
+    {
+        "detector": "DP1BL",
+        "element": 62,
+        "hits": 68
+    },
+    {
+        "detector": "DP1BL",
+        "element": 63,
+        "hits": 97
+    },
+    {
+        "detector": "DP1BL",
+        "element": 64,
+        "hits": 51
+    },
+    {
+        "detector": "DP1BL",
+        "element": 65,
+        "hits": 96
+    },
+    {
+        "detector": "DP1BL",
+        "element": 66,
+        "hits": 77
+    },
+    {
+        "detector": "DP1BL",
+        "element": 67,
+        "hits": 108
+    },
+    {
+        "detector": "DP1BL",
+        "element": 68,
+        "hits": 54
+    },
+    {
+        "detector": "DP1BL",
+        "element": 69,
+        "hits": 86
+    },
+    {
+        "detector": "DP1BL",
+        "element": 70,
+        "hits": 90
+    },
+    {
+        "detector": "DP1BL",
+        "element": 71,
+        "hits": 35
+    },
+    {
+        "detector": "DP1BL",
+        "element": 72,
+        "hits": 78
+    },
+    {
+        "detector": "DP1BL",
+        "element": 73,
+        "hits": 99
+    },
+    {
+        "detector": "DP1BL",
+        "element": 74,
+        "hits": 77
+    },
+    {
+        "detector": "DP1BL",
+        "element": 75,
+        "hits": 51
+    },
+    {
+        "detector": "DP1BL",
+        "element": 76,
+        "hits": 91
+    },
+    {
+        "detector": "DP1BL",
+        "element": 77,
+        "hits": 81
+    },
+    {
+        "detector": "DP1BL",
+        "element": 78,
+        "hits": 94
+    },
+    {
+        "detector": "DP1BL",
+        "element": 79,
+        "hits": 86
+    },
+    {
+        "detector": "DP1BR",
+        "element": 0,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BR",
+        "element": 1,
+        "hits": 801
+    },
+    {
+        "detector": "DP1BR",
+        "element": 2,
+        "hits": 751
+    },
+    {
+        "detector": "DP1BR",
+        "element": 3,
+        "hits": 716
+    },
+    {
+        "detector": "DP1BR",
+        "element": 4,
+        "hits": 641
+    },
+    {
+        "detector": "DP1BR",
+        "element": 5,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BR",
+        "element": 6,
+        "hits": 444
+    },
+    {
+        "detector": "DP1BR",
+        "element": 7,
+        "hits": 547
+    },
+    {
+        "detector": "DP1BR",
+        "element": 8,
+        "hits": 492
+    },
+    {
+        "detector": "DP1BR",
+        "element": 9,
+        "hits": 422
+    },
+    {
+        "detector": "DP1BR",
+        "element": 10,
+        "hits": 412
+    },
+    {
+        "detector": "DP1BR",
+        "element": 11,
+        "hits": 407
+    },
+    {
+        "detector": "DP1BR",
+        "element": 12,
+        "hits": 327
+    },
+    {
+        "detector": "DP1BR",
+        "element": 13,
+        "hits": 359
+    },
+    {
+        "detector": "DP1BR",
+        "element": 14,
+        "hits": 314
+    },
+    {
+        "detector": "DP1BR",
+        "element": 15,
+        "hits": 264
+    },
+    {
+        "detector": "DP1BR",
+        "element": 16,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BR",
+        "element": 17,
+        "hits": 263
+    },
+    {
+        "detector": "DP1BR",
+        "element": 18,
+        "hits": 231
+    },
+    {
+        "detector": "DP1BR",
+        "element": 19,
+        "hits": 210
+    },
+    {
+        "detector": "DP1BR",
+        "element": 20,
+        "hits": 221
+    },
+    {
+        "detector": "DP1BR",
+        "element": 21,
+        "hits": 222
+    },
+    {
+        "detector": "DP1BR",
+        "element": 22,
+        "hits": 200
+    },
+    {
+        "detector": "DP1BR",
+        "element": 23,
+        "hits": 155
+    },
+    {
+        "detector": "DP1BR",
+        "element": 24,
+        "hits": 154
+    },
+    {
+        "detector": "DP1BR",
+        "element": 25,
+        "hits": 190
+    },
+    {
+        "detector": "DP1BR",
+        "element": 26,
+        "hits": 135
+    },
+    {
+        "detector": "DP1BR",
+        "element": 27,
+        "hits": 174
+    },
+    {
+        "detector": "DP1BR",
+        "element": 28,
+        "hits": 122
+    },
+    {
+        "detector": "DP1BR",
+        "element": 29,
+        "hits": 151
+    },
+    {
+        "detector": "DP1BR",
+        "element": 30,
+        "hits": 108
+    },
+    {
+        "detector": "DP1BR",
+        "element": 31,
+        "hits": 124
+    },
+    {
+        "detector": "DP1BR",
+        "element": 32,
+        "hits": 151
+    },
+    {
+        "detector": "DP1BR",
+        "element": 33,
+        "hits": 124
+    },
+    {
+        "detector": "DP1BR",
+        "element": 34,
+        "hits": 115
+    },
+    {
+        "detector": "DP1BR",
+        "element": 35,
+        "hits": 111
+    },
+    {
+        "detector": "DP1BR",
+        "element": 36,
+        "hits": 132
+    },
+    {
+        "detector": "DP1BR",
+        "element": 37,
+        "hits": 77
+    },
+    {
+        "detector": "DP1BR",
+        "element": 38,
+        "hits": 115
+    },
+    {
+        "detector": "DP1BR",
+        "element": 39,
+        "hits": 92
+    },
+    {
+        "detector": "DP1BR",
+        "element": 40,
+        "hits": 91
+    },
+    {
+        "detector": "DP1BR",
+        "element": 41,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BR",
+        "element": 42,
+        "hits": 96
+    },
+    {
+        "detector": "DP1BR",
+        "element": 43,
+        "hits": 67
+    },
+    {
+        "detector": "DP1BR",
+        "element": 44,
+        "hits": 49
+    },
+    {
+        "detector": "DP1BR",
+        "element": 45,
+        "hits": 57
+    },
+    {
+        "detector": "DP1BR",
+        "element": 46,
+        "hits": 54
+    },
+    {
+        "detector": "DP1BR",
+        "element": 47,
+        "hits": 93
+    },
+    {
+        "detector": "DP1BR",
+        "element": 48,
+        "hits": 64
+    },
+    {
+        "detector": "DP1BR",
+        "element": 49,
+        "hits": 88
+    },
+    {
+        "detector": "DP1BR",
+        "element": 50,
+        "hits": 62
+    },
+    {
+        "detector": "DP1BR",
+        "element": 51,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BR",
+        "element": 52,
+        "hits": 33
+    },
+    {
+        "detector": "DP1BR",
+        "element": 53,
+        "hits": 69
+    },
+    {
+        "detector": "DP1BR",
+        "element": 54,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BR",
+        "element": 55,
+        "hits": 61
+    },
+    {
+        "detector": "DP1BR",
+        "element": 56,
+        "hits": 67
+    },
+    {
+        "detector": "DP1BR",
+        "element": 57,
+        "hits": 57
+    },
+    {
+        "detector": "DP1BR",
+        "element": 58,
+        "hits": 65
+    },
+    {
+        "detector": "DP1BR",
+        "element": 59,
+        "hits": 59
+    },
+    {
+        "detector": "DP1BR",
+        "element": 60,
+        "hits": 63
+    },
+    {
+        "detector": "DP1BR",
+        "element": 61,
+        "hits": 59
+    },
+    {
+        "detector": "DP1BR",
+        "element": 62,
+        "hits": 55
+    },
+    {
+        "detector": "DP1BR",
+        "element": 63,
+        "hits": 23
+    },
+    {
+        "detector": "DP1BR",
+        "element": 64,
+        "hits": 68
+    },
+    {
+        "detector": "DP1BR",
+        "element": 65,
+        "hits": 32
+    },
+    {
+        "detector": "DP1BR",
+        "element": 66,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BR",
+        "element": 67,
+        "hits": 61
+    },
+    {
+        "detector": "DP1BR",
+        "element": 68,
+        "hits": 73
+    },
+    {
+        "detector": "DP1BR",
+        "element": 69,
+        "hits": 86
+    },
+    {
+        "detector": "DP1BR",
+        "element": 70,
+        "hits": 56
+    },
+    {
+        "detector": "DP1BR",
+        "element": 71,
+        "hits": 79
+    },
+    {
+        "detector": "DP1BR",
+        "element": 72,
+        "hits": 72
+    },
+    {
+        "detector": "DP1BR",
+        "element": 73,
+        "hits": 13
+    },
+    {
+        "detector": "DP1BR",
+        "element": 74,
+        "hits": 64
+    },
+    {
+        "detector": "DP1BR",
+        "element": 75,
+        "hits": 60
+    },
+    {
+        "detector": "DP1BR",
+        "element": 76,
+        "hits": 68
+    },
+    {
+        "detector": "DP1BR",
+        "element": 77,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BR",
+        "element": 78,
+        "hits": 0
+    },
+    {
+        "detector": "DP1BR",
+        "element": 79,
+        "hits": 0
+    }
+]
