@@ -233,66 +233,66 @@ def plot_heatmap(data, title="Hit Distribution", save_path=None):
     
     plt.show()
 
-def plot_boxes(data, title="Hit Distribution", save_path=None):
-    """
-    Create and display a box plot of the hit data, matching Occupancy.py's style
+# def plot_boxes(data, title="Hit Distribution", save_path=None):
+#     """
+#     Create and display a box plot of the hit data, matching Occupancy.py's style
     
-    Parameters:
-    -----------
-    data : numpy.ndarray
-        2D array containing hit data (already transposed and reordered)
-    title : str
-        Title for the plot
-    save_path : str, optional
-        Path to save the plot image
-    """
-    fig, ax = plt.subplots(figsize=(16, 10))
+#     Parameters:
+#     -----------
+#     data : numpy.ndarray
+#         2D array containing hit data (already transposed and reordered)
+#     title : str
+#         Title for the plot
+#     save_path : str, optional
+#         Path to save the plot image
+#     """
+#     fig, ax = plt.subplots(figsize=(16, 10))
     
-    # Calculate normalization
-    max_hits = np.max(data)
-    norm = Normalize(vmin=0, vmax=max_hits)
+#     # Calculate normalization
+#     max_hits = np.max(data)
+#     norm = Normalize(vmin=0, vmax=max_hits)
     
-    # Create box data
-    box_data = []
-    for det_id in range(data.shape[1]):
-        for elem_id in range(data.shape[0]):
-            count = data[elem_id, det_id]
-            if count > 0:
-                box_data.append((det_id, elem_id, count))
+#     # Create box data
+#     box_data = []
+#     for det_id in range(data.shape[1]):
+#         for elem_id in range(data.shape[0]):
+#             count = data[elem_id, det_id]
+#             if count > 0:
+#                 box_data.append((det_id, elem_id, count))
     
-    # Plot boxes
-    for x, y, count in box_data:
-        # Calculate color based on hit count
-        color_intensity = norm(count)
-        color = plt.cm.Reds(color_intensity)
+#     # Plot boxes
+#     for x, y, count in box_data:
+#         # Calculate color based on hit count
+#         color_intensity = norm(count)
+#         color = plt.cm.Reds(color_intensity)
         
-        # Draw rectangle with no edge
-        rect = Rectangle((x - 0.5, y - 0.5), 1, 1, 
-                        facecolor=color, 
-                        edgecolor='none',
-                        alpha=0.9)
-        ax.add_patch(rect)
+#         # Draw rectangle with no edge
+#         rect = Rectangle((x - 0.5, y - 0.5), 1, 1, 
+#                         facecolor=color, 
+#                         edgecolor='none',
+#                         alpha=0.9)
+#         ax.add_patch(rect)
     
-    # Customize plot
-    ax.set_title(title, fontsize=16, pad=15)
-    ax.set_xlabel("Detector ID", fontsize=14)
-    ax.set_ylabel("Element ID", fontsize=14)
-    ax.set_xlim(-0.5, len(get_detector_order())-0.5)  # Use actual number of detectors
-    ax.set_ylim(0, data.shape[0])
+#     # Customize plot
+#     ax.set_title(title, fontsize=16, pad=15)
+#     ax.set_xlabel("Detector ID", fontsize=14)
+#     ax.set_ylabel("Element ID", fontsize=14)
+#     ax.set_xlim(-0.5, len(get_detector_order())-0.5)  # Use actual number of detectors
+#     ax.set_ylim(0, data.shape[0])
     
-    # Add colorbar
-    sm = plt.cm.ScalarMappable(cmap='Reds', norm=norm)
-    sm.set_array([])
-    cbar = fig.colorbar(sm, ax=ax, pad=0.02)
-    cbar.set_label("Hit Count", rotation=90, labelpad=15, fontsize=14)
+#     # Add colorbar
+#     sm = plt.cm.ScalarMappable(cmap='Reds', norm=norm)
+#     sm.set_array([])
+#     cbar = fig.colorbar(sm, ax=ax, pad=0.02)
+#     cbar.set_label("Hit Count", rotation=90, labelpad=15, fontsize=14)
     
-    plt.tight_layout()
+#     plt.tight_layout()
     
-    # Save plot if path is provided
-    if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+#     # Save plot if path is provided
+#     if save_path:
+#         plt.savefig(save_path, dpi=300, bbox_inches='tight')
     
-    plt.show()
+#     plt.show()
 
 def basic_statistics(data, summary_df=None):
     """
@@ -350,11 +350,11 @@ def main():
                 title="Detector Hit Distribution",
                 save_path=output_dir / "hit_distribution.png")
     
-    # Create and save box plot
-    print("\nCreating box plot visualization...")
-    plot_boxes(hits_data,
-              title="Detector Hit Distribution (Box Plot)",
-              save_path=output_dir / "hit_distribution_boxes.png")
+    # # Create and save box plot
+    # print("\nCreating box plot visualization...")
+    # plot_boxes(hits_data,
+    #           title="Detector Hit Distribution (Box Plot)",
+    #           save_path=output_dir / "hit_distribution_boxes.png")
     
     # Save processed data as numpy array
     np.save(output_dir / "processed_hits_data.npy", hits_data)
