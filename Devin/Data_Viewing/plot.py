@@ -9,6 +9,7 @@ from PyQt5.QtCore import QTimer, Qt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
+import argparse
 
 class FileWatcher(FileSystemEventHandler):
     def __init__(self, callback, new_directory_callback):
@@ -350,7 +351,10 @@ class MainWindow(QMainWindow):
         self.check_initial_files()
 
 if __name__ == "__main__":
-    initial_directory = r"."
+    parser = argparse.ArgumentParser(description="QT Data Viewer")
+    parser.add_argument("--directory", type=str, default=r".", help="Directory to monitor for new files")
+    args = parser.parse_args()
+    initial_directory = args.directory
     app = QApplication(sys.argv)
     mainWin = MainWindow(initial_directory)
     mainWin.show()
