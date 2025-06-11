@@ -188,15 +188,34 @@ class DetectorPlot(FigureCanvas):
             elementid = file["fAllHits.elementID"].array(library="np")[event_number]
         return detectorid, elementid
 
+    def has_hits(self, detectorid, elementid):
+        return len(detectorid) > 0 and len(elementid) > 0
+
     def update_event(self):
         if self.file_paths:
             file_path = self.file_paths[self.current_file_index]
             with uproot.open(file_path + ":save") as file:
                 total_events = len(file["fAllHits.detectorID"].array(library="np"))
-            self.event_number = (self.event_number + 1) % total_events
-
-            if self.event_number == 0:
-                self.current_file_index = (self.current_file_index + 1) % len(self.file_paths)
+            
+            # Try up to total_events times to find an event with hits
+            attempts = 0
+            while attempts < total_events:
+                self.event_number = (self.event_number + 1) % total_events
+                
+                # Read the event data
+                detectorid, elementid = self.read_event(file_path, self.event_number)
+                
+                # If we found an event with hits, break the loop
+                if self.has_hits(detectorid, elementid):
+                    break
+                
+                attempts += 1
+                
+                # If we've checked all events and found none with hits, move to next file
+                if attempts == total_events:
+                    self.current_file_index = (self.current_file_index + 1) % len(self.file_paths)
+                    self.event_number = 0
+                    break
 
             self.create_plot()
 
