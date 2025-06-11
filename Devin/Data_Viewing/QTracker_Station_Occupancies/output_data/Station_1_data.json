@@ -7,1002 +7,1002 @@
     {
         "detector": "D0V",
         "element": 1,
-        "hits": 8
-    },
-    {
-        "detector": "D0V",
-        "element": 2,
-        "hits": 7
-    },
-    {
-        "detector": "D0V",
-        "element": 3,
         "hits": 10
     },
     {
         "detector": "D0V",
+        "element": 2,
+        "hits": 12
+    },
+    {
+        "detector": "D0V",
+        "element": 3,
+        "hits": 15
+    },
+    {
+        "detector": "D0V",
         "element": 4,
-        "hits": 14
+        "hits": 17
     },
     {
         "detector": "D0V",
         "element": 5,
-        "hits": 24
+        "hits": 14
     },
     {
         "detector": "D0V",
         "element": 6,
-        "hits": 26
+        "hits": 19
     },
     {
         "detector": "D0V",
         "element": 7,
-        "hits": 26
+        "hits": 36
     },
     {
         "detector": "D0V",
         "element": 8,
-        "hits": 39
+        "hits": 43
     },
     {
         "detector": "D0V",
         "element": 9,
-        "hits": 46
-    },
-    {
-        "detector": "D0V",
-        "element": 10,
-        "hits": 47
-    },
-    {
-        "detector": "D0V",
-        "element": 11,
-        "hits": 67
-    },
-    {
-        "detector": "D0V",
-        "element": 12,
-        "hits": 96
-    },
-    {
-        "detector": "D0V",
-        "element": 13,
-        "hits": 115
-    },
-    {
-        "detector": "D0V",
-        "element": 14,
-        "hits": 142
-    },
-    {
-        "detector": "D0V",
-        "element": 15,
-        "hits": 162
-    },
-    {
-        "detector": "D0V",
-        "element": 16,
-        "hits": 213
-    },
-    {
-        "detector": "D0V",
-        "element": 17,
-        "hits": 324
-    },
-    {
-        "detector": "D0V",
-        "element": 18,
-        "hits": 410
-    },
-    {
-        "detector": "D0V",
-        "element": 19,
-        "hits": 409
-    },
-    {
-        "detector": "D0V",
-        "element": 20,
-        "hits": 645
-    },
-    {
-        "detector": "D0V",
-        "element": 21,
-        "hits": 807
-    },
-    {
-        "detector": "D0V",
-        "element": 22,
-        "hits": 957
-    },
-    {
-        "detector": "D0V",
-        "element": 23,
-        "hits": 1147
-    },
-    {
-        "detector": "D0V",
-        "element": 24,
-        "hits": 1283
-    },
-    {
-        "detector": "D0V",
-        "element": 25,
-        "hits": 1637
-    },
-    {
-        "detector": "D0V",
-        "element": 26,
-        "hits": 1738
-    },
-    {
-        "detector": "D0V",
-        "element": 27,
-        "hits": 1818
-    },
-    {
-        "detector": "D0V",
-        "element": 28,
-        "hits": 1985
-    },
-    {
-        "detector": "D0V",
-        "element": 29,
-        "hits": 2053
-    },
-    {
-        "detector": "D0V",
-        "element": 30,
-        "hits": 2061
-    },
-    {
-        "detector": "D0V",
-        "element": 31,
-        "hits": 2132
-    },
-    {
-        "detector": "D0V",
-        "element": 32,
-        "hits": 2112
-    },
-    {
-        "detector": "D0V",
-        "element": 33,
-        "hits": 2340
-    },
-    {
-        "detector": "D0V",
-        "element": 34,
-        "hits": 2340
-    },
-    {
-        "detector": "D0V",
-        "element": 35,
-        "hits": 2302
-    },
-    {
-        "detector": "D0V",
-        "element": 36,
-        "hits": 2271
-    },
-    {
-        "detector": "D0V",
-        "element": 37,
-        "hits": 2152
-    },
-    {
-        "detector": "D0V",
-        "element": 38,
-        "hits": 2202
-    },
-    {
-        "detector": "D0V",
-        "element": 39,
-        "hits": 2018
-    },
-    {
-        "detector": "D0V",
-        "element": 40,
-        "hits": 2105
-    },
-    {
-        "detector": "D0V",
-        "element": 41,
-        "hits": 2249
-    },
-    {
-        "detector": "D0V",
-        "element": 42,
-        "hits": 2095
-    },
-    {
-        "detector": "D0V",
-        "element": 43,
-        "hits": 2185
-    },
-    {
-        "detector": "D0V",
-        "element": 44,
-        "hits": 2031
-    },
-    {
-        "detector": "D0V",
-        "element": 45,
-        "hits": 2121
-    },
-    {
-        "detector": "D0V",
-        "element": 46,
-        "hits": 1961
-    },
-    {
-        "detector": "D0V",
-        "element": 47,
-        "hits": 1983
-    },
-    {
-        "detector": "D0V",
-        "element": 48,
-        "hits": 1947
-    },
-    {
-        "detector": "D0V",
-        "element": 49,
-        "hits": 1869
-    },
-    {
-        "detector": "D0V",
-        "element": 50,
-        "hits": 1833
-    },
-    {
-        "detector": "D0V",
-        "element": 51,
-        "hits": 1831
-    },
-    {
-        "detector": "D0V",
-        "element": 52,
-        "hits": 1766
-    },
-    {
-        "detector": "D0V",
-        "element": 53,
-        "hits": 1798
-    },
-    {
-        "detector": "D0V",
-        "element": 54,
-        "hits": 1686
-    },
-    {
-        "detector": "D0V",
-        "element": 55,
-        "hits": 1620
-    },
-    {
-        "detector": "D0V",
-        "element": 56,
-        "hits": 1510
-    },
-    {
-        "detector": "D0V",
-        "element": 57,
-        "hits": 1604
-    },
-    {
-        "detector": "D0V",
-        "element": 58,
-        "hits": 1616
-    },
-    {
-        "detector": "D0V",
-        "element": 59,
-        "hits": 1593
-    },
-    {
-        "detector": "D0V",
-        "element": 60,
-        "hits": 1486
-    },
-    {
-        "detector": "D0V",
-        "element": 61,
-        "hits": 1454
-    },
-    {
-        "detector": "D0V",
-        "element": 62,
-        "hits": 1342
-    },
-    {
-        "detector": "D0V",
-        "element": 63,
-        "hits": 1348
-    },
-    {
-        "detector": "D0V",
-        "element": 64,
-        "hits": 1264
-    },
-    {
-        "detector": "D0V",
-        "element": 65,
-        "hits": 1359
-    },
-    {
-        "detector": "D0V",
-        "element": 66,
-        "hits": 1366
-    },
-    {
-        "detector": "D0V",
-        "element": 67,
-        "hits": 1310
-    },
-    {
-        "detector": "D0V",
-        "element": 68,
-        "hits": 1220
-    },
-    {
-        "detector": "D0V",
-        "element": 69,
-        "hits": 1201
-    },
-    {
-        "detector": "D0V",
-        "element": 70,
-        "hits": 1263
-    },
-    {
-        "detector": "D0V",
-        "element": 71,
-        "hits": 1107
-    },
-    {
-        "detector": "D0V",
-        "element": 72,
-        "hits": 1032
-    },
-    {
-        "detector": "D0V",
-        "element": 73,
-        "hits": 990
-    },
-    {
-        "detector": "D0V",
-        "element": 74,
-        "hits": 1032
-    },
-    {
-        "detector": "D0V",
-        "element": 75,
-        "hits": 915
-    },
-    {
-        "detector": "D0V",
-        "element": 76,
-        "hits": 908
-    },
-    {
-        "detector": "D0V",
-        "element": 77,
-        "hits": 857
-    },
-    {
-        "detector": "D0V",
-        "element": 78,
-        "hits": 863
-    },
-    {
-        "detector": "D0V",
-        "element": 79,
-        "hits": 795
-    },
-    {
-        "detector": "D0V",
-        "element": 80,
-        "hits": 783
-    },
-    {
-        "detector": "D0V",
-        "element": 81,
-        "hits": 796
-    },
-    {
-        "detector": "D0V",
-        "element": 82,
-        "hits": 775
-    },
-    {
-        "detector": "D0V",
-        "element": 83,
-        "hits": 738
-    },
-    {
-        "detector": "D0V",
-        "element": 84,
-        "hits": 756
-    },
-    {
-        "detector": "D0V",
-        "element": 85,
-        "hits": 786
-    },
-    {
-        "detector": "D0V",
-        "element": 86,
-        "hits": 1
-    },
-    {
-        "detector": "D0V",
-        "element": 87,
-        "hits": 699
-    },
-    {
-        "detector": "D0V",
-        "element": 88,
-        "hits": 546
-    },
-    {
-        "detector": "D0V",
-        "element": 89,
-        "hits": 618
-    },
-    {
-        "detector": "D0V",
-        "element": 90,
-        "hits": 561
-    },
-    {
-        "detector": "D0V",
-        "element": 91,
-        "hits": 573
-    },
-    {
-        "detector": "D0V",
-        "element": 92,
-        "hits": 512
-    },
-    {
-        "detector": "D0V",
-        "element": 93,
-        "hits": 526
-    },
-    {
-        "detector": "D0V",
-        "element": 94,
-        "hits": 487
-    },
-    {
-        "detector": "D0V",
-        "element": 95,
-        "hits": 437
-    },
-    {
-        "detector": "D0V",
-        "element": 96,
-        "hits": 475
-    },
-    {
-        "detector": "D0V",
-        "element": 97,
-        "hits": 455
-    },
-    {
-        "detector": "D0V",
-        "element": 98,
-        "hits": 463
-    },
-    {
-        "detector": "D0V",
-        "element": 99,
-        "hits": 418
-    },
-    {
-        "detector": "D0V",
-        "element": 100,
-        "hits": 415
-    },
-    {
-        "detector": "D0V",
-        "element": 101,
-        "hits": 406
-    },
-    {
-        "detector": "D0V",
-        "element": 102,
-        "hits": 431
-    },
-    {
-        "detector": "D0V",
-        "element": 103,
-        "hits": 446
-    },
-    {
-        "detector": "D0V",
-        "element": 104,
-        "hits": 466
-    },
-    {
-        "detector": "D0V",
-        "element": 105,
-        "hits": 517
-    },
-    {
-        "detector": "D0V",
-        "element": 106,
-        "hits": 501
-    },
-    {
-        "detector": "D0V",
-        "element": 107,
-        "hits": 564
-    },
-    {
-        "detector": "D0V",
-        "element": 108,
-        "hits": 536
-    },
-    {
-        "detector": "D0V",
-        "element": 109,
-        "hits": 540
-    },
-    {
-        "detector": "D0V",
-        "element": 110,
-        "hits": 604
-    },
-    {
-        "detector": "D0V",
-        "element": 111,
-        "hits": 587
-    },
-    {
-        "detector": "D0V",
-        "element": 112,
-        "hits": 644
-    },
-    {
-        "detector": "D0V",
-        "element": 113,
-        "hits": 723
-    },
-    {
-        "detector": "D0V",
-        "element": 114,
-        "hits": 718
-    },
-    {
-        "detector": "D0V",
-        "element": 115,
-        "hits": 781
-    },
-    {
-        "detector": "D0V",
-        "element": 116,
-        "hits": 768
-    },
-    {
-        "detector": "D0V",
-        "element": 117,
-        "hits": 881
-    },
-    {
-        "detector": "D0V",
-        "element": 118,
-        "hits": 936
-    },
-    {
-        "detector": "D0V",
-        "element": 119,
-        "hits": 1024
-    },
-    {
-        "detector": "D0V",
-        "element": 120,
-        "hits": 1094
-    },
-    {
-        "detector": "D0V",
-        "element": 121,
-        "hits": 1126
-    },
-    {
-        "detector": "D0V",
-        "element": 122,
-        "hits": 1202
-    },
-    {
-        "detector": "D0V",
-        "element": 123,
-        "hits": 1244
-    },
-    {
-        "detector": "D0V",
-        "element": 124,
-        "hits": 1289
-    },
-    {
-        "detector": "D0V",
-        "element": 125,
-        "hits": 1351
-    },
-    {
-        "detector": "D0V",
-        "element": 126,
-        "hits": 1443
-    },
-    {
-        "detector": "D0V",
-        "element": 127,
-        "hits": 1433
-    },
-    {
-        "detector": "D0V",
-        "element": 128,
-        "hits": 1544
-    },
-    {
-        "detector": "D0V",
-        "element": 129,
-        "hits": 1507
-    },
-    {
-        "detector": "D0V",
-        "element": 130,
-        "hits": 1452
-    },
-    {
-        "detector": "D0V",
-        "element": 131,
-        "hits": 1608
-    },
-    {
-        "detector": "D0V",
-        "element": 132,
-        "hits": 1619
-    },
-    {
-        "detector": "D0V",
-        "element": 133,
-        "hits": 1713
-    },
-    {
-        "detector": "D0V",
-        "element": 134,
-        "hits": 1831
-    },
-    {
-        "detector": "D0V",
-        "element": 135,
-        "hits": 1841
-    },
-    {
-        "detector": "D0V",
-        "element": 136,
-        "hits": 2037
-    },
-    {
-        "detector": "D0V",
-        "element": 137,
-        "hits": 2012
-    },
-    {
-        "detector": "D0V",
-        "element": 138,
-        "hits": 1911
-    },
-    {
-        "detector": "D0V",
-        "element": 139,
-        "hits": 2025
-    },
-    {
-        "detector": "D0V",
-        "element": 140,
-        "hits": 2156
-    },
-    {
-        "detector": "D0V",
-        "element": 141,
-        "hits": 2065
-    },
-    {
-        "detector": "D0V",
-        "element": 142,
-        "hits": 2279
-    },
-    {
-        "detector": "D0V",
-        "element": 143,
-        "hits": 2273
-    },
-    {
-        "detector": "D0V",
-        "element": 144,
-        "hits": 2289
-    },
-    {
-        "detector": "D0V",
-        "element": 145,
-        "hits": 2373
-    },
-    {
-        "detector": "D0V",
-        "element": 146,
-        "hits": 2421
-    },
-    {
-        "detector": "D0V",
-        "element": 147,
-        "hits": 2343
-    },
-    {
-        "detector": "D0V",
-        "element": 148,
-        "hits": 2533
-    },
-    {
-        "detector": "D0V",
-        "element": 149,
-        "hits": 2611
-    },
-    {
-        "detector": "D0V",
-        "element": 150,
-        "hits": 2628
-    },
-    {
-        "detector": "D0V",
-        "element": 151,
-        "hits": 2631
-    },
-    {
-        "detector": "D0V",
-        "element": 152,
-        "hits": 2831
-    },
-    {
-        "detector": "D0V",
-        "element": 153,
-        "hits": 2678
-    },
-    {
-        "detector": "D0V",
-        "element": 154,
-        "hits": 2613
-    },
-    {
-        "detector": "D0V",
-        "element": 155,
-        "hits": 2749
-    },
-    {
-        "detector": "D0V",
-        "element": 156,
-        "hits": 2788
-    },
-    {
-        "detector": "D0V",
-        "element": 157,
-        "hits": 2768
-    },
-    {
-        "detector": "D0V",
-        "element": 158,
-        "hits": 2858
-    },
-    {
-        "detector": "D0V",
-        "element": 159,
-        "hits": 2835
-    },
-    {
-        "detector": "D0V",
-        "element": 160,
-        "hits": 2961
-    },
-    {
-        "detector": "D0V",
-        "element": 161,
-        "hits": 3021
-    },
-    {
-        "detector": "D0V",
-        "element": 162,
-        "hits": 2835
-    },
-    {
-        "detector": "D0V",
-        "element": 163,
-        "hits": 3012
-    },
-    {
-        "detector": "D0V",
-        "element": 164,
-        "hits": 2997
-    },
-    {
-        "detector": "D0V",
-        "element": 165,
-        "hits": 3130
-    },
-    {
-        "detector": "D0V",
-        "element": 166,
-        "hits": 3019
-    },
-    {
-        "detector": "D0V",
-        "element": 167,
-        "hits": 3183
-    },
-    {
-        "detector": "D0V",
-        "element": 168,
-        "hits": 3033
-    },
-    {
-        "detector": "D0V",
-        "element": 169,
-        "hits": 3192
-    },
-    {
-        "detector": "D0V",
-        "element": 170,
-        "hits": 2928
-    },
-    {
-        "detector": "D0V",
-        "element": 171,
-        "hits": 3176
-    },
-    {
-        "detector": "D0V",
-        "element": 172,
-        "hits": 2787
-    },
-    {
-        "detector": "D0V",
-        "element": 173,
-        "hits": 2972
-    },
-    {
-        "detector": "D0V",
-        "element": 174,
-        "hits": 2710
-    },
-    {
-        "detector": "D0V",
-        "element": 175,
-        "hits": 2853
-    },
-    {
-        "detector": "D0V",
-        "element": 176,
-        "hits": 2717
-    },
-    {
-        "detector": "D0V",
-        "element": 177,
-        "hits": 2582
-    },
-    {
-        "detector": "D0V",
-        "element": 178,
-        "hits": 2410
-    },
-    {
-        "detector": "D0V",
-        "element": 179,
-        "hits": 2237
-    },
-    {
-        "detector": "D0V",
-        "element": 180,
-        "hits": 1882
-    },
-    {
-        "detector": "D0V",
-        "element": 181,
-        "hits": 1704
-    },
-    {
-        "detector": "D0V",
-        "element": 182,
-        "hits": 1371
-    },
-    {
-        "detector": "D0V",
-        "element": 183,
-        "hits": 1075
-    },
-    {
-        "detector": "D0V",
-        "element": 184,
-        "hits": 865
-    },
-    {
-        "detector": "D0V",
-        "element": 185,
-        "hits": 696
-    },
-    {
-        "detector": "D0V",
-        "element": 186,
-        "hits": 457
-    },
-    {
-        "detector": "D0V",
-        "element": 187,
-        "hits": 392
-    },
-    {
-        "detector": "D0V",
-        "element": 188,
-        "hits": 283
-    },
-    {
-        "detector": "D0V",
-        "element": 189,
-        "hits": 230
-    },
-    {
-        "detector": "D0V",
-        "element": 190,
-        "hits": 147
-    },
-    {
-        "detector": "D0V",
-        "element": 191,
-        "hits": 137
-    },
-    {
-        "detector": "D0V",
-        "element": 192,
-        "hits": 101
-    },
-    {
-        "detector": "D0V",
-        "element": 193,
-        "hits": 91
-    },
-    {
-        "detector": "D0V",
-        "element": 194,
-        "hits": 67
-    },
-    {
-        "detector": "D0V",
-        "element": 195,
-        "hits": 46
-    },
-    {
-        "detector": "D0V",
-        "element": 196,
-        "hits": 35
-    },
-    {
-        "detector": "D0V",
-        "element": 197,
         "hits": 42
     },
     {
         "detector": "D0V",
+        "element": 10,
+        "hits": 64
+    },
+    {
+        "detector": "D0V",
+        "element": 11,
+        "hits": 76
+    },
+    {
+        "detector": "D0V",
+        "element": 12,
+        "hits": 111
+    },
+    {
+        "detector": "D0V",
+        "element": 13,
+        "hits": 108
+    },
+    {
+        "detector": "D0V",
+        "element": 14,
+        "hits": 174
+    },
+    {
+        "detector": "D0V",
+        "element": 15,
+        "hits": 201
+    },
+    {
+        "detector": "D0V",
+        "element": 16,
+        "hits": 215
+    },
+    {
+        "detector": "D0V",
+        "element": 17,
+        "hits": 335
+    },
+    {
+        "detector": "D0V",
+        "element": 18,
+        "hits": 437
+    },
+    {
+        "detector": "D0V",
+        "element": 19,
+        "hits": 436
+    },
+    {
+        "detector": "D0V",
+        "element": 20,
+        "hits": 697
+    },
+    {
+        "detector": "D0V",
+        "element": 21,
+        "hits": 904
+    },
+    {
+        "detector": "D0V",
+        "element": 22,
+        "hits": 1089
+    },
+    {
+        "detector": "D0V",
+        "element": 23,
+        "hits": 1243
+    },
+    {
+        "detector": "D0V",
+        "element": 24,
+        "hits": 1417
+    },
+    {
+        "detector": "D0V",
+        "element": 25,
+        "hits": 1731
+    },
+    {
+        "detector": "D0V",
+        "element": 26,
+        "hits": 1951
+    },
+    {
+        "detector": "D0V",
+        "element": 27,
+        "hits": 1984
+    },
+    {
+        "detector": "D0V",
+        "element": 28,
+        "hits": 2088
+    },
+    {
+        "detector": "D0V",
+        "element": 29,
+        "hits": 2274
+    },
+    {
+        "detector": "D0V",
+        "element": 30,
+        "hits": 2183
+    },
+    {
+        "detector": "D0V",
+        "element": 31,
+        "hits": 2187
+    },
+    {
+        "detector": "D0V",
+        "element": 32,
+        "hits": 2274
+    },
+    {
+        "detector": "D0V",
+        "element": 33,
+        "hits": 2419
+    },
+    {
+        "detector": "D0V",
+        "element": 34,
+        "hits": 2390
+    },
+    {
+        "detector": "D0V",
+        "element": 35,
+        "hits": 2424
+    },
+    {
+        "detector": "D0V",
+        "element": 36,
+        "hits": 2443
+    },
+    {
+        "detector": "D0V",
+        "element": 37,
+        "hits": 2349
+    },
+    {
+        "detector": "D0V",
+        "element": 38,
+        "hits": 2307
+    },
+    {
+        "detector": "D0V",
+        "element": 39,
+        "hits": 2248
+    },
+    {
+        "detector": "D0V",
+        "element": 40,
+        "hits": 2191
+    },
+    {
+        "detector": "D0V",
+        "element": 41,
+        "hits": 2351
+    },
+    {
+        "detector": "D0V",
+        "element": 42,
+        "hits": 2203
+    },
+    {
+        "detector": "D0V",
+        "element": 43,
+        "hits": 2253
+    },
+    {
+        "detector": "D0V",
+        "element": 44,
+        "hits": 2176
+    },
+    {
+        "detector": "D0V",
+        "element": 45,
+        "hits": 2175
+    },
+    {
+        "detector": "D0V",
+        "element": 46,
+        "hits": 2125
+    },
+    {
+        "detector": "D0V",
+        "element": 47,
+        "hits": 2174
+    },
+    {
+        "detector": "D0V",
+        "element": 48,
+        "hits": 1995
+    },
+    {
+        "detector": "D0V",
+        "element": 49,
+        "hits": 1946
+    },
+    {
+        "detector": "D0V",
+        "element": 50,
+        "hits": 1996
+    },
+    {
+        "detector": "D0V",
+        "element": 51,
+        "hits": 1909
+    },
+    {
+        "detector": "D0V",
+        "element": 52,
+        "hits": 1855
+    },
+    {
+        "detector": "D0V",
+        "element": 53,
+        "hits": 1806
+    },
+    {
+        "detector": "D0V",
+        "element": 54,
+        "hits": 1768
+    },
+    {
+        "detector": "D0V",
+        "element": 55,
+        "hits": 1739
+    },
+    {
+        "detector": "D0V",
+        "element": 56,
+        "hits": 1576
+    },
+    {
+        "detector": "D0V",
+        "element": 57,
+        "hits": 1622
+    },
+    {
+        "detector": "D0V",
+        "element": 58,
+        "hits": 1712
+    },
+    {
+        "detector": "D0V",
+        "element": 59,
+        "hits": 1601
+    },
+    {
+        "detector": "D0V",
+        "element": 60,
+        "hits": 1563
+    },
+    {
+        "detector": "D0V",
+        "element": 61,
+        "hits": 1582
+    },
+    {
+        "detector": "D0V",
+        "element": 62,
+        "hits": 1503
+    },
+    {
+        "detector": "D0V",
+        "element": 63,
+        "hits": 1455
+    },
+    {
+        "detector": "D0V",
+        "element": 64,
+        "hits": 1393
+    },
+    {
+        "detector": "D0V",
+        "element": 65,
+        "hits": 1466
+    },
+    {
+        "detector": "D0V",
+        "element": 66,
+        "hits": 1460
+    },
+    {
+        "detector": "D0V",
+        "element": 67,
+        "hits": 1362
+    },
+    {
+        "detector": "D0V",
+        "element": 68,
+        "hits": 1305
+    },
+    {
+        "detector": "D0V",
+        "element": 69,
+        "hits": 1215
+    },
+    {
+        "detector": "D0V",
+        "element": 70,
+        "hits": 1197
+    },
+    {
+        "detector": "D0V",
+        "element": 71,
+        "hits": 1261
+    },
+    {
+        "detector": "D0V",
+        "element": 72,
+        "hits": 1148
+    },
+    {
+        "detector": "D0V",
+        "element": 73,
+        "hits": 1106
+    },
+    {
+        "detector": "D0V",
+        "element": 74,
+        "hits": 1125
+    },
+    {
+        "detector": "D0V",
+        "element": 75,
+        "hits": 1078
+    },
+    {
+        "detector": "D0V",
+        "element": 76,
+        "hits": 996
+    },
+    {
+        "detector": "D0V",
+        "element": 77,
+        "hits": 952
+    },
+    {
+        "detector": "D0V",
+        "element": 78,
+        "hits": 900
+    },
+    {
+        "detector": "D0V",
+        "element": 79,
+        "hits": 867
+    },
+    {
+        "detector": "D0V",
+        "element": 80,
+        "hits": 816
+    },
+    {
+        "detector": "D0V",
+        "element": 81,
+        "hits": 816
+    },
+    {
+        "detector": "D0V",
+        "element": 82,
+        "hits": 765
+    },
+    {
+        "detector": "D0V",
+        "element": 83,
+        "hits": 789
+    },
+    {
+        "detector": "D0V",
+        "element": 84,
+        "hits": 755
+    },
+    {
+        "detector": "D0V",
+        "element": 85,
+        "hits": 820
+    },
+    {
+        "detector": "D0V",
+        "element": 86,
+        "hits": 11
+    },
+    {
+        "detector": "D0V",
+        "element": 87,
+        "hits": 743
+    },
+    {
+        "detector": "D0V",
+        "element": 88,
+        "hits": 625
+    },
+    {
+        "detector": "D0V",
+        "element": 89,
+        "hits": 628
+    },
+    {
+        "detector": "D0V",
+        "element": 90,
+        "hits": 542
+    },
+    {
+        "detector": "D0V",
+        "element": 91,
+        "hits": 575
+    },
+    {
+        "detector": "D0V",
+        "element": 92,
+        "hits": 568
+    },
+    {
+        "detector": "D0V",
+        "element": 93,
+        "hits": 545
+    },
+    {
+        "detector": "D0V",
+        "element": 94,
+        "hits": 560
+    },
+    {
+        "detector": "D0V",
+        "element": 95,
+        "hits": 523
+    },
+    {
+        "detector": "D0V",
+        "element": 96,
+        "hits": 549
+    },
+    {
+        "detector": "D0V",
+        "element": 97,
+        "hits": 493
+    },
+    {
+        "detector": "D0V",
+        "element": 98,
+        "hits": 460
+    },
+    {
+        "detector": "D0V",
+        "element": 99,
+        "hits": 470
+    },
+    {
+        "detector": "D0V",
+        "element": 100,
+        "hits": 428
+    },
+    {
+        "detector": "D0V",
+        "element": 101,
+        "hits": 466
+    },
+    {
+        "detector": "D0V",
+        "element": 102,
+        "hits": 470
+    },
+    {
+        "detector": "D0V",
+        "element": 103,
+        "hits": 479
+    },
+    {
+        "detector": "D0V",
+        "element": 104,
+        "hits": 469
+    },
+    {
+        "detector": "D0V",
+        "element": 105,
+        "hits": 477
+    },
+    {
+        "detector": "D0V",
+        "element": 106,
+        "hits": 509
+    },
+    {
+        "detector": "D0V",
+        "element": 107,
+        "hits": 558
+    },
+    {
+        "detector": "D0V",
+        "element": 108,
+        "hits": 572
+    },
+    {
+        "detector": "D0V",
+        "element": 109,
+        "hits": 576
+    },
+    {
+        "detector": "D0V",
+        "element": 110,
+        "hits": 621
+    },
+    {
+        "detector": "D0V",
+        "element": 111,
+        "hits": 654
+    },
+    {
+        "detector": "D0V",
+        "element": 112,
+        "hits": 675
+    },
+    {
+        "detector": "D0V",
+        "element": 113,
+        "hits": 744
+    },
+    {
+        "detector": "D0V",
+        "element": 114,
+        "hits": 764
+    },
+    {
+        "detector": "D0V",
+        "element": 115,
+        "hits": 807
+    },
+    {
+        "detector": "D0V",
+        "element": 116,
+        "hits": 837
+    },
+    {
+        "detector": "D0V",
+        "element": 117,
+        "hits": 849
+    },
+    {
+        "detector": "D0V",
+        "element": 118,
+        "hits": 1020
+    },
+    {
+        "detector": "D0V",
+        "element": 119,
+        "hits": 1070
+    },
+    {
+        "detector": "D0V",
+        "element": 120,
+        "hits": 1056
+    },
+    {
+        "detector": "D0V",
+        "element": 121,
+        "hits": 1212
+    },
+    {
+        "detector": "D0V",
+        "element": 122,
+        "hits": 1199
+    },
+    {
+        "detector": "D0V",
+        "element": 123,
+        "hits": 1307
+    },
+    {
+        "detector": "D0V",
+        "element": 124,
+        "hits": 1398
+    },
+    {
+        "detector": "D0V",
+        "element": 125,
+        "hits": 1431
+    },
+    {
+        "detector": "D0V",
+        "element": 126,
+        "hits": 1550
+    },
+    {
+        "detector": "D0V",
+        "element": 127,
+        "hits": 1547
+    },
+    {
+        "detector": "D0V",
+        "element": 128,
+        "hits": 1605
+    },
+    {
+        "detector": "D0V",
+        "element": 129,
+        "hits": 1704
+    },
+    {
+        "detector": "D0V",
+        "element": 130,
+        "hits": 1651
+    },
+    {
+        "detector": "D0V",
+        "element": 131,
+        "hits": 1665
+    },
+    {
+        "detector": "D0V",
+        "element": 132,
+        "hits": 1755
+    },
+    {
+        "detector": "D0V",
+        "element": 133,
+        "hits": 1905
+    },
+    {
+        "detector": "D0V",
+        "element": 134,
+        "hits": 1989
+    },
+    {
+        "detector": "D0V",
+        "element": 135,
+        "hits": 2025
+    },
+    {
+        "detector": "D0V",
+        "element": 136,
+        "hits": 2078
+    },
+    {
+        "detector": "D0V",
+        "element": 137,
+        "hits": 2158
+    },
+    {
+        "detector": "D0V",
+        "element": 138,
+        "hits": 2066
+    },
+    {
+        "detector": "D0V",
+        "element": 139,
+        "hits": 2117
+    },
+    {
+        "detector": "D0V",
+        "element": 140,
+        "hits": 2200
+    },
+    {
+        "detector": "D0V",
+        "element": 141,
+        "hits": 2224
+    },
+    {
+        "detector": "D0V",
+        "element": 142,
+        "hits": 2439
+    },
+    {
+        "detector": "D0V",
+        "element": 143,
+        "hits": 2495
+    },
+    {
+        "detector": "D0V",
+        "element": 144,
+        "hits": 2407
+    },
+    {
+        "detector": "D0V",
+        "element": 145,
+        "hits": 2643
+    },
+    {
+        "detector": "D0V",
+        "element": 146,
+        "hits": 2478
+    },
+    {
+        "detector": "D0V",
+        "element": 147,
+        "hits": 2534
+    },
+    {
+        "detector": "D0V",
+        "element": 148,
+        "hits": 2621
+    },
+    {
+        "detector": "D0V",
+        "element": 149,
+        "hits": 2690
+    },
+    {
+        "detector": "D0V",
+        "element": 150,
+        "hits": 2856
+    },
+    {
+        "detector": "D0V",
+        "element": 151,
+        "hits": 2803
+    },
+    {
+        "detector": "D0V",
+        "element": 152,
+        "hits": 2914
+    },
+    {
+        "detector": "D0V",
+        "element": 153,
+        "hits": 2882
+    },
+    {
+        "detector": "D0V",
+        "element": 154,
+        "hits": 2800
+    },
+    {
+        "detector": "D0V",
+        "element": 155,
+        "hits": 2825
+    },
+    {
+        "detector": "D0V",
+        "element": 156,
+        "hits": 2950
+    },
+    {
+        "detector": "D0V",
+        "element": 157,
+        "hits": 2932
+    },
+    {
+        "detector": "D0V",
+        "element": 158,
+        "hits": 2934
+    },
+    {
+        "detector": "D0V",
+        "element": 159,
+        "hits": 3027
+    },
+    {
+        "detector": "D0V",
+        "element": 160,
+        "hits": 3096
+    },
+    {
+        "detector": "D0V",
+        "element": 161,
+        "hits": 3114
+    },
+    {
+        "detector": "D0V",
+        "element": 162,
+        "hits": 2928
+    },
+    {
+        "detector": "D0V",
+        "element": 163,
+        "hits": 3133
+    },
+    {
+        "detector": "D0V",
+        "element": 164,
+        "hits": 3053
+    },
+    {
+        "detector": "D0V",
+        "element": 165,
+        "hits": 3219
+    },
+    {
+        "detector": "D0V",
+        "element": 166,
+        "hits": 3079
+    },
+    {
+        "detector": "D0V",
+        "element": 167,
+        "hits": 3312
+    },
+    {
+        "detector": "D0V",
+        "element": 168,
+        "hits": 3164
+    },
+    {
+        "detector": "D0V",
+        "element": 169,
+        "hits": 3286
+    },
+    {
+        "detector": "D0V",
+        "element": 170,
+        "hits": 3067
+    },
+    {
+        "detector": "D0V",
+        "element": 171,
+        "hits": 3109
+    },
+    {
+        "detector": "D0V",
+        "element": 172,
+        "hits": 2998
+    },
+    {
+        "detector": "D0V",
+        "element": 173,
+        "hits": 3105
+    },
+    {
+        "detector": "D0V",
+        "element": 174,
+        "hits": 2887
+    },
+    {
+        "detector": "D0V",
+        "element": 175,
+        "hits": 2931
+    },
+    {
+        "detector": "D0V",
+        "element": 176,
+        "hits": 2891
+    },
+    {
+        "detector": "D0V",
+        "element": 177,
+        "hits": 2723
+    },
+    {
+        "detector": "D0V",
+        "element": 178,
+        "hits": 2431
+    },
+    {
+        "detector": "D0V",
+        "element": 179,
+        "hits": 2298
+    },
+    {
+        "detector": "D0V",
+        "element": 180,
+        "hits": 2103
+    },
+    {
+        "detector": "D0V",
+        "element": 181,
+        "hits": 1853
+    },
+    {
+        "detector": "D0V",
+        "element": 182,
+        "hits": 1487
+    },
+    {
+        "detector": "D0V",
+        "element": 183,
+        "hits": 1198
+    },
+    {
+        "detector": "D0V",
+        "element": 184,
+        "hits": 956
+    },
+    {
+        "detector": "D0V",
+        "element": 185,
+        "hits": 745
+    },
+    {
+        "detector": "D0V",
+        "element": 186,
+        "hits": 497
+    },
+    {
+        "detector": "D0V",
+        "element": 187,
+        "hits": 405
+    },
+    {
+        "detector": "D0V",
+        "element": 188,
+        "hits": 333
+    },
+    {
+        "detector": "D0V",
+        "element": 189,
+        "hits": 264
+    },
+    {
+        "detector": "D0V",
+        "element": 190,
+        "hits": 204
+    },
+    {
+        "detector": "D0V",
+        "element": 191,
+        "hits": 132
+    },
+    {
+        "detector": "D0V",
+        "element": 192,
+        "hits": 106
+    },
+    {
+        "detector": "D0V",
+        "element": 193,
+        "hits": 98
+    },
+    {
+        "detector": "D0V",
+        "element": 194,
+        "hits": 53
+    },
+    {
+        "detector": "D0V",
+        "element": 195,
+        "hits": 54
+    },
+    {
+        "detector": "D0V",
+        "element": 196,
+        "hits": 46
+    },
+    {
+        "detector": "D0V",
+        "element": 197,
+        "hits": 36
+    },
+    {
+        "detector": "D0V",
         "element": 198,
-        "hits": 24
+        "hits": 25
     },
     {
         "detector": "D0V",
         "element": 199,
-        "hits": 18
+        "hits": 16
     },
     {
         "detector": "D0V",
         "element": 200,
-        "hits": 10
+        "hits": 13
     },
     {
         "detector": "D0Vp",
@@ -1572,7 +1572,7 @@
     {
         "detector": "D0Vp",
         "element": 113,
-        "hits": 0
+        "hits": 1
     },
     {
         "detector": "D0Vp",
@@ -1642,7 +1642,7 @@
     {
         "detector": "D0Vp",
         "element": 127,
-        "hits": 1
+        "hits": 0
     },
     {
         "detector": "D0Vp",
@@ -1717,7 +1717,7 @@
     {
         "detector": "D0Vp",
         "element": 142,
-        "hits": 0
+        "hits": 1
     },
     {
         "detector": "D0Vp",
@@ -2017,27 +2017,27 @@
     {
         "detector": "D0Xp",
         "element": 1,
-        "hits": 1500
+        "hits": 1660
     },
     {
         "detector": "D0Xp",
         "element": 2,
-        "hits": 520
+        "hits": 879
     },
     {
         "detector": "D0Xp",
         "element": 3,
-        "hits": 1732
+        "hits": 1930
     },
     {
         "detector": "D0Xp",
         "element": 4,
-        "hits": 1750
+        "hits": 1807
     },
     {
         "detector": "D0Xp",
         "element": 5,
-        "hits": 1842
+        "hits": 1972
     },
     {
         "detector": "D0Xp",
@@ -2057,242 +2057,242 @@
     {
         "detector": "D0Xp",
         "element": 9,
-        "hits": 1326
+        "hits": 1387
     },
     {
         "detector": "D0Xp",
         "element": 10,
-        "hits": 1472
+        "hits": 1498
     },
     {
         "detector": "D0Xp",
         "element": 11,
-        "hits": 1503
+        "hits": 1612
     },
     {
         "detector": "D0Xp",
         "element": 12,
-        "hits": 1652
+        "hits": 1773
     },
     {
         "detector": "D0Xp",
         "element": 13,
-        "hits": 1678
+        "hits": 1821
     },
     {
         "detector": "D0Xp",
         "element": 14,
-        "hits": 1745
+        "hits": 1800
     },
     {
         "detector": "D0Xp",
         "element": 15,
-        "hits": 1719
+        "hits": 1746
     },
     {
         "detector": "D0Xp",
         "element": 16,
-        "hits": 1927
+        "hits": 2045
     },
     {
         "detector": "D0Xp",
         "element": 17,
-        "hits": 1098
+        "hits": 1134
     },
     {
         "detector": "D0Xp",
         "element": 18,
-        "hits": 1280
+        "hits": 1371
     },
     {
         "detector": "D0Xp",
         "element": 19,
-        "hits": 1369
+        "hits": 1441
     },
     {
         "detector": "D0Xp",
         "element": 20,
-        "hits": 1443
+        "hits": 1441
     },
     {
         "detector": "D0Xp",
         "element": 21,
-        "hits": 1457
+        "hits": 1538
     },
     {
         "detector": "D0Xp",
         "element": 22,
-        "hits": 1473
+        "hits": 1564
     },
     {
         "detector": "D0Xp",
         "element": 23,
-        "hits": 574
+        "hits": 803
     },
     {
         "detector": "D0Xp",
         "element": 24,
-        "hits": 1644
+        "hits": 1829
     },
     {
         "detector": "D0Xp",
         "element": 25,
-        "hits": 694
+        "hits": 769
     },
     {
         "detector": "D0Xp",
         "element": 26,
-        "hits": 874
+        "hits": 970
     },
     {
         "detector": "D0Xp",
         "element": 27,
-        "hits": 946
+        "hits": 1063
     },
     {
         "detector": "D0Xp",
         "element": 28,
-        "hits": 1039
+        "hits": 1058
     },
     {
         "detector": "D0Xp",
         "element": 29,
-        "hits": 1349
+        "hits": 1332
     },
     {
         "detector": "D0Xp",
         "element": 30,
-        "hits": 1299
+        "hits": 1352
     },
     {
         "detector": "D0Xp",
         "element": 31,
-        "hits": 1445
+        "hits": 1508
     },
     {
         "detector": "D0Xp",
         "element": 32,
-        "hits": 1599
+        "hits": 1645
     },
     {
         "detector": "D0Xp",
         "element": 33,
-        "hits": 589
+        "hits": 604
     },
     {
         "detector": "D0Xp",
         "element": 34,
-        "hits": 663
+        "hits": 776
     },
     {
         "detector": "D0Xp",
         "element": 35,
-        "hits": 720
+        "hits": 823
     },
     {
         "detector": "D0Xp",
         "element": 36,
-        "hits": 786
+        "hits": 857
     },
     {
         "detector": "D0Xp",
         "element": 37,
-        "hits": 882
+        "hits": 955
     },
     {
         "detector": "D0Xp",
         "element": 38,
-        "hits": 1016
+        "hits": 1079
     },
     {
         "detector": "D0Xp",
         "element": 39,
-        "hits": 1067
+        "hits": 1185
     },
     {
         "detector": "D0Xp",
         "element": 40,
-        "hits": 1348
+        "hits": 1341
     },
     {
         "detector": "D0Xp",
         "element": 41,
-        "hits": 439
+        "hits": 492
     },
     {
         "detector": "D0Xp",
         "element": 42,
-        "hits": 482
+        "hits": 526
     },
     {
         "detector": "D0Xp",
         "element": 43,
-        "hits": 592
+        "hits": 593
     },
     {
         "detector": "D0Xp",
         "element": 44,
-        "hits": 607
+        "hits": 626
     },
     {
         "detector": "D0Xp",
         "element": 45,
-        "hits": 679
+        "hits": 736
     },
     {
         "detector": "D0Xp",
         "element": 46,
-        "hits": 772
+        "hits": 769
     },
     {
         "detector": "D0Xp",
         "element": 47,
-        "hits": 837
+        "hits": 936
     },
     {
         "detector": "D0Xp",
         "element": 48,
-        "hits": 959
+        "hits": 1075
     },
     {
         "detector": "D0Xp",
         "element": 49,
-        "hits": 355
+        "hits": 374
     },
     {
         "detector": "D0Xp",
         "element": 50,
-        "hits": 387
+        "hits": 416
     },
     {
         "detector": "D0Xp",
         "element": 51,
-        "hits": 482
+        "hits": 582
     },
     {
         "detector": "D0Xp",
         "element": 52,
-        "hits": 530
+        "hits": 557
     },
     {
         "detector": "D0Xp",
         "element": 53,
-        "hits": 560
+        "hits": 597
     },
     {
         "detector": "D0Xp",
         "element": 54,
-        "hits": 587
+        "hits": 554
     },
     {
         "detector": "D0Xp",
         "element": 55,
-        "hits": 701
+        "hits": 759
     },
     {
         "detector": "D0Xp",
         "element": 56,
-        "hits": 722
+        "hits": 755
     },
     {
         "detector": "D0Xp",
@@ -2312,52 +2312,52 @@
     {
         "detector": "D0Xp",
         "element": 60,
-        "hits": 344
+        "hits": 370
     },
     {
         "detector": "D0Xp",
         "element": 61,
-        "hits": 448
+        "hits": 433
     },
     {
         "detector": "D0Xp",
         "element": 62,
-        "hits": 441
+        "hits": 467
     },
     {
         "detector": "D0Xp",
         "element": 63,
-        "hits": 490
+        "hits": 516
     },
     {
         "detector": "D0Xp",
         "element": 64,
-        "hits": 513
+        "hits": 457
     },
     {
         "detector": "D0Xp",
         "element": 65,
-        "hits": 363
+        "hits": 369
     },
     {
         "detector": "D0Xp",
         "element": 66,
-        "hits": 339
+        "hits": 356
     },
     {
         "detector": "D0Xp",
         "element": 67,
-        "hits": 354
+        "hits": 394
     },
     {
         "detector": "D0Xp",
         "element": 68,
-        "hits": 349
+        "hits": 400
     },
     {
         "detector": "D0Xp",
         "element": 69,
-        "hits": 305
+        "hits": 335
     },
     {
         "detector": "D0Xp",
@@ -2377,242 +2377,242 @@
     {
         "detector": "D0Xp",
         "element": 73,
-        "hits": 404
+        "hits": 377
     },
     {
         "detector": "D0Xp",
         "element": 74,
-        "hits": 358
+        "hits": 366
     },
     {
         "detector": "D0Xp",
         "element": 75,
-        "hits": 368
+        "hits": 389
     },
     {
         "detector": "D0Xp",
         "element": 76,
-        "hits": 292
+        "hits": 323
     },
     {
         "detector": "D0Xp",
         "element": 77,
-        "hits": 379
+        "hits": 377
     },
     {
         "detector": "D0Xp",
         "element": 78,
-        "hits": 367
+        "hits": 375
     },
     {
         "detector": "D0Xp",
         "element": 79,
-        "hits": 219
+        "hits": 225
     },
     {
         "detector": "D0Xp",
         "element": 80,
-        "hits": 308
-    },
-    {
-        "detector": "D0Xp",
-        "element": 81,
-        "hits": 602
-    },
-    {
-        "detector": "D0Xp",
-        "element": 82,
-        "hits": 522
-    },
-    {
-        "detector": "D0Xp",
-        "element": 83,
-        "hits": 471
-    },
-    {
-        "detector": "D0Xp",
-        "element": 84,
-        "hits": 410
-    },
-    {
-        "detector": "D0Xp",
-        "element": 85,
-        "hits": 339
-    },
-    {
-        "detector": "D0Xp",
-        "element": 86,
         "hits": 381
     },
     {
         "detector": "D0Xp",
+        "element": 81,
+        "hits": 648
+    },
+    {
+        "detector": "D0Xp",
+        "element": 82,
+        "hits": 566
+    },
+    {
+        "detector": "D0Xp",
+        "element": 83,
+        "hits": 484
+    },
+    {
+        "detector": "D0Xp",
+        "element": 84,
+        "hits": 450
+    },
+    {
+        "detector": "D0Xp",
+        "element": 85,
+        "hits": 381
+    },
+    {
+        "detector": "D0Xp",
+        "element": 86,
+        "hits": 383
+    },
+    {
+        "detector": "D0Xp",
         "element": 87,
-        "hits": 331
+        "hits": 348
     },
     {
         "detector": "D0Xp",
         "element": 88,
-        "hits": 343
+        "hits": 357
     },
     {
         "detector": "D0Xp",
         "element": 89,
-        "hits": 973
+        "hits": 1026
     },
     {
         "detector": "D0Xp",
         "element": 90,
-        "hits": 777
+        "hits": 861
     },
     {
         "detector": "D0Xp",
         "element": 91,
-        "hits": 661
+        "hits": 701
     },
     {
         "detector": "D0Xp",
         "element": 92,
-        "hits": 526
+        "hits": 546
     },
     {
         "detector": "D0Xp",
         "element": 93,
-        "hits": 528
+        "hits": 557
     },
     {
         "detector": "D0Xp",
         "element": 94,
-        "hits": 424
+        "hits": 413
     },
     {
         "detector": "D0Xp",
         "element": 95,
-        "hits": 386
+        "hits": 371
     },
     {
         "detector": "D0Xp",
         "element": 96,
-        "hits": 335
+        "hits": 393
     },
     {
         "detector": "D0Xp",
         "element": 97,
-        "hits": 1160
+        "hits": 1231
     },
     {
         "detector": "D0Xp",
         "element": 98,
-        "hits": 1061
+        "hits": 1146
     },
     {
         "detector": "D0Xp",
         "element": 99,
-        "hits": 966
+        "hits": 1032
     },
     {
         "detector": "D0Xp",
         "element": 100,
-        "hits": 855
+        "hits": 924
     },
     {
         "detector": "D0Xp",
         "element": 101,
-        "hits": 681
+        "hits": 767
     },
     {
         "detector": "D0Xp",
         "element": 102,
-        "hits": 612
+        "hits": 630
     },
     {
         "detector": "D0Xp",
         "element": 103,
-        "hits": 571
+        "hits": 582
     },
     {
         "detector": "D0Xp",
         "element": 104,
-        "hits": 544
+        "hits": 508
     },
     {
         "detector": "D0Xp",
         "element": 105,
-        "hits": 1474
+        "hits": 1580
     },
     {
         "detector": "D0Xp",
         "element": 106,
-        "hits": 1319
+        "hits": 1443
     },
     {
         "detector": "D0Xp",
         "element": 107,
-        "hits": 1221
+        "hits": 1395
     },
     {
         "detector": "D0Xp",
         "element": 108,
-        "hits": 1149
+        "hits": 1253
     },
     {
         "detector": "D0Xp",
         "element": 109,
-        "hits": 1044
+        "hits": 1103
     },
     {
         "detector": "D0Xp",
         "element": 110,
-        "hits": 914
+        "hits": 974
     },
     {
         "detector": "D0Xp",
         "element": 111,
-        "hits": 828
+        "hits": 884
     },
     {
         "detector": "D0Xp",
         "element": 112,
-        "hits": 713
+        "hits": 736
     },
     {
         "detector": "D0Xp",
         "element": 113,
-        "hits": 1794
+        "hits": 1843
     },
     {
         "detector": "D0Xp",
         "element": 114,
-        "hits": 1574
+        "hits": 1677
     },
     {
         "detector": "D0Xp",
         "element": 115,
-        "hits": 1621
+        "hits": 1676
     },
     {
         "detector": "D0Xp",
         "element": 116,
-        "hits": 1414
+        "hits": 1472
     },
     {
         "detector": "D0Xp",
         "element": 117,
-        "hits": 1309
+        "hits": 1443
     },
     {
         "detector": "D0Xp",
         "element": 118,
-        "hits": 1104
+        "hits": 1208
     },
     {
         "detector": "D0Xp",
         "element": 119,
-        "hits": 1148
+        "hits": 1208
     },
     {
         "detector": "D0Xp",
         "element": 120,
-        "hits": 1058
+        "hits": 1073
     },
     {
         "detector": "D0Xp",
@@ -2632,52 +2632,52 @@
     {
         "detector": "D0Xp",
         "element": 124,
-        "hits": 1771
+        "hits": 1815
     },
     {
         "detector": "D0Xp",
         "element": 125,
-        "hits": 1662
+        "hits": 1801
     },
     {
         "detector": "D0Xp",
         "element": 126,
-        "hits": 1417
+        "hits": 1512
     },
     {
         "detector": "D0Xp",
         "element": 127,
-        "hits": 1453
+        "hits": 1491
     },
     {
         "detector": "D0Xp",
         "element": 128,
-        "hits": 1292
+        "hits": 1473
     },
     {
         "detector": "D0Xp",
         "element": 129,
-        "hits": 2455
+        "hits": 2569
     },
     {
         "detector": "D0Xp",
         "element": 130,
-        "hits": 2328
+        "hits": 2390
     },
     {
         "detector": "D0Xp",
         "element": 131,
-        "hits": 2260
+        "hits": 2419
     },
     {
         "detector": "D0Xp",
         "element": 132,
-        "hits": 2041
+        "hits": 2139
     },
     {
         "detector": "D0Xp",
         "element": 133,
-        "hits": 1923
+        "hits": 2030
     },
     {
         "detector": "D0Xp",
@@ -2697,117 +2697,117 @@
     {
         "detector": "D0Xp",
         "element": 137,
-        "hits": 2542
+        "hits": 2748
     },
     {
         "detector": "D0Xp",
         "element": 138,
-        "hits": 2774
+        "hits": 2862
     },
     {
         "detector": "D0Xp",
         "element": 139,
-        "hits": 2865
+        "hits": 2736
     },
     {
         "detector": "D0Xp",
         "element": 140,
-        "hits": 2338
+        "hits": 2553
     },
     {
         "detector": "D0Xp",
         "element": 141,
-        "hits": 2308
+        "hits": 2421
     },
     {
         "detector": "D0Xp",
         "element": 142,
-        "hits": 2023
+        "hits": 2057
     },
     {
         "detector": "D0Xp",
         "element": 143,
-        "hits": 2081
+        "hits": 2209
     },
     {
         "detector": "D0Xp",
         "element": 144,
-        "hits": 2005
+        "hits": 2153
     },
     {
         "detector": "D0Xp",
         "element": 145,
-        "hits": 2525
+        "hits": 2593
     },
     {
         "detector": "D0Xp",
         "element": 146,
-        "hits": 2427
+        "hits": 2514
     },
     {
         "detector": "D0Xp",
         "element": 147,
-        "hits": 2412
+        "hits": 2445
     },
     {
         "detector": "D0Xp",
         "element": 148,
-        "hits": 2686
+        "hits": 2778
     },
     {
         "detector": "D0Xp",
         "element": 149,
-        "hits": 2735
+        "hits": 2895
     },
     {
         "detector": "D0Xp",
         "element": 150,
-        "hits": 2458
+        "hits": 2544
     },
     {
         "detector": "D0Xp",
         "element": 151,
-        "hits": 2373
+        "hits": 2493
     },
     {
         "detector": "D0Xp",
         "element": 152,
-        "hits": 2310
+        "hits": 2393
     },
     {
         "detector": "D0Xp",
         "element": 153,
-        "hits": 2273
+        "hits": 2337
     },
     {
         "detector": "D0Xp",
         "element": 154,
-        "hits": 2425
+        "hits": 2500
     },
     {
         "detector": "D0Xp",
         "element": 155,
-        "hits": 2898
+        "hits": 3129
     },
     {
         "detector": "D0Xp",
         "element": 156,
-        "hits": 2499
+        "hits": 2650
     },
     {
         "detector": "D0Xp",
         "element": 157,
-        "hits": 2338
+        "hits": 2469
     },
     {
         "detector": "D0Xp",
         "element": 158,
-        "hits": 2993
+        "hits": 3231
     },
     {
         "detector": "D0Xp",
         "element": 159,
-        "hits": 2649
+        "hits": 2667
     },
     {
         "detector": "D0X",
@@ -2817,752 +2817,752 @@
     {
         "detector": "D0X",
         "element": 1,
-        "hits": 1907
-    },
-    {
-        "detector": "D0X",
-        "element": 2,
-        "hits": 1507
-    },
-    {
-        "detector": "D0X",
-        "element": 3,
-        "hits": 1528
-    },
-    {
-        "detector": "D0X",
-        "element": 4,
-        "hits": 1632
-    },
-    {
-        "detector": "D0X",
-        "element": 5,
-        "hits": 1586
-    },
-    {
-        "detector": "D0X",
-        "element": 6,
-        "hits": 1521
-    },
-    {
-        "detector": "D0X",
-        "element": 7,
-        "hits": 1637
-    },
-    {
-        "detector": "D0X",
-        "element": 8,
-        "hits": 1459
-    },
-    {
-        "detector": "D0X",
-        "element": 9,
-        "hits": 1422
-    },
-    {
-        "detector": "D0X",
-        "element": 10,
-        "hits": 1442
-    },
-    {
-        "detector": "D0X",
-        "element": 11,
-        "hits": 1443
-    },
-    {
-        "detector": "D0X",
-        "element": 12,
-        "hits": 1408
-    },
-    {
-        "detector": "D0X",
-        "element": 13,
-        "hits": 1408
-    },
-    {
-        "detector": "D0X",
-        "element": 14,
-        "hits": 1418
-    },
-    {
-        "detector": "D0X",
-        "element": 15,
-        "hits": 1368
-    },
-    {
-        "detector": "D0X",
-        "element": 16,
-        "hits": 1369
-    },
-    {
-        "detector": "D0X",
-        "element": 17,
-        "hits": 1260
-    },
-    {
-        "detector": "D0X",
-        "element": 18,
-        "hits": 1251
-    },
-    {
-        "detector": "D0X",
-        "element": 19,
-        "hits": 1277
-    },
-    {
-        "detector": "D0X",
-        "element": 20,
-        "hits": 1252
-    },
-    {
-        "detector": "D0X",
-        "element": 21,
-        "hits": 1171
-    },
-    {
-        "detector": "D0X",
-        "element": 22,
-        "hits": 1184
-    },
-    {
-        "detector": "D0X",
-        "element": 23,
-        "hits": 1269
-    },
-    {
-        "detector": "D0X",
-        "element": 24,
-        "hits": 1043
-    },
-    {
-        "detector": "D0X",
-        "element": 25,
-        "hits": 1093
-    },
-    {
-        "detector": "D0X",
-        "element": 26,
-        "hits": 1050
-    },
-    {
-        "detector": "D0X",
-        "element": 27,
-        "hits": 1055
-    },
-    {
-        "detector": "D0X",
-        "element": 28,
-        "hits": 1165
-    },
-    {
-        "detector": "D0X",
-        "element": 29,
-        "hits": 1067
-    },
-    {
-        "detector": "D0X",
-        "element": 30,
-        "hits": 1051
-    },
-    {
-        "detector": "D0X",
-        "element": 31,
-        "hits": 1002
-    },
-    {
-        "detector": "D0X",
-        "element": 32,
-        "hits": 1052
-    },
-    {
-        "detector": "D0X",
-        "element": 33,
-        "hits": 924
-    },
-    {
-        "detector": "D0X",
-        "element": 34,
-        "hits": 924
-    },
-    {
-        "detector": "D0X",
-        "element": 35,
-        "hits": 858
-    },
-    {
-        "detector": "D0X",
-        "element": 36,
-        "hits": 865
-    },
-    {
-        "detector": "D0X",
-        "element": 37,
-        "hits": 871
-    },
-    {
-        "detector": "D0X",
-        "element": 38,
-        "hits": 882
-    },
-    {
-        "detector": "D0X",
-        "element": 39,
-        "hits": 874
-    },
-    {
-        "detector": "D0X",
-        "element": 40,
-        "hits": 877
-    },
-    {
-        "detector": "D0X",
-        "element": 41,
-        "hits": 761
-    },
-    {
-        "detector": "D0X",
-        "element": 42,
-        "hits": 748
-    },
-    {
-        "detector": "D0X",
-        "element": 43,
-        "hits": 719
-    },
-    {
-        "detector": "D0X",
-        "element": 44,
-        "hits": 764
-    },
-    {
-        "detector": "D0X",
-        "element": 45,
-        "hits": 674
-    },
-    {
-        "detector": "D0X",
-        "element": 46,
-        "hits": 740
-    },
-    {
-        "detector": "D0X",
-        "element": 47,
-        "hits": 651
-    },
-    {
-        "detector": "D0X",
-        "element": 48,
-        "hits": 667
-    },
-    {
-        "detector": "D0X",
-        "element": 49,
-        "hits": 584
-    },
-    {
-        "detector": "D0X",
-        "element": 50,
-        "hits": 623
-    },
-    {
-        "detector": "D0X",
-        "element": 51,
-        "hits": 560
-    },
-    {
-        "detector": "D0X",
-        "element": 52,
-        "hits": 518
-    },
-    {
-        "detector": "D0X",
-        "element": 53,
-        "hits": 528
-    },
-    {
-        "detector": "D0X",
-        "element": 54,
-        "hits": 476
-    },
-    {
-        "detector": "D0X",
-        "element": 55,
-        "hits": 511
-    },
-    {
-        "detector": "D0X",
-        "element": 56,
-        "hits": 448
-    },
-    {
-        "detector": "D0X",
-        "element": 57,
-        "hits": 454
-    },
-    {
-        "detector": "D0X",
-        "element": 58,
-        "hits": 450
-    },
-    {
-        "detector": "D0X",
-        "element": 59,
-        "hits": 455
-    },
-    {
-        "detector": "D0X",
-        "element": 60,
-        "hits": 187
-    },
-    {
-        "detector": "D0X",
-        "element": 61,
-        "hits": 149
-    },
-    {
-        "detector": "D0X",
-        "element": 62,
-        "hits": 401
-    },
-    {
-        "detector": "D0X",
-        "element": 63,
-        "hits": 405
-    },
-    {
-        "detector": "D0X",
-        "element": 64,
-        "hits": 383
-    },
-    {
-        "detector": "D0X",
-        "element": 65,
-        "hits": 369
-    },
-    {
-        "detector": "D0X",
-        "element": 66,
-        "hits": 366
-    },
-    {
-        "detector": "D0X",
-        "element": 67,
-        "hits": 282
-    },
-    {
-        "detector": "D0X",
-        "element": 68,
-        "hits": 329
-    },
-    {
-        "detector": "D0X",
-        "element": 69,
-        "hits": 269
-    },
-    {
-        "detector": "D0X",
-        "element": 70,
-        "hits": 323
-    },
-    {
-        "detector": "D0X",
-        "element": 71,
-        "hits": 324
-    },
-    {
-        "detector": "D0X",
-        "element": 72,
-        "hits": 302
-    },
-    {
-        "detector": "D0X",
-        "element": 73,
-        "hits": 101
-    },
-    {
-        "detector": "D0X",
-        "element": 74,
-        "hits": 7678
-    },
-    {
-        "detector": "D0X",
-        "element": 75,
-        "hits": 274
-    },
-    {
-        "detector": "D0X",
-        "element": 76,
-        "hits": 325
-    },
-    {
-        "detector": "D0X",
-        "element": 77,
-        "hits": 332
-    },
-    {
-        "detector": "D0X",
-        "element": 78,
-        "hits": 283
-    },
-    {
-        "detector": "D0X",
-        "element": 79,
-        "hits": 331
-    },
-    {
-        "detector": "D0X",
-        "element": 80,
-        "hits": 296
-    },
-    {
-        "detector": "D0X",
-        "element": 81,
-        "hits": 302
-    },
-    {
-        "detector": "D0X",
-        "element": 82,
-        "hits": 347
-    },
-    {
-        "detector": "D0X",
-        "element": 83,
-        "hits": 351
-    },
-    {
-        "detector": "D0X",
-        "element": 84,
-        "hits": 344
-    },
-    {
-        "detector": "D0X",
-        "element": 85,
-        "hits": 117
-    },
-    {
-        "detector": "D0X",
-        "element": 86,
-        "hits": 358
-    },
-    {
-        "detector": "D0X",
-        "element": 87,
-        "hits": 358
-    },
-    {
-        "detector": "D0X",
-        "element": 88,
-        "hits": 438
-    },
-    {
-        "detector": "D0X",
-        "element": 89,
-        "hits": 391
-    },
-    {
-        "detector": "D0X",
-        "element": 90,
-        "hits": 373
-    },
-    {
-        "detector": "D0X",
-        "element": 91,
-        "hits": 407
-    },
-    {
-        "detector": "D0X",
-        "element": 92,
-        "hits": 468
-    },
-    {
-        "detector": "D0X",
-        "element": 93,
-        "hits": 444
-    },
-    {
-        "detector": "D0X",
-        "element": 94,
-        "hits": 447
-    },
-    {
-        "detector": "D0X",
-        "element": 95,
-        "hits": 475
-    },
-    {
-        "detector": "D0X",
-        "element": 96,
-        "hits": 530
-    },
-    {
-        "detector": "D0X",
-        "element": 97,
-        "hits": 547
-    },
-    {
-        "detector": "D0X",
-        "element": 98,
-        "hits": 535
-    },
-    {
-        "detector": "D0X",
-        "element": 99,
-        "hits": 653
-    },
-    {
-        "detector": "D0X",
-        "element": 100,
-        "hits": 672
-    },
-    {
-        "detector": "D0X",
-        "element": 101,
-        "hits": 701
-    },
-    {
-        "detector": "D0X",
-        "element": 102,
-        "hits": 759
-    },
-    {
-        "detector": "D0X",
-        "element": 103,
-        "hits": 849
-    },
-    {
-        "detector": "D0X",
-        "element": 104,
-        "hits": 807
-    },
-    {
-        "detector": "D0X",
-        "element": 105,
-        "hits": 713
-    },
-    {
-        "detector": "D0X",
-        "element": 106,
-        "hits": 819
-    },
-    {
-        "detector": "D0X",
-        "element": 107,
-        "hits": 942
-    },
-    {
-        "detector": "D0X",
-        "element": 108,
-        "hits": 978
-    },
-    {
-        "detector": "D0X",
-        "element": 109,
-        "hits": 936
-    },
-    {
-        "detector": "D0X",
-        "element": 110,
-        "hits": 1036
-    },
-    {
-        "detector": "D0X",
-        "element": 111,
-        "hits": 1022
-    },
-    {
-        "detector": "D0X",
-        "element": 112,
-        "hits": 998
-    },
-    {
-        "detector": "D0X",
-        "element": 113,
-        "hits": 1046
-    },
-    {
-        "detector": "D0X",
-        "element": 114,
-        "hits": 1156
-    },
-    {
-        "detector": "D0X",
-        "element": 115,
-        "hits": 1091
-    },
-    {
-        "detector": "D0X",
-        "element": 116,
-        "hits": 1243
-    },
-    {
-        "detector": "D0X",
-        "element": 117,
-        "hits": 1156
-    },
-    {
-        "detector": "D0X",
-        "element": 118,
-        "hits": 1221
-    },
-    {
-        "detector": "D0X",
-        "element": 119,
-        "hits": 1224
-    },
-    {
-        "detector": "D0X",
-        "element": 120,
-        "hits": 1337
-    },
-    {
-        "detector": "D0X",
-        "element": 121,
-        "hits": 1340
-    },
-    {
-        "detector": "D0X",
-        "element": 122,
-        "hits": 1530
-    },
-    {
-        "detector": "D0X",
-        "element": 123,
-        "hits": 1542
-    },
-    {
-        "detector": "D0X",
-        "element": 124,
-        "hits": 1492
-    },
-    {
-        "detector": "D0X",
-        "element": 125,
-        "hits": 1529
-    },
-    {
-        "detector": "D0X",
-        "element": 126,
-        "hits": 1757
-    },
-    {
-        "detector": "D0X",
-        "element": 127,
-        "hits": 1603
-    },
-    {
-        "detector": "D0X",
-        "element": 128,
-        "hits": 1659
-    },
-    {
-        "detector": "D0X",
-        "element": 129,
-        "hits": 1643
-    },
-    {
-        "detector": "D0X",
-        "element": 130,
-        "hits": 1649
-    },
-    {
-        "detector": "D0X",
-        "element": 131,
-        "hits": 1784
-    },
-    {
-        "detector": "D0X",
-        "element": 132,
-        "hits": 1825
-    },
-    {
-        "detector": "D0X",
-        "element": 133,
-        "hits": 1763
-    },
-    {
-        "detector": "D0X",
-        "element": 134,
-        "hits": 1895
-    },
-    {
-        "detector": "D0X",
-        "element": 135,
-        "hits": 1907
-    },
-    {
-        "detector": "D0X",
-        "element": 136,
-        "hits": 2019
-    },
-    {
-        "detector": "D0X",
-        "element": 137,
-        "hits": 1860
-    },
-    {
-        "detector": "D0X",
-        "element": 138,
-        "hits": 1972
-    },
-    {
-        "detector": "D0X",
-        "element": 139,
-        "hits": 2071
-    },
-    {
-        "detector": "D0X",
-        "element": 140,
-        "hits": 2005
-    },
-    {
-        "detector": "D0X",
-        "element": 141,
-        "hits": 2125
-    },
-    {
-        "detector": "D0X",
-        "element": 142,
         "hits": 2075
     },
     {
         "detector": "D0X",
+        "element": 2,
+        "hits": 1650
+    },
+    {
+        "detector": "D0X",
+        "element": 3,
+        "hits": 1606
+    },
+    {
+        "detector": "D0X",
+        "element": 4,
+        "hits": 1668
+    },
+    {
+        "detector": "D0X",
+        "element": 5,
+        "hits": 1682
+    },
+    {
+        "detector": "D0X",
+        "element": 6,
+        "hits": 1684
+    },
+    {
+        "detector": "D0X",
+        "element": 7,
+        "hits": 1774
+    },
+    {
+        "detector": "D0X",
+        "element": 8,
+        "hits": 1552
+    },
+    {
+        "detector": "D0X",
+        "element": 9,
+        "hits": 1540
+    },
+    {
+        "detector": "D0X",
+        "element": 10,
+        "hits": 1560
+    },
+    {
+        "detector": "D0X",
+        "element": 11,
+        "hits": 1530
+    },
+    {
+        "detector": "D0X",
+        "element": 12,
+        "hits": 1508
+    },
+    {
+        "detector": "D0X",
+        "element": 13,
+        "hits": 1540
+    },
+    {
+        "detector": "D0X",
+        "element": 14,
+        "hits": 1438
+    },
+    {
+        "detector": "D0X",
+        "element": 15,
+        "hits": 1518
+    },
+    {
+        "detector": "D0X",
+        "element": 16,
+        "hits": 1429
+    },
+    {
+        "detector": "D0X",
+        "element": 17,
+        "hits": 1298
+    },
+    {
+        "detector": "D0X",
+        "element": 18,
+        "hits": 1318
+    },
+    {
+        "detector": "D0X",
+        "element": 19,
+        "hits": 1315
+    },
+    {
+        "detector": "D0X",
+        "element": 20,
+        "hits": 1340
+    },
+    {
+        "detector": "D0X",
+        "element": 21,
+        "hits": 1236
+    },
+    {
+        "detector": "D0X",
+        "element": 22,
+        "hits": 1285
+    },
+    {
+        "detector": "D0X",
+        "element": 23,
+        "hits": 1274
+    },
+    {
+        "detector": "D0X",
+        "element": 24,
+        "hits": 1103
+    },
+    {
+        "detector": "D0X",
+        "element": 25,
+        "hits": 1198
+    },
+    {
+        "detector": "D0X",
+        "element": 26,
+        "hits": 1154
+    },
+    {
+        "detector": "D0X",
+        "element": 27,
+        "hits": 1149
+    },
+    {
+        "detector": "D0X",
+        "element": 28,
+        "hits": 1190
+    },
+    {
+        "detector": "D0X",
+        "element": 29,
+        "hits": 1158
+    },
+    {
+        "detector": "D0X",
+        "element": 30,
+        "hits": 1069
+    },
+    {
+        "detector": "D0X",
+        "element": 31,
+        "hits": 1079
+    },
+    {
+        "detector": "D0X",
+        "element": 32,
+        "hits": 1083
+    },
+    {
+        "detector": "D0X",
+        "element": 33,
+        "hits": 1026
+    },
+    {
+        "detector": "D0X",
+        "element": 34,
+        "hits": 955
+    },
+    {
+        "detector": "D0X",
+        "element": 35,
+        "hits": 932
+    },
+    {
+        "detector": "D0X",
+        "element": 36,
+        "hits": 957
+    },
+    {
+        "detector": "D0X",
+        "element": 37,
+        "hits": 905
+    },
+    {
+        "detector": "D0X",
+        "element": 38,
+        "hits": 926
+    },
+    {
+        "detector": "D0X",
+        "element": 39,
+        "hits": 941
+    },
+    {
+        "detector": "D0X",
+        "element": 40,
+        "hits": 941
+    },
+    {
+        "detector": "D0X",
+        "element": 41,
+        "hits": 838
+    },
+    {
+        "detector": "D0X",
+        "element": 42,
+        "hits": 798
+    },
+    {
+        "detector": "D0X",
+        "element": 43,
+        "hits": 788
+    },
+    {
+        "detector": "D0X",
+        "element": 44,
+        "hits": 770
+    },
+    {
+        "detector": "D0X",
+        "element": 45,
+        "hits": 737
+    },
+    {
+        "detector": "D0X",
+        "element": 46,
+        "hits": 792
+    },
+    {
+        "detector": "D0X",
+        "element": 47,
+        "hits": 678
+    },
+    {
+        "detector": "D0X",
+        "element": 48,
+        "hits": 680
+    },
+    {
+        "detector": "D0X",
+        "element": 49,
+        "hits": 628
+    },
+    {
+        "detector": "D0X",
+        "element": 50,
+        "hits": 613
+    },
+    {
+        "detector": "D0X",
+        "element": 51,
+        "hits": 552
+    },
+    {
+        "detector": "D0X",
+        "element": 52,
+        "hits": 609
+    },
+    {
+        "detector": "D0X",
+        "element": 53,
+        "hits": 631
+    },
+    {
+        "detector": "D0X",
+        "element": 54,
+        "hits": 562
+    },
+    {
+        "detector": "D0X",
+        "element": 55,
+        "hits": 590
+    },
+    {
+        "detector": "D0X",
+        "element": 56,
+        "hits": 504
+    },
+    {
+        "detector": "D0X",
+        "element": 57,
+        "hits": 468
+    },
+    {
+        "detector": "D0X",
+        "element": 58,
+        "hits": 500
+    },
+    {
+        "detector": "D0X",
+        "element": 59,
+        "hits": 466
+    },
+    {
+        "detector": "D0X",
+        "element": 60,
+        "hits": 185
+    },
+    {
+        "detector": "D0X",
+        "element": 61,
+        "hits": 160
+    },
+    {
+        "detector": "D0X",
+        "element": 62,
+        "hits": 468
+    },
+    {
+        "detector": "D0X",
+        "element": 63,
+        "hits": 416
+    },
+    {
+        "detector": "D0X",
+        "element": 64,
+        "hits": 408
+    },
+    {
+        "detector": "D0X",
+        "element": 65,
+        "hits": 352
+    },
+    {
+        "detector": "D0X",
+        "element": 66,
+        "hits": 415
+    },
+    {
+        "detector": "D0X",
+        "element": 67,
+        "hits": 385
+    },
+    {
+        "detector": "D0X",
+        "element": 68,
+        "hits": 341
+    },
+    {
+        "detector": "D0X",
+        "element": 69,
+        "hits": 304
+    },
+    {
+        "detector": "D0X",
+        "element": 70,
+        "hits": 338
+    },
+    {
+        "detector": "D0X",
+        "element": 71,
+        "hits": 376
+    },
+    {
+        "detector": "D0X",
+        "element": 72,
+        "hits": 314
+    },
+    {
+        "detector": "D0X",
+        "element": 73,
+        "hits": 92
+    },
+    {
+        "detector": "D0X",
+        "element": 74,
+        "hits": 8329
+    },
+    {
+        "detector": "D0X",
+        "element": 75,
+        "hits": 265
+    },
+    {
+        "detector": "D0X",
+        "element": 76,
+        "hits": 338
+    },
+    {
+        "detector": "D0X",
+        "element": 77,
+        "hits": 309
+    },
+    {
+        "detector": "D0X",
+        "element": 78,
+        "hits": 315
+    },
+    {
+        "detector": "D0X",
+        "element": 79,
+        "hits": 326
+    },
+    {
+        "detector": "D0X",
+        "element": 80,
+        "hits": 317
+    },
+    {
+        "detector": "D0X",
+        "element": 81,
+        "hits": 324
+    },
+    {
+        "detector": "D0X",
+        "element": 82,
+        "hits": 377
+    },
+    {
+        "detector": "D0X",
+        "element": 83,
+        "hits": 355
+    },
+    {
+        "detector": "D0X",
+        "element": 84,
+        "hits": 308
+    },
+    {
+        "detector": "D0X",
+        "element": 85,
+        "hits": 136
+    },
+    {
+        "detector": "D0X",
+        "element": 86,
+        "hits": 406
+    },
+    {
+        "detector": "D0X",
+        "element": 87,
+        "hits": 394
+    },
+    {
+        "detector": "D0X",
+        "element": 88,
+        "hits": 428
+    },
+    {
+        "detector": "D0X",
+        "element": 89,
+        "hits": 426
+    },
+    {
+        "detector": "D0X",
+        "element": 90,
+        "hits": 383
+    },
+    {
+        "detector": "D0X",
+        "element": 91,
+        "hits": 406
+    },
+    {
+        "detector": "D0X",
+        "element": 92,
+        "hits": 481
+    },
+    {
+        "detector": "D0X",
+        "element": 93,
+        "hits": 514
+    },
+    {
+        "detector": "D0X",
+        "element": 94,
+        "hits": 499
+    },
+    {
+        "detector": "D0X",
+        "element": 95,
+        "hits": 500
+    },
+    {
+        "detector": "D0X",
+        "element": 96,
+        "hits": 550
+    },
+    {
+        "detector": "D0X",
+        "element": 97,
+        "hits": 631
+    },
+    {
+        "detector": "D0X",
+        "element": 98,
+        "hits": 620
+    },
+    {
+        "detector": "D0X",
+        "element": 99,
+        "hits": 600
+    },
+    {
+        "detector": "D0X",
+        "element": 100,
+        "hits": 704
+    },
+    {
+        "detector": "D0X",
+        "element": 101,
+        "hits": 799
+    },
+    {
+        "detector": "D0X",
+        "element": 102,
+        "hits": 814
+    },
+    {
+        "detector": "D0X",
+        "element": 103,
+        "hits": 855
+    },
+    {
+        "detector": "D0X",
+        "element": 104,
+        "hits": 829
+    },
+    {
+        "detector": "D0X",
+        "element": 105,
+        "hits": 811
+    },
+    {
+        "detector": "D0X",
+        "element": 106,
+        "hits": 879
+    },
+    {
+        "detector": "D0X",
+        "element": 107,
+        "hits": 936
+    },
+    {
+        "detector": "D0X",
+        "element": 108,
+        "hits": 1027
+    },
+    {
+        "detector": "D0X",
+        "element": 109,
+        "hits": 960
+    },
+    {
+        "detector": "D0X",
+        "element": 110,
+        "hits": 1077
+    },
+    {
+        "detector": "D0X",
+        "element": 111,
+        "hits": 1153
+    },
+    {
+        "detector": "D0X",
+        "element": 112,
+        "hits": 1089
+    },
+    {
+        "detector": "D0X",
+        "element": 113,
+        "hits": 1136
+    },
+    {
+        "detector": "D0X",
+        "element": 114,
+        "hits": 1326
+    },
+    {
+        "detector": "D0X",
+        "element": 115,
+        "hits": 1254
+    },
+    {
+        "detector": "D0X",
+        "element": 116,
+        "hits": 1371
+    },
+    {
+        "detector": "D0X",
+        "element": 117,
+        "hits": 1290
+    },
+    {
+        "detector": "D0X",
+        "element": 118,
+        "hits": 1328
+    },
+    {
+        "detector": "D0X",
+        "element": 119,
+        "hits": 1402
+    },
+    {
+        "detector": "D0X",
+        "element": 120,
+        "hits": 1474
+    },
+    {
+        "detector": "D0X",
+        "element": 121,
+        "hits": 1420
+    },
+    {
+        "detector": "D0X",
+        "element": 122,
+        "hits": 1513
+    },
+    {
+        "detector": "D0X",
+        "element": 123,
+        "hits": 1592
+    },
+    {
+        "detector": "D0X",
+        "element": 124,
+        "hits": 1617
+    },
+    {
+        "detector": "D0X",
+        "element": 125,
+        "hits": 1691
+    },
+    {
+        "detector": "D0X",
+        "element": 126,
+        "hits": 1771
+    },
+    {
+        "detector": "D0X",
+        "element": 127,
+        "hits": 1708
+    },
+    {
+        "detector": "D0X",
+        "element": 128,
+        "hits": 1808
+    },
+    {
+        "detector": "D0X",
+        "element": 129,
+        "hits": 1769
+    },
+    {
+        "detector": "D0X",
+        "element": 130,
+        "hits": 1767
+    },
+    {
+        "detector": "D0X",
+        "element": 131,
+        "hits": 1885
+    },
+    {
+        "detector": "D0X",
+        "element": 132,
+        "hits": 1823
+    },
+    {
+        "detector": "D0X",
+        "element": 133,
+        "hits": 2005
+    },
+    {
+        "detector": "D0X",
+        "element": 134,
+        "hits": 2061
+    },
+    {
+        "detector": "D0X",
+        "element": 135,
+        "hits": 1964
+    },
+    {
+        "detector": "D0X",
+        "element": 136,
+        "hits": 2037
+    },
+    {
+        "detector": "D0X",
+        "element": 137,
+        "hits": 1946
+    },
+    {
+        "detector": "D0X",
+        "element": 138,
+        "hits": 2036
+    },
+    {
+        "detector": "D0X",
+        "element": 139,
+        "hits": 2198
+    },
+    {
+        "detector": "D0X",
+        "element": 140,
+        "hits": 2059
+    },
+    {
+        "detector": "D0X",
+        "element": 141,
+        "hits": 2200
+    },
+    {
+        "detector": "D0X",
+        "element": 142,
+        "hits": 2311
+    },
+    {
+        "detector": "D0X",
         "element": 143,
-        "hits": 2151
+        "hits": 2211
     },
     {
         "detector": "D0X",
         "element": 144,
-        "hits": 2332
+        "hits": 2424
     },
     {
         "detector": "D0X",
         "element": 145,
-        "hits": 2141
+        "hits": 2204
     },
     {
         "detector": "D0X",
         "element": 146,
-        "hits": 2122
+        "hits": 2224
     },
     {
         "detector": "D0X",
         "element": 147,
-        "hits": 2183
+        "hits": 2212
     },
     {
         "detector": "D0X",
         "element": 148,
-        "hits": 2114
+        "hits": 2341
     },
     {
         "detector": "D0X",
         "element": 149,
-        "hits": 2193
+        "hits": 2220
     },
     {
         "detector": "D0X",
         "element": 150,
-        "hits": 2322
+        "hits": 2377
     },
     {
         "detector": "D0X",
@@ -3577,7 +3577,7 @@
     {
         "detector": "D0X",
         "element": 153,
-        "hits": 2121
+        "hits": 2204
     },
     {
         "detector": "D0X",
@@ -3587,12 +3587,12 @@
     {
         "detector": "D0X",
         "element": 155,
-        "hits": 2239
+        "hits": 2318
     },
     {
         "detector": "D0X",
         "element": 156,
-        "hits": 2385
+        "hits": 2541
     },
     {
         "detector": "D0X",
@@ -3602,12 +3602,12 @@
     {
         "detector": "D0X",
         "element": 158,
-        "hits": 1060
+        "hits": 1111
     },
     {
         "detector": "D0X",
         "element": 159,
-        "hits": 2458
+        "hits": 2520
     },
     {
         "detector": "D0U",
@@ -3622,447 +3622,447 @@
     {
         "detector": "D0U",
         "element": 2,
-        "hits": 19
+        "hits": 22
     },
     {
         "detector": "D0U",
         "element": 3,
-        "hits": 28
+        "hits": 26
     },
     {
         "detector": "D0U",
         "element": 4,
-        "hits": 30
+        "hits": 25
     },
     {
         "detector": "D0U",
         "element": 5,
-        "hits": 35
+        "hits": 49
     },
     {
         "detector": "D0U",
         "element": 6,
-        "hits": 63
+        "hits": 54
     },
     {
         "detector": "D0U",
         "element": 7,
-        "hits": 82
+        "hits": 78
     },
     {
         "detector": "D0U",
         "element": 8,
-        "hits": 63
+        "hits": 88
     },
     {
         "detector": "D0U",
         "element": 9,
-        "hits": 102
+        "hits": 132
     },
     {
         "detector": "D0U",
         "element": 10,
-        "hits": 119
+        "hits": 157
     },
     {
         "detector": "D0U",
         "element": 11,
-        "hits": 142
+        "hits": 187
     },
     {
         "detector": "D0U",
         "element": 12,
-        "hits": 173
+        "hits": 203
     },
     {
         "detector": "D0U",
         "element": 13,
-        "hits": 235
+        "hits": 274
     },
     {
         "detector": "D0U",
         "element": 14,
-        "hits": 254
+        "hits": 336
     },
     {
         "detector": "D0U",
         "element": 15,
-        "hits": 365
+        "hits": 373
     },
     {
         "detector": "D0U",
         "element": 16,
-        "hits": 429
+        "hits": 446
     },
     {
         "detector": "D0U",
         "element": 17,
-        "hits": 511
+        "hits": 605
     },
     {
         "detector": "D0U",
         "element": 18,
-        "hits": 695
+        "hits": 775
     },
     {
         "detector": "D0U",
         "element": 19,
-        "hits": 876
+        "hits": 920
     },
     {
         "detector": "D0U",
         "element": 20,
-        "hits": 1029
+        "hits": 1092
     },
     {
         "detector": "D0U",
         "element": 21,
-        "hits": 1164
+        "hits": 1312
     },
     {
         "detector": "D0U",
         "element": 22,
-        "hits": 1314
+        "hits": 1493
     },
     {
         "detector": "D0U",
         "element": 23,
-        "hits": 1524
+        "hits": 1620
     },
     {
         "detector": "D0U",
         "element": 24,
-        "hits": 1603
+        "hits": 1726
     },
     {
         "detector": "D0U",
         "element": 25,
-        "hits": 1722
+        "hits": 1887
     },
     {
         "detector": "D0U",
         "element": 26,
-        "hits": 1820
+        "hits": 1884
     },
     {
         "detector": "D0U",
         "element": 27,
-        "hits": 1982
+        "hits": 2115
     },
     {
         "detector": "D0U",
         "element": 28,
-        "hits": 1968
+        "hits": 2093
     },
     {
         "detector": "D0U",
         "element": 29,
-        "hits": 1908
+        "hits": 2023
     },
     {
         "detector": "D0U",
         "element": 30,
-        "hits": 1988
+        "hits": 2072
     },
     {
         "detector": "D0U",
         "element": 31,
-        "hits": 1927
+        "hits": 2025
     },
     {
         "detector": "D0U",
         "element": 32,
-        "hits": 1927
+        "hits": 2075
     },
     {
         "detector": "D0U",
         "element": 33,
-        "hits": 2018
+        "hits": 2102
     },
     {
         "detector": "D0U",
         "element": 34,
-        "hits": 2007
+        "hits": 2036
     },
     {
         "detector": "D0U",
         "element": 35,
-        "hits": 2011
+        "hits": 2064
     },
     {
         "detector": "D0U",
         "element": 36,
-        "hits": 2007
+        "hits": 2021
     },
     {
         "detector": "D0U",
         "element": 37,
-        "hits": 1980
+        "hits": 2073
     },
     {
         "detector": "D0U",
         "element": 38,
-        "hits": 1881
+        "hits": 1915
     },
     {
         "detector": "D0U",
         "element": 39,
-        "hits": 1791
+        "hits": 1925
     },
     {
         "detector": "D0U",
         "element": 40,
-        "hits": 1833
+        "hits": 1850
     },
     {
         "detector": "D0U",
         "element": 41,
-        "hits": 1833
+        "hits": 1870
     },
     {
         "detector": "D0U",
         "element": 42,
-        "hits": 1844
+        "hits": 1807
     },
     {
         "detector": "D0U",
         "element": 43,
-        "hits": 1803
+        "hits": 1811
     },
     {
         "detector": "D0U",
         "element": 44,
-        "hits": 1759
+        "hits": 1731
     },
     {
         "detector": "D0U",
         "element": 45,
-        "hits": 1706
+        "hits": 1762
     },
     {
         "detector": "D0U",
         "element": 46,
-        "hits": 1670
+        "hits": 1770
     },
     {
         "detector": "D0U",
         "element": 47,
-        "hits": 1715
+        "hits": 1679
     },
     {
         "detector": "D0U",
         "element": 48,
-        "hits": 1534
+        "hits": 1663
     },
     {
         "detector": "D0U",
         "element": 49,
-        "hits": 1553
+        "hits": 1653
     },
     {
         "detector": "D0U",
         "element": 50,
-        "hits": 1515
+        "hits": 1618
     },
     {
         "detector": "D0U",
         "element": 51,
-        "hits": 1409
+        "hits": 1605
     },
     {
         "detector": "D0U",
         "element": 52,
-        "hits": 1426
+        "hits": 1524
     },
     {
         "detector": "D0U",
         "element": 53,
-        "hits": 1347
+        "hits": 1514
     },
     {
         "detector": "D0U",
         "element": 54,
-        "hits": 1406
+        "hits": 1450
     },
     {
         "detector": "D0U",
         "element": 55,
-        "hits": 1377
+        "hits": 1474
     },
     {
         "detector": "D0U",
         "element": 56,
-        "hits": 1343
+        "hits": 1430
     },
     {
         "detector": "D0U",
         "element": 57,
-        "hits": 1291
+        "hits": 1375
     },
     {
         "detector": "D0U",
         "element": 58,
-        "hits": 1242
+        "hits": 1341
     },
     {
         "detector": "D0U",
         "element": 59,
-        "hits": 1201
+        "hits": 1305
     },
     {
         "detector": "D0U",
         "element": 60,
-        "hits": 1175
+        "hits": 1282
     },
     {
         "detector": "D0U",
         "element": 61,
-        "hits": 1180
+        "hits": 1183
     },
     {
         "detector": "D0U",
         "element": 62,
-        "hits": 1126
+        "hits": 1125
     },
     {
         "detector": "D0U",
         "element": 63,
-        "hits": 1119
+        "hits": 1174
     },
     {
         "detector": "D0U",
         "element": 64,
-        "hits": 1032
+        "hits": 1133
     },
     {
         "detector": "D0U",
         "element": 65,
-        "hits": 1138
+        "hits": 1133
     },
     {
         "detector": "D0U",
         "element": 66,
-        "hits": 1095
+        "hits": 1092
     },
     {
         "detector": "D0U",
         "element": 67,
-        "hits": 1068
+        "hits": 1094
     },
     {
         "detector": "D0U",
         "element": 68,
-        "hits": 1023
+        "hits": 1042
     },
     {
         "detector": "D0U",
         "element": 69,
-        "hits": 997
+        "hits": 1005
     },
     {
         "detector": "D0U",
         "element": 70,
-        "hits": 996
+        "hits": 999
     },
     {
         "detector": "D0U",
         "element": 71,
-        "hits": 928
+        "hits": 918
     },
     {
         "detector": "D0U",
         "element": 72,
-        "hits": 897
+        "hits": 899
     },
     {
         "detector": "D0U",
         "element": 73,
-        "hits": 892
+        "hits": 893
     },
     {
         "detector": "D0U",
         "element": 74,
-        "hits": 881
+        "hits": 964
     },
     {
         "detector": "D0U",
         "element": 75,
-        "hits": 855
+        "hits": 889
     },
     {
         "detector": "D0U",
         "element": 76,
-        "hits": 832
+        "hits": 855
     },
     {
         "detector": "D0U",
         "element": 77,
-        "hits": 754
+        "hits": 821
     },
     {
         "detector": "D0U",
         "element": 78,
-        "hits": 736
+        "hits": 851
     },
     {
         "detector": "D0U",
         "element": 79,
-        "hits": 774
+        "hits": 787
     },
     {
         "detector": "D0U",
         "element": 80,
-        "hits": 712
+        "hits": 772
     },
     {
         "detector": "D0U",
         "element": 81,
-        "hits": 719
+        "hits": 698
     },
     {
         "detector": "D0U",
         "element": 82,
-        "hits": 652
+        "hits": 684
     },
     {
         "detector": "D0U",
         "element": 83,
-        "hits": 640
+        "hits": 722
     },
     {
         "detector": "D0U",
         "element": 84,
-        "hits": 638
+        "hits": 679
     },
     {
         "detector": "D0U",
         "element": 85,
-        "hits": 664
+        "hits": 640
     },
     {
         "detector": "D0U",
         "element": 86,
-        "hits": 595
+        "hits": 592
     },
     {
         "detector": "D0U",
         "element": 87,
-        "hits": 632
+        "hits": 641
     },
     {
         "detector": "D0U",
         "element": 88,
-        "hits": 615
+        "hits": 592
     },
     {
         "detector": "D0U",
         "element": 89,
-        "hits": 587
+        "hits": 582
     },
     {
         "detector": "D0U",
         "element": 90,
-        "hits": 543
+        "hits": 596
     },
     {
         "detector": "D0U",
@@ -4072,547 +4072,547 @@
     {
         "detector": "D0U",
         "element": 92,
-        "hits": 564
-    },
-    {
-        "detector": "D0U",
-        "element": 93,
-        "hits": 542
-    },
-    {
-        "detector": "D0U",
-        "element": 94,
-        "hits": 534
-    },
-    {
-        "detector": "D0U",
-        "element": 95,
-        "hits": 513
-    },
-    {
-        "detector": "D0U",
-        "element": 96,
-        "hits": 589
-    },
-    {
-        "detector": "D0U",
-        "element": 97,
-        "hits": 580
-    },
-    {
-        "detector": "D0U",
-        "element": 98,
-        "hits": 582
-    },
-    {
-        "detector": "D0U",
-        "element": 99,
-        "hits": 551
-    },
-    {
-        "detector": "D0U",
-        "element": 100,
-        "hits": 582
-    },
-    {
-        "detector": "D0U",
-        "element": 101,
-        "hits": 9
-    },
-    {
-        "detector": "D0U",
-        "element": 102,
-        "hits": 582
-    },
-    {
-        "detector": "D0U",
-        "element": 103,
         "hits": 575
     },
     {
         "detector": "D0U",
+        "element": 93,
+        "hits": 561
+    },
+    {
+        "detector": "D0U",
+        "element": 94,
+        "hits": 562
+    },
+    {
+        "detector": "D0U",
+        "element": 95,
+        "hits": 571
+    },
+    {
+        "detector": "D0U",
+        "element": 96,
+        "hits": 587
+    },
+    {
+        "detector": "D0U",
+        "element": 97,
+        "hits": 570
+    },
+    {
+        "detector": "D0U",
+        "element": 98,
+        "hits": 563
+    },
+    {
+        "detector": "D0U",
+        "element": 99,
+        "hits": 573
+    },
+    {
+        "detector": "D0U",
+        "element": 100,
+        "hits": 621
+    },
+    {
+        "detector": "D0U",
+        "element": 101,
+        "hits": 2
+    },
+    {
+        "detector": "D0U",
+        "element": 102,
+        "hits": 608
+    },
+    {
+        "detector": "D0U",
+        "element": 103,
+        "hits": 646
+    },
+    {
+        "detector": "D0U",
         "element": 104,
-        "hits": 580
+        "hits": 620
     },
     {
         "detector": "D0U",
         "element": 105,
-        "hits": 591
-    },
-    {
-        "detector": "D0U",
-        "element": 106,
-        "hits": 588
-    },
-    {
-        "detector": "D0U",
-        "element": 107,
-        "hits": 597
-    },
-    {
-        "detector": "D0U",
-        "element": 108,
-        "hits": 662
-    },
-    {
-        "detector": "D0U",
-        "element": 109,
         "hits": 667
     },
     {
         "detector": "D0U",
+        "element": 106,
+        "hits": 685
+    },
+    {
+        "detector": "D0U",
+        "element": 107,
+        "hits": 688
+    },
+    {
+        "detector": "D0U",
+        "element": 108,
+        "hits": 698
+    },
+    {
+        "detector": "D0U",
+        "element": 109,
+        "hits": 713
+    },
+    {
+        "detector": "D0U",
         "element": 110,
-        "hits": 702
+        "hits": 755
     },
     {
         "detector": "D0U",
         "element": 111,
-        "hits": 727
+        "hits": 752
     },
     {
         "detector": "D0U",
         "element": 112,
-        "hits": 722
+        "hits": 791
     },
     {
         "detector": "D0U",
         "element": 113,
-        "hits": 742
+        "hits": 783
     },
     {
         "detector": "D0U",
         "element": 114,
-        "hits": 744
+        "hits": 816
     },
     {
         "detector": "D0U",
         "element": 115,
-        "hits": 853
+        "hits": 862
     },
     {
         "detector": "D0U",
         "element": 116,
-        "hits": 842
+        "hits": 922
     },
     {
         "detector": "D0U",
         "element": 117,
-        "hits": 934
+        "hits": 976
     },
     {
         "detector": "D0U",
         "element": 118,
-        "hits": 941
+        "hits": 1020
     },
     {
         "detector": "D0U",
         "element": 119,
-        "hits": 955
+        "hits": 1090
     },
     {
         "detector": "D0U",
         "element": 120,
-        "hits": 1050
+        "hits": 1140
     },
     {
         "detector": "D0U",
         "element": 121,
-        "hits": 1113
+        "hits": 1198
     },
     {
         "detector": "D0U",
         "element": 122,
-        "hits": 1088
+        "hits": 1209
     },
     {
         "detector": "D0U",
         "element": 123,
-        "hits": 1099
+        "hits": 1291
     },
     {
         "detector": "D0U",
         "element": 124,
-        "hits": 1272
+        "hits": 1330
     },
     {
         "detector": "D0U",
         "element": 125,
-        "hits": 1263
+        "hits": 1362
     },
     {
         "detector": "D0U",
         "element": 126,
-        "hits": 1302
+        "hits": 1393
     },
     {
         "detector": "D0U",
         "element": 127,
-        "hits": 1349
+        "hits": 1511
     },
     {
         "detector": "D0U",
         "element": 128,
-        "hits": 1464
+        "hits": 1515
     },
     {
         "detector": "D0U",
         "element": 129,
-        "hits": 1412
+        "hits": 1632
     },
     {
         "detector": "D0U",
         "element": 130,
-        "hits": 1479
+        "hits": 1616
     },
     {
         "detector": "D0U",
         "element": 131,
-        "hits": 1561
+        "hits": 1618
     },
     {
         "detector": "D0U",
         "element": 132,
-        "hits": 1638
+        "hits": 1715
     },
     {
         "detector": "D0U",
         "element": 133,
-        "hits": 1601
+        "hits": 1793
     },
     {
         "detector": "D0U",
         "element": 134,
-        "hits": 1734
+        "hits": 1856
     },
     {
         "detector": "D0U",
         "element": 135,
-        "hits": 1723
+        "hits": 1900
     },
     {
         "detector": "D0U",
         "element": 136,
-        "hits": 1780
+        "hits": 1888
     },
     {
         "detector": "D0U",
         "element": 137,
-        "hits": 1821
+        "hits": 1974
     },
     {
         "detector": "D0U",
         "element": 138,
-        "hits": 1842
+        "hits": 1932
     },
     {
         "detector": "D0U",
         "element": 139,
-        "hits": 1922
+        "hits": 2005
     },
     {
         "detector": "D0U",
         "element": 140,
-        "hits": 1969
+        "hits": 2119
     },
     {
         "detector": "D0U",
         "element": 141,
-        "hits": 1996
+        "hits": 2125
     },
     {
         "detector": "D0U",
         "element": 142,
-        "hits": 2091
+        "hits": 2160
     },
     {
         "detector": "D0U",
         "element": 143,
-        "hits": 2113
+        "hits": 2270
     },
     {
         "detector": "D0U",
         "element": 144,
-        "hits": 2171
+        "hits": 2309
     },
     {
         "detector": "D0U",
         "element": 145,
-        "hits": 2195
+        "hits": 2349
     },
     {
         "detector": "D0U",
         "element": 146,
-        "hits": 2170
+        "hits": 2226
     },
     {
         "detector": "D0U",
         "element": 147,
-        "hits": 2252
+        "hits": 2410
     },
     {
         "detector": "D0U",
         "element": 148,
-        "hits": 2300
-    },
-    {
-        "detector": "D0U",
-        "element": 149,
-        "hits": 2280
-    },
-    {
-        "detector": "D0U",
-        "element": 150,
         "hits": 2456
     },
     {
         "detector": "D0U",
+        "element": 149,
+        "hits": 2401
+    },
+    {
+        "detector": "D0U",
+        "element": 150,
+        "hits": 2511
+    },
+    {
+        "detector": "D0U",
         "element": 151,
-        "hits": 2451
+        "hits": 2495
     },
     {
         "detector": "D0U",
         "element": 152,
-        "hits": 2558
+        "hits": 2638
     },
     {
         "detector": "D0U",
         "element": 153,
-        "hits": 2404
+        "hits": 2616
     },
     {
         "detector": "D0U",
         "element": 154,
-        "hits": 2528
+        "hits": 2586
     },
     {
         "detector": "D0U",
         "element": 155,
-        "hits": 2610
+        "hits": 2660
     },
     {
         "detector": "D0U",
         "element": 156,
-        "hits": 2633
+        "hits": 2775
     },
     {
         "detector": "D0U",
         "element": 157,
-        "hits": 2682
+        "hits": 2818
     },
     {
         "detector": "D0U",
         "element": 158,
-        "hits": 2741
+        "hits": 2877
     },
     {
         "detector": "D0U",
         "element": 159,
-        "hits": 2769
+        "hits": 2881
     },
     {
         "detector": "D0U",
         "element": 160,
-        "hits": 2806
+        "hits": 2802
     },
     {
         "detector": "D0U",
         "element": 161,
-        "hits": 2863
+        "hits": 2814
     },
     {
         "detector": "D0U",
         "element": 162,
-        "hits": 2821
+        "hits": 2982
     },
     {
         "detector": "D0U",
         "element": 163,
-        "hits": 2841
+        "hits": 3023
     },
     {
         "detector": "D0U",
         "element": 164,
-        "hits": 2866
+        "hits": 2896
     },
     {
         "detector": "D0U",
         "element": 165,
-        "hits": 2928
+        "hits": 2969
     },
     {
         "detector": "D0U",
         "element": 166,
-        "hits": 2951
+        "hits": 3013
     },
     {
         "detector": "D0U",
         "element": 167,
-        "hits": 2958
+        "hits": 3040
     },
     {
         "detector": "D0U",
         "element": 168,
-        "hits": 2939
+        "hits": 3120
     },
     {
         "detector": "D0U",
         "element": 169,
-        "hits": 2970
+        "hits": 3013
     },
     {
         "detector": "D0U",
         "element": 170,
-        "hits": 2857
+        "hits": 3033
     },
     {
         "detector": "D0U",
         "element": 171,
-        "hits": 2946
+        "hits": 3110
     },
     {
         "detector": "D0U",
         "element": 172,
-        "hits": 2936
+        "hits": 3025
     },
     {
         "detector": "D0U",
         "element": 173,
-        "hits": 2854
+        "hits": 2909
     },
     {
         "detector": "D0U",
         "element": 174,
-        "hits": 2751
+        "hits": 2875
     },
     {
         "detector": "D0U",
         "element": 175,
-        "hits": 2689
+        "hits": 2731
     },
     {
         "detector": "D0U",
         "element": 176,
-        "hits": 2470
+        "hits": 2611
     },
     {
         "detector": "D0U",
         "element": 177,
-        "hits": 2233
+        "hits": 2349
     },
     {
         "detector": "D0U",
         "element": 178,
-        "hits": 1955
+        "hits": 2041
     },
     {
         "detector": "D0U",
         "element": 179,
-        "hits": 1680
+        "hits": 1889
     },
     {
         "detector": "D0U",
         "element": 180,
-        "hits": 1412
+        "hits": 1518
     },
     {
         "detector": "D0U",
         "element": 181,
-        "hits": 1220
+        "hits": 1309
     },
     {
         "detector": "D0U",
         "element": 182,
-        "hits": 985
+        "hits": 989
     },
     {
         "detector": "D0U",
         "element": 183,
-        "hits": 715
+        "hits": 820
     },
     {
         "detector": "D0U",
         "element": 184,
-        "hits": 605
+        "hits": 630
     },
     {
         "detector": "D0U",
         "element": 185,
-        "hits": 439
+        "hits": 508
     },
     {
         "detector": "D0U",
         "element": 186,
-        "hits": 335
+        "hits": 400
     },
     {
         "detector": "D0U",
         "element": 187,
-        "hits": 289
+        "hits": 314
     },
     {
         "detector": "D0U",
         "element": 188,
-        "hits": 241
+        "hits": 247
     },
     {
         "detector": "D0U",
         "element": 189,
-        "hits": 196
+        "hits": 186
     },
     {
         "detector": "D0U",
         "element": 190,
-        "hits": 158
+        "hits": 191
     },
     {
         "detector": "D0U",
         "element": 191,
-        "hits": 142
+        "hits": 141
     },
     {
         "detector": "D0U",
         "element": 192,
-        "hits": 85
+        "hits": 103
     },
     {
         "detector": "D0U",
         "element": 193,
-        "hits": 69
+        "hits": 91
     },
     {
         "detector": "D0U",
         "element": 194,
-        "hits": 47
+        "hits": 62
     },
     {
         "detector": "D0U",
         "element": 195,
-        "hits": 41
+        "hits": 64
     },
     {
         "detector": "D0U",
         "element": 196,
-        "hits": 29
+        "hits": 39
     },
     {
         "detector": "D0U",
         "element": 197,
-        "hits": 26
+        "hits": 41
     },
     {
         "detector": "D0U",
         "element": 198,
-        "hits": 27
+        "hits": 31
     },
     {
         "detector": "D0U",
         "element": 199,
-        "hits": 25
+        "hits": 13
     },
     {
         "detector": "D0U",
         "element": 200,
-        "hits": 18
+        "hits": 8
     },
     {
         "detector": "D0Up",
@@ -4622,972 +4622,972 @@
     {
         "detector": "D0Up",
         "element": 1,
-        "hits": 8
+        "hits": 10
     },
     {
         "detector": "D0Up",
         "element": 2,
-        "hits": 18
+        "hits": 21
     },
     {
         "detector": "D0Up",
         "element": 3,
-        "hits": 27
+        "hits": 20
     },
     {
         "detector": "D0Up",
         "element": 4,
-        "hits": 35
+        "hits": 30
     },
     {
         "detector": "D0Up",
         "element": 5,
-        "hits": 22
+        "hits": 51
     },
     {
         "detector": "D0Up",
         "element": 6,
-        "hits": 57
+        "hits": 46
     },
     {
         "detector": "D0Up",
         "element": 7,
-        "hits": 54
+        "hits": 56
     },
     {
         "detector": "D0Up",
         "element": 8,
-        "hits": 71
+        "hits": 63
     },
     {
         "detector": "D0Up",
         "element": 9,
-        "hits": 104
+        "hits": 99
     },
     {
         "detector": "D0Up",
         "element": 10,
-        "hits": 108
-    },
-    {
-        "detector": "D0Up",
-        "element": 11,
-        "hits": 125
-    },
-    {
-        "detector": "D0Up",
-        "element": 12,
-        "hits": 151
-    },
-    {
-        "detector": "D0Up",
-        "element": 13,
-        "hits": 210
-    },
-    {
-        "detector": "D0Up",
-        "element": 14,
-        "hits": 209
-    },
-    {
-        "detector": "D0Up",
-        "element": 15,
-        "hits": 285
-    },
-    {
-        "detector": "D0Up",
-        "element": 16,
-        "hits": 381
-    },
-    {
-        "detector": "D0Up",
-        "element": 17,
-        "hits": 471
-    },
-    {
-        "detector": "D0Up",
-        "element": 18,
-        "hits": 576
-    },
-    {
-        "detector": "D0Up",
-        "element": 19,
-        "hits": 740
-    },
-    {
-        "detector": "D0Up",
-        "element": 20,
-        "hits": 919
-    },
-    {
-        "detector": "D0Up",
-        "element": 21,
-        "hits": 1038
-    },
-    {
-        "detector": "D0Up",
-        "element": 22,
-        "hits": 1168
-    },
-    {
-        "detector": "D0Up",
-        "element": 23,
-        "hits": 1380
-    },
-    {
-        "detector": "D0Up",
-        "element": 24,
-        "hits": 1444
-    },
-    {
-        "detector": "D0Up",
-        "element": 25,
-        "hits": 1631
-    },
-    {
-        "detector": "D0Up",
-        "element": 26,
-        "hits": 1706
-    },
-    {
-        "detector": "D0Up",
-        "element": 27,
-        "hits": 1856
-    },
-    {
-        "detector": "D0Up",
-        "element": 28,
-        "hits": 1863
-    },
-    {
-        "detector": "D0Up",
-        "element": 29,
-        "hits": 1823
-    },
-    {
-        "detector": "D0Up",
-        "element": 30,
-        "hits": 1922
-    },
-    {
-        "detector": "D0Up",
-        "element": 31,
-        "hits": 1855
-    },
-    {
-        "detector": "D0Up",
-        "element": 32,
-        "hits": 1852
-    },
-    {
-        "detector": "D0Up",
-        "element": 33,
-        "hits": 1951
-    },
-    {
-        "detector": "D0Up",
-        "element": 34,
-        "hits": 1890
-    },
-    {
-        "detector": "D0Up",
-        "element": 35,
-        "hits": 1904
-    },
-    {
-        "detector": "D0Up",
-        "element": 36,
-        "hits": 1895
-    },
-    {
-        "detector": "D0Up",
-        "element": 37,
-        "hits": 1909
-    },
-    {
-        "detector": "D0Up",
-        "element": 38,
-        "hits": 1835
-    },
-    {
-        "detector": "D0Up",
-        "element": 39,
-        "hits": 1746
-    },
-    {
-        "detector": "D0Up",
-        "element": 40,
-        "hits": 1706
-    },
-    {
-        "detector": "D0Up",
-        "element": 41,
-        "hits": 1779
-    },
-    {
-        "detector": "D0Up",
-        "element": 42,
-        "hits": 1750
-    },
-    {
-        "detector": "D0Up",
-        "element": 43,
-        "hits": 1737
-    },
-    {
-        "detector": "D0Up",
-        "element": 44,
-        "hits": 1717
-    },
-    {
-        "detector": "D0Up",
-        "element": 45,
-        "hits": 1639
-    },
-    {
-        "detector": "D0Up",
-        "element": 46,
-        "hits": 1569
-    },
-    {
-        "detector": "D0Up",
-        "element": 47,
-        "hits": 1619
-    },
-    {
-        "detector": "D0Up",
-        "element": 48,
-        "hits": 1469
-    },
-    {
-        "detector": "D0Up",
-        "element": 49,
-        "hits": 1534
-    },
-    {
-        "detector": "D0Up",
-        "element": 50,
-        "hits": 1450
-    },
-    {
-        "detector": "D0Up",
-        "element": 51,
-        "hits": 1418
-    },
-    {
-        "detector": "D0Up",
-        "element": 52,
-        "hits": 1402
-    },
-    {
-        "detector": "D0Up",
-        "element": 53,
-        "hits": 1401
-    },
-    {
-        "detector": "D0Up",
-        "element": 54,
-        "hits": 1309
-    },
-    {
-        "detector": "D0Up",
-        "element": 55,
-        "hits": 1301
-    },
-    {
-        "detector": "D0Up",
-        "element": 56,
-        "hits": 1260
-    },
-    {
-        "detector": "D0Up",
-        "element": 57,
-        "hits": 1316
-    },
-    {
-        "detector": "D0Up",
-        "element": 58,
-        "hits": 1236
-    },
-    {
-        "detector": "D0Up",
-        "element": 59,
-        "hits": 1152
-    },
-    {
-        "detector": "D0Up",
-        "element": 60,
-        "hits": 1162
-    },
-    {
-        "detector": "D0Up",
-        "element": 61,
-        "hits": 1091
-    },
-    {
-        "detector": "D0Up",
-        "element": 62,
-        "hits": 1123
-    },
-    {
-        "detector": "D0Up",
-        "element": 63,
-        "hits": 1112
-    },
-    {
-        "detector": "D0Up",
-        "element": 64,
-        "hits": 1032
-    },
-    {
-        "detector": "D0Up",
-        "element": 65,
-        "hits": 1024
-    },
-    {
-        "detector": "D0Up",
-        "element": 66,
-        "hits": 1070
-    },
-    {
-        "detector": "D0Up",
-        "element": 67,
-        "hits": 1022
-    },
-    {
-        "detector": "D0Up",
-        "element": 68,
-        "hits": 932
-    },
-    {
-        "detector": "D0Up",
-        "element": 69,
-        "hits": 965
-    },
-    {
-        "detector": "D0Up",
-        "element": 70,
-        "hits": 896
-    },
-    {
-        "detector": "D0Up",
-        "element": 71,
-        "hits": 887
-    },
-    {
-        "detector": "D0Up",
-        "element": 72,
-        "hits": 834
-    },
-    {
-        "detector": "D0Up",
-        "element": 73,
-        "hits": 838
-    },
-    {
-        "detector": "D0Up",
-        "element": 74,
-        "hits": 822
-    },
-    {
-        "detector": "D0Up",
-        "element": 75,
-        "hits": 804
-    },
-    {
-        "detector": "D0Up",
-        "element": 76,
-        "hits": 764
-    },
-    {
-        "detector": "D0Up",
-        "element": 77,
-        "hits": 720
-    },
-    {
-        "detector": "D0Up",
-        "element": 78,
-        "hits": 702
-    },
-    {
-        "detector": "D0Up",
-        "element": 79,
-        "hits": 627
-    },
-    {
-        "detector": "D0Up",
-        "element": 80,
-        "hits": 661
-    },
-    {
-        "detector": "D0Up",
-        "element": 81,
-        "hits": 641
-    },
-    {
-        "detector": "D0Up",
-        "element": 82,
-        "hits": 579
-    },
-    {
-        "detector": "D0Up",
-        "element": 83,
-        "hits": 645
-    },
-    {
-        "detector": "D0Up",
-        "element": 84,
-        "hits": 616
-    },
-    {
-        "detector": "D0Up",
-        "element": 85,
-        "hits": 601
-    },
-    {
-        "detector": "D0Up",
-        "element": 86,
-        "hits": 608
-    },
-    {
-        "detector": "D0Up",
-        "element": 87,
-        "hits": 588
-    },
-    {
-        "detector": "D0Up",
-        "element": 88,
-        "hits": 565
-    },
-    {
-        "detector": "D0Up",
-        "element": 89,
-        "hits": 571
-    },
-    {
-        "detector": "D0Up",
-        "element": 90,
-        "hits": 524
-    },
-    {
-        "detector": "D0Up",
-        "element": 91,
-        "hits": 551
-    },
-    {
-        "detector": "D0Up",
-        "element": 92,
-        "hits": 495
-    },
-    {
-        "detector": "D0Up",
-        "element": 93,
-        "hits": 519
-    },
-    {
-        "detector": "D0Up",
-        "element": 94,
-        "hits": 484
-    },
-    {
-        "detector": "D0Up",
-        "element": 95,
-        "hits": 502
-    },
-    {
-        "detector": "D0Up",
-        "element": 96,
-        "hits": 504
-    },
-    {
-        "detector": "D0Up",
-        "element": 97,
-        "hits": 491
-    },
-    {
-        "detector": "D0Up",
-        "element": 98,
-        "hits": 479
-    },
-    {
-        "detector": "D0Up",
-        "element": 99,
-        "hits": 477
-    },
-    {
-        "detector": "D0Up",
-        "element": 100,
-        "hits": 502
-    },
-    {
-        "detector": "D0Up",
-        "element": 101,
-        "hits": 497
-    },
-    {
-        "detector": "D0Up",
-        "element": 102,
-        "hits": 455
-    },
-    {
-        "detector": "D0Up",
-        "element": 103,
-        "hits": 485
-    },
-    {
-        "detector": "D0Up",
-        "element": 104,
-        "hits": 513
-    },
-    {
-        "detector": "D0Up",
-        "element": 105,
-        "hits": 539
-    },
-    {
-        "detector": "D0Up",
-        "element": 106,
-        "hits": 587
-    },
-    {
-        "detector": "D0Up",
-        "element": 107,
-        "hits": 560
-    },
-    {
-        "detector": "D0Up",
-        "element": 108,
-        "hits": 610
-    },
-    {
-        "detector": "D0Up",
-        "element": 109,
-        "hits": 615
-    },
-    {
-        "detector": "D0Up",
-        "element": 110,
-        "hits": 653
-    },
-    {
-        "detector": "D0Up",
-        "element": 111,
-        "hits": 642
-    },
-    {
-        "detector": "D0Up",
-        "element": 112,
-        "hits": 654
-    },
-    {
-        "detector": "D0Up",
-        "element": 113,
-        "hits": 717
-    },
-    {
-        "detector": "D0Up",
-        "element": 114,
-        "hits": 725
-    },
-    {
-        "detector": "D0Up",
-        "element": 115,
-        "hits": 775
-    },
-    {
-        "detector": "D0Up",
-        "element": 116,
-        "hits": 780
-    },
-    {
-        "detector": "D0Up",
-        "element": 117,
-        "hits": 845
-    },
-    {
-        "detector": "D0Up",
-        "element": 118,
-        "hits": 878
-    },
-    {
-        "detector": "D0Up",
-        "element": 119,
-        "hits": 907
-    },
-    {
-        "detector": "D0Up",
-        "element": 120,
-        "hits": 1029
-    },
-    {
-        "detector": "D0Up",
-        "element": 121,
-        "hits": 1023
-    },
-    {
-        "detector": "D0Up",
-        "element": 122,
-        "hits": 1009
-    },
-    {
-        "detector": "D0Up",
-        "element": 123,
-        "hits": 1090
-    },
-    {
-        "detector": "D0Up",
-        "element": 124,
-        "hits": 1183
-    },
-    {
-        "detector": "D0Up",
-        "element": 125,
-        "hits": 1247
-    },
-    {
-        "detector": "D0Up",
-        "element": 126,
-        "hits": 1268
-    },
-    {
-        "detector": "D0Up",
-        "element": 127,
-        "hits": 1306
-    },
-    {
-        "detector": "D0Up",
-        "element": 128,
-        "hits": 1362
-    },
-    {
-        "detector": "D0Up",
-        "element": 129,
-        "hits": 1430
-    },
-    {
-        "detector": "D0Up",
-        "element": 130,
-        "hits": 1372
-    },
-    {
-        "detector": "D0Up",
-        "element": 131,
-        "hits": 1431
-    },
-    {
-        "detector": "D0Up",
-        "element": 132,
-        "hits": 1551
-    },
-    {
-        "detector": "D0Up",
-        "element": 133,
-        "hits": 1590
-    },
-    {
-        "detector": "D0Up",
-        "element": 134,
-        "hits": 1671
-    },
-    {
-        "detector": "D0Up",
-        "element": 135,
-        "hits": 1649
-    },
-    {
-        "detector": "D0Up",
-        "element": 136,
-        "hits": 1638
-    },
-    {
-        "detector": "D0Up",
-        "element": 137,
-        "hits": 1685
-    },
-    {
-        "detector": "D0Up",
-        "element": 138,
-        "hits": 1733
-    },
-    {
-        "detector": "D0Up",
-        "element": 139,
-        "hits": 1827
-    },
-    {
-        "detector": "D0Up",
-        "element": 140,
-        "hits": 1833
-    },
-    {
-        "detector": "D0Up",
-        "element": 141,
-        "hits": 1918
-    },
-    {
-        "detector": "D0Up",
-        "element": 142,
-        "hits": 1862
-    },
-    {
-        "detector": "D0Up",
-        "element": 143,
-        "hits": 2021
-    },
-    {
-        "detector": "D0Up",
-        "element": 144,
-        "hits": 2075
-    },
-    {
-        "detector": "D0Up",
-        "element": 145,
-        "hits": 2061
-    },
-    {
-        "detector": "D0Up",
-        "element": 146,
-        "hits": 2178
-    },
-    {
-        "detector": "D0Up",
-        "element": 147,
-        "hits": 2126
-    },
-    {
-        "detector": "D0Up",
-        "element": 148,
-        "hits": 2182
-    },
-    {
-        "detector": "D0Up",
-        "element": 149,
-        "hits": 1966
-    },
-    {
-        "detector": "D0Up",
-        "element": 150,
-        "hits": 2004
-    },
-    {
-        "detector": "D0Up",
-        "element": 151,
-        "hits": 2070
-    },
-    {
-        "detector": "D0Up",
-        "element": 152,
-        "hits": 2231
-    },
-    {
-        "detector": "D0Up",
-        "element": 153,
-        "hits": 2089
-    },
-    {
-        "detector": "D0Up",
-        "element": 154,
-        "hits": 2138
-    },
-    {
-        "detector": "D0Up",
-        "element": 155,
-        "hits": 2334
-    },
-    {
-        "detector": "D0Up",
-        "element": 156,
-        "hits": 2461
-    },
-    {
-        "detector": "D0Up",
-        "element": 157,
-        "hits": 2524
-    },
-    {
-        "detector": "D0Up",
-        "element": 158,
-        "hits": 2598
-    },
-    {
-        "detector": "D0Up",
-        "element": 159,
-        "hits": 2650
-    },
-    {
-        "detector": "D0Up",
-        "element": 160,
-        "hits": 2703
-    },
-    {
-        "detector": "D0Up",
-        "element": 161,
-        "hits": 2653
-    },
-    {
-        "detector": "D0Up",
-        "element": 162,
-        "hits": 2682
-    },
-    {
-        "detector": "D0Up",
-        "element": 163,
-        "hits": 2626
-    },
-    {
-        "detector": "D0Up",
-        "element": 164,
-        "hits": 2767
-    },
-    {
-        "detector": "D0Up",
-        "element": 165,
-        "hits": 2807
-    },
-    {
-        "detector": "D0Up",
-        "element": 166,
-        "hits": 2497
-    },
-    {
-        "detector": "D0Up",
-        "element": 167,
-        "hits": 2811
-    },
-    {
-        "detector": "D0Up",
-        "element": 168,
-        "hits": 2853
-    },
-    {
-        "detector": "D0Up",
-        "element": 169,
-        "hits": 2848
-    },
-    {
-        "detector": "D0Up",
-        "element": 170,
-        "hits": 2791
-    },
-    {
-        "detector": "D0Up",
-        "element": 171,
-        "hits": 2812
-    },
-    {
-        "detector": "D0Up",
-        "element": 172,
-        "hits": 2751
-    },
-    {
-        "detector": "D0Up",
-        "element": 173,
-        "hits": 2774
-    },
-    {
-        "detector": "D0Up",
-        "element": 174,
-        "hits": 2787
-    },
-    {
-        "detector": "D0Up",
-        "element": 175,
-        "hits": 2660
-    },
-    {
-        "detector": "D0Up",
-        "element": 176,
-        "hits": 27
-    },
-    {
-        "detector": "D0Up",
-        "element": 177,
-        "hits": 2150
-    },
-    {
-        "detector": "D0Up",
-        "element": 178,
-        "hits": 1873
-    },
-    {
-        "detector": "D0Up",
-        "element": 179,
-        "hits": 1652
-    },
-    {
-        "detector": "D0Up",
-        "element": 180,
-        "hits": 1349
-    },
-    {
-        "detector": "D0Up",
-        "element": 181,
-        "hits": 1179
-    },
-    {
-        "detector": "D0Up",
-        "element": 182,
-        "hits": 985
-    },
-    {
-        "detector": "D0Up",
-        "element": 183,
-        "hits": 767
-    },
-    {
-        "detector": "D0Up",
-        "element": 184,
-        "hits": 575
-    },
-    {
-        "detector": "D0Up",
-        "element": 185,
-        "hits": 482
-    },
-    {
-        "detector": "D0Up",
-        "element": 186,
-        "hits": 333
-    },
-    {
-        "detector": "D0Up",
-        "element": 187,
-        "hits": 271
-    },
-    {
-        "detector": "D0Up",
-        "element": 188,
-        "hits": 231
-    },
-    {
-        "detector": "D0Up",
-        "element": 189,
-        "hits": 194
-    },
-    {
-        "detector": "D0Up",
-        "element": 190,
-        "hits": 156
-    },
-    {
-        "detector": "D0Up",
-        "element": 191,
         "hits": 139
     },
     {
         "detector": "D0Up",
+        "element": 11,
+        "hits": 153
+    },
+    {
+        "detector": "D0Up",
+        "element": 12,
+        "hits": 189
+    },
+    {
+        "detector": "D0Up",
+        "element": 13,
+        "hits": 223
+    },
+    {
+        "detector": "D0Up",
+        "element": 14,
+        "hits": 298
+    },
+    {
+        "detector": "D0Up",
+        "element": 15,
+        "hits": 329
+    },
+    {
+        "detector": "D0Up",
+        "element": 16,
+        "hits": 414
+    },
+    {
+        "detector": "D0Up",
+        "element": 17,
+        "hits": 485
+    },
+    {
+        "detector": "D0Up",
+        "element": 18,
+        "hits": 707
+    },
+    {
+        "detector": "D0Up",
+        "element": 19,
+        "hits": 752
+    },
+    {
+        "detector": "D0Up",
+        "element": 20,
+        "hits": 899
+    },
+    {
+        "detector": "D0Up",
+        "element": 21,
+        "hits": 1128
+    },
+    {
+        "detector": "D0Up",
+        "element": 22,
+        "hits": 1358
+    },
+    {
+        "detector": "D0Up",
+        "element": 23,
+        "hits": 1459
+    },
+    {
+        "detector": "D0Up",
+        "element": 24,
+        "hits": 1528
+    },
+    {
+        "detector": "D0Up",
+        "element": 25,
+        "hits": 1792
+    },
+    {
+        "detector": "D0Up",
+        "element": 26,
+        "hits": 1836
+    },
+    {
+        "detector": "D0Up",
+        "element": 27,
+        "hits": 1969
+    },
+    {
+        "detector": "D0Up",
+        "element": 28,
+        "hits": 2017
+    },
+    {
+        "detector": "D0Up",
+        "element": 29,
+        "hits": 2044
+    },
+    {
+        "detector": "D0Up",
+        "element": 30,
+        "hits": 2041
+    },
+    {
+        "detector": "D0Up",
+        "element": 31,
+        "hits": 1989
+    },
+    {
+        "detector": "D0Up",
+        "element": 32,
+        "hits": 2009
+    },
+    {
+        "detector": "D0Up",
+        "element": 33,
+        "hits": 1959
+    },
+    {
+        "detector": "D0Up",
+        "element": 34,
+        "hits": 1990
+    },
+    {
+        "detector": "D0Up",
+        "element": 35,
+        "hits": 1958
+    },
+    {
+        "detector": "D0Up",
+        "element": 36,
+        "hits": 1938
+    },
+    {
+        "detector": "D0Up",
+        "element": 37,
+        "hits": 1959
+    },
+    {
+        "detector": "D0Up",
+        "element": 38,
+        "hits": 1917
+    },
+    {
+        "detector": "D0Up",
+        "element": 39,
+        "hits": 1903
+    },
+    {
+        "detector": "D0Up",
+        "element": 40,
+        "hits": 1709
+    },
+    {
+        "detector": "D0Up",
+        "element": 41,
+        "hits": 1780
+    },
+    {
+        "detector": "D0Up",
+        "element": 42,
+        "hits": 1803
+    },
+    {
+        "detector": "D0Up",
+        "element": 43,
+        "hits": 1751
+    },
+    {
+        "detector": "D0Up",
+        "element": 44,
+        "hits": 1720
+    },
+    {
+        "detector": "D0Up",
+        "element": 45,
+        "hits": 1652
+    },
+    {
+        "detector": "D0Up",
+        "element": 46,
+        "hits": 1693
+    },
+    {
+        "detector": "D0Up",
+        "element": 47,
+        "hits": 1644
+    },
+    {
+        "detector": "D0Up",
+        "element": 48,
+        "hits": 1553
+    },
+    {
+        "detector": "D0Up",
+        "element": 49,
+        "hits": 1596
+    },
+    {
+        "detector": "D0Up",
+        "element": 50,
+        "hits": 1557
+    },
+    {
+        "detector": "D0Up",
+        "element": 51,
+        "hits": 1577
+    },
+    {
+        "detector": "D0Up",
+        "element": 52,
+        "hits": 1471
+    },
+    {
+        "detector": "D0Up",
+        "element": 53,
+        "hits": 1486
+    },
+    {
+        "detector": "D0Up",
+        "element": 54,
+        "hits": 1432
+    },
+    {
+        "detector": "D0Up",
+        "element": 55,
+        "hits": 1398
+    },
+    {
+        "detector": "D0Up",
+        "element": 56,
+        "hits": 1405
+    },
+    {
+        "detector": "D0Up",
+        "element": 57,
+        "hits": 1404
+    },
+    {
+        "detector": "D0Up",
+        "element": 58,
+        "hits": 1267
+    },
+    {
+        "detector": "D0Up",
+        "element": 59,
+        "hits": 1234
+    },
+    {
+        "detector": "D0Up",
+        "element": 60,
+        "hits": 1251
+    },
+    {
+        "detector": "D0Up",
+        "element": 61,
+        "hits": 1187
+    },
+    {
+        "detector": "D0Up",
+        "element": 62,
+        "hits": 1097
+    },
+    {
+        "detector": "D0Up",
+        "element": 63,
+        "hits": 1117
+    },
+    {
+        "detector": "D0Up",
+        "element": 64,
+        "hits": 1146
+    },
+    {
+        "detector": "D0Up",
+        "element": 65,
+        "hits": 1089
+    },
+    {
+        "detector": "D0Up",
+        "element": 66,
+        "hits": 1009
+    },
+    {
+        "detector": "D0Up",
+        "element": 67,
+        "hits": 1034
+    },
+    {
+        "detector": "D0Up",
+        "element": 68,
+        "hits": 991
+    },
+    {
+        "detector": "D0Up",
+        "element": 69,
+        "hits": 918
+    },
+    {
+        "detector": "D0Up",
+        "element": 70,
+        "hits": 995
+    },
+    {
+        "detector": "D0Up",
+        "element": 71,
+        "hits": 851
+    },
+    {
+        "detector": "D0Up",
+        "element": 72,
+        "hits": 858
+    },
+    {
+        "detector": "D0Up",
+        "element": 73,
+        "hits": 868
+    },
+    {
+        "detector": "D0Up",
+        "element": 74,
+        "hits": 917
+    },
+    {
+        "detector": "D0Up",
+        "element": 75,
+        "hits": 850
+    },
+    {
+        "detector": "D0Up",
+        "element": 76,
+        "hits": 759
+    },
+    {
+        "detector": "D0Up",
+        "element": 77,
+        "hits": 748
+    },
+    {
+        "detector": "D0Up",
+        "element": 78,
+        "hits": 778
+    },
+    {
+        "detector": "D0Up",
+        "element": 79,
+        "hits": 716
+    },
+    {
+        "detector": "D0Up",
+        "element": 80,
+        "hits": 711
+    },
+    {
+        "detector": "D0Up",
+        "element": 81,
+        "hits": 622
+    },
+    {
+        "detector": "D0Up",
+        "element": 82,
+        "hits": 667
+    },
+    {
+        "detector": "D0Up",
+        "element": 83,
+        "hits": 653
+    },
+    {
+        "detector": "D0Up",
+        "element": 84,
+        "hits": 601
+    },
+    {
+        "detector": "D0Up",
+        "element": 85,
+        "hits": 616
+    },
+    {
+        "detector": "D0Up",
+        "element": 86,
+        "hits": 583
+    },
+    {
+        "detector": "D0Up",
+        "element": 87,
+        "hits": 591
+    },
+    {
+        "detector": "D0Up",
+        "element": 88,
+        "hits": 567
+    },
+    {
+        "detector": "D0Up",
+        "element": 89,
+        "hits": 547
+    },
+    {
+        "detector": "D0Up",
+        "element": 90,
+        "hits": 549
+    },
+    {
+        "detector": "D0Up",
+        "element": 91,
+        "hits": 521
+    },
+    {
+        "detector": "D0Up",
+        "element": 92,
+        "hits": 537
+    },
+    {
+        "detector": "D0Up",
+        "element": 93,
+        "hits": 501
+    },
+    {
+        "detector": "D0Up",
+        "element": 94,
+        "hits": 509
+    },
+    {
+        "detector": "D0Up",
+        "element": 95,
+        "hits": 546
+    },
+    {
+        "detector": "D0Up",
+        "element": 96,
+        "hits": 536
+    },
+    {
+        "detector": "D0Up",
+        "element": 97,
+        "hits": 546
+    },
+    {
+        "detector": "D0Up",
+        "element": 98,
+        "hits": 535
+    },
+    {
+        "detector": "D0Up",
+        "element": 99,
+        "hits": 520
+    },
+    {
+        "detector": "D0Up",
+        "element": 100,
+        "hits": 544
+    },
+    {
+        "detector": "D0Up",
+        "element": 101,
+        "hits": 529
+    },
+    {
+        "detector": "D0Up",
+        "element": 102,
+        "hits": 527
+    },
+    {
+        "detector": "D0Up",
+        "element": 103,
+        "hits": 567
+    },
+    {
+        "detector": "D0Up",
+        "element": 104,
+        "hits": 585
+    },
+    {
+        "detector": "D0Up",
+        "element": 105,
+        "hits": 610
+    },
+    {
+        "detector": "D0Up",
+        "element": 106,
+        "hits": 660
+    },
+    {
+        "detector": "D0Up",
+        "element": 107,
+        "hits": 634
+    },
+    {
+        "detector": "D0Up",
+        "element": 108,
+        "hits": 643
+    },
+    {
+        "detector": "D0Up",
+        "element": 109,
+        "hits": 638
+    },
+    {
+        "detector": "D0Up",
+        "element": 110,
+        "hits": 689
+    },
+    {
+        "detector": "D0Up",
+        "element": 111,
+        "hits": 686
+    },
+    {
+        "detector": "D0Up",
+        "element": 112,
+        "hits": 725
+    },
+    {
+        "detector": "D0Up",
+        "element": 113,
+        "hits": 741
+    },
+    {
+        "detector": "D0Up",
+        "element": 114,
+        "hits": 749
+    },
+    {
+        "detector": "D0Up",
+        "element": 115,
+        "hits": 806
+    },
+    {
+        "detector": "D0Up",
+        "element": 116,
+        "hits": 867
+    },
+    {
+        "detector": "D0Up",
+        "element": 117,
+        "hits": 875
+    },
+    {
+        "detector": "D0Up",
+        "element": 118,
+        "hits": 979
+    },
+    {
+        "detector": "D0Up",
+        "element": 119,
+        "hits": 1043
+    },
+    {
+        "detector": "D0Up",
+        "element": 120,
+        "hits": 1051
+    },
+    {
+        "detector": "D0Up",
+        "element": 121,
+        "hits": 1112
+    },
+    {
+        "detector": "D0Up",
+        "element": 122,
+        "hits": 1137
+    },
+    {
+        "detector": "D0Up",
+        "element": 123,
+        "hits": 1199
+    },
+    {
+        "detector": "D0Up",
+        "element": 124,
+        "hits": 1267
+    },
+    {
+        "detector": "D0Up",
+        "element": 125,
+        "hits": 1321
+    },
+    {
+        "detector": "D0Up",
+        "element": 126,
+        "hits": 1325
+    },
+    {
+        "detector": "D0Up",
+        "element": 127,
+        "hits": 1427
+    },
+    {
+        "detector": "D0Up",
+        "element": 128,
+        "hits": 1439
+    },
+    {
+        "detector": "D0Up",
+        "element": 129,
+        "hits": 1476
+    },
+    {
+        "detector": "D0Up",
+        "element": 130,
+        "hits": 1547
+    },
+    {
+        "detector": "D0Up",
+        "element": 131,
+        "hits": 1529
+    },
+    {
+        "detector": "D0Up",
+        "element": 132,
+        "hits": 1620
+    },
+    {
+        "detector": "D0Up",
+        "element": 133,
+        "hits": 1731
+    },
+    {
+        "detector": "D0Up",
+        "element": 134,
+        "hits": 1712
+    },
+    {
+        "detector": "D0Up",
+        "element": 135,
+        "hits": 1830
+    },
+    {
+        "detector": "D0Up",
+        "element": 136,
+        "hits": 1788
+    },
+    {
+        "detector": "D0Up",
+        "element": 137,
+        "hits": 1909
+    },
+    {
+        "detector": "D0Up",
+        "element": 138,
+        "hits": 1865
+    },
+    {
+        "detector": "D0Up",
+        "element": 139,
+        "hits": 1887
+    },
+    {
+        "detector": "D0Up",
+        "element": 140,
+        "hits": 1960
+    },
+    {
+        "detector": "D0Up",
+        "element": 141,
+        "hits": 1936
+    },
+    {
+        "detector": "D0Up",
+        "element": 142,
+        "hits": 2057
+    },
+    {
+        "detector": "D0Up",
+        "element": 143,
+        "hits": 2145
+    },
+    {
+        "detector": "D0Up",
+        "element": 144,
+        "hits": 2164
+    },
+    {
+        "detector": "D0Up",
+        "element": 145,
+        "hits": 2269
+    },
+    {
+        "detector": "D0Up",
+        "element": 146,
+        "hits": 2214
+    },
+    {
+        "detector": "D0Up",
+        "element": 147,
+        "hits": 2298
+    },
+    {
+        "detector": "D0Up",
+        "element": 148,
+        "hits": 2352
+    },
+    {
+        "detector": "D0Up",
+        "element": 149,
+        "hits": 2219
+    },
+    {
+        "detector": "D0Up",
+        "element": 150,
+        "hits": 2136
+    },
+    {
+        "detector": "D0Up",
+        "element": 151,
+        "hits": 2243
+    },
+    {
+        "detector": "D0Up",
+        "element": 152,
+        "hits": 2224
+    },
+    {
+        "detector": "D0Up",
+        "element": 153,
+        "hits": 2385
+    },
+    {
+        "detector": "D0Up",
+        "element": 154,
+        "hits": 2274
+    },
+    {
+        "detector": "D0Up",
+        "element": 155,
+        "hits": 2395
+    },
+    {
+        "detector": "D0Up",
+        "element": 156,
+        "hits": 2581
+    },
+    {
+        "detector": "D0Up",
+        "element": 157,
+        "hits": 2746
+    },
+    {
+        "detector": "D0Up",
+        "element": 158,
+        "hits": 2696
+    },
+    {
+        "detector": "D0Up",
+        "element": 159,
+        "hits": 2676
+    },
+    {
+        "detector": "D0Up",
+        "element": 160,
+        "hits": 2773
+    },
+    {
+        "detector": "D0Up",
+        "element": 161,
+        "hits": 2675
+    },
+    {
+        "detector": "D0Up",
+        "element": 162,
+        "hits": 2700
+    },
+    {
+        "detector": "D0Up",
+        "element": 163,
+        "hits": 2918
+    },
+    {
+        "detector": "D0Up",
+        "element": 164,
+        "hits": 2813
+    },
+    {
+        "detector": "D0Up",
+        "element": 165,
+        "hits": 2817
+    },
+    {
+        "detector": "D0Up",
+        "element": 166,
+        "hits": 2637
+    },
+    {
+        "detector": "D0Up",
+        "element": 167,
+        "hits": 2953
+    },
+    {
+        "detector": "D0Up",
+        "element": 168,
+        "hits": 2940
+    },
+    {
+        "detector": "D0Up",
+        "element": 169,
+        "hits": 2981
+    },
+    {
+        "detector": "D0Up",
+        "element": 170,
+        "hits": 2852
+    },
+    {
+        "detector": "D0Up",
+        "element": 171,
+        "hits": 2931
+    },
+    {
+        "detector": "D0Up",
+        "element": 172,
+        "hits": 2787
+    },
+    {
+        "detector": "D0Up",
+        "element": 173,
+        "hits": 2853
+    },
+    {
+        "detector": "D0Up",
+        "element": 174,
+        "hits": 2781
+    },
+    {
+        "detector": "D0Up",
+        "element": 175,
+        "hits": 2721
+    },
+    {
+        "detector": "D0Up",
+        "element": 176,
+        "hits": 37
+    },
+    {
+        "detector": "D0Up",
+        "element": 177,
+        "hits": 2316
+    },
+    {
+        "detector": "D0Up",
+        "element": 178,
+        "hits": 1995
+    },
+    {
+        "detector": "D0Up",
+        "element": 179,
+        "hits": 1784
+    },
+    {
+        "detector": "D0Up",
+        "element": 180,
+        "hits": 1514
+    },
+    {
+        "detector": "D0Up",
+        "element": 181,
+        "hits": 1284
+    },
+    {
+        "detector": "D0Up",
+        "element": 182,
+        "hits": 1013
+    },
+    {
+        "detector": "D0Up",
+        "element": 183,
+        "hits": 806
+    },
+    {
+        "detector": "D0Up",
+        "element": 184,
+        "hits": 647
+    },
+    {
+        "detector": "D0Up",
+        "element": 185,
+        "hits": 492
+    },
+    {
+        "detector": "D0Up",
+        "element": 186,
+        "hits": 402
+    },
+    {
+        "detector": "D0Up",
+        "element": 187,
+        "hits": 296
+    },
+    {
+        "detector": "D0Up",
+        "element": 188,
+        "hits": 267
+    },
+    {
+        "detector": "D0Up",
+        "element": 189,
+        "hits": 224
+    },
+    {
+        "detector": "D0Up",
+        "element": 190,
+        "hits": 193
+    },
+    {
+        "detector": "D0Up",
+        "element": 191,
+        "hits": 128
+    },
+    {
+        "detector": "D0Up",
         "element": 192,
-        "hits": 94
+        "hits": 81
     },
     {
         "detector": "D0Up",
         "element": 193,
-        "hits": 86
+        "hits": 82
     },
     {
         "detector": "D0Up",
         "element": 194,
-        "hits": 1
+        "hits": 2
     },
     {
         "detector": "D0Up",
@@ -5597,17 +5597,17 @@
     {
         "detector": "D0Up",
         "element": 196,
-        "hits": 0
+        "hits": 4
     },
     {
         "detector": "D0Up",
         "element": 197,
-        "hits": 41
+        "hits": 47
     },
     {
         "detector": "D0Up",
         "element": 198,
-        "hits": 0
+        "hits": 3
     },
     {
         "detector": "D0Up",

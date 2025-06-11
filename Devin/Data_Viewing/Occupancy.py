@@ -116,6 +116,9 @@ class DetectorPlot:
         
         # Dictionary to store accumulated hits per file
         self.file_hits_data = {}
+        
+        # List to store hits per event
+        self.hits_per_event = []
 
         # Gather all ROOT files in the directory
         for root_path, _, files in os.walk(run_directory):
@@ -144,10 +147,17 @@ class DetectorPlot:
                     num_events = len(file["fAllHits.detectorID"].array(library="np"))
                     for event_number in range(num_events):
                         detectorid, elementid = self.read_event(file_path, event_number)
-                        file_detectorid = np.concatenate((file_detectorid, detectorid))
-                        file_elementid = np.concatenate((file_elementid, elementid))
-                        self.aggregated_detectorid = np.concatenate((self.aggregated_detectorid, detectorid))
-                        self.aggregated_elementid = np.concatenate((self.aggregated_elementid, elementid))
+                        if len(detectorid) > 0 and len(elementid) > 0:
+                            file_detectorid = np.concatenate((file_detectorid, detectorid))
+                            file_elementid = np.concatenate((file_elementid, elementid))
+                            self.aggregated_detectorid = np.concatenate((self.aggregated_detectorid, detectorid))
+                            self.aggregated_elementid = np.concatenate((self.aggregated_elementid, elementid))
+                            
+                            # Only count hits for events that have actual hits
+                            hits_dict = self.accumulate_hits(detectorid, elementid)
+                            total_hits = sum(hits_dict.values())
+                            self.hits_per_event.append(total_hits)
+                        
                         pbar.update(1)
                 
                 # Accumulate hits for this file
@@ -164,7 +174,11 @@ class DetectorPlot:
         # Save accumulated hits data
         self.save_accumulated_hits(save_directory)
         
+        # Create plots
         self.create_plots(save_directory)
+        
+        # Create hits per event histogram
+        self.create_hits_histogram(save_directory)
 
     def save_accumulated_hits(self, save_directory):
         """Save accumulated hits data for all files and total hits in a readable format."""
@@ -495,6 +509,53 @@ class DetectorPlot:
         cbar.set_label("Hit Count", rotation=90, labelpad=15, fontsize=14)
         
         plt.tight_layout()
+
+    def create_hits_histogram(self, save_directory):
+        """Create and save a histogram of hits per event."""
+        if not self.hits_per_event:
+            print("[DEBUG] No hits per event data available for histogram.")
+            return
+
+        plt.figure(figsize=(12, 6))
+
+
+        print("Hits per event: ", self.hits_per_event)
+        print("self.hits_per_event type: ", type(self.hits_per_event))
+        print("self.hits_per_event shape: ", np.array(self.hits_per_event).shape)
+
+        # Create histogram
+        plt.hist(self.hits_per_event, bins=50, alpha=0.75, color='blue', edgecolor='black')
+        
+        # Add labels and title
+        plt.xlabel('Number of Hits per Event', fontsize=12)
+        plt.ylabel('Number of Events', fontsize=12)
+        plt.title('Distribution of Hits per Event', fontsize=14, pad=15)
+        
+        # Add grid for better readability
+        plt.grid(True, alpha=0.3)
+        
+        # Calculate and display statistics
+        mean_hits = np.mean(self.hits_per_event)
+        median_hits = np.median(self.hits_per_event)
+        std_hits = np.std(self.hits_per_event)
+        
+        stats_text = f'Mean: {mean_hits:.1f}\nMedian: {median_hits:.1f}\nStd Dev: {std_hits:.1f}'
+        plt.text(0.95, 0.95, stats_text,
+                transform=plt.gca().transAxes,
+                verticalalignment='top',
+                horizontalalignment='right',
+                bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+        
+        # Save the plot
+        histogram_path = os.path.join(save_directory, "hits_per_event_histogram.png")
+        plt.savefig(histogram_path, dpi=150, bbox_inches='tight')
+        plt.close()
+        print(f"[INFO] Saved hits per event histogram to {histogram_path}")
+        
+        # Save the raw data
+        data_path = os.path.join(save_directory, "hits_per_event_data.csv")
+        np.savetxt(data_path, self.hits_per_event, delimiter=',', header='hits_per_event', comments='')
+        print(f"[INFO] Saved hits per event data to {data_path}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Detector Hit Display')

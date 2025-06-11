@@ -7,77 +7,77 @@
     {
         "detector": "H4Y2R",
         "element": 1,
-        "hits": 214
+        "hits": 205
     },
     {
         "detector": "H4Y2R",
         "element": 2,
-        "hits": 250
+        "hits": 315
     },
     {
         "detector": "H4Y2R",
         "element": 3,
-        "hits": 307
+        "hits": 280
     },
     {
         "detector": "H4Y2R",
         "element": 4,
-        "hits": 460
+        "hits": 490
     },
     {
         "detector": "H4Y2R",
         "element": 5,
-        "hits": 748
+        "hits": 797
     },
     {
         "detector": "H4Y2R",
         "element": 6,
-        "hits": 785
+        "hits": 855
     },
     {
         "detector": "H4Y2R",
         "element": 7,
-        "hits": 2022
+        "hits": 2139
     },
     {
         "detector": "H4Y2R",
         "element": 8,
-        "hits": 3561
+        "hits": 3613
     },
     {
         "detector": "H4Y2R",
         "element": 9,
-        "hits": 3303
+        "hits": 3443
     },
     {
         "detector": "H4Y2R",
         "element": 10,
-        "hits": 1951
+        "hits": 2017
     },
     {
         "detector": "H4Y2R",
         "element": 11,
-        "hits": 1089
+        "hits": 1116
     },
     {
         "detector": "H4Y2R",
         "element": 12,
-        "hits": 636
+        "hits": 686
     },
     {
         "detector": "H4Y2R",
         "element": 13,
-        "hits": 460
+        "hits": 422
     },
     {
         "detector": "H4Y2R",
         "element": 14,
-        "hits": 363
+        "hits": 390
     },
     {
         "detector": "H4Y2R",
         "element": 15,
-        "hits": 293
+        "hits": 300
     },
     {
         "detector": "H4Y2L",
@@ -87,77 +87,77 @@
     {
         "detector": "H4Y2L",
         "element": 1,
-        "hits": 137
+        "hits": 109
     },
     {
         "detector": "H4Y2L",
         "element": 2,
-        "hits": 84
+        "hits": 78
     },
     {
         "detector": "H4Y2L",
         "element": 3,
-        "hits": 302
+        "hits": 258
     },
     {
         "detector": "H4Y2L",
         "element": 4,
-        "hits": 289
+        "hits": 270
     },
     {
         "detector": "H4Y2L",
         "element": 5,
-        "hits": 512
+        "hits": 604
     },
     {
         "detector": "H4Y2L",
         "element": 6,
-        "hits": 613
+        "hits": 645
     },
     {
         "detector": "H4Y2L",
         "element": 7,
-        "hits": 1243
+        "hits": 1417
     },
     {
         "detector": "H4Y2L",
         "element": 8,
-        "hits": 2425
+        "hits": 2574
     },
     {
         "detector": "H4Y2L",
         "element": 9,
-        "hits": 2497
+        "hits": 2671
     },
     {
         "detector": "H4Y2L",
         "element": 10,
-        "hits": 1446
+        "hits": 1386
     },
     {
         "detector": "H4Y2L",
         "element": 11,
-        "hits": 774
+        "hits": 825
     },
     {
         "detector": "H4Y2L",
         "element": 12,
-        "hits": 499
+        "hits": 451
     },
     {
         "detector": "H4Y2L",
         "element": 13,
-        "hits": 407
+        "hits": 452
     },
     {
         "detector": "H4Y2L",
         "element": 14,
-        "hits": 260
+        "hits": 282
     },
     {
         "detector": "H4Y2L",
         "element": 15,
-        "hits": 239
+        "hits": 321
     },
     {
         "detector": "H4T",
@@ -167,62 +167,62 @@
     {
         "detector": "H4T",
         "element": 1,
-        "hits": 3451
+        "hits": 3515
     },
     {
         "detector": "H4T",
         "element": 2,
-        "hits": 2999
+        "hits": 2992
     },
     {
         "detector": "H4T",
         "element": 3,
-        "hits": 1812
+        "hits": 1779
     },
     {
         "detector": "H4T",
         "element": 4,
-        "hits": 1154
+        "hits": 1074
     },
     {
         "detector": "H4T",
         "element": 5,
-        "hits": 697
+        "hits": 644
     },
     {
         "detector": "H4T",
         "element": 6,
-        "hits": 502
+        "hits": 456
     },
     {
         "detector": "H4T",
         "element": 7,
-        "hits": 275
+        "hits": 291
     },
     {
         "detector": "H4T",
         "element": 8,
-        "hits": 272
+        "hits": 286
     },
     {
         "detector": "H4T",
         "element": 9,
-        "hits": 272
+        "hits": 342
     },
     {
         "detector": "H4T",
         "element": 10,
-        "hits": 389
+        "hits": 358
     },
     {
         "detector": "H4T",
         "element": 11,
-        "hits": 657
+        "hits": 632
     },
     {
         "detector": "H4T",
         "element": 12,
-        "hits": 728
+        "hits": 782
     },
     {
         "detector": "H4T",
@@ -232,12 +232,12 @@
     {
         "detector": "H4T",
         "element": 14,
-        "hits": 2730
+        "hits": 2817
     },
     {
         "detector": "H4T",
         "element": 15,
-        "hits": 4085
+        "hits": 4219
     },
     {
         "detector": "H4B",
@@ -247,76 +247,76 @@
     {
         "detector": "H4B",
         "element": 1,
-        "hits": 3822
+        "hits": 3957
     },
     {
         "detector": "H4B",
         "element": 2,
-        "hits": 2245
+        "hits": 2300
     },
     {
         "detector": "H4B",
         "element": 3,
-        "hits": 1982
+        "hits": 2124
     },
     {
         "detector": "H4B",
         "element": 4,
-        "hits": 1374
+        "hits": 1343
     },
     {
         "detector": "H4B",
         "element": 5,
-        "hits": 609
+        "hits": 661
     },
     {
         "detector": "H4B",
         "element": 6,
-        "hits": 441
+        "hits": 480
     },
     {
         "detector": "H4B",
         "element": 7,
-        "hits": 390
+        "hits": 393
     },
     {
         "detector": "H4B",
         "element": 8,
-        "hits": 508
+        "hits": 561
     },
     {
         "detector": "H4B",
         "element": 9,
-        "hits": 334
+        "hits": 379
     },
     {
         "detector": "H4B",
         "element": 10,
-        "hits": 442
+        "hits": 509
     },
     {
         "detector": "H4B",
         "element": 11,
-        "hits": 310
+        "hits": 313
     },
     {
         "detector": "H4B",
         "element": 12,
-        "hits": 865
+        "hits": 961
     },
     {
         "detector": "H4B",
         "element": 13,
-        "hits": 1467
+        "hits": 1466
     },
     {
         "detector": "H4B",
         "element": 14,
-        "hits": 2740
+        "hits": 2778
     },
     {
         "detector": "H4B",
         "element": 15,
-        "hits": 4230
+        "hits": 4343
     }
 ]

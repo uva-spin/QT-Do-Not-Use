@@ -1,0 +1,4442 @@
+Group,Detector_Name,Detector_ID,Element_ID,Hits
+Prop,P1X1,49,9,1670
+Prop,P1X1,49,36,499
+Prop,P1X1,49,37,396
+Prop,P1X1,49,40,449
+Prop,P1X2,50,17,994
+Prop,P1X2,50,36,510
+Prop,P1X2,50,38,358
+Prop,P2Y1,53,50,1297
+Prop,P2Y1,53,53,2167
+Station 1,D0X,3,74,8329
+Station 2,D2Up,18,86,891
+Station 2,D2Up,18,95,1444
+Station 2,D2Up,18,96,1592
+Hodo,H1T,32,16,5952
+Station 2,D2Up,18,85,864
+Station 2,D2Up,18,91,1361
+Hodo,H1B,31,17,7397
+Hodo,H1B,31,23,9673
+Hodo,H1T,32,4,7449
+Hodo,H1L,33,9,11368
+Hodo,H1L,33,10,11880
+Hodo,H1R,34,11,11441
+Station 1,D0U,1,154,2586
+Station 1,D0Up,2,155,2395
+Station 1,D0X,3,133,2005
+Station 1,D0V,5,147,2534
+Station 2,D2V,13,120,2105
+Station 2,D2Vp,14,119,1662
+Station 2,D2Xp,15,89,1303
+Station 2,D2Xp,15,99,1822
+Station 2,D2X,16,98,1903
+Station 2,D2U,17,94,1260
+Station 2,D2Up,18,93,1414
+Station 3-,D3mVp,25,52,438
+Station 3-,D3mV,26,51,458
+Station 3-,D3mXp,27,48,385
+Station 3-,D3mXp,27,49,427
+Station 3-,D3mX,28,48,430
+Station 3-,D3mUp,29,64,385
+Station 3-,D3mU,30,63,389
+Hodo,H1B,31,18,7570
+Hodo,H1T,32,3,7780
+Hodo,H1T,32,5,7517
+Hodo,H1R,34,12,9307
+Hodo,H2L,35,3,545
+Hodo,H2B,37,14,3511
+Hodo,H3B,39,6,673
+Hodo,H4Y1R,42,1,228
+Hodo,H4Y2R,44,1,205
+Hodo,H4B,45,6,480
+Prop,P1X2,50,26,278
+DP-2,DP2BL,61,46,30
+Station 1,D0U,1,32,2075
+Station 1,D0U,1,167,3040
+Station 1,D0U,1,178,2041
+Station 1,D0Up,2,32,2009
+Station 1,D0Up,2,179,1784
+Station 1,D0X,3,155,2318
+Station 1,D0Xp,4,149,2895
+Station 1,D0V,5,39,2248
+Station 1,D0V,5,73,1106
+Station 1,D0V,5,168,3164
+Station 3+,D3pXp,21,38,392
+Station 3+,D3pU,24,8,902
+Hodo,H1T,32,6,6141
+Hodo,H1T,32,20,8841
+Hodo,H1L,33,11,11650
+Hodo,H2B,37,16,4948
+Hodo,H2T,38,4,2130
+DP-1,DP1TR,56,5,586
+Station 1,D0U,1,29,2023
+Station 1,D0U,1,30,2072
+Station 1,D0U,1,31,2025
+Station 1,D0U,1,33,2102
+Station 1,D0U,1,107,688
+Station 1,D0U,1,127,1511
+Station 1,D0U,1,141,2125
+Station 1,D0U,1,146,2226
+Station 1,D0U,1,157,2818
+Station 1,D0Up,2,30,2041
+Station 1,D0Up,2,31,1989
+Station 1,D0Up,2,33,1959
+Station 1,D0Up,2,107,634
+Station 1,D0Up,2,127,1427
+Station 1,D0Up,2,142,2057
+Station 1,D0Up,2,157,2746
+Station 1,D0Up,2,158,2696
+Station 1,D0X,3,16,1429
+Station 1,D0X,3,126,1771
+Station 1,D0X,3,156,2541
+Station 1,D0Xp,4,22,1564
+Station 1,D0Xp,4,113,1843
+Station 1,D0Xp,4,124,1815
+Station 1,D0Xp,4,138,2862
+Station 1,D0V,5,47,2174
+Station 1,D0V,5,51,1909
+Station 1,D0V,5,54,1768
+Station 1,D0V,5,55,1739
+Station 1,D0V,5,126,1550
+Station 1,D0V,5,127,1547
+Station 1,D0V,5,138,2066
+Station 1,D0V,5,139,2117
+Station 1,D0V,5,159,3027
+Station 1,D0V,5,174,2887
+Station 1,D0V,5,180,2103
+Station 2,D2V,13,84,662
+Station 2,D2V,13,85,688
+Station 2,D2V,13,86,770
+Station 2,D2V,13,87,839
+Station 2,D2V,13,91,1181
+Station 2,D2V,13,92,1282
+Station 2,D2V,13,93,1325
+Station 2,D2V,13,94,1348
+Station 2,D2V,13,95,1396
+Station 2,D2V,13,96,1461
+Station 2,D2V,13,98,1474
+Station 2,D2V,13,107,1953
+Station 2,D2V,13,117,2468
+Station 2,D2Vp,14,78,406
+Station 2,D2Vp,14,79,421
+Station 2,D2Vp,14,81,399
+Station 2,D2Vp,14,82,496
+Station 2,D2Vp,14,83,560
+Station 2,D2Vp,14,84,604
+Station 2,D2Vp,14,85,681
+Station 2,D2Vp,14,86,738
+Station 2,D2Vp,14,87,769
+Station 2,D2Vp,14,88,940
+Station 2,D2Vp,14,89,997
+Station 2,D2Vp,14,93,1293
+Station 2,D2Vp,14,96,1193
+Station 2,D2Vp,14,98,1412
+Station 2,D2Vp,14,107,1654
+Station 2,D2Vp,14,117,1886
+Station 2,D2Xp,15,86,1130
+Station 2,D2Xp,15,87,1152
+Station 2,D2Xp,15,100,1885
+Station 2,D2Xp,15,102,1977
+Station 2,D2Xp,15,112,1910
+Station 2,D2X,16,89,1299
+Station 2,D2X,16,102,2187
+Station 2,D2X,16,112,2391
+Station 2,D2U,17,98,1527
+Station 2,D2U,17,114,2340
+Station 2,D2U,17,125,621
+Station 2,D2Up,18,97,1427
+Station 2,D2Up,18,125,521
+Station 3+,D3pVp,19,126,1329
+Station 3+,D3pV,20,126,1320
+Station 3+,D3pXp,21,115,1085
+Station 3+,D3pX,22,115,1039
+Station 3+,D3pUp,23,129,1178
+Station 3+,D3pUp,23,130,1179
+Station 3+,D3pUp,23,133,1336
+Station 3+,D3pU,24,129,1216
+Station 3+,D3pU,24,130,1143
+Station 3+,D3pU,24,131,1184
+Station 3+,D3pU,24,134,1299
+Station 3-,D3mVp,25,131,1140
+Station 3-,D3mV,26,130,1115
+Station 3-,D3mXp,27,115,1097
+Station 3-,D3mX,28,114,1090
+Station 3-,D3mUp,29,113,1045
+Station 3-,D3mUp,29,114,996
+Station 3-,D3mU,30,113,993
+Hodo,H1B,31,1,9112
+Hodo,H1B,31,5,6876
+Hodo,H1B,31,10,2477
+Hodo,H1B,31,13,2367
+Hodo,H1B,31,15,5537
+Hodo,H1B,31,20,9010
+Hodo,H1B,31,21,9319
+Hodo,H1B,31,22,9581
+Hodo,H1T,32,1,8399
+Hodo,H1T,32,8,4076
+Hodo,H1L,33,5,4564
+Hodo,H1L,33,12,11396
+Hodo,H1L,33,13,10219
+Hodo,H1L,33,14,8608
+Hodo,H1R,34,8,8837
+Hodo,H2L,35,9,7124
+Hodo,H2L,35,10,7757
+Hodo,H4Y1L,41,8,7686
+Hodo,H4Y1L,41,9,7186
+Hodo,H4Y2L,43,13,452
+Hodo,H4B,45,16,3824
+Prop,P1X1,49,57,1547
+Prop,P1X2,50,58,1562
+Prop,P1X2,50,63,1962
+DP-1,DP1TR,56,16,298
+DP-2,DP2BL,61,16,80
+Station 1,D0U,1,145,2349
+Station 1,D0U,1,171,3110
+Station 1,D0Up,2,146,2214
+Station 1,D0Up,2,171,2931
+Station 1,D0V,5,142,2439
+Station 2,D2V,13,74,340
+Station 2,D2Vp,14,72,337
+Station 2,D2Xp,15,49,233
+Station 2,D2X,16,46,198
+Station 2,D2X,16,99,1935
+Station 2,D2U,17,39,659
+Station 2,D2U,17,40,550
+Station 2,D2U,17,109,2084
+Station 2,D2Up,18,34,783
+Station 2,D2Up,18,35,759
+Station 2,D2Up,18,36,734
+Station 2,D2Up,18,37,673
+Station 2,D2Up,18,109,1820
+Station 3+,D3pVp,19,127,1285
+Station 3+,D3pV,20,127,1363
+Station 3-,D3mUp,29,126,1315
+Station 3-,D3mU,30,126,1285
+Hodo,H1T,32,22,9329
+Hodo,H1L,33,8,10462
+Hodo,H1R,34,7,6634
+Hodo,H2R,36,3,723
+Hodo,H2B,37,3,2713
+Hodo,H2B,37,4,1786
+Hodo,H2T,38,16,4663
+Hodo,H4Y1L,41,10,3269
+Prop,P1Y2,48,37,2065
+Prop,P1Y2,48,38,1916
+Prop,P1Y2,48,39,1886
+Prop,P1X1,49,54,1090
+Hodo,H4B,45,4,1343
+Station 1,D0U,1,134,1856
+Station 1,D0U,1,137,1974
+Station 1,D0Up,2,135,1830
+Station 1,D0Up,2,137,1909
+Station 1,D0X,3,116,1371
+Station 1,D0Xp,4,117,1443
+Station 1,D0V,5,133,1905
+Station 1,D0V,5,135,2025
+Station 2,D2V,13,99,1485
+Station 2,D2V,13,102,1625
+Station 2,D2Vp,14,102,1451
+Station 2,D2Xp,15,93,1589
+Station 2,D2X,16,91,1314
+Station 2,D2X,16,93,1513
+Station 2,D2U,17,101,1539
+Station 2,D2Up,18,101,1481
+Station 3+,D3pVp,19,6,885
+Station 3+,D3pVp,19,7,804
+Station 3+,D3pVp,19,8,763
+Station 3+,D3pVp,19,115,1106
+Station 3+,D3pV,20,8,856
+Station 3+,D3pV,20,9,709
+Station 3+,D3pV,20,10,802
+Station 3+,D3pV,20,115,1062
+Station 3+,D3pXp,21,4,766
+Station 3+,D3pXp,21,5,764
+Station 3+,D3pXp,21,116,1086
+Station 3+,D3pX,22,5,750
+Station 3+,D3pX,22,6,778
+Station 3+,D3pX,22,7,790
+Station 3+,D3pUp,23,14,841
+Station 3+,D3pUp,23,20,723
+Station 3+,D3pUp,23,21,741
+Station 3+,D3pUp,23,132,1295
+Station 3+,D3pU,24,14,845
+Station 3+,D3pU,24,22,710
+Station 3+,D3pU,24,23,716
+Station 3+,D3pU,24,133,1220
+Station 3-,D3mV,26,134,1297
+Station 3-,D3mUp,29,119,1173
+Station 3-,D3mU,30,119,1151
+Hodo,H1B,31,16,6137
+Hodo,H2L,35,11,6732
+Hodo,H2B,37,15,5081
+Hodo,H2T,38,15,4543
+Hodo,H3T,40,6,602
+Hodo,H4Y1R,42,10,2514
+Hodo,H4Y2R,44,10,2017
+Hodo,H4T,46,5,644
+Hodo,H4T,46,16,4363
+Prop,P1Y1,47,33,1629
+Prop,P1Y2,48,42,1716
+Prop,P1X1,49,64,2159
+Prop,P1X2,50,20,690
+Prop,P1X2,50,57,2152
+Prop,P2Y1,53,33,1476
+Station 3+,D3pV,20,11,797
+Station 3+,D3pV,20,90,569
+Station 1,D0U,1,58,1341
+Station 1,D0U,1,116,922
+Station 1,D0U,1,121,1198
+Station 1,D0U,1,122,1209
+Station 1,D0U,1,130,1616
+Station 1,D0U,1,142,2160
+Station 1,D0U,1,144,2309
+Station 1,D0U,1,147,2410
+Station 1,D0U,1,150,2511
+Station 1,D0U,1,168,3120
+Station 1,D0U,1,170,3033
+Station 1,D0Up,2,58,1267
+Station 1,D0Up,2,113,741
+Station 1,D0Up,2,114,749
+Station 1,D0Up,2,115,806
+Station 1,D0Up,2,121,1112
+Station 1,D0Up,2,131,1529
+Station 1,D0Up,2,143,2145
+Station 1,D0Up,2,144,2164
+Station 1,D0Up,2,145,2269
+Station 1,D0Up,2,147,2298
+Station 1,D0Up,2,150,2136
+Station 1,D0Up,2,165,2817
+Station 1,D0X,3,40,941
+Station 1,D0X,3,104,829
+Station 1,D0X,3,122,1513
+Station 1,D0X,3,129,1769
+Station 1,D0X,3,130,1767
+Station 1,D0X,3,132,1823
+Station 1,D0X,3,148,2341
+Station 1,D0X,3,150,2377
+Station 1,D0Xp,4,25,769
+Station 1,D0Xp,4,106,1443
+Station 1,D0Xp,4,110,974
+Station 1,D0Xp,4,118,1208
+Station 1,D0Xp,4,144,2153
+Station 1,D0Xp,4,146,2514
+Station 1,D0Xp,4,148,2778
+Station 1,D0V,5,22,1089
+Station 1,D0V,5,25,1731
+Station 1,D0V,5,65,1466
+Station 1,D0V,5,124,1398
+Station 1,D0V,5,128,1605
+Station 1,D0V,5,140,2200
+Station 1,D0V,5,144,2407
+Station 1,D0V,5,145,2643
+Station 1,D0V,5,163,3133
+Station 1,D0V,5,164,3053
+Station 1,D0V,5,170,3067
+Station 1,D0V,5,175,2931
+Station 2,D2V,13,22,1265
+Station 2,D2V,13,97,1477
+Station 2,D2V,13,103,1709
+Station 2,D2V,13,108,1894
+Station 2,D2V,13,116,2564
+Station 2,D2Vp,14,21,1275
+Station 2,D2Vp,14,94,1288
+Station 2,D2Vp,14,97,1322
+Station 2,D2Vp,14,103,1538
+Station 2,D2Vp,14,104,1493
+Station 2,D2Vp,14,106,1599
+Station 2,D2Vp,14,108,1650
+Station 2,D2Vp,14,109,1733
+Station 2,D2Vp,14,111,1903
+Station 2,D2Vp,14,112,1790
+Station 2,D2Vp,14,113,1834
+Station 2,D2Vp,14,114,1946
+Station 2,D2Vp,14,116,2052
+Station 2,D2Vp,14,118,1565
+Station 2,D2Xp,15,13,1286
+Station 2,D2Xp,15,83,1096
+Station 2,D2Xp,15,91,1394
+Station 2,D2Xp,15,94,1546
+Station 2,D2Xp,15,98,1869
+Station 2,D2Xp,15,101,1985
+Station 2,D2Xp,15,103,2036
+Station 2,D2Xp,15,104,2053
+Station 2,D2Xp,15,108,2020
+Station 2,D2Xp,15,109,2116
+Station 2,D2X,16,83,1077
+Station 2,D2X,16,87,1202
+Station 2,D2X,16,92,1471
+Station 2,D2X,16,94,1543
+Station 2,D2X,16,109,2475
+Station 2,D2U,17,22,1146
+Station 2,D2U,17,89,930
+Station 2,D2U,17,95,1237
+Station 2,D2U,17,96,1302
+Station 2,D2U,17,103,1700
+Station 2,D2U,17,118,2417
+Station 2,D2Up,18,21,1264
+Station 2,D2Up,18,94,1342
+Station 2,D2Up,18,98,1455
+Station 2,D2Up,18,103,1461
+Station 2,D2Up,18,118,2082
+Station 3+,D3pVp,19,12,724
+Station 3+,D3pV,20,118,1185
+Station 3+,D3pUp,23,2,1049
+Station 3+,D3pU,24,2,907
+Station 3-,D3mVp,25,51,423
+Station 3-,D3mVp,25,114,724
+Station 3-,D3mVp,25,115,752
+Station 3-,D3mVp,25,116,872
+Station 3-,D3mVp,25,123,988
+Station 3-,D3mVp,25,132,1200
+Station 3-,D3mV,26,116,862
+Station 3-,D3mV,26,123,1083
+Station 3-,D3mV,26,128,1160
+Station 3-,D3mV,26,129,1133
+Station 3-,D3mV,26,131,1143
+Station 3-,D3mV,26,133,1266
+Station 3-,D3mXp,27,35,414
+Station 3-,D3mXp,27,103,933
+Station 3-,D3mXp,27,104,882
+Station 3-,D3mXp,27,109,1034
+Station 3-,D3mX,28,34,427
+Station 3-,D3mX,28,103,902
+Station 3-,D3mX,28,109,1065
+Station 3-,D3mUp,29,38,402
+Station 3-,D3mUp,29,106,850
+Station 3-,D3mUp,29,110,967
+Station 3-,D3mUp,29,117,1069
+Station 3-,D3mUp,29,123,1249
+Station 3-,D3mU,30,37,361
+Station 3-,D3mU,30,106,971
+Station 3-,D3mU,30,110,1024
+Station 3-,D3mU,30,116,1056
+Station 3-,D3mU,30,117,1087
+Station 3-,D3mU,30,123,1160
+Hodo,H1B,31,14,3214
+Hodo,H1B,31,19,8964
+Hodo,H1R,34,10,9585
+Hodo,H1R,34,13,7982
+Hodo,H2L,35,8,3897
+Hodo,H2R,36,11,4851
+Hodo,H2B,37,13,2519
+Hodo,H2T,38,1,3981
+Hodo,H3B,39,15,1811
+Hodo,H4Y1L,41,7,4076
+Hodo,H4Y1R,42,9,4167
+Hodo,H4Y2L,43,7,1417
+Hodo,H4B,45,3,2124
+Hodo,H4B,45,14,2778
+Hodo,H4B,45,15,4343
+Prop,P1Y1,47,26,726
+Prop,P1Y1,47,31,1616
+Prop,P1Y1,47,36,2144
+Prop,P1Y1,47,46,932
+Prop,P1Y2,48,29,1169
+Prop,P1Y2,48,31,1482
+Prop,P1X1,49,13,1274
+Prop,P1X1,49,16,964
+Prop,P1X2,50,3,1611
+Prop,P1X2,50,13,1316
+Prop,P1X2,50,14,1297
+Prop,P1X2,50,60,1896
+Prop,P1X2,50,64,2095
+Prop,P2X1,51,3,1230
+Prop,P2X2,52,3,1657
+Prop,P2Y1,53,30,1793
+Prop,P2Y1,53,36,1647
+Prop,P2Y2,54,6,318
+Prop,P2Y2,54,28,1270
+Prop,P2Y2,54,30,1433
+Prop,P2Y2,54,31,1857
+DP-1,DP1BL,57,2,1170
+DP-1,DP1BL,57,4,987
+DP-1,DP1BL,57,5,977
+DP-2,DP2BL,61,4,280
+Station 1,D0U,1,77,821
+Station 1,D0U,1,111,752
+Station 1,D0U,1,112,791
+Station 1,D0U,1,158,2877
+Station 1,D0U,1,177,2349
+Station 1,D0Up,2,78,778
+Station 1,D0Up,2,112,725
+Station 1,D0Up,2,138,1865
+Station 1,D0Up,2,141,1936
+Station 1,D0Up,2,178,1995
+Station 1,D0X,3,86,406
+Station 1,D0X,3,134,2061
+Station 1,D0X,3,153,2204
+Station 1,D0Xp,4,132,2139
+Station 1,D0V,5,29,2274
+Station 1,D0V,5,85,820
+Station 1,D0V,5,96,549
+Station 1,D0V,5,119,1070
+Station 1,D0V,5,148,2621
+Station 1,D0V,5,150,2856
+Station 1,D0V,5,162,2928
+Station 1,D0V,5,179,2298
+Station 2,D2V,13,43,561
+Station 2,D2Vp,14,42,597
+Station 2,D2Vp,14,91,1161
+Station 2,D2Xp,15,32,619
+Station 2,D2Xp,15,88,1266
+Station 2,D2X,16,88,1338
+Station 2,D2U,17,102,1610
+Station 2,D2Up,18,20,1327
+Station 2,D2Up,18,38,658
+Station 3+,D3pVp,19,116,1123
+Station 3+,D3pV,20,6,878
+Station 3+,D3pV,20,116,1114
+Station 3+,D3pXp,21,111,1071
+Station 3+,D3pXp,21,112,1073
+Station 3+,D3pX,22,112,1146
+Station 3+,D3pUp,23,122,1019
+Station 3+,D3pU,24,123,1071
+Station 3-,D3mVp,25,36,574
+Station 3-,D3mV,26,35,631
+Station 3-,D3mXp,27,17,575
+Station 3-,D3mX,28,16,629
+Station 3-,D3mUp,29,19,621
+Station 3-,D3mUp,29,132,1494
+Station 3-,D3mU,30,18,629
+Station 3-,D3mU,30,131,1453
+Hodo,H1B,31,2,8374
+Hodo,H1B,31,3,7879
+Hodo,H1T,32,9,3204
+Hodo,H1T,32,15,5035
+Hodo,H1T,32,18,7918
+Hodo,H1T,32,21,9549
+Hodo,H1R,34,9,8990
+Hodo,H2L,35,13,2006
+Hodo,H2R,36,9,4764
+Hodo,H2T,38,14,4061
+Hodo,H3B,39,2,1387
+Hodo,H3T,40,16,2102
+Hodo,H4Y1L,41,6,1869
+Hodo,H4Y1L,41,11,1295
+Hodo,H4Y1R,42,8,5086
+Hodo,H4Y2L,43,5,604
+Hodo,H4Y2R,44,8,3613
+Hodo,H4B,45,9,379
+Hodo,H4T,46,15,4219
+Prop,P1Y1,47,34,1783
+Prop,P1Y1,47,35,2080
+Prop,P1Y2,48,48,698
+Prop,P1X1,49,8,1183
+Prop,P1X1,49,12,1314
+Prop,P1X2,50,61,2055
+Prop,P2X2,52,14,396
+Prop,P2Y1,53,34,1574
+Prop,P2Y1,53,49,854
+Prop,P2Y2,54,25,1149
+Prop,P2Y2,54,50,893
+DP-1,DP1TL,55,6,835
+DP-1,DP1TL,55,19,331
+DP-1,DP1BL,57,8,750
+DP-1,DP1BL,57,79,89
+DP-2,DP2TL,59,17,88
+DP-2,DP2BR,62,1,292
+Station 1,D0U,1,47,1679
+Station 1,D0U,1,62,1125
+Station 1,D0U,1,126,1393
+Station 1,D0U,1,132,1715
+Station 1,D0U,1,138,1932
+Station 1,D0U,1,139,2005
+Station 1,D0Up,2,47,1644
+Station 1,D0Up,2,62,1097
+Station 1,D0Up,2,126,1325
+Station 1,D0X,3,31,1079
+Station 1,D0X,3,105,811
+Station 1,D0Xp,4,28,1058
+Station 1,D0Xp,4,45,736
+Station 1,D0V,5,58,1712
+Station 1,D0V,5,123,1307
+Station 1,D0V,5,136,2078
+Station 1,D0V,5,176,2891
+Station 2,D2V,13,23,1244
+Station 2,D2V,13,27,1149
+Station 2,D2V,13,36,962
+Station 2,D2V,13,90,1075
+Station 2,D2Vp,14,22,1165
+Station 2,D2Vp,14,26,1010
+Station 2,D2Vp,14,30,904
+Station 2,D2Vp,14,40,765
+Station 2,D2Vp,14,101,1389
+Station 2,D2Xp,15,12,1307
+Station 2,D2Xp,15,18,1005
+Station 2,D2Xp,15,82,998
+Station 2,D2X,16,11,1107
+Station 2,D2X,16,17,903
+Station 2,D2X,16,18,853
+Station 2,D2X,16,82,1017
+Station 2,D2U,17,18,1290
+Station 2,D2U,17,25,1040
+Station 2,D2U,17,66,221
+Station 2,D2U,17,91,1058
+Station 2,D2Up,18,17,1450
+Station 2,D2Up,18,39,564
+Station 2,D2Up,18,60,198
+Station 2,D2Up,18,102,1578
+Station 3+,D3pVp,19,99,730
+Station 3+,D3pV,20,100,763
+Station 3+,D3pV,20,124,1365
+Station 3+,D3pV,20,129,1486
+Station 3+,D3pXp,21,101,826
+Station 3+,D3pX,22,101,767
+Station 3+,D3pUp,23,10,828
+Station 3+,D3pUp,23,117,852
+Station 3+,D3pUp,23,118,962
+Station 3+,D3pU,24,10,781
+Station 3+,D3pU,24,118,925
+Station 3-,D3mVp,25,6,915
+Station 3-,D3mVp,25,7,958
+Station 3-,D3mV,26,6,961
+Station 3-,D3mXp,27,100,776
+Station 3-,D3mXp,27,101,849
+Station 3-,D3mX,28,100,768
+Hodo,H1B,31,7,6622
+Hodo,H1R,34,19,1113
+Hodo,H2R,36,13,1333
+Hodo,H2B,37,1,4948
+Hodo,H2T,38,13,2888
+Hodo,H3T,40,15,1905
+Hodo,H4Y1R,42,5,816
+Hodo,H4Y2L,43,8,2574
+Hodo,H4Y2L,43,9,2671
+Hodo,H4Y2R,44,4,490
+Hodo,H4B,45,1,3957
+Hodo,H4T,46,14,2817
+Prop,P1Y1,47,24,979
+Prop,P1Y1,47,38,1841
+Prop,P1Y2,48,24,973
+Prop,P1X1,49,56,1567
+Prop,P1X2,50,6,1480
+Prop,P1X2,50,56,1398
+Prop,P1X2,50,59,1718
+Prop,P2X1,51,2,1594
+Prop,P2Y1,53,8,395
+Prop,P2Y1,53,35,1699
+Prop,P2Y1,53,38,1713
+Prop,P2Y2,54,38,1519
+Station 2,D2U,17,87,648
+Station 1,D0U,1,68,1042
+Station 1,D0U,1,123,1291
+Station 1,D0Up,2,69,918
+Station 1,D0Up,2,124,1267
+Station 1,D0Up,2,128,1439
+Station 1,D0X,3,48,680
+Station 1,D0X,3,106,879
+Station 1,D0Xp,4,99,1032
+Station 1,D0V,5,70,1197
+Station 1,D0V,5,122,1199
+Station 1,D0V,5,167,3312
+Station 2,D2V,13,29,1101
+Station 2,D2Vp,14,28,988
+Station 2,D2Xp,15,21,884
+Station 2,D2X,16,20,820
+Station 2,D2U,17,31,870
+Station 2,D2U,17,90,955
+Station 2,D2Up,18,30,836
+Station 2,D2Up,18,100,1446
+Station 3+,D3pVp,19,1,972
+Station 3+,D3pVp,19,5,897
+Station 3+,D3pVp,19,59,401
+Station 3+,D3pVp,19,112,1061
+Station 3+,D3pV,20,2,1075
+Station 3+,D3pV,20,7,860
+Station 3+,D3pV,20,60,417
+Station 3+,D3pV,20,113,1117
+Station 3+,D3pXp,21,2,716
+Station 3+,D3pXp,21,3,782
+Station 3+,D3pXp,21,51,403
+Station 3+,D3pXp,21,113,1095
+Station 3+,D3pX,22,3,751
+Station 3+,D3pX,22,52,403
+Station 3+,D3pX,22,113,1096
+Station 3+,D3pUp,23,13,849
+Station 3+,D3pUp,23,15,800
+Station 3+,D3pUp,23,16,810
+Station 3+,D3pUp,23,62,460
+Station 3+,D3pUp,23,128,1183
+Station 3+,D3pU,24,13,823
+Station 3+,D3pU,24,15,807
+Station 3+,D3pU,24,16,764
+Station 3+,D3pU,24,62,443
+Station 3-,D3mVp,25,117,898
+Station 3-,D3mUp,29,101,729
+Station 3-,D3mU,30,100,715
+Hodo,H1T,32,7,5083
+Hodo,H1T,32,23,9256
+Hodo,H2L,35,14,1234
+Hodo,H2R,36,7,2027
+Hodo,H2R,36,8,2948
+Hodo,H2R,36,12,2567
+Hodo,H2T,38,2,2952
+Hodo,H2T,38,12,1766
+Hodo,H4T,46,1,3515
+Prop,P1Y1,47,41,1653
+Prop,P1Y1,47,47,742
+Prop,P1Y1,47,50,777
+Prop,P1Y2,48,34,1504
+Prop,P1Y2,48,40,1482
+Prop,P1Y2,48,43,1526
+Prop,P1X1,49,61,2062
+Prop,P1X2,50,27,259
+Prop,P1X2,50,62,2014
+Prop,P2X2,52,21,149
+Prop,P2X2,52,22,114
+Prop,P2Y1,53,40,1407
+Prop,P2Y1,53,43,649
+Prop,P2Y1,53,52,692
+Prop,P2Y2,54,53,694
+DP-1,DP1TR,56,4,672
+DP-2,DP2TR,60,5,157
+Station 1,D0U,1,34,2036
+Station 1,D0U,1,160,2802
+Station 1,D0U,1,161,2814
+Station 1,D0U,1,176,2611
+Station 1,D0Up,2,35,1958
+Station 1,D0Up,2,160,2773
+Station 1,D0Up,2,161,2675
+Station 1,D0Up,2,177,2316
+Station 1,D0X,3,4,1668
+Station 1,D0X,3,17,1298
+Station 1,D0X,3,18,1318
+Station 1,D0X,3,139,2198
+Station 1,D0X,3,142,2311
+Station 1,D0Xp,4,11,1612
+Station 1,D0Xp,4,152,2393
+Station 1,D0V,5,33,2419
+Station 1,D0V,5,45,2175
+Station 1,D0V,5,153,2882
+Station 1,D0V,5,165,3219
+Station 2,D2V,13,118,2400
+Station 2,D2Xp,15,9,1302
+Station 2,D2Xp,15,111,2022
+Station 2,D2X,16,8,1016
+Station 2,D2X,16,111,2087
+Station 2,D2U,17,121,1885
+Station 2,D2Up,18,16,1540
+Station 2,D2Up,18,121,1606
+Station 3+,D3pVp,19,123,1375
+Station 3+,D3pVp,19,130,1417
+Station 3+,D3pXp,21,109,1018
+Station 3+,D3pX,22,109,1001
+Station 3+,D3pUp,23,109,682
+Station 3+,D3pU,24,109,633
+Station 3-,D3mX,28,24,463
+Hodo,H1L,33,16,4649
+Hodo,H2R,36,10,5240
+Hodo,H4Y1R,42,11,1178
+Hodo,H4Y2L,43,11,825
+Hodo,H4Y2R,44,12,686
+Hodo,H4T,46,2,2992
+Prop,P1Y1,47,42,1556
+Prop,P1X1,49,7,1183
+Prop,P1X2,50,8,559
+Prop,P2X1,51,9,669
+Station 1,D0U,1,65,1133
+Station 1,D0U,1,113,783
+Station 1,D0U,1,172,3025
+Station 1,D0U,1,174,2875
+Station 1,D0Up,2,66,1009
+Station 1,D0X,3,108,1027
+Station 2,D2V,13,32,934
+Station 2,D2Vp,14,31,895
+Station 2,D2X,16,21,798
+Station 2,D2U,17,28,820
+Station 2,D2Up,18,28,912
+Station 3+,D3pVp,19,110,1052
+Station 3+,D3pV,20,111,1095
+Station 3+,D3pXp,21,110,1053
+Station 3+,D3pX,22,110,1118
+Station 3+,D3pUp,23,124,1076
+Station 3+,D3pU,24,125,1064
+Station 3-,D3mVp,25,20,743
+Station 3-,D3mV,26,20,727
+Station 3-,D3mUp,29,2,860
+Station 3-,D3mU,30,1,852
+Hodo,H2B,37,2,3053
+Prop,P1X1,49,60,1932
+Prop,P1X2,50,9,1332
+Prop,P2X2,52,6,1447
+Prop,P2Y1,53,42,978
+DP-1,DP1TL,55,1,1196
+DP-2,DP2TL,59,3,276
+Station 1,D0U,1,48,1663
+Station 1,D0U,1,90,596
+Station 1,D0U,1,91,578
+Station 1,D0U,1,92,575
+Station 1,D0U,1,148,2456
+Station 1,D0U,1,156,2775
+Station 1,D0U,1,169,3013
+Station 1,D0Up,2,48,1553
+Station 1,D0Up,2,92,537
+Station 1,D0Up,2,148,2352
+Station 1,D0Up,2,156,2581
+Station 1,D0Up,2,167,2953
+Station 1,D0Up,2,169,2981
+Station 1,D0X,3,1,2075
+Station 1,D0X,3,33,1026
+Station 1,D0X,3,72,314
+Station 1,D0X,3,118,1328
+Station 1,D0X,3,137,1946
+Station 1,D0Xp,4,129,2569
+Station 1,D0Xp,4,142,2057
+Station 1,D0Xp,4,145,2593
+Station 1,D0Xp,4,155,3129
+Station 1,D0V,5,30,2183
+Station 1,D0V,5,62,1503
+Station 1,D0V,5,94,560
+Station 1,D0V,5,154,2800
+Station 1,D0V,5,155,2825
+Station 2,D2V,13,16,1430
+Station 2,D2V,13,25,1178
+Station 2,D2V,13,46,499
+Station 2,D2Vp,14,15,1391
+Station 2,D2Vp,14,24,1152
+Station 2,D2Vp,14,45,479
+Station 2,D2Xp,15,5,1477
+Station 2,D2Xp,15,37,341
+Station 2,D2X,16,4,1292
+Station 2,D2X,16,12,1051
+Station 2,D2U,17,12,1591
+Station 2,D2U,17,17,1398
+Station 2,D2U,17,46,335
+Station 2,D2Up,18,11,1693
+Station 2,D2Up,18,45,336
+Station 3+,D3pVp,19,24,518
+Station 3+,D3pVp,19,36,419
+Station 3+,D3pV,20,24,578
+Station 3+,D3pV,20,33,422
+Station 3+,D3pV,20,34,461
+Station 3+,D3pV,20,36,422
+Station 3+,D3pXp,21,20,535
+Station 3+,D3pXp,21,22,538
+Station 3+,D3pXp,21,24,489
+Station 3+,D3pX,22,21,598
+Station 3+,D3pX,22,22,545
+Station 3+,D3pX,22,25,460
+Station 3+,D3pUp,23,25,733
+Station 3+,D3pUp,23,40,523
+Station 3+,D3pUp,23,44,443
+Station 3+,D3pU,24,25,691
+Station 3+,D3pU,24,40,510
+Station 3-,D3mVp,25,5,928
+Station 3-,D3mV,26,5,927
+Hodo,H1T,32,11,1875
+Hodo,H1T,32,17,7816
+Hodo,H1T,32,19,8814
+Hodo,H1R,34,14,5451
+Hodo,H2T,38,5,1024
+Hodo,H3T,40,3,923
+Hodo,H4Y2R,44,9,3443
+Hodo,H4T,46,4,1074
+Prop,P1Y2,48,23,836
+Prop,P1X1,49,3,1567
+Prop,P1X1,49,19,668
+Prop,P1X1,49,55,1336
+Prop,P1X1,49,62,1627
+Prop,P2X1,51,17,255
+Prop,P2Y1,53,1,168
+Prop,P2Y1,53,39,1663
+Prop,P2Y2,54,1,251
+Prop,P2Y2,54,2,283
+Prop,P2Y2,54,42,1101
+Station 1,D0U,1,24,1726
+Station 1,D0U,1,106,685
+Station 1,D0Up,2,83,653
+Station 1,D0Up,2,84,601
+Station 1,D0Up,2,93,501
+Station 1,D0X,3,76,338
+Station 1,D0X,3,77,309
+Station 1,D0X,3,124,1617
+Station 1,D0Xp,4,66,356
+Station 1,D0V,5,21,904
+Station 1,D0V,5,24,1417
+Station 1,D0V,5,27,1984
+Station 1,D0V,5,89,628
+Station 1,D0V,5,95,523
+Station 1,D0V,5,97,493
+Station 1,D0V,5,98,460
+Station 1,D0V,5,149,2690
+Station 2,D2V,13,80,412
+Station 2,D2Vp,14,35,894
+Station 2,D2Vp,14,80,380
+Station 2,D2Xp,15,69,307
+Station 2,D2Xp,15,110,2086
+Station 2,D2X,16,31,673
+Station 2,D2X,16,69,289
+Station 2,D2U,17,45,374
+Station 2,D2U,17,75,276
+Station 2,D2U,17,116,2332
+Station 2,D2U,17,122,1547
+Station 2,D2Up,18,44,366
+Station 2,D2Up,18,75,310
+Station 2,D2Up,18,122,1325
+Station 3+,D3pVp,19,3,1016
+Station 3+,D3pVp,19,19,590
+Station 3+,D3pVp,19,25,496
+Station 3+,D3pV,20,19,636
+Station 3+,D3pV,20,25,538
+Station 3+,D3pXp,21,10,649
+Station 3+,D3pXp,21,23,464
+Station 3+,D3pX,22,11,666
+Station 3+,D3pX,22,24,486
+Station 3+,D3pUp,23,22,784
+Station 3+,D3pUp,23,23,761
+Station 3+,D3pUp,23,42,524
+Station 3+,D3pU,24,42,475
+Station 3-,D3mVp,25,37,550
+Station 3-,D3mVp,25,99,508
+Station 3-,D3mV,26,37,526
+Station 3-,D3mV,26,99,539
+Station 3-,D3mXp,27,28,422
+Station 3-,D3mXp,27,85,487
+Station 3-,D3mX,28,28,439
+Station 3-,D3mX,28,85,530
+Station 3-,D3mUp,29,39,408
+Station 3-,D3mUp,29,88,509
+Station 3-,D3mU,30,39,355
+Station 3-,D3mU,30,87,497
+Hodo,H1B,31,4,7392
+Hodo,H1B,31,12,2457
+Hodo,H1R,34,15,3926
+Hodo,H2R,36,14,738
+Hodo,H2B,37,11,1412
+Hodo,H2T,38,6,928
+Hodo,H3B,39,12,752
+Hodo,H3T,40,2,1322
+Hodo,H4Y2R,44,11,1116
+Hodo,H4B,45,12,961
+Hodo,H4B,45,13,1466
+Prop,P1Y1,47,29,1249
+Prop,P1Y1,47,49,832
+Prop,P1Y2,48,30,1345
+Prop,P1X1,49,14,1181
+Prop,P1X1,49,23,433
+Prop,P1X1,49,49,517
+Prop,P1X2,50,49,486
+Prop,P2X2,52,11,506
+Prop,P2Y1,53,21,581
+Prop,P2Y1,53,29,1705
+Prop,P2Y1,53,32,2232
+Prop,P2Y2,54,21,496
+Prop,P2Y2,54,29,1424
+DP-1,DP1TR,56,29,140
+DP-1,DP1BL,57,7,670
+DP-2,DP2TR,60,21,60
+DP-2,DP2BL,61,8,181
+Station 1,D0U,1,99,573
+Station 1,D0U,1,103,646
+Station 1,D0U,1,118,1020
+Station 1,D0Up,2,99,520
+Station 1,D0Up,2,103,567
+Station 1,D0Up,2,118,979
+Station 1,D0Up,2,119,1043
+Station 1,D0Up,2,152,2224
+Station 1,D0X,3,78,315
+Station 1,D0Xp,4,87,348
+Station 1,D0Xp,4,90,861
+Station 1,D0V,5,99,470
+Station 1,D0V,5,121,1212
+Station 1,D0V,5,143,2495
+Station 2,D2V,13,49,379
+Station 2,D2V,13,72,347
+Station 2,D2V,13,82,490
+Station 2,D2V,13,111,2249
+Station 2,D2Xp,15,41,270
+Station 2,D2Xp,15,70,323
+Station 2,D2Xp,15,71,343
+Station 2,D2Xp,15,85,1144
+Station 2,D2Xp,15,105,2026
+Station 2,D2X,16,41,263
+Station 2,D2X,16,70,336
+Station 2,D2X,16,84,1198
+Station 2,D2X,16,104,2265
+Station 2,D2X,16,105,2333
+Station 2,D2U,17,50,225
+Station 2,D2U,17,76,301
+Station 2,D2U,17,85,549
+Station 2,D2U,17,92,1137
+Station 2,D2U,17,113,2259
+Station 2,D2U,17,115,2407
+Station 2,D2Up,18,50,257
+Station 2,D2Up,18,92,1194
+Station 2,D2Up,18,116,1991
+Station 3+,D3pVp,19,29,504
+Station 3+,D3pVp,19,88,518
+Station 3+,D3pVp,19,122,1275
+Station 3+,D3pV,20,30,515
+Station 3+,D3pV,20,53,410
+Station 3+,D3pV,20,89,539
+Station 3+,D3pV,20,123,1326
+Station 3+,D3pXp,21,27,420
+Station 3+,D3pXp,21,76,445
+Station 3+,D3pX,22,27,423
+Station 3+,D3pX,22,41,396
+Station 3+,D3pX,22,77,452
+Station 3+,D3pUp,23,81,394
+Station 3+,D3pUp,23,125,1115
+Station 3+,D3pU,24,44,441
+Station 3+,D3pU,24,48,413
+Station 3+,D3pU,24,81,425
+Station 3-,D3mVp,25,89,497
+Station 3-,D3mVp,25,104,556
+Station 3-,D3mV,26,89,476
+Station 3-,D3mXp,27,79,424
+Station 3-,D3mXp,27,108,938
+Station 3-,D3mX,28,10,693
+Station 3-,D3mX,28,78,476
+Station 3-,D3mX,28,102,828
+Station 3-,D3mX,28,107,930
+Station 3-,D3mUp,29,85,485
+Station 3-,D3mUp,29,107,945
+Station 3-,D3mUp,29,118,1082
+Station 3-,D3mU,30,85,495
+Station 3-,D3mU,30,118,1147
+Hodo,H1B,31,11,1771
+Hodo,H1T,32,12,1596
+Hodo,H1R,34,5,2706
+Hodo,H1R,34,6,4551
+Hodo,H2L,35,5,1070
+Hodo,H2L,35,15,811
+Hodo,H2T,38,11,1048
+Hodo,H3B,39,11,784
+Hodo,H3T,40,4,803
+Hodo,H3T,40,11,817
+Hodo,H4Y1L,41,5,889
+Hodo,H4Y1L,41,14,513
+Hodo,H4Y2L,43,14,282
+Hodo,H4T,46,11,632
+Prop,P1Y1,47,21,766
+Prop,P1Y1,47,32,1777
+Prop,P1Y1,47,61,302
+Prop,P1Y2,48,32,1773
+Prop,P1X1,49,59,1761
+Prop,P1X2,50,22,529
+Prop,P2X1,51,48,295
+Prop,P2Y1,53,15,457
+Prop,P2Y2,54,15,395
+Prop,P2Y2,54,32,1773
+Prop,P2Y2,54,35,1578
+DP-1,DP1TL,55,4,958
+DP-1,DP1TR,56,1,771
+DP-2,DP2TL,59,29,47
+DP-2,DP2TR,60,1,224
+DP-2,DP2BL,61,13,96
+Station 1,D0U,1,125,1362
+Station 1,D0U,1,166,3013
+Station 1,D0X,3,103,855
+Station 1,D0X,3,145,2204
+Station 1,D0Xp,4,100,924
+Station 1,D0Xp,4,150,2544
+Station 2,D2V,13,89,1008
+Station 2,D2Xp,15,14,1182
+Station 3+,D3pVp,19,4,916
+Station 3+,D3pVp,19,102,860
+Station 3+,D3pV,20,102,846
+Station 3+,D3pX,22,102,892
+Station 3+,D3pUp,23,17,795
+Station 3+,D3pU,24,117,894
+Station 3-,D3mVp,25,16,859
+Station 3-,D3mVp,25,126,1098
+Hodo,H1T,32,14,4752
+Hodo,H2B,37,5,1139
+Prop,P1Y1,47,70,129
+Prop,P1X1,49,4,1608
+Prop,P2X1,51,7,1326
+DP-2,DP2TL,59,2,316
+Station 1,D0U,1,40,1850
+Station 1,D0Up,2,41,1780
+Station 1,D0Up,2,49,1596
+Station 1,D0X,3,24,1103
+Station 1,D0X,3,25,1198
+Station 1,D0Xp,4,9,1387
+Station 1,D0Xp,4,19,1441
+Station 1,D0V,5,48,1995
+Station 1,D0V,5,50,1996
+Station 1,D0V,5,173,3105
+Station 2,D2V,13,17,1477
+Station 2,D2Vp,14,16,1393
+Station 2,D2Xp,15,6,1447
+Station 2,D2X,16,5,1268
+Station 2,D2Up,18,9,1584
+Station 2,D2Up,18,10,1680
+Station 2,D2Up,18,12,1682
+Prop,P2Y2,54,37,1415
+Station 1,D0U,1,117,976
+Station 1,D0U,1,149,2401
+Station 1,D0U,1,162,2982
+Station 1,D0Up,2,117,875
+Station 1,D0Up,2,149,2219
+Station 1,D0X,3,96,550
+Station 1,D0X,3,119,1402
+Station 1,D0Xp,4,81,648
+Station 1,D0Xp,4,105,1580
+Station 1,D0Xp,4,147,2445
+Station 1,D0Xp,4,159,2667
+Station 1,D0V,5,114,764
+Station 2,D2Xp,15,78,577
+Station 2,D2Xp,15,96,1663
+Station 2,D2X,16,77,613
+Station 2,D2X,16,96,1731
+Station 2,D2U,17,112,2408
+Station 2,D2Up,18,87,1028
+Station 2,D2Up,18,112,2012
+Station 3+,D3pVp,19,94,576
+Station 3+,D3pVp,19,132,1469
+Station 3+,D3pV,20,95,647
+Station 3+,D3pV,20,132,1631
+Station 3+,D3pXp,21,95,616
+Station 3+,D3pX,22,95,657
+Station 3+,D3pUp,23,111,648
+Station 3+,D3pU,24,112,661
+Station 3-,D3mVp,25,67,378
+Station 3-,D3mV,26,66,385
+Station 3-,D3mV,26,67,397
+Station 3-,D3mXp,27,53,423
+Station 3-,D3mX,28,52,416
+Station 3-,D3mX,28,53,371
+Station 3-,D3mUp,29,58,393
+Station 3-,D3mU,30,57,395
+Station 3-,D3mU,30,58,351
+Hodo,H1T,32,2,8144
+Hodo,H3T,40,14,1224
+Hodo,H4Y1R,42,7,3673
+Hodo,H4Y2R,44,7,2139
+Hodo,H4T,46,13,1600
+Prop,P1Y1,47,25,666
+Prop,P1Y2,48,26,807
+Prop,P1Y2,48,54,630
+Prop,P1X1,49,53,1020
+Prop,P1X2,50,54,1062
+Prop,P2Y2,54,39,1354
+Prop,P2Y2,54,57,509
+Station 1,D0U,1,18,775
+Station 1,D0U,1,26,1884
+Station 1,D0U,1,43,1811
+Station 1,D0U,1,59,1305
+Station 1,D0U,1,60,1282
+Station 1,D0U,1,61,1183
+Station 1,D0U,1,75,889
+Station 1,D0U,1,136,1888
+Station 1,D0U,1,152,2638
+Station 1,D0U,1,175,2731
+Station 1,D0Up,2,27,1969
+Station 1,D0Up,2,40,1709
+Station 1,D0Up,2,43,1751
+Station 1,D0Up,2,61,1187
+Station 1,D0Up,2,63,1117
+Station 1,D0Up,2,75,850
+Station 1,D0Up,2,164,2813
+Station 1,D0X,3,14,1438
+Station 1,D0X,3,27,1149
+Station 1,D0X,3,59,466
+Station 1,D0X,3,143,2211
+Station 1,D0Xp,4,137,2748
+Station 1,D0Xp,4,156,2650
+Station 1,D0Xp,4,157,2469
+Station 1,D0V,5,56,1576
+Station 2,D2V,13,12,1589
+Station 2,D2V,13,15,1421
+Station 2,D2V,13,39,822
+Station 2,D2V,13,110,2099
+Station 2,D2V,13,121,1794
+Station 2,D2V,13,126,448
+Station 2,D2Vp,14,12,1579
+Station 2,D2Vp,14,39,793
+Station 2,D2Vp,14,43,557
+Station 2,D2Vp,14,110,1764
+Station 2,D2Vp,14,121,1453
+Station 2,D2Xp,15,2,1386
+Station 2,D2Xp,15,28,724
+Station 2,D2Xp,15,36,398
+Station 2,D2X,16,1,1368
+Station 2,D2X,16,28,755
+Station 2,D2X,16,85,1209
+Station 2,D2X,16,101,2164
+Station 2,D2U,17,9,1176
+Station 2,D2U,17,11,1487
+Station 2,D2U,17,34,825
+Station 2,D2U,17,110,2116
+Station 2,D2Up,18,8,1301
+Station 2,D2Up,18,110,1795
+Station 2,D2Up,18,115,2069
+Station 3+,D3pVp,19,78,466
+Station 3+,D3pVp,19,79,461
+Station 3+,D3pVp,19,82,465
+Station 3+,D3pVp,19,104,971
+Station 3+,D3pV,20,26,514
+Station 3+,D3pV,20,79,483
+Station 3+,D3pXp,21,61,414
+Station 3+,D3pXp,21,62,430
+Station 3+,D3pX,22,62,431
+Station 3+,D3pUp,23,108,568
+Station 3+,D3pUp,23,121,1001
+Station 3+,D3pU,24,63,450
+Station 3-,D3mVp,25,28,689
+Station 3-,D3mVp,25,105,556
+Station 3-,D3mVp,25,107,604
+Station 3-,D3mVp,25,112,681
+Station 3-,D3mVp,25,113,664
+Station 3-,D3mV,26,28,704
+Station 3-,D3mV,26,105,591
+Station 3-,D3mV,26,107,637
+Station 3-,D3mV,26,112,716
+Station 3-,D3mV,26,114,789
+Station 3-,D3mV,26,115,886
+Station 3-,D3mXp,27,10,752
+Station 3-,D3mXp,27,99,671
+Station 3-,D3mXp,27,111,1080
+Station 3-,D3mX,28,9,736
+Station 3-,D3mX,28,95,660
+Station 3-,D3mX,28,99,694
+Station 3-,D3mX,28,106,914
+Station 3-,D3mX,28,108,999
+Station 3-,D3mX,28,110,1088
+Station 3-,D3mUp,29,12,780
+Station 3-,D3mUp,29,98,649
+Station 3-,D3mUp,29,109,965
+Station 3-,D3mUp,29,120,1197
+Station 3-,D3mUp,29,122,1172
+Station 3-,D3mU,30,12,700
+Station 3-,D3mU,30,97,635
+Station 3-,D3mU,30,108,952
+Hodo,H1B,31,6,6228
+Hodo,H1L,33,15,6744
+Hodo,H3B,39,1,1531
+Hodo,H3T,40,8,550
+Hodo,H4B,45,2,2300
+Prop,P1Y1,47,22,792
+Prop,P1Y2,48,17,598
+Prop,P2X1,51,6,1304
+Prop,P2X1,51,45,401
+Prop,P2X2,52,2,1609
+Prop,P2X2,52,46,336
+Prop,P2Y1,53,16,426
+Prop,P2Y1,53,51,799
+Prop,P2Y2,54,43,844
+Prop,P2Y2,54,52,826
+Station 1,D0U,1,21,1312
+Station 1,D0U,1,44,1731
+Station 1,D0U,1,87,641
+Station 1,D0U,1,88,592
+Station 1,D0U,1,100,621
+Station 1,D0U,1,179,1889
+Station 1,D0U,1,180,1518
+Station 1,D0U,1,181,1309
+Station 1,D0U,1,182,989
+Station 1,D0U,1,183,820
+Station 1,D0Up,2,21,1128
+Station 1,D0Up,2,88,567
+Station 1,D0Up,2,101,529
+Station 1,D0Up,2,123,1199
+Station 1,D0Up,2,163,2918
+Station 1,D0Up,2,168,2940
+Station 1,D0Up,2,183,806
+Station 1,D0X,3,100,704
+Station 1,D0X,3,117,1290
+Station 1,D0X,3,147,2212
+Station 1,D0Xp,4,65,369
+Station 1,D0Xp,4,95,371
+Station 1,D0Xp,4,131,2419
+Station 1,D0V,5,40,2191
+Station 1,D0V,5,107,558
+Station 1,D0V,5,108,572
+Station 1,D0V,5,109,576
+Station 1,D0V,5,110,621
+Station 1,D0V,5,111,654
+Station 1,D0V,5,112,675
+Station 1,D0V,5,113,744
+Station 1,D0V,5,118,1020
+Station 1,D0V,5,125,1431
+Station 1,D0V,5,134,1989
+Station 2,D2V,13,50,363
+Station 2,D2Vp,14,49,346
+Station 2,D2Vp,14,90,1104
+Station 2,D2Vp,14,92,1177
+Station 2,D2Xp,15,38,374
+Station 2,D2Xp,15,79,699
+Station 2,D2X,16,37,323
+Station 2,D2X,16,81,994
+Station 2,D2X,16,90,1333
+Station 2,D2U,17,43,451
+Station 2,D2U,17,51,249
+Station 2,D2U,17,65,216
+Station 2,D2Up,18,43,391
+Station 3+,D3pVp,19,23,581
+Station 3+,D3pVp,19,38,469
+Station 3+,D3pVp,19,101,816
+Station 3+,D3pV,20,17,646
+Station 3+,D3pV,20,18,652
+Station 3+,D3pV,20,23,597
+Station 3+,D3pV,20,37,420
+Station 3+,D3pV,20,38,423
+Station 3+,D3pV,20,39,450
+Station 3+,D3pV,20,101,851
+Station 3+,D3pXp,21,29,432
+Station 3+,D3pXp,21,33,418
+Station 3+,D3pX,22,17,552
+Station 3+,D3pX,22,18,557
+Station 3+,D3pX,22,29,468
+Station 3+,D3pX,22,33,434
+Station 3+,D3pUp,23,31,646
+Station 3+,D3pUp,23,32,672
+Station 3+,D3pUp,23,47,454
+Station 3+,D3pUp,23,123,1094
+Station 3+,D3pU,24,9,874
+Station 3+,D3pU,24,32,618
+Station 3-,D3mVp,25,83,380
+Station 3-,D3mV,26,82,428
+Station 3-,D3mXp,27,19,534
+Station 3-,D3mXp,27,72,439
+Station 3-,D3mX,28,18,583
+Station 3-,D3mX,28,73,434
+Station 3-,D3mUp,29,22,571
+Station 3-,D3mUp,29,45,420
+Station 3-,D3mUp,29,80,455
+Station 3-,D3mU,30,21,550
+Station 3-,D3mU,30,80,414
+Hodo,H1T,32,13,3127
+Hodo,H1L,33,20,1289
+Hodo,H1R,34,16,2606
+Hodo,H2R,36,15,1116
+Hodo,H2R,36,18,980
+Hodo,H3B,39,10,594
+Prop,P1X2,50,16,1020
+DP-1,DP1TR,56,57,92
+DP-1,DP1BR,58,2,707
+DP-2,DP2BL,61,2,371
+Station 1,D0U,1,23,1620
+Station 1,D0U,1,25,1887
+Station 1,D0U,1,102,608
+Station 1,D0U,1,128,1515
+Station 1,D0U,1,129,1632
+Station 1,D0U,1,135,1900
+Station 1,D0U,1,155,2660
+Station 1,D0U,1,163,3023
+Station 1,D0Up,2,23,1459
+Station 1,D0Up,2,59,1234
+Station 1,D0Up,2,100,544
+Station 1,D0Up,2,102,527
+Station 1,D0Up,2,132,1620
+Station 1,D0Up,2,133,1731
+Station 1,D0Up,2,134,1712
+Station 1,D0Up,2,136,1788
+Station 1,D0Up,2,139,1887
+Station 1,D0Up,2,166,2637
+Station 1,D0Up,2,174,2781
+Station 1,D0Up,2,175,2721
+Station 1,D0X,3,2,1650
+Station 1,D0X,3,5,1682
+Station 1,D0X,3,7,1774
+Station 1,D0X,3,8,1552
+Station 1,D0X,3,9,1540
+Station 1,D0X,3,63,416
+Station 1,D0X,3,64,408
+Station 1,D0X,3,82,377
+Station 1,D0X,3,83,355
+Station 1,D0X,3,92,481
+Station 1,D0X,3,93,514
+Station 1,D0X,3,107,936
+Station 1,D0Xp,4,13,1821
+Station 1,D0Xp,4,24,1829
+Station 1,D0Xp,4,32,1645
+Station 1,D0Xp,4,35,823
+Station 1,D0Xp,4,61,433
+Station 1,D0Xp,4,75,389
+Station 1,D0Xp,4,84,450
+Station 1,D0Xp,4,93,557
+Station 1,D0Xp,4,109,1103
+Station 1,D0Xp,4,127,1491
+Station 1,D0Xp,4,141,2421
+Station 1,D0Xp,4,154,2500
+Station 1,D0V,5,31,2187
+Station 1,D0V,5,35,2424
+Station 1,D0V,5,46,2125
+Station 1,D0V,5,53,1806
+Station 1,D0V,5,87,743
+Station 1,D0V,5,103,479
+Station 1,D0V,5,146,2478
+Station 1,D0V,5,160,3096
+Station 1,D0V,5,161,3114
+Station 1,D0V,5,166,3079
+Station 1,D0V,5,171,3109
+Station 1,D0V,5,177,2723
+Station 1,D0V,5,178,2431
+Station 2,D2V,13,83,567
+Station 2,D2V,13,115,2375
+Station 2,D2V,13,123,1260
+Station 2,D2Vp,14,11,1628
+Station 2,D2Vp,14,13,1498
+Station 2,D2Vp,14,95,1195
+Station 2,D2Vp,14,115,2162
+Station 2,D2Vp,14,120,1315
+Station 2,D2Vp,14,123,866
+Station 2,D2Xp,15,22,857
+Station 2,D2Xp,15,48,225
+Station 2,D2Xp,15,75,521
+Station 2,D2Xp,15,77,578
+Station 2,D2Xp,15,95,1572
+Station 2,D2X,16,35,364
+Station 2,D2X,16,75,483
+Station 2,D2X,16,100,2026
+Station 2,D2X,16,110,2426
+Station 2,D2U,17,10,1342
+Station 2,D2U,17,57,241
+Station 2,D2U,17,84,527
+Station 2,D2Up,18,25,1029
+Station 2,D2Up,18,29,828
+Station 2,D2Up,18,41,453
+Station 2,D2Up,18,56,187
+Station 2,D2Up,18,82,689
+Station 2,D2Up,18,84,613
+Station 2,D2Up,18,90,1146
+Station 3+,D3pVp,19,43,392
+Station 3+,D3pVp,19,48,410
+Station 3+,D3pVp,19,53,431
+Station 3+,D3pVp,19,93,622
+Station 3+,D3pVp,19,98,680
+Station 3+,D3pVp,19,131,1528
+Station 3+,D3pV,20,3,1037
+Station 3+,D3pV,20,41,387
+Station 3+,D3pV,20,43,397
+Station 3+,D3pV,20,44,442
+Station 3+,D3pV,20,93,601
+Station 3+,D3pV,20,98,682
+Station 3+,D3pV,20,119,1136
+Station 3+,D3pV,20,131,1543
+Station 3+,D3pV,20,133,1631
+Station 3+,D3pXp,21,25,434
+Station 3+,D3pXp,21,39,433
+Station 3+,D3pXp,21,45,439
+Station 3+,D3pXp,21,94,618
+Station 3+,D3pXp,21,100,718
+Station 3+,D3pX,22,1,796
+Station 3+,D3pX,22,47,434
+Station 3+,D3pUp,23,26,677
+Station 3+,D3pUp,23,55,384
+Station 3+,D3pU,24,56,345
+Station 3+,D3pU,24,57,401
+Station 3+,D3pU,24,113,739
+Station 3-,D3mVp,25,3,964
+Station 3-,D3mVp,25,73,419
+Station 3-,D3mV,26,3,1047
+Station 3-,D3mV,26,72,453
+Station 3-,D3mV,26,73,419
+Station 3-,D3mV,26,117,927
+Station 3-,D3mV,26,126,1073
+Station 3-,D3mXp,27,55,395
+Station 3-,D3mX,28,54,436
+Station 3-,D3mX,28,55,405
+Station 3-,D3mX,28,93,619
+Station 3-,D3mX,28,116,1150
+Station 3-,D3mUp,29,55,414
+Station 3-,D3mUp,29,83,477
+Station 3-,D3mU,30,54,379
+Station 3-,D3mU,30,55,390
+Station 3-,D3mU,30,83,433
+Station 3-,D3mU,30,120,1173
+Hodo,H1R,34,2,1104
+Hodo,H2L,35,12,4789
+Hodo,H2T,38,7,729
+Hodo,H3B,39,16,1847
+Prop,P1Y1,47,37,1941
+Prop,P1Y1,47,40,1637
+Prop,P1Y1,47,53,715
+Prop,P1Y2,48,44,940
+Prop,P1Y2,48,49,898
+Prop,P1X1,49,10,1353
+Prop,P1X1,49,27,308
+Prop,P2X1,51,5,882
+Prop,P2X1,51,26,158
+Prop,P2X2,52,26,159
+Prop,P2X2,52,56,435
+Prop,P2Y1,53,37,1831
+Prop,P2Y2,54,46,561
+Prop,P2Y2,54,51,835
+DP-1,DP1TR,56,39,98
+DP-1,DP1BR,58,1,835
+DP-1,DP1BR,58,14,358
+DP-1,DP1BR,58,35,128
+DP-2,DP2BL,61,44,39
+Station 1,D0U,1,42,1807
+Station 1,D0U,1,63,1174
+Station 1,D0Up,2,154,2274
+Station 1,D0X,3,12,1508
+Station 1,D0X,3,30,1069
+Station 1,D0X,3,43,788
+Station 1,D0X,3,56,504
+Station 1,D0X,3,75,265
+Station 1,D0X,3,99,600
+Station 1,D0X,3,114,1326
+Station 1,D0X,3,123,1592
+Station 1,D0X,3,127,1708
+Station 1,D0X,3,135,1964
+Station 1,D0X,3,140,2059
+Station 1,D0Xp,4,2,879
+Station 1,D0Xp,4,39,1185
+Station 1,D0Xp,4,40,1341
+Station 1,D0Xp,4,56,755
+Station 1,D0Xp,4,62,467
+Station 1,D0Xp,4,68,400
+Station 1,D0Xp,4,78,375
+Station 1,D0Xp,4,101,767
+Station 1,D0Xp,4,107,1395
+Station 1,D0Xp,4,133,2030
+Station 1,D0Xp,4,139,2736
+Station 1,D0Xp,4,153,2337
+Station 1,D0V,5,38,2307
+Station 1,D0V,5,66,1460
+Station 1,D0V,5,67,1362
+Station 1,D0V,5,68,1305
+Station 1,D0V,5,84,755
+Station 1,D0V,5,115,807
+Station 1,D0V,5,141,2224
+Station 2,D2V,13,8,1320
+Station 2,D2V,13,31,948
+Station 2,D2V,13,112,2192
+Station 2,D2Vp,14,9,1452
+Station 2,D2X,16,108,2394
+Station 2,D2U,17,14,1574
+Station 2,D2U,17,93,1228
+Station 2,D2Up,18,13,1622
+Station 2,D2Up,18,114,1970
+Station 3+,D3pVp,19,9,784
+Station 3+,D3pVp,19,84,483
+Station 3+,D3pV,20,4,1043
+Station 3+,D3pV,20,85,491
+Station 3+,D3pV,20,105,900
+Station 3+,D3pXp,21,1,738
+Station 3+,D3pXp,21,80,426
+Station 3+,D3pXp,21,104,860
+Station 3+,D3pX,22,4,754
+Station 3+,D3pX,22,74,408
+Station 3+,D3pX,22,81,489
+Station 3+,D3pX,22,103,848
+Station 3+,D3pX,22,104,961
+Station 3+,D3pUp,23,18,749
+Station 3+,D3pUp,23,19,731
+Station 3+,D3pUp,23,92,466
+Station 3+,D3pUp,23,119,887
+Station 3+,D3pUp,23,120,922
+Station 3+,D3pU,24,1,955
+Station 3+,D3pU,24,19,685
+Station 3+,D3pU,24,20,681
+Station 3+,D3pU,24,67,380
+Station 3+,D3pU,24,93,458
+Station 3+,D3pU,24,119,883
+Station 3-,D3mV,26,91,441
+Station 3-,D3mV,26,122,1001
+Station 3-,D3mX,28,98,675
+Station 3-,D3mUp,29,108,876
+Station 3-,D3mU,30,107,888
+Hodo,H1L,33,6,168
+Hodo,H2R,36,2,404
+Prop,P1Y2,48,41,1964
+Prop,P1X2,50,5,1421
+Prop,P1X2,50,11,1081
+Prop,P2X2,52,8,812
+Prop,P2Y2,54,27,1163
+DP-1,DP1TL,55,2,1113
+DP-1,DP1TL,55,17,325
+DP-1,DP1TL,55,45,101
+DP-1,DP1BL,57,10,706
+DP-2,DP2TL,59,16,82
+Station 1,D0U,1,96,587
+Station 1,D0Up,2,38,1917
+Station 1,D0Up,2,65,1089
+Station 1,D0Up,2,77,748
+Station 1,D0Up,2,96,536
+Station 1,D0Up,2,97,546
+Station 1,D0Up,2,129,1476
+Station 1,D0Up,2,170,2852
+Station 1,D0X,3,34,955
+Station 1,D0X,3,36,957
+Station 1,D0X,3,47,678
+Station 1,D0X,3,109,960
+Station 1,D0X,3,110,1077
+Station 1,D0X,3,128,1808
+Station 1,D0X,3,158,1111
+Station 1,D0Xp,4,33,604
+Station 1,D0Xp,4,36,857
+Station 1,D0V,5,49,1946
+Station 1,D0V,5,72,1148
+Station 1,D0V,5,156,2950
+Station 2,D2V,13,33,925
+Station 2,D2V,13,71,325
+Station 2,D2V,13,73,327
+Station 2,D2V,13,76,414
+Station 2,D2V,13,77,435
+Station 2,D2V,13,122,1663
+Station 2,D2Vp,14,33,870
+Station 2,D2Vp,14,70,340
+Station 2,D2Vp,14,71,284
+Station 2,D2Vp,14,73,313
+Station 2,D2Vp,14,74,334
+Station 2,D2Vp,14,75,356
+Station 2,D2Vp,14,76,368
+Station 2,D2Vp,14,77,362
+Station 2,D2Xp,15,3,1538
+Station 2,D2Xp,15,24,773
+Station 2,D2Xp,15,73,407
+Station 2,D2Xp,15,107,2117
+Station 2,D2X,16,2,1396
+Station 2,D2X,16,23,767
+Station 2,D2X,16,86,1198
+Station 2,D2X,16,107,2386
+Station 2,D2U,17,29,836
+Station 2,D2U,17,117,2396
+Station 2,D2Up,18,117,2019
+Station 3+,D3pVp,19,62,417
+Station 3+,D3pVp,19,71,401
+Station 3+,D3pVp,19,75,453
+Station 3+,D3pVp,19,85,498
+Station 3+,D3pVp,19,109,997
+Station 3+,D3pVp,19,111,1094
+Station 3+,D3pV,20,1,1015
+Station 3+,D3pV,20,5,933
+Station 3+,D3pV,20,62,380
+Station 3+,D3pV,20,71,455
+Station 3+,D3pV,20,72,430
+Station 3+,D3pV,20,75,445
+Station 3+,D3pV,20,86,507
+Station 3+,D3pV,20,94,639
+Station 3+,D3pV,20,110,1062
+Station 3+,D3pV,20,112,1174
+Station 3+,D3pXp,21,55,373
+Station 3+,D3pXp,21,65,384
+Station 3+,D3pXp,21,75,457
+Station 3+,D3pXp,21,85,508
+Station 3+,D3pXp,21,108,945
+Station 3+,D3pX,22,2,736
+Station 3+,D3pX,22,55,397
+Station 3+,D3pX,22,65,439
+Station 3+,D3pX,22,66,437
+Station 3+,D3pX,22,75,447
+Station 3+,D3pX,22,85,522
+Station 3+,D3pX,22,111,1102
+Station 3+,D3pX,22,114,1108
+Station 3+,D3pUp,23,7,1000
+Station 3+,D3pUp,23,66,409
+Station 3+,D3pUp,23,77,381
+Station 3+,D3pU,24,11,815
+Station 3+,D3pU,24,66,395
+Station 3+,D3pU,24,77,413
+Station 3+,D3pU,24,92,458
+Station 3-,D3mVp,25,25,702
+Station 3-,D3mVp,25,27,750
+Station 3-,D3mVp,25,38,566
+Station 3-,D3mVp,25,100,564
+Station 3-,D3mVp,25,130,1074
+Station 3-,D3mVp,25,134,1290
+Station 3-,D3mV,26,25,735
+Station 3-,D3mV,26,26,761
+Station 3-,D3mV,26,38,535
+Station 3-,D3mV,26,106,578
+Station 3-,D3mXp,27,4,707
+Station 3-,D3mXp,27,5,758
+Station 3-,D3mXp,27,7,709
+Station 3-,D3mXp,27,8,714
+Station 3-,D3mXp,27,15,641
+Station 3-,D3mXp,27,23,543
+Station 3-,D3mXp,27,81,499
+Station 3-,D3mXp,27,110,1013
+Station 3-,D3mXp,27,113,1059
+Station 3-,D3mX,28,3,688
+Station 3-,D3mX,28,4,728
+Station 3-,D3mX,28,8,735
+Station 3-,D3mX,28,14,707
+Station 3-,D3mX,28,22,492
+Station 3-,D3mX,28,23,521
+Station 3-,D3mX,28,80,490
+Station 3-,D3mX,28,113,1160
+Station 3-,D3mUp,29,6,779
+Station 3-,D3mUp,29,10,751
+Station 3-,D3mUp,29,23,539
+Station 3-,D3mUp,29,24,482
+Station 3-,D3mUp,29,28,469
+Station 3-,D3mUp,29,78,414
+Station 3-,D3mUp,29,79,440
+Station 3-,D3mUp,29,111,1063
+Station 3-,D3mUp,29,125,1226
+Station 3-,D3mU,30,5,742
+Station 3-,D3mU,30,23,490
+Station 3-,D3mU,30,28,453
+Station 3-,D3mU,30,78,450
+Station 3-,D3mU,30,109,957
+Station 3-,D3mU,30,111,994
+Station 3-,D3mU,30,121,1213
+Hodo,H2R,36,1,383
+Hodo,H2T,38,8,868
+Hodo,H3B,39,4,767
+Prop,P1X1,49,6,1642
+Prop,P1X1,49,11,1347
+Prop,P1X2,50,7,1256
+Prop,P1X2,50,10,1299
+Prop,P2X1,51,8,887
+Prop,P2Y1,53,56,662
+Prop,P2Y2,54,55,705
+DP-1,DP1BR,58,74,76
+Station 1,D0U,1,39,1925
+Station 1,D0U,1,66,1092
+Station 1,D0U,1,83,722
+Station 1,D0U,1,120,1140
+Station 1,D0U,1,133,1793
+Station 1,D0U,1,159,2881
+Station 1,D0U,1,164,2896
+Station 1,D0U,1,189,186
+Station 1,D0Up,2,60,1251
+Station 1,D0Up,2,111,686
+Station 1,D0Up,2,120,1051
+Station 1,D0Up,2,159,2676
+Station 1,D0Up,2,189,224
+Station 1,D0Up,2,190,193
+Station 1,D0X,3,41,838
+Station 1,D0X,3,45,737
+Station 1,D0X,3,50,613
+Station 1,D0X,3,79,326
+Station 1,D0X,3,102,814
+Station 1,D0X,3,115,1254
+Station 1,D0Xp,4,14,1800
+Station 1,D0Xp,4,53,597
+Station 1,D0Xp,4,55,759
+Station 1,D0Xp,4,102,630
+Station 1,D0Xp,4,119,1208
+Station 1,D0Xp,4,125,1801
+Station 1,D0Xp,4,143,2209
+Station 1,D0V,5,32,2274
+Station 1,D0V,5,132,1755
+Station 1,D0V,5,151,2803
+Station 1,D0V,5,157,2932
+Station 1,D0V,5,158,2934
+Station 2,D2V,13,19,1399
+Station 2,D2Vp,14,19,1247
+Station 2,D2Xp,15,15,1153
+Station 2,D2Xp,15,106,2169
+Station 2,D2X,16,3,1304
+Station 2,D2X,16,14,971
+Station 2,D2X,16,103,2234
+Station 2,D2U,17,19,1250
+Station 2,D2U,17,24,1053
+Station 2,D2U,17,97,1438
+Station 2,D2U,17,100,1540
+Station 2,D2U,17,111,2252
+Station 2,D2Up,18,7,1038
+Station 2,D2Up,18,18,1484
+Station 2,D2Up,18,31,875
+Station 2,D2Up,18,33,492
+Station 2,D2Up,18,111,1908
+Station 3+,D3pVp,19,2,963
+Station 3+,D3pVp,19,35,427
+Station 3+,D3pVp,19,60,409
+Station 3+,D3pVp,19,113,1022
+Station 3+,D3pV,20,35,429
+Station 3+,D3pV,20,61,410
+Station 3+,D3pV,20,76,431
+Station 3+,D3pV,20,109,1031
+Station 3+,D3pV,20,114,1034
+Station 3+,D3pXp,21,30,429
+Station 3+,D3pX,22,31,477
+Station 3+,D3pUp,23,46,483
+Station 3+,D3pUp,23,91,468
+Station 3+,D3pUp,23,131,1259
+Station 3+,D3pU,24,46,429
+Station 3+,D3pU,24,47,432
+Station 3+,D3pU,24,68,365
+Station 3+,D3pU,24,132,1240
+Station 3-,D3mVp,25,23,677
+Station 3-,D3mVp,25,30,635
+Station 3-,D3mVp,25,33,623
+Station 3-,D3mVp,25,34,600
+Station 3-,D3mVp,25,55,415
+Station 3-,D3mV,26,22,706
+Station 3-,D3mV,26,30,675
+Station 3-,D3mV,26,62,455
+Station 3-,D3mXp,27,2,756
+Station 3-,D3mXp,27,24,499
+Station 3-,D3mXp,27,40,396
+Station 3-,D3mX,28,1,734
+Station 3-,D3mX,28,2,731
+Station 3-,D3mX,28,19,516
+Station 3-,D3mX,28,39,386
+Station 3-,D3mX,28,40,387
+Station 3-,D3mUp,29,3,772
+Station 3-,D3mUp,29,30,441
+Station 3-,D3mUp,29,37,388
+Station 3-,D3mUp,29,43,446
+Station 3-,D3mU,30,2,784
+Station 3-,D3mU,30,22,529
+Station 3-,D3mU,30,30,458
+Station 3-,D3mU,30,43,382
+Hodo,H1L,33,7,8166
+Hodo,H4B,45,8,561
+Prop,P1Y1,47,28,1056
+Prop,P1Y1,47,30,1399
+Prop,P1Y1,47,54,623
+Prop,P1X2,50,2,1562
+Prop,P1X2,50,30,251
+Prop,P2X2,52,7,1335
+Prop,P2X2,52,45,321
+Prop,P2Y1,53,58,428
+Prop,P2Y2,54,49,914
+Prop,P2Y2,54,59,585
+DP-1,DP1TL,55,22,276
+DP-1,DP1TL,55,25,233
+DP-1,DP1TL,55,43,111
+DP-1,DP1TR,56,7,508
+DP-1,DP1BL,57,15,402
+DP-1,DP1BL,57,16,443
+DP-1,DP1BL,57,28,146
+Station 1,D0U,1,110,755
+Station 1,D0U,1,143,2270
+Station 1,D0U,1,151,2495
+Station 1,D0U,1,153,2616
+Station 1,D0U,1,165,2969
+Station 1,D0Up,2,116,867
+Station 1,D0Up,2,151,2243
+Station 1,D0X,3,113,1136
+Station 1,D0X,3,144,2424
+Station 1,D0X,3,149,2220
+Station 1,D0X,3,159,2520
+Station 2,D2Xp,15,74,403
+Station 2,D2X,16,74,415
+Station 2,D2U,17,82,433
+Station 3+,D3pVp,19,45,394
+Station 3+,D3pVp,19,46,417
+Station 3+,D3pV,20,46,415
+Station 3+,D3pXp,21,37,383
+Station 3+,D3pX,22,38,394
+Station 3+,D3pUp,23,48,441
+Station 3-,D3mVp,25,106,543
+Station 3-,D3mXp,27,90,578
+Station 3-,D3mXp,27,112,1095
+Station 3-,D3mXp,27,116,1102
+Station 3-,D3mX,28,89,536
+Station 3-,D3mX,28,90,587
+Station 3-,D3mX,28,111,1107
+Station 3-,D3mX,28,112,1166
+Station 3-,D3mUp,29,90,536
+Station 3-,D3mU,30,89,506
+Station 3-,D3mU,30,129,1320
+Station 3-,D3mU,30,130,1431
+Station 3-,D3mU,30,132,1461
+Station 3-,D3mU,30,133,1468
+Hodo,H1L,33,17,2345
+Hodo,H2B,37,12,1397
+Hodo,H2T,38,3,2670
+Hodo,H3B,39,13,1348
+Prop,P1X1,49,51,712
+Prop,P1X1,49,63,2069
+Prop,P1X2,50,51,657
+Station 1,D0Up,2,34,1990
+Station 1,D0X,3,87,394
+Station 1,D0X,3,136,2037
+Station 1,D0Xp,4,120,1073
+Station 1,D0V,5,37,2349
+Station 1,D0V,5,102,470
+Station 2,D2V,13,100,1538
+Station 2,D2V,13,128,170
+Station 2,D2Vp,14,125,497
+Station 3+,D3pVp,19,108,1047
+Station 3+,D3pVp,19,124,1335
+Station 3+,D3pV,20,29,487
+Station 3+,D3pV,20,125,1371
+Station 3+,D3pUp,23,127,1189
+Station 3+,D3pU,24,127,1193
+Hodo,H1L,33,2,1769
+Prop,P1Y1,47,39,1932
+DP-1,DP1TR,56,12,349
+Station 1,D0Up,2,180,1514
+Station 1,D0X,3,3,1606
+Station 1,D0X,3,15,1518
+Station 1,D0Xp,4,12,1773
+Station 1,D0Xp,4,112,736
+Station 1,D0V,5,43,2253
+Station 1,D0V,5,169,3286
+Station 2,D2V,13,40,755
+Station 2,D2V,13,105,1738
+Station 2,D2Xp,15,26,731
+Station 2,D2Xp,15,27,801
+Station 2,D2Xp,15,97,1765
+Station 2,D2X,16,26,705
+Station 2,D2X,16,67,250
+Station 2,D2X,16,97,1747
+Station 2,D2U,17,107,1974
+Station 2,D2Up,18,106,1661
+Station 3+,D3pVp,19,95,698
+Station 3+,D3pVp,19,100,805
+Station 3+,D3pVp,19,128,1330
+Station 3+,D3pV,20,97,683
+Station 3+,D3pV,20,128,1310
+Station 3+,D3pUp,23,103,549
+Station 3+,D3pU,24,97,455
+Station 3-,D3mVp,25,66,408
+Station 3-,D3mVp,25,70,419
+Station 3-,D3mV,26,36,569
+Station 3-,D3mV,26,70,433
+Station 3-,D3mXp,27,32,431
+Station 3-,D3mXp,27,56,419
+Station 3-,D3mXp,27,59,377
+Station 3-,D3mX,28,32,412
+Station 3-,D3mX,28,56,389
+Station 3-,D3mX,28,59,407
+Station 3-,D3mUp,29,48,366
+Station 3-,D3mUp,29,63,372
+Station 3-,D3mUp,29,67,408
+Station 3-,D3mU,30,48,342
+Station 3-,D3mU,30,66,413
+Hodo,H1B,31,9,3086
+Hodo,H2R,36,5,659
+Hodo,H2R,36,6,923
+Hodo,H3B,39,9,730
+Hodo,H4Y2L,43,6,645
+Hodo,H4B,45,11,313
+Hodo,H4T,46,6,456
+Hodo,H4T,46,9,342
+Prop,P1Y1,47,23,902
+Prop,P1Y1,47,44,1242
+Prop,P1Y1,47,45,1112
+Prop,P1Y2,48,36,2114
+Prop,P1X1,49,43,138
+Prop,P1X1,49,46,170
+Prop,P1X2,50,55,1079
+Prop,P2Y1,53,44,382
+Prop,P2Y2,54,33,1467
+Prop,P2Y2,54,41,1005
+Prop,P2Y2,54,69,175
+DP-2,DP2BR,62,24,47
+Station 2,D2U,17,2,157
+Station 3+,D3pUp,23,36,534
+Prop,P1Y2,48,45,1192
+Station 1,D0Up,2,181,1284
+Station 1,D0Xp,4,5,1972
+Station 1,D0Xp,4,158,3231
+Station 1,D0V,5,20,697
+Station 1,D0V,5,172,2998
+Station 3+,D3pVp,19,106,936
+Station 3+,D3pV,20,107,1022
+Station 3+,D3pXp,21,89,483
+Station 3+,D3pX,22,89,490
+Station 3+,D3pUp,23,87,418
+Station 3+,D3pU,24,87,442
+Hodo,H3T,40,12,760
+Hodo,H4Y1R,42,13,444
+Prop,P1Y1,47,56,538
+Prop,P1Y2,48,57,395
+Prop,P1X1,49,1,1730
+Prop,P2Y2,54,45,560
+DP-2,DP2TL,59,7,172
+DP-2,DP2TL,59,37,34
+Station 1,D0U,1,73,893
+Station 1,D0U,1,74,964
+Station 1,D0U,1,98,563
+Station 1,D0U,1,140,2119
+Station 1,D0Up,2,74,917
+Station 1,D0Up,2,122,1137
+Station 1,D0Up,2,140,1960
+Station 1,D0X,3,52,609
+Station 1,D0Xp,4,89,1026
+Station 1,D0V,5,77,952
+Station 1,D0V,5,184,956
+Station 2,D2V,13,10,1539
+Station 2,D2V,13,11,1649
+Station 2,D2Vp,14,10,1550
+Station 2,D2U,17,38,702
+Station 3+,D3pVp,19,14,678
+Station 3+,D3pVp,19,56,407
+Station 3+,D3pV,20,14,662
+Station 3+,D3pV,20,57,418
+Station 3+,D3pXp,21,47,387
+Station 3+,D3pX,22,10,672
+Station 3+,D3pUp,23,27,670
+Station 3+,D3pU,24,28,603
+Station 3-,D3mVp,25,26,770
+Station 3-,D3mXp,27,22,485
+Station 3-,D3mX,28,21,533
+Station 3-,D3mX,28,101,790
+Station 3-,D3mUp,29,1,923
+Station 3-,D3mUp,29,102,826
+Station 3-,D3mU,30,38,396
+Station 3-,D3mU,30,101,799
+Prop,P2Y1,53,41,1054
+DP-1,DP1TR,56,3,650
+DP-2,DP2TR,60,3,196
+Station 1,D0U,1,14,336
+Station 1,D0U,1,35,2064
+Station 1,D0U,1,36,2021
+Station 1,D0U,1,37,2073
+Station 1,D0Up,2,14,298
+Station 1,D0Xp,4,115,1676
+Station 1,D0Xp,4,130,2390
+Station 2,D2V,13,9,1478
+Station 2,D2V,13,106,1818
+Station 2,D2U,17,104,1789
+Station 2,D2Up,18,104,1497
+Station 3+,D3pUp,23,126,1189
+Station 3+,D3pU,24,6,939
+Station 3+,D3pU,24,88,422
+Station 3+,D3pU,24,126,1158
+Station 3-,D3mVp,25,133,1179
+Station 3-,D3mUp,29,7,809
+Station 3-,D3mUp,29,124,1195
+Station 3-,D3mU,30,7,785
+Station 3-,D3mU,30,124,1212
+Station 3-,D3mU,30,125,1291
+Prop,P2Y2,54,26,1159
+DP-1,DP1TR,56,2,729
+DP-1,DP1BR,58,29,147
+DP-2,DP2TR,60,29,38
+DP-2,DP2BL,61,1,470
+Station 1,D0U,1,17,605
+Station 1,D0U,1,114,816
+Station 1,D0Up,2,17,485
+Station 1,D0Up,2,130,1547
+Station 1,D0X,3,11,1530
+Station 1,D0X,3,101,799
+Station 1,D0Xp,4,98,1146
+Station 1,D0Xp,4,111,884
+Station 2,D2Vp,14,14,1480
+Station 2,D2Vp,14,99,1410
+Station 2,D2Xp,15,92,1443
+Station 3+,D3pVp,19,114,1062
+Station 3+,D3pVp,19,117,1113
+Station 3+,D3pVp,19,119,1125
+Station 3+,D3pVp,19,125,1329
+Station 3+,D3pVp,19,129,1460
+Station 3+,D3pVp,19,133,1456
+Station 3+,D3pVp,19,134,1541
+Station 3+,D3pV,20,104,947
+Station 3+,D3pV,20,106,908
+Station 3+,D3pV,20,117,1136
+Station 3+,D3pV,20,120,1158
+Station 3+,D3pV,20,134,1584
+Station 3+,D3pXp,21,102,796
+Station 3+,D3pXp,21,105,927
+Station 3+,D3pXp,21,106,927
+Station 3+,D3pXp,21,107,923
+Station 3+,D3pXp,21,114,1060
+Station 3+,D3pX,22,106,962
+Station 3+,D3pX,22,108,1033
+Station 3+,D3pUp,23,114,756
+Station 3+,D3pUp,23,115,775
+Station 3+,D3pU,24,115,793
+Station 3+,D3pU,24,121,979
+Station 3+,D3pU,24,124,1108
+Station 3-,D3mVp,25,2,968
+Station 3-,D3mV,26,2,946
+Station 3-,D3mV,26,118,871
+Station 3-,D3mXp,27,43,379
+Station 3-,D3mXp,27,105,924
+Station 3-,D3mXp,27,106,935
+Station 3-,D3mX,28,42,407
+Station 3-,D3mX,28,43,387
+Station 3-,D3mX,28,115,1140
+Station 3-,D3mUp,29,54,418
+Station 3-,D3mUp,29,112,996
+Station 3-,D3mU,30,53,406
+Station 3-,D3mU,30,114,997
+Station 3-,D3mU,30,115,1026
+Hodo,H3B,39,14,1136
+Hodo,H3T,40,7,622
+Hodo,H3T,40,13,1082
+Prop,P2X1,51,32,146
+DP-1,DP1TL,55,7,760
+DP-1,DP1BL,57,36,144
+DP-1,DP1BL,57,37,153
+DP-1,DP1BL,57,38,158
+Station 3+,D3pXp,21,92,553
+Station 3-,D3mXp,27,34,401
+Station 1,D0U,1,55,1474
+Station 1,D0Up,2,56,1405
+Station 1,D0Xp,4,46,769
+Station 1,D0V,5,130,1651
+Station 2,D2V,13,13,1529
+Station 2,D2Vp,14,122,1102
+Station 2,D2Xp,15,1,1487
+Station 2,D2U,17,99,1533
+Station 2,D2Up,18,99,1462
+Hodo,H1B,31,8,4335
+Hodo,H1L,33,4,2777
+DP-1,DP1TL,55,3,1044
+Station 1,D0U,1,173,2909
+Station 1,D0Up,2,173,2853
+Station 2,D2Xp,15,56,196
+Station 3-,D3mVp,25,121,986
+Station 3-,D3mV,26,83,398
+Station 3-,D3mV,26,121,975
+Station 3-,D3mXp,27,74,485
+Station 3-,D3mX,28,75,481
+Station 3-,D3mUp,29,84,494
+Prop,P1X1,49,58,1674
+Prop,P2Y1,53,28,1398
+Station 1,D0U,1,70,999
+Station 1,D0U,1,108,698
+Station 1,D0Up,2,70,995
+Station 1,D0Up,2,109,638
+Station 1,D0Up,2,110,689
+Station 1,D0X,3,54,562
+Station 1,D0X,3,97,631
+Station 1,D0X,3,98,620
+Station 1,D0X,3,141,2200
+Station 1,D0Xp,4,41,492
+Station 1,D0Xp,4,52,557
+Station 1,D0Xp,4,88,357
+Station 1,D0Xp,4,91,701
+Station 1,D0Xp,4,151,2493
+Station 1,D0V,5,83,789
+Station 2,D2V,13,61,318
+Station 2,D2Vp,14,29,945
+Station 2,D2Vp,14,60,263
+Station 2,D2Xp,15,16,1074
+Station 2,D2Xp,15,47,216
+Station 2,D2Xp,15,76,480
+Station 2,D2X,16,15,986
+Station 2,D2X,16,32,535
+Station 2,D2X,16,40,291
+Station 2,D2X,16,47,202
+Station 2,D2X,16,76,571
+Station 2,D2U,17,53,202
+Station 2,D2U,17,54,232
+Station 2,D2U,17,55,199
+Station 2,D2U,17,56,194
+Station 2,D2Up,18,49,258
+Station 2,D2Up,18,52,223
+Station 2,D2Up,18,58,187
+Station 3+,D3pUp,23,106,554
+Station 3+,D3pU,24,106,528
+Station 3-,D3mVp,25,48,434
+Station 3-,D3mV,26,4,896
+Station 3-,D3mV,26,47,451
+Station 3-,D3mUp,29,40,385
+Hodo,H2L,35,7,2171
+Hodo,H2L,35,16,801
+Hodo,H2B,37,7,810
+Hodo,H3B,39,5,712
+Hodo,H4Y1L,41,13,536
+Hodo,H4Y1R,42,6,1526
+Hodo,H4Y2R,44,6,855
+Hodo,H4B,45,5,661
+Prop,P1Y1,47,57,361
+Prop,P1Y2,48,58,361
+Prop,P2X1,51,21,243
+Prop,P2X2,52,1,1380
+Prop,P2Y2,54,61,579
+DP-1,DP1TL,55,32,167
+DP-1,DP1BL,57,13,447
+DP-2,DP2TL,59,34,26
+DP-2,DP2BR,62,15,66
+Station 3+,D3pVp,19,96,715
+Station 1,D0Xp,4,97,1231
+Station 1,D0V,5,152,2914
+Station 1,D0V,5,183,1198
+Station 2,D2Vp,14,100,1383
+Station 3+,D3pVp,19,118,1155
+Hodo,H4Y1R,42,4,526
+Prop,P1Y2,48,22,827
+DP-1,DP1TL,55,15,401
+DP-1,DP1BR,58,9,387
+DP-1,DP1BR,58,10,452
+DP-1,DP1BR,58,19,233
+Station 1,D0U,1,15,373
+Station 1,D0U,1,16,446
+Station 1,D0U,1,49,1653
+Station 1,D0Up,2,16,414
+Station 1,D0Up,2,172,2787
+Station 1,D0X,3,22,1285
+Station 1,D0Xp,4,29,1332
+Station 1,D0Xp,4,48,1075
+Station 1,D0V,5,59,1601
+Station 1,D0V,5,64,1393
+Station 1,D0V,5,79,867
+Station 1,D0V,5,137,2158
+Station 2,D2V,13,21,1304
+Station 2,D2Vp,14,20,1277
+Station 2,D2Vp,14,38,837
+Station 2,D2Vp,14,126,332
+Station 2,D2Xp,15,31,643
+Station 2,D2Xp,15,42,237
+Station 2,D2Xp,15,43,262
+Station 2,D2U,17,15,1504
+Station 2,D2U,17,16,1389
+Station 2,D2U,17,26,968
+Station 2,D2Up,18,14,1637
+Station 2,D2Up,18,40,509
+Station 3+,D3pVp,19,17,663
+Station 3+,D3pXp,21,14,633
+Station 3+,D3pX,22,15,637
+Station 3+,D3pUp,23,1,1027
+Station 3-,D3mVp,25,125,1082
+Station 3-,D3mVp,25,127,1122
+Station 3-,D3mV,26,127,1128
+Station 3-,D3mUp,29,121,1179
+Station 3-,D3mUp,29,129,1291
+Station 3-,D3mU,30,128,1287
+Hodo,H1T,32,10,2237
+Hodo,H4T,46,3,1779
+Prop,P1Y2,48,28,995
+Prop,P2X2,52,10,528
+Prop,P2X2,52,17,246
+Prop,P2Y2,54,16,374
+DP-1,DP1TR,56,13,334
+Station 1,D0U,1,78,851
+Station 1,D0Up,2,79,716
+Station 1,D0Xp,4,140,2553
+Station 1,D0V,5,80,816
+Station 2,D2U,17,41,533
+Station 3+,D3pVp,19,18,597
+Station 3+,D3pVp,19,54,461
+Station 3+,D3pV,20,81,434
+Station 3+,D3pXp,21,15,626
+Station 3+,D3pXp,21,44,382
+Station 3+,D3pX,22,45,435
+Station 3+,D3pX,22,78,465
+Station 3+,D3pUp,23,90,478
+Station 3+,D3pU,24,54,387
+Station 3+,D3pU,24,55,403
+Prop,P1Y2,48,50,848
+Prop,P2X1,51,14,437
+DP-2,DP2TR,60,2,193
+Station 1,D0U,1,22,1493
+Station 1,D0U,1,46,1770
+Station 1,D0U,1,72,899
+Station 1,D0U,1,84,679
+Station 1,D0U,1,131,1618
+Station 1,D0Up,2,22,1358
+Station 1,D0Up,2,25,1792
+Station 1,D0Up,2,73,868
+Station 1,D0Up,2,82,667
+Station 1,D0Up,2,162,2700
+Station 1,D0X,3,19,1315
+Station 1,D0X,3,66,415
+Station 1,D0X,3,67,385
+Station 1,D0X,3,121,1420
+Station 1,D0X,3,138,2036
+Station 1,D0Xp,4,3,1930
+Station 1,D0Xp,4,60,370
+Station 1,D0Xp,4,108,1253
+Station 1,D0Xp,4,114,1677
+Station 1,D0Xp,4,116,1472
+Station 1,D0V,5,19,436
+Station 1,D0V,5,42,2203
+Station 1,D0V,5,44,2176
+Station 1,D0V,5,129,1704
+Station 1,D0V,5,131,1665
+Station 1,D0V,5,190,204
+Station 2,D2V,13,18,1447
+Station 2,D2V,13,44,611
+Station 2,D2V,13,109,2000
+Station 2,D2V,13,119,2426
+Station 2,D2V,13,125,676
+Station 2,D2Vp,14,17,1392
+Station 2,D2Xp,15,4,1505
+Station 2,D2Xp,15,29,807
+Station 2,D2Xp,15,46,232
+Station 2,D2Xp,15,50,207
+Station 2,D2Xp,15,51,221
+Station 2,D2Xp,15,52,225
+Station 2,D2Xp,15,84,1137
+Station 2,D2X,16,24,740
+Station 2,D2X,16,34,428
+Station 2,D2X,16,48,208
+Station 2,D2X,16,50,225
+Station 2,D2X,16,95,1630
+Station 2,D2U,17,30,855
+Station 2,D2U,17,37,761
+Station 2,D2U,17,44,396
+Station 2,D2U,17,52,223
+Station 2,D2U,17,105,1865
+Station 2,D2U,17,124,911
+Station 2,D2Up,18,15,1547
+Station 2,D2Up,18,105,1588
+Station 2,D2Up,18,113,1976
+Station 2,D2Up,18,124,795
+Station 3+,D3pVp,19,57,419
+Station 3+,D3pVp,19,83,507
+Station 3+,D3pVp,19,103,899
+Station 3+,D3pVp,19,105,840
+Station 3+,D3pVp,19,107,994
+Station 3+,D3pV,20,58,422
+Station 3+,D3pV,20,108,1042
+Station 3+,D3pV,20,122,1268
+Station 3+,D3pV,20,130,1522
+Station 3+,D3pX,22,80,438
+Station 3+,D3pX,22,116,1157
+Station 3+,D3pUp,23,50,451
+Station 3+,D3pU,24,51,407
+Station 3-,D3mVp,25,21,725
+Station 3-,D3mVp,25,39,489
+Station 3-,D3mVp,25,61,401
+Station 3-,D3mVp,25,62,389
+Station 3-,D3mV,26,60,430
+Station 3-,D3mV,26,61,424
+Station 3-,D3mXp,27,9,706
+Station 3-,D3mXp,27,21,484
+Station 3-,D3mXp,27,44,408
+Station 3-,D3mX,28,20,577
+Station 3-,D3mX,28,44,434
+Station 3-,D3mUp,29,18,658
+Station 3-,D3mUp,29,47,383
+Station 3-,D3mUp,29,127,1288
+Station 3-,D3mUp,29,128,1274
+Station 3-,D3mUp,29,134,1444
+Station 3-,D3mU,30,17,669
+Station 3-,D3mU,30,46,380
+Station 3-,D3mU,30,134,1424
+Hodo,H1L,33,3,2372
+Hodo,H1L,33,19,1656
+Hodo,H1R,34,17,1785
+Hodo,H2L,35,6,1085
+Hodo,H3B,39,7,816
+Hodo,H4Y2L,43,10,1386
+Hodo,H4Y2R,44,5,797
+Prop,P1Y1,47,27,853
+Prop,P1Y1,47,48,728
+Prop,P1Y1,47,55,615
+Prop,P1Y2,48,55,601
+Prop,P1X2,50,43,108
+Prop,P2X1,51,47,147
+Prop,P2X2,52,5,1510
+Prop,P2Y1,53,19,439
+DP-1,DP1BL,57,18,351
+DP-1,DP1BR,58,7,566
+DP-2,DP2BR,62,23,37
+Station 1,D0U,1,52,1524
+Station 1,D0Up,2,53,1486
+Station 1,D0Xp,4,43,593
+Station 1,D0V,5,23,1243
+Station 1,D0V,5,76,996
+Station 2,D2V,13,24,1161
+Station 2,D2Vp,14,23,1078
+Station 2,D2U,17,35,819
+Station 3+,D3pV,20,82,468
+Station 3+,D3pV,20,83,520
+Station 3+,D3pXp,21,63,407
+Station 3+,D3pXp,21,64,426
+Station 3+,D3pX,22,61,416
+Station 3+,D3pX,22,107,981
+Station 3+,D3pUp,23,58,419
+Station 3+,D3pUp,23,59,419
+Station 3+,D3pUp,23,112,695
+Station 3+,D3pUp,23,113,731
+Station 3+,D3pU,24,58,399
+Station 3-,D3mV,26,11,823
+Station 3-,D3mV,26,32,590
+Station 3-,D3mV,26,33,669
+Station 3-,D3mUp,29,17,655
+Station 3-,D3mU,30,16,664
+Hodo,H1R,34,3,1360
+Station 2,D2V,13,75,341
+Station 2,D2Xp,15,65,282
+Station 2,D2X,16,30,704
+Station 2,D2X,16,64,266
+Station 2,D2U,17,71,206
+Station 2,D2Up,18,70,205
+Station 3-,D3mVp,25,71,436
+Hodo,H2B,37,10,1013
+Hodo,H4B,45,7,393
+Prop,P1X1,49,31,213
+Prop,P1X1,49,34,219
+Prop,P1X2,50,31,215
+Prop,P2X1,51,28,155
+Prop,P2X1,51,29,157
+Prop,P2Y2,54,12,284
+Station 1,D0U,1,27,2115
+Station 1,D0U,1,28,2093
+Station 1,D0U,1,45,1762
+Station 1,D0U,1,54,1450
+Station 1,D0U,1,79,787
+Station 1,D0Up,2,28,2017
+Station 1,D0Up,2,45,1652
+Station 1,D0Up,2,46,1693
+Station 1,D0Up,2,55,1398
+Station 1,D0Up,2,80,711
+Station 1,D0X,3,6,1684
+Station 1,D0X,3,35,932
+Station 1,D0Xp,4,4,1807
+Station 1,D0Xp,4,16,2045
+Station 1,D0Xp,4,27,1063
+Station 1,D0V,5,28,2088
+Station 1,D0V,5,34,2390
+Station 1,D0V,5,41,2351
+Station 2,D2V,13,59,253
+Station 2,D2Vp,14,59,285
+Station 2,D2Xp,15,54,92
+Station 2,D2X,16,55,214
+Station 2,D2X,16,56,213
+Station 2,D2X,16,73,423
+Station 2,D2U,17,60,195
+Station 2,D2U,17,62,184
+Station 2,D2U,17,67,234
+Station 2,D2U,17,68,250
+Station 2,D2U,17,77,272
+Station 2,D2U,17,79,358
+Station 2,D2U,17,80,364
+Station 2,D2Up,18,61,208
+Station 2,D2Up,18,62,200
+Station 2,D2Up,18,64,205
+Station 2,D2Up,18,72,232
+Station 2,D2Up,18,80,414
+Station 2,D2Up,18,81,436
+Station 3+,D3pVp,19,41,399
+Station 3+,D3pXp,21,53,383
+Station 3+,D3pXp,21,96,629
+Station 3+,D3pX,22,12,680
+Station 3+,D3pX,22,96,657
+Station 3+,D3pX,22,97,651
+Station 3+,D3pUp,23,101,531
+Station 3+,D3pU,24,102,500
+Station 3-,D3mVp,25,12,841
+Station 3-,D3mVp,25,119,865
+Station 3-,D3mVp,25,120,933
+Station 3-,D3mV,26,1,986
+Station 3-,D3mV,26,12,905
+Station 3-,D3mV,26,21,784
+Station 3-,D3mV,26,55,405
+Station 3-,D3mV,26,125,1056
+Station 3-,D3mXp,27,45,397
+Station 3-,D3mX,28,37,427
+Station 3-,D3mX,28,45,445
+Station 3-,D3mUp,29,9,705
+Station 3-,D3mUp,29,14,746
+Station 3-,D3mU,30,13,741
+Station 3-,D3mU,30,47,374
+Hodo,H2T,38,9,580
+Hodo,H3T,40,9,670
+Prop,P1Y1,47,51,644
+Prop,P1Y2,48,52,737
+Prop,P2X1,51,10,522
+Prop,P2Y1,53,11,315
+Prop,P2Y2,54,11,303
+Prop,P2Y2,54,56,620
+DP-1,DP1TL,55,75,84
+DP-1,DP1TR,56,8,484
+DP-1,DP1TR,56,11,374
+DP-1,DP1TR,56,15,296
+DP-1,DP1TR,56,30,139
+DP-2,DP2TL,59,44,31
+DP-2,DP2TL,59,45,19
+Station 1,D0U,1,51,1605
+Station 1,D0Up,2,29,2044
+Station 1,D0Up,2,51,1577
+Station 1,D0Up,2,54,1432
+Station 1,D0X,3,60,185
+Station 1,D0X,3,146,2224
+Station 1,D0Xp,4,23,803
+Station 1,D0Xp,4,38,1079
+Station 1,D0V,5,36,2443
+Station 1,D0V,5,71,1261
+Station 1,D0V,5,93,545
+Station 2,D2V,13,20,1294
+Station 2,D2V,13,34,874
+Station 2,D2Vp,14,18,1342
+Station 2,D2Vp,14,56,271
+Station 2,D2Xp,15,11,1327
+Station 2,D2Xp,15,39,320
+Station 2,D2X,16,10,1186
+Station 2,D2X,16,36,380
+Station 2,D2U,17,21,1046
+Station 2,D2Up,18,32,813
+Station 2,D2Up,18,120,1784
+Station 3+,D3pVp,19,50,455
+Station 3+,D3pXp,21,103,814
+Station 3+,D3pUp,23,24,730
+Station 3+,D3pUp,23,116,892
+Station 3+,D3pU,24,24,657
+Station 3+,D3pU,24,120,844
+Station 3-,D3mV,26,7,942
+Station 3-,D3mXp,27,6,744
+Station 3-,D3mXp,27,25,480
+Station 3-,D3mX,28,6,757
+Station 3-,D3mUp,29,29,459
+Hodo,H1L,33,18,1757
+Prop,P1X1,49,18,716
+Prop,P1X2,50,4,1598
+Prop,P1X2,50,12,1330
+Station 1,D0U,1,38,1915
+Station 1,D0U,1,41,1870
+Station 1,D0U,1,53,1514
+Station 1,D0U,1,67,1094
+Station 1,D0U,1,94,562
+Station 1,D0U,1,95,571
+Station 1,D0Up,2,36,1938
+Station 1,D0Up,2,37,1959
+Station 1,D0Up,2,42,1803
+Station 1,D0Up,2,44,1720
+Station 1,D0Up,2,98,535
+Station 1,D0Up,2,104,585
+Station 1,D0Up,2,105,610
+Station 1,D0Up,2,106,660
+Station 1,D0Up,2,108,643
+Station 1,D0Up,2,153,2385
+Station 1,D0X,3,26,1154
+Station 1,D0X,3,28,1190
+Station 1,D0Xp,4,1,1660
+Station 1,D0Xp,4,18,1371
+Station 1,D0Xp,4,30,1352
+Station 1,D0V,5,26,1951
+Station 1,D0V,5,52,1855
+Station 1,D0V,5,75,1078
+Station 1,D0V,5,90,542
+Station 2,D2V,13,35,914
+Station 2,D2Vp,14,34,834
+Station 2,D2Vp,14,105,1564
+Station 2,D2U,17,36,792
+Station 2,D2U,17,83,478
+Station 2,D2U,17,120,1977
+Station 2,D2Up,18,76,305
+Station 2,D2Up,18,77,297
+Station 3+,D3pVp,19,13,726
+Station 3+,D3pV,20,13,733
+Station 3+,D3pV,20,103,924
+Station 3+,D3pXp,21,9,691
+Station 3+,D3pU,24,27,615
+Station 3+,D3pU,24,103,476
+Station 3-,D3mVp,25,40,537
+Station 3-,D3mVp,25,101,499
+Station 3-,D3mVp,25,102,488
+Station 3-,D3mVp,25,103,562
+Station 3-,D3mV,26,40,526
+Station 3-,D3mV,26,41,498
+Station 3-,D3mV,26,100,553
+Station 3-,D3mV,26,103,562
+Station 3-,D3mV,26,104,545
+Station 3-,D3mV,26,109,598
+Station 3-,D3mV,26,110,635
+Station 3-,D3mV,26,111,702
+Station 3-,D3mXp,27,31,465
+Station 3-,D3mXp,27,88,522
+Station 3-,D3mXp,27,89,544
+Station 3-,D3mXp,27,95,608
+Station 3-,D3mXp,27,96,648
+Station 3-,D3mXp,27,97,705
+Station 3-,D3mXp,27,98,671
+Station 3-,D3mX,28,31,462
+Station 3-,D3mX,28,86,506
+Station 3-,D3mX,28,87,536
+Station 3-,D3mX,28,88,560
+Station 3-,D3mUp,29,33,425
+Station 3-,D3mUp,29,44,408
+Station 3-,D3mUp,29,94,617
+Station 3-,D3mUp,29,103,804
+Station 3-,D3mUp,29,104,869
+Station 3-,D3mUp,29,105,864
+Station 3-,D3mU,30,33,420
+Station 3-,D3mU,30,45,364
+Station 3-,D3mU,30,93,623
+Station 3-,D3mU,30,105,851
+Hodo,H3B,39,3,824
+Prop,P1Y2,48,35,1613
+Prop,P2X1,51,12,540
+Prop,P2X2,52,20,141
+Prop,P2Y2,54,24,450
+DP-1,DP1TL,55,37,139
+DP-1,DP1TR,56,14,317
+DP-1,DP1TR,56,17,252
+DP-1,DP1TR,56,18,223
+DP-1,DP1TR,56,24,151
+DP-1,DP1TR,56,31,130
+DP-1,DP1TR,56,77,65
+DP-1,DP1TR,56,78,44
+DP-1,DP1BR,58,6,450
+DP-1,DP1BR,58,64,84
+DP-2,DP2BL,61,5,280
+Station 1,D0U,1,71,918
+Station 1,D0U,1,124,1330
+Station 1,D0Up,2,94,509
+Station 1,D0X,3,10,1560
+Station 1,D0X,3,20,1340
+Station 1,D0X,3,44,770
+Station 1,D0X,3,84,308
+Station 1,D0X,3,131,1885
+Station 1,D0Xp,4,21,1538
+Station 1,D0Xp,4,74,366
+Station 1,D0Xp,4,160,2803
+Station 2,D2X,16,22,771
+Station 2,D2U,17,7,813
+Station 3+,D3pVp,19,66,450
+Station 3+,D3pVp,19,67,459
+Station 3+,D3pVp,19,92,560
+Station 3+,D3pVp,19,97,700
+Station 3+,D3pV,20,67,430
+Station 3+,D3pV,20,96,682
+Station 3+,D3pXp,21,59,382
+Station 3+,D3pXp,21,83,463
+Station 3+,D3pXp,21,84,435
+Station 3+,D3pXp,21,88,503
+Station 3+,D3pX,22,59,404
+Station 3+,D3pX,22,86,518
+Station 3+,D3pX,22,88,513
+Station 3+,D3pUp,23,45,450
+Station 3+,D3pUp,23,69,403
+Station 3+,D3pUp,23,74,418
+Station 3+,D3pUp,23,93,445
+Station 3+,D3pUp,23,94,437
+Station 3+,D3pUp,23,95,459
+Station 3+,D3pU,24,69,376
+Station 3+,D3pU,24,94,445
+Station 3+,D3pU,24,95,457
+Station 3+,D3pU,24,128,1173
+Station 3-,D3mVp,25,8,970
+Station 3-,D3mVp,25,22,711
+Station 3-,D3mVp,25,50,431
+Station 3-,D3mV,26,50,409
+Station 3-,D3mXp,27,36,424
+Station 3-,D3mXp,27,69,431
+Station 3-,D3mX,28,35,376
+Station 3-,D3mX,28,36,430
+Station 3-,D3mUp,29,20,579
+Station 3-,D3mUp,29,41,420
+Station 3-,D3mU,30,19,609
+Station 3-,D3mU,30,41,375
+Hodo,H4T,46,10,358
+Prop,P1Y1,47,60,371
+Prop,P1X1,49,22,460
+Prop,P2X1,51,30,156
+Prop,P2X2,52,44,291
+DP-1,DP1TL,55,24,225
+DP-1,DP1BL,57,22,208
+DP-1,DP1BL,57,23,270
+Station 3+,D3pUp,23,96,466
+Station 1,D0X,3,29,1158
+Station 1,D0V,5,117,849
+Station 2,D2U,17,86,563
+Station 3+,D3pVp,19,69,456
+Station 3+,D3pVp,19,89,567
+Station 3+,D3pVp,19,90,535
+Station 3+,D3pVp,19,91,601
+Station 3+,D3pV,20,69,430
+Station 3+,D3pV,20,92,587
+Station 3+,D3pXp,21,56,425
+Station 3+,D3pXp,21,90,572
+Station 3+,D3pXp,21,91,529
+Station 3+,D3pX,22,91,572
+Station 3+,D3pX,22,92,569
+Station 3+,D3pX,22,93,570
+Station 3+,D3pX,22,94,614
+Station 3+,D3pUp,23,60,445
+Station 3+,D3pUp,23,107,650
+Station 3+,D3pUp,23,110,639
+Station 3+,D3pU,24,60,402
+Station 3+,D3pU,24,61,359
+Station 3+,D3pU,24,107,586
+Station 3+,D3pU,24,108,566
+Station 3+,D3pU,24,111,630
+Station 3-,D3mVp,25,47,437
+Station 3-,D3mU,30,61,328
+Prop,P2Y1,53,12,343
+Station 1,D0U,1,184,630
+Station 1,D0U,1,185,508
+Station 1,D0Up,2,184,647
+Station 1,D0Xp,4,103,582
+Station 1,D0V,5,63,1455
+Station 1,D0V,5,191,132
+Station 1,D0V,5,194,53
+Station 2,D2Vp,14,46,424
+Station 2,D2X,16,106,2343
+Station 2,D2U,17,47,335
+Station 2,D2U,17,119,2246
+Station 2,D2Up,18,47,314
+Station 2,D2Up,18,119,1805
+Station 3+,D3pVp,19,33,439
+Station 3+,D3pU,24,45,429
+Station 3-,D3mX,28,83,452
+Hodo,H2B,37,6,762
+Prop,P1Y2,48,46,923
+Prop,P1X1,49,2,1617
+Prop,P2X1,51,11,512
+Prop,P2Y2,54,19,420
+DP-1,DP1TL,55,5,832
+DP-2,DP2TL,59,5,242
+Station 1,D0U,1,69,1005
+Station 1,D0U,1,115,862
+Station 1,D0Up,2,67,1034
+Station 1,D0Up,2,125,1321
+Station 1,D0Xp,4,54,554
+Station 1,D0V,5,120,1056
+Station 2,D2V,13,28,1109
+Station 2,D2Xp,15,19,924
+Station 2,D2Xp,15,81,884
+Station 2,D2U,17,126,450
+Station 2,D2Up,18,126,360
+Station 3+,D3pVp,19,70,437
+Station 3+,D3pV,20,70,424
+Station 3+,D3pV,20,91,594
+Station 3+,D3pV,20,99,760
+Station 3+,D3pXp,21,13,623
+Station 3+,D3pX,22,64,424
+Station 3+,D3pX,22,90,566
+Station 3+,D3pUp,23,9,937
+Station 3+,D3pUp,23,11,846
+Station 3+,D3pUp,23,75,393
+Station 3+,D3pUp,23,76,415
+Station 3+,D3pUp,23,105,594
+Station 3+,D3pU,24,12,767
+Station 3+,D3pU,24,75,413
+Station 3+,D3pU,24,76,400
+Station 3+,D3pU,24,105,539
+Station 3-,D3mVp,25,79,393
+Station 3-,D3mVp,25,118,923
+Station 3-,D3mV,26,78,393
+Station 3-,D3mXp,27,66,431
+Station 3-,D3mXp,27,67,420
+Station 3-,D3mX,28,67,459
+Station 3-,D3mX,28,68,412
+Station 3-,D3mUp,29,16,664
+Station 3-,D3mUp,29,73,442
+Station 3-,D3mUp,29,74,417
+Station 3-,D3mUp,29,99,685
+Station 3-,D3mU,30,72,426
+Station 3-,D3mU,30,73,419
+Station 3-,D3mU,30,99,713
+Hodo,H3B,39,8,648
+Prop,P1Y2,48,53,664
+DP-1,DP1TL,55,13,381
+DP-1,DP1TL,55,31,203
+DP-1,DP1TR,56,69,60
+DP-1,DP1TR,56,70,55
+DP-1,DP1BL,57,14,455
+DP-1,DP1BL,57,44,134
+DP-1,DP1BL,57,68,58
+DP-1,DP1BR,58,53,46
+Station 1,D0U,1,20,1092
+Station 1,D0Up,2,24,1528
+Station 1,D0Up,2,71,851
+Station 1,D0Up,2,85,616
+Station 1,D0X,3,21,1236
+Station 1,D0X,3,125,1691
+Station 1,D0Xp,4,10,1498
+Station 1,D0Xp,4,15,1746
+Station 1,D0Xp,4,128,1473
+Station 1,D0V,5,61,1582
+Station 1,D0V,5,81,816
+Station 1,D0V,5,187,405
+Station 2,D2Vp,14,25,1075
+Station 2,D2Vp,14,128,150
+Station 2,D2Xp,15,17,1055
+Station 2,D2X,16,16,966
+Station 2,D2U,17,23,1102
+Station 2,D2Up,18,42,469
+Station 3+,D3pVp,19,20,613
+Station 3+,D3pVp,19,21,594
+Station 3+,D3pVp,19,47,440
+Station 3+,D3pVp,19,63,402
+Station 3+,D3pVp,19,64,420
+Station 3+,D3pVp,19,65,441
+Station 3+,D3pVp,19,72,435
+Station 3+,D3pVp,19,73,406
+Station 3+,D3pVp,19,74,410
+Station 3+,D3pVp,19,121,1288
+Station 3+,D3pV,20,20,638
+Station 3+,D3pV,20,21,622
+Station 3+,D3pV,20,50,424
+Station 3+,D3pV,20,51,447
+Station 3+,D3pV,20,52,443
+Station 3+,D3pV,20,54,472
+Station 3+,D3pV,20,55,442
+Station 3+,D3pV,20,56,437
+Station 3+,D3pV,20,59,420
+Station 3+,D3pV,20,68,460
+Station 3+,D3pXp,21,17,559
+Station 3+,D3pXp,21,18,523
+Station 3+,D3pX,22,19,562
+Station 3+,D3pX,22,23,505
+Station 3+,D3pUp,23,41,512
+Station 3+,D3pU,24,36,493
+Station 3-,D3mVp,25,1,1002
+Station 3-,D3mVp,25,4,965
+Station 3-,D3mVp,25,9,929
+Station 3-,D3mVp,25,10,989
+Station 3-,D3mVp,25,11,830
+Station 3-,D3mVp,25,13,860
+Station 3-,D3mVp,25,14,830
+Station 3-,D3mVp,25,15,818
+Station 3-,D3mVp,25,17,776
+Station 3-,D3mVp,25,18,773
+Station 3-,D3mVp,25,19,755
+Station 3-,D3mVp,25,24,655
+Station 3-,D3mVp,25,78,408
+Station 3-,D3mV,26,13,881
+Station 3-,D3mV,26,14,829
+Station 3-,D3mV,26,23,734
+Station 3-,D3mV,26,79,431
+Station 3-,D3mXp,27,1,792
+Station 3-,D3mXp,27,3,697
+Station 3-,D3mXp,27,12,710
+Station 3-,D3mXp,27,82,467
+Station 3-,D3mX,28,82,447
+Station 3-,D3mUp,29,4,799
+Station 3-,D3mUp,29,100,731
+Station 3-,D3mU,30,3,742
+Station 3-,D3mU,30,6,722
+Station 3-,D3mU,30,27,483
+Hodo,H1R,34,18,291
+Prop,P1X1,49,5,1619
+DP-1,DP1TL,55,80,84
+DP-1,DP1TR,56,43,84
+DP-2,DP2BR,62,6,165
+Station 1,D0Up,2,72,858
+Station 1,D0V,5,182,1487
+Station 2,D2V,13,101,1671
+Station 2,D2Vp,14,36,815
+Station 2,D2X,16,27,724
+Station 2,D2U,17,106,1851
+Station 3+,D3pVp,19,10,798
+Station 3+,D3pVp,19,16,618
+Station 3+,D3pXp,21,8,736
+Station 3+,D3pXp,21,16,557
+Station 3+,D3pXp,21,82,396
+Station 3+,D3pX,22,8,741
+Station 3+,D3pX,22,82,475
+Station 3+,D3pUp,23,89,429
+Station 3+,D3pU,24,89,441
+Station 3-,D3mVp,25,86,480
+Station 3-,D3mV,26,29,703
+Station 3-,D3mV,26,34,564
+Station 3-,D3mV,26,86,484
+Station 3-,D3mXp,27,16,603
+Station 3-,D3mXp,27,86,530
+Station 3-,D3mXp,27,87,483
+Station 3-,D3mUp,29,11,734
+Station 3-,D3mU,30,11,746
+Station 3-,D3mU,30,103,794
+Hodo,H3T,40,1,1786
+Prop,P1X1,49,30,235
+Prop,P2Y1,53,7,289
+Prop,P2Y2,54,7,359
+Station 1,D0U,1,93,561
+Station 1,D0Up,2,26,1836
+Station 1,D0Up,2,39,1903
+Station 1,D0Up,2,91,521
+Station 1,D0X,3,39,941
+Station 1,D0Xp,4,31,1508
+Station 1,D0Xp,4,73,377
+Station 1,D0Xp,4,83,484
+Station 2,D2V,13,30,989
+Station 2,D2V,13,42,659
+Station 2,D2Xp,15,8,1307
+Station 2,D2Xp,15,23,787
+Station 2,D2X,16,7,1012
+Station 2,D2Up,18,19,1313
+Station 3+,D3pVp,19,42,397
+Station 3+,D3pV,20,27,541
+Station 3+,D3pUp,23,51,402
+Station 3+,D3pUp,23,63,441
+Station 3+,D3pU,24,122,1031
+Station 3-,D3mVp,25,82,389
+Station 3-,D3mV,26,81,442
+Station 3-,D3mXp,27,73,486
+Station 3-,D3mX,28,15,615
+Station 3-,D3mX,28,74,438
+Station 3-,D3mUp,29,5,711
+Station 3-,D3mUp,29,133,1493
+Station 3-,D3mU,30,4,691
+Station 3-,D3mU,30,24,501
+Station 3-,D3mU,30,82,510
+Prop,P1Y2,48,21,768
+Prop,P1Y2,48,33,1571
+Prop,P2Y2,54,36,1513
+Prop,P2Y2,54,47,410
+DP-2,DP2BR,62,7,236
+Station 1,D0X,3,57,468
+Station 1,D0Xp,4,63,516
+Station 1,D0V,5,185,745
+Station 2,D2V,13,114,2310
+Station 3+,D3pUp,23,134,1254
+Station 3-,D3mVp,25,72,428
+Station 3-,D3mVp,25,96,468
+Station 3-,D3mV,26,8,925
+Station 3-,D3mV,26,9,951
+Station 3-,D3mV,26,10,938
+Station 3-,D3mV,26,71,471
+Station 3-,D3mV,26,77,406
+Station 3-,D3mV,26,96,473
+Station 3-,D3mXp,27,54,446
+Station 3-,D3mXp,27,78,473
+Station 3-,D3mXp,27,80,510
+Station 3-,D3mX,28,77,479
+Station 3-,D3mX,28,79,495
+Station 3-,D3mX,28,81,478
+Station 3-,D3mX,28,96,641
+Station 3-,D3mUp,29,13,758
+Station 3-,D3mUp,29,56,385
+Station 3-,D3mUp,29,86,465
+Station 3-,D3mUp,29,87,470
+Station 3-,D3mUp,29,91,536
+Station 3-,D3mUp,29,92,569
+Station 3-,D3mUp,29,95,609
+Station 3-,D3mUp,29,96,614
+Station 3-,D3mU,30,88,534
+Hodo,H4B,45,10,509
+Prop,P1X1,49,52,867
+Prop,P2Y1,53,27,1085
+Station 2,D2Vp,14,8,1312
+Prop,P2X2,52,61,45
+Station 1,D0U,1,104,620
+Station 1,D0U,1,105,667
+Station 1,D0U,1,186,400
+Station 1,D0Up,2,187,296
+Station 1,D0Xp,4,42,526
+Station 1,D0V,5,186,497
+Station 1,D0V,5,188,333
+Station 2,D2V,13,14,1566
+Station 2,D2V,13,113,2264
+Station 2,D2U,17,108,2022
+Station 3+,D3pXp,21,68,358
+Station 3+,D3pU,24,70,368
+Station 3-,D3mVp,25,108,615
+Station 3-,D3mVp,25,128,1130
+Station 3-,D3mVp,25,129,1102
+Station 3-,D3mXp,27,18,557
+Station 3-,D3mX,28,17,532
+Station 3-,D3mUp,29,130,1409
+Station 3-,D3mU,30,8,714
+Station 3-,D3mU,30,20,568
+Hodo,H4Y1L,41,4,443
+Prop,P1Y1,47,17,505
+Prop,P1Y1,47,58,351
+Prop,P1Y1,47,65,145
+Prop,P1X1,49,17,823
+Prop,P2X1,51,15,354
+Prop,P2Y2,54,23,561
+Prop,P2Y2,54,54,650
+Prop,P2Y2,54,68,68
+Prop,P2Y2,54,72,1777
+DP-1,DP1BL,57,1,1280
+DP-1,DP1BL,57,73,115
+DP-1,DP1BL,57,74,83
+DP-2,DP2BL,61,31,48
+DP-2,DP2BR,62,2,250
+Station 1,D0U,1,19,920
+Station 1,D0Up,2,19,752
+Station 1,D0Up,2,20,899
+Station 1,D0Up,2,182,1013
+Station 1,D0X,3,111,1153
+Station 1,D0V,5,57,1622
+Station 2,D2V,13,104,1686
+Station 2,D2Xp,15,7,1391
+Station 2,D2Up,18,107,1708
+Station 3+,D3pVp,19,26,504
+Station 3+,D3pVp,19,37,411
+Station 3+,D3pXp,21,77,426
+Station 3+,D3pUp,23,5,1006
+Station 3+,D3pUp,23,29,669
+Station 3+,D3pUp,23,49,455
+Station 3+,D3pU,24,29,617
+Station 3+,D3pU,24,78,427
+Station 3-,D3mVp,25,80,477
+Station 3-,D3mVp,25,81,454
+Station 3-,D3mVp,25,94,505
+Station 3-,D3mVp,25,122,1035
+Station 3-,D3mV,26,93,491
+Station 3-,D3mXp,27,13,628
+Station 3-,D3mXp,27,64,435
+Station 3-,D3mX,28,64,433
+Station 3-,D3mX,28,84,490
+Station 3-,D3mUp,29,93,587
+Station 3-,D3mUp,29,131,1444
+Station 3-,D3mU,30,91,610
+Station 3-,D3mU,30,92,557
+Hodo,H1L,33,1,1316
+Prop,P1Y2,48,27,919
+Prop,P2X2,52,13,431
+Prop,P2X2,52,32,124
+Prop,P2Y1,53,9,246
+DP-1,DP1TR,56,6,549
+Station 1,D0X,3,32,1083
+Station 1,D0Xp,4,17,1134
+Station 2,D2V,13,3,259
+Station 2,D2V,13,47,422
+Station 2,D2V,13,124,1025
+Station 2,D2Vp,14,124,728
+Station 2,D2X,16,79,728
+Station 2,D2U,17,42,499
+Station 2,D2U,17,123,1332
+Station 2,D2Up,18,123,1049
+Station 3+,D3pVp,19,68,481
+Station 3+,D3pV,20,121,1242
+Station 3+,D3pXp,21,42,413
+Station 3+,D3pXp,21,48,362
+Station 3+,D3pX,22,48,407
+Station 3+,D3pUp,23,56,384
+Station 3-,D3mVp,25,32,635
+Station 3-,D3mV,26,31,646
+Station 3-,D3mX,28,12,743
+Station 3-,D3mX,28,61,415
+Station 3-,D3mUp,29,81,447
+Station 3-,D3mU,30,14,698
+Station 3-,D3mU,30,15,675
+Station 3-,D3mU,30,81,444
+Station 3-,D3mU,30,98,695
+Hodo,H4Y1R,42,2,766
+Prop,P2X1,51,25,208
+Prop,P2X2,52,15,315
+Prop,P2X2,52,27,176
+Prop,P2Y1,53,17,393
+Prop,P2Y2,54,8,350
+DP-1,DP1TR,56,20,200
+DP-1,DP1BL,57,19,335
+DP-1,DP1BL,57,20,332
+DP-1,DP1BL,57,35,155
+Station 1,D0U,1,56,1430
+Station 1,D0U,1,80,772
+Station 1,D0Up,2,68,991
+Station 1,D0Up,2,81,622
+Station 1,D0X,3,38,926
+Station 1,D0Xp,4,20,1441
+Station 1,D0Xp,4,126,1512
+Station 1,D0V,5,9,42
+Station 1,D0V,5,12,111
+Station 1,D0V,5,17,335
+Station 1,D0V,5,18,437
+Station 1,D0V,5,60,1563
+Station 1,D0V,5,78,900
+Station 1,D0V,5,106,509
+Station 2,D2V,13,38,806
+Station 2,D2V,13,45,496
+Station 2,D2Vp,14,7,1000
+Station 2,D2Vp,14,27,988
+Station 2,D2Vp,14,44,541
+Station 2,D2Xp,15,10,1367
+Station 2,D2X,16,9,1095
+Station 2,D2U,17,13,1646
+Station 2,D2U,17,61,219
+Station 2,D2U,17,63,189
+Station 2,D2U,17,64,219
+Station 2,D2Up,18,57,185
+Station 2,D2Up,18,78,347
+Station 3+,D3pU,24,71,405
+Station 3-,D3mV,26,27,705
+Station 3-,D3mV,26,39,525
+Station 3-,D3mV,26,92,468
+Station 3-,D3mXp,27,33,377
+Station 3-,D3mX,28,11,657
+Station 3-,D3mX,28,13,661
+Station 3-,D3mX,28,33,427
+Station 3-,D3mUp,29,21,584
+Station 3-,D3mUp,29,46,387
+Station 3-,D3mUp,29,115,983
+Station 3-,D3mU,30,26,483
+Station 3-,D3mU,30,29,454
+Station 3-,D3mU,30,74,442
+Hodo,H2L,35,4,630
+Hodo,H2B,37,8,926
+Hodo,H2B,37,9,1028
+Hodo,H4Y1L,41,16,422
+Prop,P1Y1,47,64,232
+Prop,P1Y2,48,69,126
+Prop,P1X1,49,20,609
+Prop,P1X1,49,26,252
+Prop,P1X1,49,38,246
+Prop,P1X2,50,39,262
+Prop,P1X2,50,52,793
+Prop,P2X1,51,4,922
+Prop,P2X2,52,9,739
+Prop,P2X2,52,12,353
+DP-1,DP1TR,56,10,429
+DP-1,DP1BL,57,12,541
+DP-1,DP1BR,58,15,266
+DP-1,DP1BR,58,59,77
+DP-2,DP2BR,62,17,59
+Station 1,D0U,1,9,132
+Station 1,D0U,1,50,1618
+Station 1,D0U,1,64,1133
+Station 1,D0Up,2,9,99
+Station 1,D0Up,2,89,547
+Station 1,D0X,3,51,552
+Station 1,D0X,3,91,406
+Station 1,D0X,3,120,1474
+Station 1,D0Xp,4,77,377
+Station 1,D0Xp,4,104,508
+Station 1,D0V,5,69,1215
+Station 1,D0V,5,88,625
+Station 2,D2V,13,1,120
+Station 2,D2V,13,7,1049
+Station 2,D2V,13,37,810
+Station 2,D2V,13,54,280
+Station 2,D2V,13,81,477
+Station 2,D2Vp,14,55,275
+Station 2,D2Xp,15,53,181
+Station 2,D2Xp,15,90,1386
+Station 2,D2U,17,20,1097
+Station 2,D2Up,18,3,315
+Station 2,D2Up,18,22,1191
+Station 2,D2Up,18,26,1000
+Station 3+,D3pV,20,42,425
+Station 3+,D3pXp,21,40,382
+Station 3+,D3pXp,21,41,388
+Station 3+,D3pX,22,42,430
+Station 3+,D3pUp,23,35,593
+Station 3+,D3pUp,23,86,459
+Station 3+,D3pU,24,59,387
+Station 3-,D3mVp,25,56,406
+Station 3-,D3mVp,25,68,413
+Station 3-,D3mVp,25,91,497
+Station 3-,D3mVp,25,109,597
+Station 3-,D3mVp,25,124,986
+Station 3-,D3mV,26,56,421
+Station 3-,D3mV,26,90,505
+Station 3-,D3mV,26,108,603
+Station 3-,D3mXp,27,51,437
+Station 3-,D3mXp,27,58,384
+Station 3-,D3mXp,27,93,607
+Station 3-,D3mXp,27,102,809
+Station 3-,D3mX,28,49,451
+Station 3-,D3mX,28,50,427
+Station 3-,D3mX,28,51,421
+Station 3-,D3mX,28,58,376
+Station 3-,D3mUp,29,15,731
+Station 3-,D3mUp,29,116,1088
+Station 3-,D3mU,30,64,372
+Station 3-,D3mU,30,67,418
+Station 3-,D3mU,30,102,827
+Station 3-,D3mU,30,104,887
+Hodo,H1R,34,4,1738
+Hodo,H2L,35,1,348
+Hodo,H2L,35,18,393
+Hodo,H2R,36,4,943
+Hodo,H4Y2R,44,13,422
+Prop,P1Y1,47,62,308
+Prop,P1Y2,48,25,644
+Prop,P1Y2,48,51,817
+Prop,P1X1,49,15,1079
+Prop,P1X2,50,1,1782
+Prop,P1X2,50,15,1134
+Prop,P1X2,50,19,702
+Prop,P1X2,50,53,923
+Prop,P2X1,51,46,291
+Prop,P2X2,52,16,179
+Prop,P2Y1,53,14,414
+Prop,P2Y1,53,60,263
+Prop,P2Y1,53,61,183
+Prop,P2Y2,54,10,267
+Prop,P2Y2,54,40,1406
+Prop,P2Y2,54,58,592
+Prop,P2Y2,54,62,510
+DP-1,DP1TR,56,21,194
+DP-1,DP1TR,56,26,134
+DP-1,DP1BL,57,25,244
+DP-1,DP1BR,58,67,70
+DP-1,DP1BR,58,68,79
+DP-1,DP1BR,58,69,70
+DP-2,DP2TR,60,15,69
+DP-2,DP2BL,61,10,146
+Station 1,D0U,1,10,157
+Station 1,D0U,1,57,1375
+Station 1,D0U,1,76,855
+Station 1,D0U,1,85,640
+Station 1,D0U,1,86,592
+Station 1,D0U,1,89,582
+Station 1,D0U,1,119,1090
+Station 1,D0Up,2,10,139
+Station 1,D0Up,2,52,1471
+Station 1,D0Up,2,57,1404
+Station 1,D0Up,2,64,1146
+Station 1,D0Up,2,76,759
+Station 1,D0Up,2,86,583
+Station 1,D0Up,2,87,591
+Station 1,D0X,3,70,338
+Station 1,D0X,3,71,376
+Station 1,D0X,3,81,324
+Station 1,D0Xp,4,26,970
+Station 1,D0Xp,4,34,776
+Station 1,D0Xp,4,51,582
+Station 1,D0Xp,4,82,566
+Station 1,D0Xp,4,92,546
+Station 1,D0V,5,10,64
+Station 1,D0V,5,11,76
+Station 1,D0V,5,14,174
+Station 1,D0V,5,74,1125
+Station 1,D0V,5,100,428
+Station 2,D2V,13,26,1151
+Station 2,D2V,13,52,320
+Station 2,D2Vp,14,52,278
+Station 2,D2Xp,15,20,980
+Station 2,D2Xp,15,57,220
+Station 2,D2Xp,15,58,208
+Station 2,D2Xp,15,59,233
+Station 2,D2Xp,15,61,225
+Station 2,D2X,16,6,1207
+Station 2,D2X,16,19,937
+Station 2,D2X,16,58,252
+Station 2,D2X,16,63,254
+Station 2,D2U,17,1,122
+Station 2,D2U,17,3,227
+Station 2,D2U,17,4,316
+Station 2,D2U,17,8,953
+Station 2,D2U,17,27,886
+Station 2,D2U,17,32,813
+Station 2,D2U,17,58,206
+Station 2,D2U,17,73,241
+Station 2,D2Up,18,4,410
+Station 2,D2Up,18,6,847
+Station 2,D2Up,18,24,1125
+Station 2,D2Up,18,48,254
+Station 2,D2Up,18,54,196
+Station 2,D2Up,18,71,227
+Station 2,D2Up,18,108,1715
+Station 3+,D3pVp,19,11,756
+Station 3+,D3pVp,19,15,714
+Station 3+,D3pVp,19,40,395
+Station 3+,D3pVp,19,44,404
+Station 3+,D3pVp,19,81,459
+Station 3+,D3pVp,19,120,1167
+Station 3+,D3pV,20,12,741
+Station 3+,D3pV,20,15,699
+Station 3+,D3pV,20,16,688
+Station 3+,D3pXp,21,11,701
+Station 3+,D3pXp,21,19,504
+Station 3+,D3pXp,21,28,389
+Station 3+,D3pXp,21,36,424
+Station 3+,D3pXp,21,66,371
+Station 3+,D3pXp,21,79,494
+Station 3+,D3pXp,21,93,566
+Station 3+,D3pXp,21,97,623
+Station 3+,D3pX,22,13,632
+Station 3+,D3pX,22,28,465
+Station 3+,D3pX,22,36,411
+Station 3+,D3pX,22,40,422
+Station 3+,D3pX,22,67,408
+Station 3+,D3pX,22,98,711
+Station 3+,D3pX,22,105,987
+Station 3+,D3pUp,23,12,816
+Station 3+,D3pUp,23,33,577
+Station 3+,D3pUp,23,34,606
+Station 3+,D3pUp,23,37,550
+Station 3+,D3pUp,23,57,432
+Station 3+,D3pUp,23,70,436
+Station 3+,D3pUp,23,100,521
+Station 3+,D3pU,24,17,707
+Station 3+,D3pU,24,18,729
+Station 3+,D3pU,24,21,730
+Station 3+,D3pU,24,31,627
+Station 3+,D3pU,24,33,565
+Station 3+,D3pU,24,37,489
+Station 3+,D3pU,24,96,455
+Station 3+,D3pU,24,100,468
+Station 3+,D3pU,24,110,623
+Station 3-,D3mVp,25,29,696
+Station 3-,D3mVp,25,74,467
+Station 3-,D3mVp,25,110,593
+Station 3-,D3mV,26,74,451
+Station 3-,D3mXp,27,61,374
+Station 3-,D3mXp,27,107,906
+Station 3-,D3mXp,27,114,1130
+Station 3-,D3mX,28,38,427
+Station 3-,D3mX,28,92,565
+Station 3-,D3mUp,29,66,408
+Station 3-,D3mU,30,94,578
+Hodo,H1R,34,1,900
+Hodo,H2L,35,17,613
+Hodo,H2L,35,19,530
+Hodo,H2R,36,17,379
+Hodo,H2R,36,19,271
+Hodo,H3T,40,5,401
+Hodo,H3T,40,10,548
+Hodo,H4Y1R,42,15,221
+Hodo,H4Y1R,42,16,172
+Hodo,H4Y2L,43,15,321
+Hodo,H4Y2R,44,15,300
+Hodo,H4T,46,12,782
+Prop,P1Y1,47,19,596
+Prop,P1Y1,47,69,153
+Prop,P1Y2,48,13,30
+Prop,P1Y2,48,62,293
+Prop,P1Y2,48,68,137
+Prop,P1Y2,48,70,123
+Prop,P1X1,49,44,127
+Prop,P1X2,50,35,214
+Prop,P2X2,52,43,277
+DP-1,DP1TL,55,8,736
+DP-1,DP1TL,55,14,443
+DP-1,DP1TL,55,26,240
+DP-1,DP1TL,55,74,95
+DP-1,DP1TR,56,19,246
+DP-1,DP1TR,56,25,171
+DP-1,DP1TR,56,44,68
+DP-1,DP1TR,56,52,47
+DP-1,DP1TR,56,53,45
+DP-1,DP1BL,57,9,765
+DP-1,DP1BL,57,46,119
+DP-1,DP1BL,57,63,118
+DP-1,DP1BL,57,64,54
+DP-1,DP1BL,57,65,104
+DP-1,DP1BR,58,36,123
+DP-1,DP1BR,58,40,102
+DP-1,DP1BR,58,63,33
+DP-2,DP2TL,59,11,109
+DP-2,DP2TR,60,4,137
+DP-2,DP2TR,60,46,24
+DP-2,DP2BL,61,3,345
+DP-2,DP2BL,61,7,227
+DP-2,DP2BL,61,18,88
+Station 1,D0X,3,13,1540
+Station 1,D0X,3,53,631
+Station 1,D0X,3,80,317
+Station 1,D0Xp,4,37,955
+Station 1,D0Xp,4,47,936
+Station 1,D0V,5,82,765
+Station 1,D0V,5,91,575
+Station 1,D0V,5,181,1853
+Station 2,D2V,13,88,911
+Station 2,D2Xp,15,34,441
+Station 2,D2X,16,78,679
+Station 2,D2U,17,48,263
+Station 2,D2Up,18,5,613
+Station 2,D2Up,18,83,582
+Station 3+,D3pVp,19,51,380
+Station 3+,D3pVp,19,52,393
+Station 3+,D3pVp,19,61,437
+Station 3+,D3pX,22,34,412
+Station 3+,D3pUp,23,39,522
+Station 3+,D3pUp,23,79,443
+Station 3+,D3pU,24,5,956
+Station 3+,D3pU,24,80,434
+Station 3+,D3pU,24,90,427
+Station 3-,D3mVp,25,49,442
+Station 3-,D3mVp,25,85,407
+Station 3-,D3mVp,25,87,470
+Station 3-,D3mVp,25,97,432
+Station 3-,D3mV,26,17,778
+Station 3-,D3mV,26,48,450
+Station 3-,D3mV,26,49,489
+Station 3-,D3mV,26,84,425
+Station 3-,D3mV,26,87,495
+Station 3-,D3mV,26,124,1030
+Station 3-,D3mV,26,132,1223
+Station 3-,D3mXp,27,20,535
+Station 3-,D3mXp,27,30,477
+Station 3-,D3mXp,27,38,388
+Station 3-,D3mXp,27,39,406
+Station 3-,D3mXp,27,65,407
+Station 3-,D3mXp,27,71,437
+Station 3-,D3mX,28,29,453
+Station 3-,D3mX,28,66,400
+Station 3-,D3mX,28,71,417
+Station 3-,D3mX,28,72,462
+Station 3-,D3mX,28,97,631
+Station 3-,D3mUp,29,49,410
+Station 3-,D3mUp,29,89,571
+Station 3-,D3mUp,29,97,629
+Station 3-,D3mU,30,36,383
+Station 3-,D3mU,30,96,614
+Hodo,H1R,34,20,675
+Hodo,H4Y2L,43,4,270
+Prop,P1Y2,48,19,672
+Prop,P1Y2,48,20,734
+Prop,P2X1,51,24,178
+Prop,P2X2,52,48,369
+Prop,P2Y1,53,10,271
+Prop,P2Y2,54,22,516
+Prop,P2Y2,54,34,1492
+DP-1,DP1TL,55,10,627
+DP-1,DP1TL,55,11,542
+DP-1,DP1TL,55,18,344
+DP-1,DP1TL,55,63,87
+DP-1,DP1TR,56,23,174
+DP-1,DP1TR,56,38,93
+DP-2,DP2TL,59,1,428
+Station 1,D0U,1,6,54
+Station 1,D0U,1,7,78
+Station 1,D0U,1,194,62
+Station 1,D0Up,2,7,56
+Station 1,D0Up,2,8,63
+Station 1,D0X,3,94,499
+Station 1,D0Xp,4,64,457
+Station 1,D0V,5,92,568
+Station 2,D2V,13,41,699
+Station 2,D2V,13,68,320
+Station 2,D2V,13,69,330
+Station 2,D2Vp,14,67,308
+Station 2,D2Xp,15,30,650
+Station 2,D2Xp,15,80,729
+Station 2,D2X,16,29,707
+Station 2,D2X,16,51,239
+Station 2,D2X,16,61,291
+Station 2,D2U,17,5,403
+Station 2,D2U,17,6,585
+Station 3+,D3pVp,19,27,484
+Station 3+,D3pV,20,40,422
+Station 3+,D3pXp,21,70,382
+Station 3+,D3pX,22,9,690
+Station 3+,D3pX,22,26,439
+Station 3+,D3pX,22,39,419
+Station 3+,D3pUp,23,38,511
+Station 3+,D3pUp,23,64,474
+Station 3+,D3pU,24,4,883
+Station 3+,D3pU,24,26,651
+Station 3+,D3pU,24,35,526
+Station 3+,D3pU,24,39,498
+Station 3+,D3pU,24,50,386
+Station 3-,D3mVp,25,64,388
+Station 3-,D3mVp,25,88,504
+Station 3-,D3mV,26,63,405
+Station 3-,D3mV,26,64,386
+Station 3-,D3mV,26,65,439
+Station 3-,D3mV,26,88,521
+Station 3-,D3mV,26,113,722
+Station 3-,D3mXp,27,27,456
+Station 3-,D3mXp,27,76,455
+Station 3-,D3mXp,27,77,460
+Station 3-,D3mX,28,27,475
+Station 3-,D3mX,28,62,409
+Station 3-,D3mX,28,69,382
+Station 3-,D3mX,28,76,448
+Station 3-,D3mUp,29,27,495
+Station 3-,D3mUp,29,57,417
+Station 3-,D3mUp,29,82,470
+Station 3-,D3mU,30,51,386
+Station 3-,D3mU,30,52,370
+Station 3-,D3mU,30,77,411
+Prop,P1X1,49,28,286
+Prop,P1X1,49,32,243
+Prop,P1X2,50,29,222
+Prop,P1X2,50,41,99
+Prop,P2X2,52,66,27
+Prop,P2Y1,53,22,631
+Prop,P2Y2,54,14,318
+Prop,P2Y2,54,48,361
+DP-2,DP2TR,60,8,90
+DP-2,DP2BR,62,5,161
+Station 1,D0U,1,190,191
+Station 1,D0X,3,112,1089
+Station 2,D2Xp,15,72,354
+Station 2,D2Up,18,128,191
+Station 3+,D3pVp,19,76,425
+Station 3+,D3pV,20,66,415
+Station 3+,D3pXp,21,67,376
+Station 3+,D3pX,22,14,628
+Station 3+,D3pX,22,46,459
+Station 3+,D3pUp,23,30,696
+Station 3+,D3pUp,23,61,424
+Station 3+,D3pUp,23,99,478
+Station 3+,D3pU,24,30,667
+Station 3-,D3mV,26,120,984
+Station 3-,D3mUp,29,61,381
+Station 3-,D3mU,30,60,348
+Hodo,H4Y2R,44,16,219
+Prop,P2X1,51,56,27
+DP-1,DP1TL,55,20,294
+DP-1,DP1TL,55,21,306
+DP-1,DP1TR,56,60,76
+DP-1,DP1TR,56,61,85
+DP-1,DP1BL,57,21,267
+DP-1,DP1BL,57,29,162
+DP-1,DP1BR,58,3,747
+DP-1,DP1BR,58,4,631
+DP-1,DP1BR,58,20,206
+DP-2,DP2TL,59,13,107
+DP-2,DP2BL,61,12,122
+Station 1,D0U,1,82,684
+Station 1,D0X,3,23,1274
+Station 1,D0X,3,88,428
+Station 1,D0Xp,4,76,323
+Station 2,D2Vp,14,4,390
+Station 2,D2Vp,14,5,576
+Station 3+,D3pVp,19,86,512
+Station 3+,D3pV,20,65,402
+Station 3+,D3pV,20,84,448
+Station 3+,D3pXp,21,50,410
+Station 3+,D3pXp,21,58,388
+Station 3+,D3pX,22,37,401
+Station 3+,D3pX,22,50,424
+Station 3+,D3pX,22,58,427
+Station 3+,D3pX,22,63,419
+Station 3+,D3pX,22,100,763
+Station 3+,D3pUp,23,88,463
+Station 3+,D3pU,24,52,401
+Station 3+,D3pU,24,64,382
+Station 3+,D3pU,24,91,456
+Station 3-,D3mVp,25,57,404
+Station 3-,D3mV,26,57,446
+Station 3-,D3mXp,27,11,659
+Station 3-,D3mX,28,94,614
+Station 3-,D3mU,30,62,371
+Prop,P1Y1,47,52,709
+Prop,P2X1,51,27,163
+Prop,P2X2,52,47,325
+Prop,P2Y1,53,24,700
+Prop,P2Y2,54,13,320
+DP-1,DP1BR,58,17,295
+DP-1,DP1BR,58,18,244
+DP-1,DP1BR,58,33,128
+DP-2,DP2BL,61,33,39
+Station 1,D0U,1,187,314
+Station 1,D0U,1,188,247
+Station 1,D0Up,2,90,549
+Station 1,D0X,3,37,905
+Station 1,D0X,3,55,590
+Station 2,D2V,13,55,288
+Station 2,D2V,13,79,421
+Station 2,D2X,16,72,418
+Station 3+,D3pV,20,48,448
+Station 3+,D3pXp,21,6,753
+Station 3+,D3pXp,21,31,448
+Station 3+,D3pXp,21,32,410
+Station 3+,D3pXp,21,34,402
+Station 3+,D3pXp,21,35,444
+Station 3+,D3pXp,21,81,483
+Station 3+,D3pXp,21,98,693
+Station 3+,D3pXp,21,99,711
+Station 3+,D3pX,22,16,629
+Station 3+,D3pX,22,30,448
+Station 3+,D3pX,22,32,414
+Station 3+,D3pX,22,51,408
+Station 3+,D3pX,22,99,715
+Station 3+,D3pUp,23,28,688
+Station 3+,D3pUp,23,67,408
+Station 3+,D3pUp,23,68,445
+Station 3+,D3pUp,23,102,496
+Station 3+,D3pUp,23,104,573
+Station 3+,D3pU,24,3,906
+Station 3+,D3pU,24,43,446
+Station 3+,D3pU,24,49,413
+Station 3+,D3pU,24,104,548
+Station 3-,D3mVp,25,76,367
+Station 3-,D3mVp,25,77,451
+Station 3-,D3mVp,25,90,486
+Station 3-,D3mV,26,18,792
+Station 3-,D3mV,26,19,805
+Station 3-,D3mV,26,80,458
+Station 3-,D3mV,26,95,510
+Station 3-,D3mV,26,98,513
+Station 3-,D3mXp,27,57,437
+Station 3-,D3mXp,27,83,423
+Station 3-,D3mXp,27,84,449
+Station 3-,D3mXp,27,91,588
+Station 3-,D3mX,28,5,759
+Station 3-,D3mX,28,7,721
+Station 3-,D3mX,28,46,376
+Station 3-,D3mX,28,47,399
+Station 3-,D3mX,28,91,553
+Station 3-,D3mUp,29,26,516
+Station 3-,D3mUp,29,42,426
+Station 3-,D3mU,30,9,737
+Station 3-,D3mU,30,10,721
+Station 3-,D3mU,30,34,372
+Station 3-,D3mU,30,35,380
+Station 3-,D3mU,30,79,448
+Station 3-,D3mU,30,112,971
+Hodo,H4Y1R,42,12,866
+Hodo,H4T,46,8,286
+Prop,P1X1,49,29,230
+Prop,P1X1,49,39,239
+Prop,P1X1,49,50,620
+Prop,P2X1,51,31,133
+Prop,P2Y1,53,13,390
+Prop,P2Y1,53,54,667
+Prop,P2Y1,53,57,192
+Prop,P2Y2,54,60,543
+DP-1,DP1TL,55,23,269
+DP-1,DP1TL,55,72,83
+DP-1,DP1TR,56,40,69
+DP-1,DP1BL,57,6,881
+DP-1,DP1BR,58,23,167
+Station 1,D0X,3,90,383
+Station 1,D0Xp,4,67,394
+Station 1,D0V,5,101,466
+Station 1,D0V,5,116,837
+Station 3+,D3pVp,19,87,477
+Station 3+,D3pV,20,78,462
+Station 3+,D3pXp,21,73,414
+Station 3+,D3pXp,21,74,432
+Station 3+,D3pXp,21,87,499
+Station 3+,D3pU,24,86,434
+Station 3+,D3pU,24,101,478
+Station 3-,D3mVp,25,111,662
+Station 3-,D3mV,26,46,445
+Station 3-,D3mUp,29,34,428
+Station 3-,D3mU,30,32,382
+Station 3-,D3mU,30,90,560
+Prop,P2X1,51,42,243
+Prop,P2X1,51,43,73
+DP-1,DP1TL,55,16,367
+DP-1,DP1TL,55,30,207
+DP-1,DP1TL,55,33,167
+DP-1,DP1TL,55,44,89
+DP-1,DP1TR,56,27,142
+DP-1,DP1BL,57,30,200
+DP-1,DP1BL,57,41,104
+DP-1,DP1BL,57,58,73
+DP-1,DP1BL,57,66,78
+DP-1,DP1BL,57,72,74
+DP-1,DP1BR,58,39,113
+DP-2,DP2TL,59,6,202
+DP-2,DP2TL,59,18,60
+DP-2,DP2TR,60,7,129
+DP-2,DP2BL,61,15,90
+Station 1,D0U,1,97,570
+Station 1,D0Up,2,50,1557
+Station 1,D0Up,2,95,546
+Station 1,D0X,3,49,628
+Station 1,D0Xp,4,49,374
+Station 1,D0V,5,189,264
+Station 1,D0V,5,197,36
+Station 1,D0V,5,198,25
+Station 2,D2V,13,5,565
+Station 2,D2V,13,78,442
+Station 2,D2Vp,14,6,807
+Station 2,D2Vp,14,65,295
+Station 2,D2Xp,15,25,746
+Station 2,D2Xp,15,60,234
+Station 2,D2Xp,15,67,319
+Station 2,D2X,16,25,760
+Station 2,D2X,16,59,248
+Station 2,D2X,16,66,264
+Station 2,D2X,16,80,813
+Station 2,D2Up,18,69,205
+Station 3+,D3pVp,19,28,466
+Station 3+,D3pVp,19,77,416
+Station 3+,D3pV,20,64,424
+Station 3+,D3pV,20,88,523
+Station 3+,D3pXp,21,46,446
+Station 3+,D3pXp,21,57,403
+Station 3+,D3pX,22,57,410
+Station 3+,D3pX,22,83,461
+Station 3+,D3pX,22,84,469
+Station 3+,D3pUp,23,3,989
+Station 3+,D3pUp,23,6,970
+Station 3+,D3pUp,23,54,406
+Station 3+,D3pUp,23,65,410
+Station 3+,D3pUp,23,73,423
+Station 3+,D3pUp,23,78,453
+Station 3+,D3pUp,23,84,445
+Station 3+,D3pU,24,7,890
+Station 3+,D3pU,24,73,430
+Station 3+,D3pU,24,84,402
+Station 3+,D3pU,24,114,673
+Station 3-,D3mVp,25,31,656
+Station 3-,D3mVp,25,42,516
+Station 3-,D3mVp,25,63,393
+Station 3-,D3mXp,27,26,463
+Station 3-,D3mX,28,26,479
+Station 3-,D3mX,28,105,872
+Station 3-,D3mUp,29,36,382
+Station 3-,D3mUp,29,75,499
+Station 3-,D3mU,30,44,401
+Station 3-,D3mU,30,122,1166
+Prop,P1Y2,48,71,97
+Prop,P1X1,49,35,205
+Prop,P1X2,50,25,352
+Prop,P1X2,50,34,215
+Prop,P1X2,50,46,145
+Prop,P2X1,51,22,213
+DP-1,DP1TL,55,9,700
+DP-1,DP1TR,56,36,36
+DP-1,DP1TR,56,62,64
+DP-1,DP1TR,56,76,55
+DP-1,DP1TR,56,79,54
+DP-1,DP1BL,57,27,196
+DP-1,DP1BL,57,69,76
+DP-1,DP1BL,57,70,92
+DP-1,DP1BR,58,11,454
+DP-2,DP2TL,59,4,274
+DP-2,DP2BL,61,23,60
+DP-2,DP2BR,62,26,39
+Station 1,D0U,1,81,698
+Station 1,D0U,1,109,713
+Station 1,D0X,3,42,798
+Station 1,D0V,5,104,469
+Station 2,D2X,16,13,1078
+Station 3+,D3pVp,19,49,394
+Station 3+,D3pV,20,47,459
+Station 3+,D3pV,20,49,405
+Station 3+,D3pXp,21,86,514
+Station 3+,D3pX,22,70,410
+Station 3+,D3pX,22,79,487
+Station 3+,D3pUp,23,4,985
+Station 3+,D3pUp,23,82,427
+Station 3+,D3pUp,23,98,510
+Station 3+,D3pU,24,34,549
+Station 3+,D3pU,24,53,430
+Station 3+,D3pU,24,82,418
+Station 3-,D3mVp,25,60,403
+Station 3-,D3mVp,25,75,424
+Station 3-,D3mV,26,16,864
+Station 3-,D3mV,26,59,428
+Station 3-,D3mV,26,119,933
+Station 3-,D3mXp,27,52,424
+Station 3-,D3mUp,29,70,420
+Station 3-,D3mU,30,70,404
+Hodo,H4Y1L,41,2,201
+Hodo,H4Y1L,41,3,329
+Hodo,H4Y1R,42,14,315
+Hodo,H4Y2L,43,2,78
+Hodo,H4Y2R,44,14,390
+Prop,P1Y2,48,56,572
+Prop,P2X1,51,44,317
+Prop,P2X2,52,31,145
+Prop,P2Y2,54,64,299
+DP-1,DP1TR,56,28,133
+DP-1,DP1TR,56,35,89
+DP-2,DP2TR,60,13,77
+DP-2,DP2BR,62,45,36
+Station 2,D2Up,18,23,1109
+Station 3+,D3pXp,21,7,785
+Station 3-,D3mV,26,24,686
+Station 3-,D3mXp,27,14,691
+Station 3-,D3mUp,29,35,390
+Prop,P1X1,49,24,325
+Prop,P1X2,50,21,553
+Prop,P2X1,51,1,174
+Prop,P2Y2,54,70,245
+Prop,P2Y2,54,71,301
+Station 3+,D3pV,20,87,507
+Station 3+,D3pUp,23,8,885
+Station 3-,D3mVp,25,69,406
+Station 3-,D3mXp,27,75,435
+Station 3-,D3mU,30,127,1302
+Prop,P1Y1,47,18,546
+Prop,P1Y2,48,18,623
+Station 2,D2V,13,6,776
+Prop,P1X2,50,28,280
+Station 1,D0Up,2,18,707
+Station 3+,D3pVp,19,32,425
+Station 3+,D3pV,20,28,461
+Station 3+,D3pV,20,32,472
+Station 3+,D3pXp,21,26,417
+Station 3+,D3pXp,21,69,430
+Station 3-,D3mVp,25,84,411
+Station 3-,D3mV,26,68,421
+Station 3-,D3mV,26,69,409
+Station 3-,D3mX,28,65,421
+Station 3-,D3mUp,29,52,391
+Station 3-,D3mUp,29,65,419
+Station 3-,D3mU,30,65,387
+DP-2,DP2BR,62,37,29
+Station 2,D2X,16,33,430
+DP-2,DP2TL,59,27,53
+Station 1,D0Up,2,186,402
+Station 3-,D3mXp,27,46,407
+Station 1,D0Up,2,15,329
+Station 2,D2V,13,2,162
+Station 2,D2V,13,56,277
+Station 2,D2V,13,57,286
+Station 2,D2Vp,14,1,118
+Station 2,D2Vp,14,58,279
+Station 2,D2Vp,14,61,289
+Station 2,D2X,16,68,279
+Station 2,D2X,16,71,343
+Station 2,D2U,17,78,306
+Station 3-,D3mVp,25,53,430
+Station 3-,D3mVp,25,93,452
+Station 3-,D3mXp,27,47,337
+Station 3-,D3mUp,29,59,351
+Station 3-,D3mUp,29,60,363
+Station 3-,D3mUp,29,77,403
+Station 3-,D3mU,30,69,390
+Station 3-,D3mU,30,76,440
+Prop,P1X1,49,21,452
+Prop,P2Y1,53,5,297
+Station 1,D0Up,2,185,492
+Station 3+,D3pV,20,77,466
+Station 3+,D3pXp,21,71,418
+Station 3+,D3pXp,21,72,381
+Station 3+,D3pX,22,56,433
+Station 3+,D3pX,22,68,430
+Station 3+,D3pX,22,69,441
+Station 3+,D3pX,22,76,485
+Station 3+,D3pUp,23,80,453
+Station 3-,D3mV,26,94,493
+Prop,P2Y2,54,44,691
+DP-1,DP1TL,55,47,104
+Station 1,D0Xp,4,44,626
+Station 2,D2Vp,14,37,794
+DP-1,DP1TL,55,27,244
+DP-2,DP2BR,62,12,90
+Station 1,D0X,3,46,792
+Station 1,D0V,5,105,477
+Station 3-,D3mXp,27,68,403
+DP-1,DP1BL,57,59,98
+DP-1,DP1BL,57,60,104
+DP-1,DP1BR,58,12,371
+DP-1,DP1BR,58,21,221
+DP-1,DP1BR,58,22,189
+DP-1,DP1BR,58,42,87
+DP-1,DP1BR,58,56,73
+DP-1,DP1BR,58,57,48
+DP-2,DP2TR,60,14,61
+Station 3+,D3pV,20,74,407
+Station 3-,D3mUp,29,69,437
+Prop,P2Y1,53,45,108
+DP-1,DP1TL,55,36,155
+DP-1,DP1BR,58,27,155
+Station 3-,D3mVp,25,46,432
+Station 3-,D3mV,26,15,845
+Station 3-,D3mV,26,45,474
+Station 3+,D3pXp,21,12,649
+Prop,P2Y2,54,5,317
+Station 1,D0X,3,62,468
+Station 1,D0X,3,89,426
+Station 1,D0X,3,95,500
+Station 1,D0Xp,4,80,381
+Station 2,D2V,13,53,292
+Station 2,D2Vp,14,53,272
+Station 3-,D3mVp,25,45,493
+Station 3-,D3mVp,25,98,487
+Station 3-,D3mV,26,97,513
+Hodo,H2R,36,16,501
+Hodo,H2T,38,10,987
+DP-1,DP1TL,55,60,104
+DP-1,DP1BL,57,24,253
+DP-1,DP1BR,58,25,185
+DP-2,DP2BR,62,20,49
+Station 1,D0Xp,4,50,416
+Station 3+,D3pVp,19,55,447
+Station 3+,D3pU,24,41,479
+Station 3-,D3mVp,25,35,552
+Station 3-,D3mVp,25,59,436
+Station 3-,D3mV,26,42,505
+Station 3-,D3mV,26,43,493
+Station 3-,D3mV,26,85,446
+Station 3-,D3mV,26,101,473
+Station 3-,D3mUp,29,31,485
+Station 3-,D3mUp,29,32,422
+Station 3-,D3mUp,29,68,442
+Station 3-,D3mU,30,95,589
+Prop,P2Y1,53,4,340
+DP-2,DP2TL,59,36,28
+Station 1,D0Xp,4,86,383
+Station 2,D2Vp,14,32,966
+Station 2,D2Xp,15,44,242
+Station 2,D2X,16,45,225
+Station 2,D2U,17,70,216
+Station 3+,D3pXp,21,60,370
+Station 3+,D3pX,22,60,417
+Station 3+,D3pU,24,85,492
+Station 3-,D3mVp,25,65,402
+Station 3-,D3mXp,27,60,401
+Station 3-,D3mXp,27,62,424
+Station 3-,D3mX,28,63,429
+Station 3-,D3mUp,29,72,434
+Station 3-,D3mU,30,59,365
+Station 3-,D3mU,30,71,426
+Hodo,H4Y1L,41,15,349
+Prop,P2X2,52,42,264
+Prop,P2Y1,53,62,121
+Prop,P2Y2,54,3,253
+DP-1,DP1TL,55,78,75
+DP-1,DP1BL,57,32,168
+DP-1,DP1BL,57,61,47
+DP-2,DP2BL,61,9,181
+Station 2,D2X,16,65,294
+Station 2,D2Up,18,66,232
+Station 3+,D3pU,24,99,497
+Station 3-,D3mXp,27,42,409
+Station 3-,D3mX,28,41,406
+Station 3-,D3mUp,29,51,414
+Station 3-,D3mU,30,50,381
+Station 3-,D3mU,30,68,437
+DP-1,DP1BL,57,26,276
+DP-1,DP1BL,57,47,79
+DP-1,DP1BR,58,61,58
+Station 3-,D3mX,28,104,912
+DP-2,DP2TL,59,8,165
+Station 2,D2V,13,65,323
+Station 2,D2Xp,15,66,308
+Station 2,D2U,17,81,436
+Prop,P1Y1,47,20,661
+DP-1,DP1TL,55,41,112
+DP-1,DP1TL,55,42,128
+DP-1,DP1TR,56,32,113
+Station 2,D2Vp,14,48,371
+Station 2,D2U,17,88,696
+Station 3-,D3mVp,25,58,463
+Station 3-,D3mV,26,58,499
+Station 3-,D3mV,26,75,411
+Station 3-,D3mU,30,86,485
+Prop,P1Y1,47,72,120
+Prop,P1X2,50,50,601
+Prop,P2X1,51,20,271
+Station 3+,D3pX,22,20,507
+DP-1,DP1BR,58,45,92
+Station 1,D0X,3,58,500
+Station 1,D0X,3,65,352
+Station 1,D0Xp,4,85,381
+Station 2,D2Vp,14,47,371
+Station 2,D2Xp,15,35,411
+Station 3-,D3mUp,29,25,542
+DP-1,DP1BR,58,8,493
+DP-2,DP2BR,62,4,191
+DP-2,DP2BR,62,9,126
+DP-2,DP2BR,62,44,30
+DP-2,DP2BR,62,48,30
+Station 2,D2V,13,58,304
+Station 2,D2Vp,14,64,264
+Station 3+,D3pXp,21,78,398
+DP-1,DP1TR,56,9,484
+Station 1,D0Xp,4,96,393
+Station 2,D2U,17,33,774
+Station 2,D2Up,18,2,207
+Station 3-,D3mUp,29,50,372
+Prop,P1Y2,48,59,287
+Prop,P1X2,50,45,125
+Prop,P2Y2,54,17,454
+DP-2,DP2BR,62,3,183
+Station 3-,D3mXp,27,37,415
+Station 3-,D3mX,28,30,488
+DP-2,DP2BL,61,11,129
+Station 2,D2Vp,14,2,179
+Station 2,D2Vp,14,3,248
+Station 2,D2Vp,14,41,622
+Station 2,D2Vp,14,51,318
+Station 2,D2X,16,62,264
+Station 2,D2U,17,59,204
+Station 3+,D3pXp,21,43,400
+Station 3+,D3pU,24,79,415
+DP-2,DP2TL,59,10,143
+DP-2,DP2TL,59,20,57
+DP-2,DP2TL,59,28,39
+DP-2,DP2BL,61,19,71
+DP-2,DP2BL,61,22,56
+Station 2,D2X,16,54,209
+Station 2,D2Up,18,63,219
+Station 2,D2Up,18,65,205
+Station 2,D2Up,18,79,310
+Station 3+,D3pVp,19,22,616
+Station 3+,D3pV,20,45,439
+Station 3+,D3pXp,21,21,540
+Station 3+,D3pU,24,72,393
+Station 3-,D3mXp,27,63,424
+Station 3-,D3mX,28,70,416
+Station 3-,D3mUp,29,71,421
+Hodo,H4Y1R,42,3,446
+Prop,P2Y1,53,3,230
+Prop,P2Y1,53,59,103
+Prop,P2Y2,54,20,498
+DP-1,DP1TL,55,51,92
+DP-1,DP1TL,55,67,82
+DP-1,DP1BL,57,43,136
+DP-1,DP1BL,57,48,105
+DP-1,DP1BR,58,13,351
+DP-2,DP2TL,59,15,87
+DP-2,DP2TL,59,35,34
+Station 1,D0Up,2,188,267
+Station 2,D2V,13,4,395
+Station 2,D2V,13,64,300
+Station 2,D2V,13,127,267
+Station 2,D2Vp,14,63,271
+Station 3+,D3pV,20,73,389
+Station 3+,D3pX,22,44,364
+Station 3+,D3pX,22,72,431
+Station 3+,D3pX,22,73,439
+Station 3+,D3pUp,23,83,402
+Station 3+,D3pU,24,38,448
+Station 3+,D3pU,24,83,387
+Station 3+,D3pU,24,116,842
+Station 3-,D3mV,26,53,431
+Station 3-,D3mV,26,76,429
+Station 3-,D3mXp,27,41,417
+Station 3-,D3mUp,29,62,373
+Hodo,H2L,35,2,407
+Prop,P1Y2,48,60,315
+Prop,P2Y1,53,6,346
+Prop,P2Y2,54,18,377
+DP-1,DP1TL,55,38,152
+DP-1,DP1TL,55,40,133
+DP-1,DP1BR,58,75,78
+DP-2,DP2TR,60,11,84
+Station 2,D2V,13,62,313
+Station 2,D2V,13,63,311
+Station 2,D2V,13,70,300
+Station 2,D2Xp,15,64,290
+Station 2,D2Up,18,46,311
+Station 3-,D3mVp,25,95,442
+Station 3-,D3mXp,27,94,645
+Station 3-,D3mX,28,60,413
+Hodo,H4Y2R,44,2,315
+Prop,P1Y2,48,72,135
+DP-1,DP1TL,55,69,80
+DP-1,DP1TL,55,71,78
+DP-2,DP2TR,60,19,59
+Station 1,D0V,5,15,201
+Station 2,D2X,16,44,232
+Station 3-,D3mVp,25,92,446
+Station 3-,D3mV,26,102,537
+Station 3-,D3mUp,29,8,802
+Station 3-,D3mU,30,31,395
+Prop,P1Y2,48,65,158
+Prop,P1X2,50,24,337
+Prop,P2X2,52,29,154
+DP-1,DP1TL,55,34,165
+DP-1,DP1TL,55,65,51
+DP-1,DP1TL,55,66,62
+DP-1,DP1TL,55,68,66
+DP-1,DP1BR,58,28,153
+DP-2,DP2BL,61,47,38
+DP-2,DP2BR,62,21,42
+DP-2,DP2BR,62,22,54
+Station 2,D2V,13,48,407
+Station 2,D2Vp,14,50,302
+Station 2,D2Vp,14,54,261
+Station 2,D2Vp,14,68,296
+Station 2,D2Vp,14,69,314
+Station 2,D2Up,18,1,144
+Station 3+,D3pU,24,98,474
+Station 3-,D3mX,28,57,417
+Station 3-,D3mUp,29,53,410
+Station 3-,D3mU,30,56,386
+Prop,P1Y1,47,59,349
+Prop,P2Y2,54,4,277
+Prop,P2Y2,54,63,84
+DP-1,DP1BL,57,17,315
+Station 2,D2V,13,51,335
+Station 3+,D3pVp,19,31,454
+Station 3+,D3pVp,19,34,440
+Station 3+,D3pVp,19,58,407
+Station 3+,D3pV,20,31,510
+Station 3+,D3pUp,23,53,429
+Station 3+,D3pU,24,74,411
+Hodo,H4Y1L,41,1,216
+Prop,P1X1,49,45,160
+Prop,P2X1,51,16,327
+DP-1,DP1TL,55,53,109
+DP-1,DP1TR,56,68,41
+DP-1,DP1BR,58,72,62
+Station 1,D0X,3,61,160
+Station 3+,D3pUp,23,97,513
+Station 3-,D3mV,26,54,443
+Hodo,H4T,46,7,291
+Prop,P1X2,50,47,144
+DP-1,DP1TL,55,12,459
+DP-1,DP1TL,55,55,93
+DP-1,DP1BR,58,55,61
+Station 1,D0Xp,4,94,413
+Station 1,D0V,5,16,215
+Station 2,D2Vp,14,62,292
+Station 3+,D3pXp,21,54,409
+DP-1,DP1TL,55,52,119
+DP-1,DP1BL,57,3,238
+DP-2,DP2TR,60,10,91
+DP-2,DP2TR,60,38,25
+Station 3+,D3pX,22,49,381
+Prop,P2X2,52,58,22
+DP-2,DP2TL,59,26,46
+Station 2,D2Xp,15,40,328
+Station 2,D2X,16,38,314
+Station 3+,D3pX,22,43,386
+DP-2,DP2TL,59,25,53
+DP-2,DP2TR,60,43,23
+DP-2,DP2TR,60,48,19
+Station 1,D0U,1,12,203
+Station 1,D0U,1,13,274
+Station 1,D0U,1,191,141
+Station 1,D0Up,2,13,223
+Station 1,D0Up,2,191,128
+Station 1,D0X,3,68,341
+Station 3+,D3pVp,19,80,437
+Station 3+,D3pV,20,80,463
+Station 3+,D3pXp,21,49,400
+Station 3+,D3pUp,23,43,493
+Station 3+,D3pU,24,65,406
+Station 3-,D3mXp,27,50,424
+Station 3-,D3mU,30,25,501
+Station 3-,D3mU,30,84,450
+Prop,P2X1,51,13,465
+DP-1,DP1TL,55,29,205
+DP-1,DP1TL,55,49,115
+DP-1,DP1TR,56,47,50
+DP-2,DP2TR,60,27,40
+DP-2,DP2BL,61,45,38
+Station 1,D0U,1,3,26
+Station 2,D2Up,18,27,894
+Station 3+,D3pX,22,87,514
+Station 3+,D3pUp,23,52,474
+Station 3+,D3pUp,23,85,444
+Station 3-,D3mVp,25,43,487
+Station 3-,D3mVp,25,54,397
+Station 3-,D3mV,26,52,428
+Prop,P1X2,50,32,224
+Prop,P2X1,51,23,200
+DP-1,DP1BL,57,11,213
+DP-1,DP1BL,57,62,84
+DP-1,DP1BR,58,37,98
+DP-1,DP1BR,58,48,80
+DP-1,DP1BR,58,49,82
+Prop,P1Y2,48,64,212
+Station 1,D0Xp,4,69,335
+Prop,P1Y1,47,66,154
+DP-1,DP1TR,56,49,97
+DP-1,DP1BR,58,31,111
+DP-2,DP2BR,62,33,39
+Station 2,D2Xp,15,63,262
+DP-1,DP1BR,58,24,181
+DP-1,DP1BR,58,26,131
+DP-1,DP1BR,58,43,86
+Hodo,H4Y1L,41,12,849
+DP-1,DP1TL,55,59,80
+Prop,P2X2,52,18,186
+DP-1,DP1BR,58,70,66
+DP-1,DP1BR,58,71,79
+DP-2,DP2TR,60,35,34
+Station 1,D0U,1,11,187
+Station 1,D0Up,2,11,153
+Station 3-,D3mVp,25,41,495
+Station 3-,D3mXp,27,29,393
+Station 3-,D3mU,30,42,379
+Prop,P1Y2,48,67,152
+Prop,P1X2,50,23,449
+DP-1,DP1BR,58,47,107
+Station 2,D2X,16,60,245
+DP-2,DP2TR,60,40,25
+DP-2,DP2BR,62,18,49
+Station 1,D0V,5,86,11
+Station 2,D2Xp,15,45,223
+Station 3-,D3mXp,27,70,409
+DP-1,DP1BL,57,42,119
+DP-1,DP1BR,58,44,79
+DP-1,DP1BR,58,58,61
+DP-2,DP2TR,60,6,127
+DP-2,DP2TR,60,22,57
+DP-2,DP2TR,60,23,45
+Station 3+,D3pUp,23,72,407
+Station 3+,D3pV,20,22,612
+DP-2,DP2BL,61,6,200
+Station 3-,D3mVp,25,44,526
+Station 3-,D3mU,30,40,343
+Prop,P1Y1,47,63,102
+DP-2,DP2TL,59,14,92
+Station 2,D2V,13,67,295
+Prop,P2X2,52,19,168
+Prop,P2Y1,53,18,433
+Station 3+,D3pV,20,63,376
+Prop,P2X1,51,41,293
+DP-1,DP1TR,56,56,69
+DP-1,DP1BR,58,34,137
+Station 2,D2Up,18,59,202
+Station 3+,D3pVp,19,30,495
+Prop,P2X1,51,18,298
+DP-1,DP1BL,57,56,105
+DP-1,DP1BL,57,57,104
+DP-1,DP1BR,58,46,87
+Station 1,D0U,1,192,103
+Station 1,D0U,1,193,91
+Station 1,D0U,1,197,41
+Station 1,D0U,1,198,31
+Station 3+,D3pX,22,53,426
+DP-2,DP2BL,61,17,86
+Station 1,D0X,3,69,304
+Station 2,D2U,17,128,182
+Prop,P1X2,50,40,216
+Station 3+,D3pXp,21,52,390
+Station 3+,D3pX,22,54,414
+DP-2,DP2BL,61,14,99
+Hodo,H4Y2L,43,1,109
+Prop,P2X2,52,70,32
+DP-2,DP2TL,59,47,23
+Station 2,D2Up,18,127,285
+Station 2,D2Up,18,51,214
+Station 3+,D3pVp,19,39,370
+Hodo,H4Y2L,43,3,258
+Station 3+,D3pX,22,71,458
+DP-2,DP2TL,59,31,38
+Station 2,D2V,13,60,288
+Station 2,D2X,16,39,259
+Station 2,D2X,16,42,221
+Station 2,D2U,17,49,243
+Station 2,D2U,17,69,228
+Station 2,D2U,17,127,335
+Station 2,D2Up,18,53,189
+Station 2,D2Up,18,55,235
+Station 2,D2Up,18,67,221
+Station 2,D2Up,18,68,226
+Prop,P1X2,50,37,183
+DP-1,DP1TR,56,58,79
+DP-1,DP1TR,56,59,72
+DP-1,DP1BL,57,49,115
+DP-1,DP1BL,57,51,25
+Station 2,D2Xp,15,55,27
+Station 2,D2Up,18,73,210
+Station 3+,D3pX,22,35,459
+Station 3-,D3mUp,29,76,431
+Prop,P2X1,51,19,309
+Prop,P2Y1,53,63,109
+DP-1,DP1TL,55,39,103
+DP-1,DP1TL,55,61,100
+DP-1,DP1BR,58,50,65
+DP-2,DP2TL,59,30,62
+DP-2,DP2BL,61,38,49
+DP-2,DP2BL,61,40,35
+Station 2,D2U,17,72,202
+Station 3+,D3pUp,23,71,436
+Station 3-,D3mV,26,44,481
+Station 3-,D3mXp,27,92,590
+Prop,P1Y1,47,67,156
+Prop,P1Y2,48,61,296
+Prop,P1Y2,48,63,282
+Prop,P1X1,49,48,207
+Prop,P1X2,50,33,229
+DP-1,DP1TL,55,64,90
+DP-1,DP1TR,56,71,66
+DP-1,DP1TR,56,72,62
+DP-1,DP1BL,57,33,142
+DP-1,DP1BR,58,52,33
+DP-2,DP2TL,59,21,63
+DP-2,DP2TR,60,45,24
+Station 1,D0Up,2,197,47
+Station 1,D0X,3,73,92
+Station 2,D2Xp,15,68,289
+Station 2,D2X,16,43,211
+Station 2,D2U,17,74,279
+Station 3-,D3mX,28,25,447
+Station 3-,D3mU,30,49,374
+Hodo,H4Y2L,43,12,451
+DP-1,DP1TL,55,46,79
+DP-1,DP1TR,56,75,51
+DP-1,DP1BL,57,34,148
+DP-1,DP1BL,57,39,152
+DP-1,DP1BL,57,76,90
+DP-2,DP2TL,59,42,19
+DP-2,DP2TL,59,43,34
+DP-2,DP2BR,62,36,31
+Station 1,D0U,1,8,88
+Station 1,D0Up,2,12,189
+Station 1,D0Xp,4,79,225
+Station 2,D2Vp,14,127,227
+Station 2,D2Xp,15,33,475
+Prop,P1Y1,47,68,170
+Prop,P2X2,52,72,35
+DP-2,DP2TL,59,19,64
+Station 1,D0V,5,193,98
+Station 2,D2V,13,66,351
+Station 2,D2Xp,15,62,223
+Station 3-,D3mU,30,75,411
+DP-1,DP1TL,55,58,102
+DP-1,DP1TR,56,34,37
+DP-1,DP1TR,56,48,58
+DP-1,DP1TR,56,50,85
+DP-1,DP1BR,58,30,136
+DP-1,DP1BR,58,73,10
+DP-2,DP2TR,60,31,41
+DP-2,DP2BL,61,41,26
+Hodo,H4Y2R,44,3,280
+DP-1,DP1TL,55,62,95
+DP-1,DP1TL,55,77,93
+DP-1,DP1BL,57,53,101
+DP-2,DP2BL,61,37,41
+Station 1,D0V,5,6,19
+Station 1,D0V,5,13,108
+Station 2,D2Vp,14,57,289
+DP-1,DP1TR,56,65,57
+DP-1,DP1TR,56,67,50
+DP-1,DP1BR,58,32,132
+DP-2,DP2BR,62,14,74
+Station 1,D0V,5,7,36
+Station 1,D0V,5,8,43
+DP-1,DP1TR,56,51,74
+DP-2,DP2BL,61,20,54
+Station 2,D2X,16,52,231
+Prop,P1X1,49,41,110
+Prop,P2Y1,53,2,250
+Prop,P2Y2,54,9,263
+DP-1,DP1TR,56,37,71
+DP-1,DP1TR,56,42,55
+DP-1,DP1TR,56,46,75
+DP-1,DP1TR,56,54,62
+DP-1,DP1BL,57,67,91
+DP-2,DP2TR,60,12,73
+Station 1,D0Up,2,1,10
+Station 1,D0X,3,85,136
+Station 2,D2Up,18,74,266
+Prop,P2X2,52,30,128
+DP-1,DP1TL,55,70,99
+DP-1,DP1BR,58,62,53
+DP-2,DP2TL,59,23,60
+DP-2,DP2TL,59,24,48
+DP-2,DP2BR,62,8,143
+DP-2,DP2BR,62,38,37
+DP-1,DP1TR,56,63,80
+DP-1,DP1TR,56,64,68
+DP-1,DP1BL,57,77,97
+DP-1,DP1BL,57,80,89
+DP-2,DP2TR,60,9,88
+DP-2,DP2BL,61,27,64
+DP-1,DP1BL,57,45,127
+Prop,P1X2,50,44,114
+Prop,P2Y1,53,46,29
+DP-2,DP2BL,61,30,58
+DP-1,DP1TR,56,22,174
+DP-2,DP2TR,60,39,24
+DP-2,DP2BR,62,10,92
+DP-2,DP2BR,62,28,39
+DP-2,DP2BR,62,29,31
+Prop,P1Y2,48,15,25
+Prop,P2X2,52,28,128
+DP-1,DP1BL,57,78,92
+DP-2,DP2TL,59,32,42
+Station 2,D2Vp,14,66,296
+Prop,P2X2,52,23,93
+Prop,P2X2,52,69,17
+DP-1,DP1BR,58,76,64
+DP-2,DP2TR,60,16,69
+DP-2,DP2BR,62,27,38
+DP-2,DP2BR,62,39,25
+DP-1,DP1TR,56,41,64
+DP-2,DP2TR,60,34,37
+DP-2,DP2BR,62,40,21
+DP-2,DP2BR,62,41,38
+DP-1,DP1BL,57,71,58
+DP-2,DP2BR,62,32,43
+Prop,P2X2,52,63,45
+DP-2,DP2BL,61,29,63
+Station 1,D0U,1,2,22
+Station 1,D0Up,2,3,20
+Station 1,D0Up,2,4,30
+Station 1,D0Up,2,6,46
+Prop,P1X1,49,47,180
+Prop,P1X2,50,42,109
+DP-2,DP2TL,59,39,28
+DP-2,DP2BL,61,42,33
+DP-2,DP2BR,62,11,102
+Station 1,D0V,5,192,106
+Prop,P1X1,49,42,127
+Station 1,D0Up,2,193,82
+Station 1,D0V,5,195,54
+Prop,P2X2,52,41,134
+DP-2,DP2TL,59,9,144
+DP-2,DP2TL,59,22,66
+DP-2,DP2BL,61,21,65
+Station 1,D0U,1,5,49
+DP-1,DP1TL,55,54,96
+DP-1,DP1BL,57,55,52
+Prop,P2X2,52,55,136
+Prop,P2X2,52,62,44
+DP-1,DP1BL,57,50,87
+DP-2,DP2TR,60,42,26
+Station 1,D0Up,2,5,51
+Prop,P2X1,51,55,34
+DP-1,DP1BR,58,60,73
+DP-2,DP2BL,61,34,33
+DP-2,DP2BL,61,36,43
+Hodo,H4Y2L,43,16,139
+DP-1,DP1TR,56,66,48
+Station 1,D0U,1,4,25
+DP-1,DP1TL,55,50,106
+DP-1,DP1TR,56,74,53
+Station 1,D0V,5,196,46
+Prop,P1Y2,48,66,176
+DP-1,DP1TR,56,33,85
+DP-1,DP1BR,58,38,127
+DP-2,DP2BL,61,28,53
+Prop,P1Y1,47,71,104
+Prop,P1X2,50,48,208
+Prop,P2X1,51,65,24
+DP-2,DP2BR,62,34,42
+Station 1,D0U,1,195,64
+Station 1,D0U,1,196,39
+DP-1,DP1TL,55,76,79
+DP-1,DP1TR,56,73,48
+DP-2,DP2TL,59,40,29
+Prop,P1Y2,48,12,21
+DP-2,DP2TL,59,38,37
+DP-2,DP2BL,61,24,52
+DP-2,DP2BR,62,35,38
+DP-2,DP2BR,62,46,28
+DP-2,DP2TR,60,32,25
+Station 1,D0Up,2,192,81
+Prop,P2Y1,53,65,1
+Prop,P2Y2,54,65,24
+Prop,P2Y2,54,66,3
+DP-1,DP1TL,55,35,143
+DP-1,DP1TR,56,55,58
+DP-1,DP1TL,55,73,75
+DP-2,DP2BR,62,42,25
+Prop,P2X2,52,59,18
+DP-2,DP2BL,61,26,53
+DP-2,DP2BL,61,32,38
+Station 1,D0U,1,200,8
+Station 1,D0U,1,201,11
+Station 1,D0Up,2,201,9
+DP-2,DP2BR,62,43,21
+Prop,P2X1,51,57,17
+Station 1,D0V,5,2,12
+Prop,P2X1,51,62,15
+DP-2,DP2TL,59,33,36
+DP-2,DP2TR,60,18,55
+DP-2,DP2BR,62,13,77
+DP-1,DP1TL,55,57,111
+Prop,P2X1,51,63,22
+DP-1,DP1BL,57,54,74
+DP-1,DP1BR,58,65,55
+Station 1,D0U,1,1,14
+Prop,P2X1,51,68,19
+Prop,P2X2,52,24,152
+DP-1,DP1TR,56,45,28
+DP-1,DP1BL,57,75,51
+DP-2,DP2BR,62,47,22
+Station 1,D0Up,2,196,4
+Prop,P2X2,52,68,31
+DP-2,DP2TR,60,33,26
+DP-1,DP1BL,57,40,95
+DP-2,DP2TR,60,36,22
+DP-2,DP2TR,60,26,28
+DP-1,DP1TR,56,80,42
+Station 1,D0Up,2,2,21
+Prop,P2Y1,53,47,2
+DP-2,DP2TR,60,17,59
+DP-2,DP2BL,61,43,33
+DP-2,DP2BR,62,16,72
+DP-2,DP2BR,62,19,55
+Prop,P2X2,52,71,30
+DP-2,DP2TR,60,30,32
+DP-2,DP2BR,62,30,35
+Prop,P2X2,52,65,25
+Prop,P2X1,51,61,11
+Prop,P2X2,52,54,12
+DP-2,DP2BL,61,48,35
+Prop,P2Y2,54,67,12
+Prop,P2X1,51,53,21
+DP-2,DP2BR,62,25,45
+Station 1,D0V,5,199,16
+DP-2,DP2TR,60,24,36
+DP-2,DP2TL,59,12,98
+DP-2,DP2TR,60,28,38
+DP-2,DP2TL,59,41,32
+Prop,P2Y1,53,55,10
+Prop,P2X1,51,54,23
+Station 1,D0V,5,4,17
+DP-2,DP2BL,61,35,38
+DP-2,DP2TR,60,37,26
+DP-2,DP2BL,61,25,46
+Prop,P2X1,51,58,22
+DP-2,DP2TR,60,41,34
+Prop,P2X1,51,64,14
+DP-2,DP2BR,62,31,29
+DP-2,DP2TR,60,20,35
+Station 1,D0V,5,200,13
+Prop,P2X2,52,57,19
+Prop,P1Y2,48,16,25
+DP-2,DP2TR,60,44,15
+Prop,P2X2,52,64,35
+Prop,P2X1,51,59,12
+DP-2,DP2TL,59,46,18
+DP-2,DP2TL,59,48,24
+Station 1,D0V,5,5,14
+Prop,P2X2,52,60,23
+Station 1,D0U,1,199,13
+DP-2,DP2BL,61,39,34
+Prop,P2X1,51,51,3
+Prop,P2X2,52,67,17
+Station 1,D0Up,2,176,37
+Prop,P2X1,51,60,16
+Prop,P2X1,51,69,5
+Station 1,D0U,1,101,2
+DP-2,DP2TR,60,47,16
+Prop,P2X1,51,70,6
+Prop,P2X1,51,66,15
+Prop,P2X1,51,67,15
+Prop,P2X1,51,52,7
+Prop,P1Y1,47,16,5
+Station 1,D0V,5,201,3
+Station 1,D0V,5,3,15
+Station 1,D0Up,2,198,3
+DP-2,DP2TR,60,25,6
+Station 1,D0V,5,1,10
+Prop,P2X1,51,71,4
+Station 1,D0Vp,6,113,1
+Prop,P1X2,50,18,1
+Station 1,D0Vp,6,142,1
+Prop,P1Y1,47,15,1
+Station 1,D0Up,2,194,2
+Prop,P2X1,51,72,1
+Prop,P1X1,49,33,5
